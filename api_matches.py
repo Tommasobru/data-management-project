@@ -32,7 +32,7 @@ for year in years:
 
     for match in matches:
         match_id = match['id']
-        season = '2023'
+        season = years
         date = match['utcDate'].split("T")[0]
         home_team = match['homeTeam']['name']
         away_team = match['awayTeam']['name']
