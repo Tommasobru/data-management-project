@@ -77,7 +77,7 @@ def link_squadre(anno):
 
 
 
-years = [2020,2021,2022,2023,2024]
+years = [2022,2023,2024]
 
 for year in years:
     df_link = link_squadre(year)
