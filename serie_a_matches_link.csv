@@ -1,32 +1,56 @@
-scorer;details
-Marcus Thuram;Marcus Thuram, Colpo di testa, 1° gol stagionaleAssist:Nicolò Barella, Cross, 1° assist stagionale
-Marcus Thuram;Marcus Thuram, Destro, 2° gol stagionaleAssist:Davide Frattesi, Passaggio, 1° assist stagionale
-Denzel Dumfries;Denzel Dumfries, Destro, 1° gol stagionaleAssist:Carlos Augusto, Cross, 1° assist stagionale
-Christian Pulisic;Christian Pulisic, Azione personale, 3° gol stagionaleAssist: Senza assist
-Matteo Gabbia;Matteo Gabbia, Colpo di testa, 1° gol stagionaleAssist:Tijjani Reijnders, Punizione, 2° assist stagionale
-Davide Frattesi;Davide Frattesi, Destro, 1° gol stagionaleAssist:Matteo Darmian, Passaggio, 1° assist stagionale
-Lautaro Martínez;Lautaro Martínez, Sinistro, 1° gol stagionaleAssist:Federico Dimarco, Cross, 1° assist stagionale
-Lautaro Martínez;Lautaro Martínez, Destro, 2° gol stagionaleAssist:Marcus Thuram, Passaggio, 3° assist stagionale
-Duván Zapata;Duván Zapata, Destro, 3° gol stagionaleAssist:Gvidas Gineitis, Passaggio, 1° assist stagionale
-Nikola Vlašić;Nikola Vlašić, Rigore, 1° gol stagionaleAssist:Adam Masina, Rigore: fallo ai danni di
-Lautaro Martínez;Lautaro Martínez, Destro, 3° gol stagionaleAssist: Senza assist
-Dušan Vlahović;Dušan Vlahović, Sinistro, 6° gol stagionaleAssist:Weston McKennie, Passaggio, 1° assist stagionale
-Timothy Weah;Timothy Weah, Destro, 2° gol stagionaleAssist:Francisco Conceição, Passaggio, 1° assist stagionale
-Kenan Yıldız;Kenan Yıldız, Sinistro, 1° gol stagionaleAssist:Weston McKennie, Passaggio, 2° assist stagionale
-Kenan Yıldız;Kenan Yıldız, Sinistro, 2° gol stagionaleAssist: Senza assist
-Davide Frattesi;Davide Frattesi, Sinistro, 2° gol stagionaleAssist:Matteo Darmian, Colpo di testa, 2° assist stagionale
-Davide Frattesi;Davide Frattesi, Destro, 3° gol stagionaleAssist:Lautaro Martínez, Passaggio, 3° assist stagionale
-Lautaro Martínez;Lautaro Martínez, Sinistro, 4° gol stagionaleAssist:Nicolò Barella, Passaggio, 2° assist stagionale
-Scott McTominay;Scott McTominay, Destro, 2° gol stagionaleAssist:Amir Rrahmani, Passaggio, 2° assist stagionale
-Joaquín Correa;Joaquín Correa, Destro, 1° gol stagionaleAssist:Marcus Thuram, Passaggio, 6° assist stagionale
-Marcus Thuram;Marcus Thuram, Destro, 8° gol stagionaleAssist:Joaquín Correa, Passaggio, 1° assist stagionale
-Marcus Thuram;Marcus Thuram, Destro, 9° gol stagionaleAssist:Alessandro Bastoni, Passaggio, 3° assist stagionale
-Stefan de Vrij;Stefan de Vrij, Destro, 1° gol stagionaleAssist:Kristjan Asllani, Corner, 1° assist stagionale
-Yann Bisseck;Yann Bisseck, Destro, 1° gol stagionaleAssist:Joaquín Correa, Passaggio, 2° assist stagionale
-Matteo Darmian;Matteo Darmian, AutoreteAssist: Senza assist
-Hakan Çalhanoğlu;Hakan Çalhanoğlu, Rigore, 3° gol stagionaleAssist: Rigore: mani diSamuel Gigot
-Federico Dimarco;Federico Dimarco, Sinistro, 3° gol stagionaleAssist:Denzel Dumfries, Cross, 2° assist stagionale
-Nicolò Barella;Nicolò Barella, Tiro dalla distanza, 3° gol stagionaleAssist:Hakan Çalhanoğlu, Passaggio, 1° assist stagionale
-Denzel Dumfries;Denzel Dumfries, Colpo di testa, 3° gol stagionaleAssist:Alessandro Bastoni, Cross, 4° assist stagionale
-Carlos Augusto;Carlos Augusto, Sinistro, 1° gol stagionaleAssist:Federico Dimarco, Passaggio, 3° assist stagionale
-Marcus Thuram;Marcus Thuram, Destro, 11° gol stagionaleAssist:Henrikh Mkhitaryan, Passaggio, 4° assist stagionale
+giornata;scorer;details
+1;Alessandro Vogliacco;Alessandro Vogliacco, Destro, 1° gol stagionaleAssist: Senza assist
+1;Marcus Thuram;Marcus Thuram, Colpo di testa, 1° gol stagionaleAssist:Nicolò Barella, Cross, 1° assist stagionale
+1;Marcus Thuram;Marcus Thuram, Destro, 2° gol stagionaleAssist:Davide Frattesi, Passaggio, 1° assist stagionale
+1;Junior Messias;Junior Messias, Ribatutta dopo rigore, 1° gol stagionaleAssist: Senza assist
+2;Matteo Darmian;Matteo Darmian, Colpo di testa, 1° gol stagionaleAssist:Mehdi Taremi, Colpo di testa, 1° assist stagionale
+2;Hakan Çalhanoğlu;Hakan Çalhanoğlu, Rigore, 1° gol stagionaleAssist:Marcus Thuram, Rigore: fallo ai danni di
+3;Berat Djimsiti;Berat Djimsiti, AutoreteAssist:Marcus Thuram, Passaggio, 2° assist stagionale
+3;Nicolò Barella;Nicolò Barella, Sinistro, 1° gol stagionaleAssist:Benjamin Pavard, Colpo di testa, 1° assist stagionale
+3;Marcus Thuram;Marcus Thuram, Destro, 3° gol stagionaleAssist: Senza assist
+3;Marcus Thuram;Marcus Thuram, Destro, 4° gol stagionaleAssist:Henrikh Mkhitaryan, Colpo di testa, 1° assist stagionale
+4;Dany Mota;Dany Mota, Colpo di testa, 1° gol stagionaleAssist:Armando Izzo, Cross, 1° assist stagionale
+4;Denzel Dumfries;Denzel Dumfries, Destro, 1° gol stagionaleAssist:Carlos Augusto, Cross, 1° assist stagionale
+5;Christian Pulisic;Christian Pulisic, Azione personale, 3° gol stagionaleAssist: Senza assist
+5;Federico Dimarco;Federico Dimarco, Sinistro, 1° gol stagionaleAssist:Lautaro Martínez, Passaggio, 1° assist stagionale
+5;Matteo Gabbia;Matteo Gabbia, Colpo di testa, 1° gol stagionaleAssist:Tijjani Reijnders, Punizione, 2° assist stagionale
+6;Davide Frattesi;Davide Frattesi, Destro, 1° gol stagionaleAssist:Matteo Darmian, Passaggio, 1° assist stagionale
+6;Christian Kabasele;Christian Kabasele, Colpo di testa, 1° gol stagionaleAssist:Jordan Zemura, Corner, 1° assist stagionale
+6;Lautaro Martínez;Lautaro Martínez, Sinistro, 1° gol stagionaleAssist:Federico Dimarco, Cross, 1° assist stagionale
+6;Lautaro Martínez;Lautaro Martínez, Destro, 2° gol stagionaleAssist:Marcus Thuram, Passaggio, 3° assist stagionale
+6;Lorenzo Lucca;Lorenzo Lucca, Destro, 3° gol stagionaleAssist:Brenner, Passaggio, 2° assist stagionale
+7;Marcus Thuram;Marcus Thuram, Colpo di testa, 5° gol stagionaleAssist:Alessandro Bastoni, Cross, 1° assist stagionale
+7;Marcus Thuram;Marcus Thuram, Colpo di testa, 6° gol stagionaleAssist:Francesco Acerbi, Cross, 1° assist stagionale
+7;Duván Zapata;Duván Zapata, Destro, 3° gol stagionaleAssist:Gvidas Gineitis, Passaggio, 1° assist stagionale
+7;Marcus Thuram;Marcus Thuram, Destro, 7° gol stagionaleAssist:Lautaro Martínez, Tiro in porta, 2° assist stagionale
+7;Nikola Vlašić;Nikola Vlašić, Rigore, 1° gol stagionaleAssist:Adam Masina, Rigore: fallo ai danni di
+8;Lautaro Martínez;Lautaro Martínez, Destro, 3° gol stagionaleAssist: Senza assist
+9;Piotr Zieliński;Piotr Zieliński, Rigore, 1° gol stagionaleAssist:Marcus Thuram, Rigore: fallo ai danni di
+9;Dušan Vlahović;Dušan Vlahović, Sinistro, 6° gol stagionaleAssist:Weston McKennie, Passaggio, 1° assist stagionale
+9;Timothy Weah;Timothy Weah, Destro, 2° gol stagionaleAssist:Francisco Conceição, Passaggio, 1° assist stagionale
+9;Henrikh Mkhitaryan;Henrikh Mkhitaryan, Sinistro, 1° gol stagionaleAssist:Marcus Thuram, Passaggio, 5° assist stagionale
+9;Piotr Zieliński;Piotr Zieliński, Rigore, 2° gol stagionaleAssist:Denzel Dumfries, Rigore: fallo ai danni di
+9;Denzel Dumfries;Denzel Dumfries, Destro, 2° gol stagionaleAssist: Senza assist
+9;Kenan Yıldız;Kenan Yıldız, Sinistro, 1° gol stagionaleAssist:Weston McKennie, Passaggio, 2° assist stagionale
+9;Kenan Yıldız;Kenan Yıldız, Sinistro, 2° gol stagionaleAssist: Senza assist
+10;Davide Frattesi;Davide Frattesi, Sinistro, 2° gol stagionaleAssist:Matteo Darmian, Colpo di testa, 2° assist stagionale
+10;Davide Frattesi;Davide Frattesi, Destro, 3° gol stagionaleAssist:Lautaro Martínez, Passaggio, 3° assist stagionale
+10;Lautaro Martínez;Lautaro Martínez, Sinistro, 4° gol stagionaleAssist:Nicolò Barella, Passaggio, 2° assist stagionale
+11;Lautaro Martínez;Lautaro Martínez, Colpo di testa, 5° gol stagionaleAssist:Federico Dimarco, Cross, 2° assist stagionale
+12;Scott McTominay;Scott McTominay, Destro, 2° gol stagionaleAssist:Amir Rrahmani, Passaggio, 2° assist stagionale
+12;Hakan Çalhanoğlu;Hakan Çalhanoğlu, Destro, 2° gol stagionaleAssist:Alessandro Bastoni, Passaggio, 2° assist stagionale
+13;Joaquín Correa;Joaquín Correa, Destro, 1° gol stagionaleAssist:Marcus Thuram, Passaggio, 6° assist stagionale
+13;Marcus Thuram;Marcus Thuram, Destro, 8° gol stagionaleAssist:Joaquín Correa, Passaggio, 1° assist stagionale
+13;Marcus Thuram;Marcus Thuram, Destro, 9° gol stagionaleAssist:Alessandro Bastoni, Passaggio, 3° assist stagionale
+13;Stefan de Vrij;Stefan de Vrij, Destro, 1° gol stagionaleAssist:Kristjan Asllani, Corner, 1° assist stagionale
+13;Yann Bisseck;Yann Bisseck, Destro, 1° gol stagionaleAssist:Joaquín Correa, Passaggio, 2° assist stagionale
+15;Federico Dimarco;Federico Dimarco, Destro, 2° gol stagionaleAssist:Henrikh Mkhitaryan, Passaggio, 2° assist stagionale
+15;Nicolò Barella;Nicolò Barella, Destro, 2° gol stagionaleAssist:Henrikh Mkhitaryan, Passaggio, 3° assist stagionale
+15;Marcus Thuram;Marcus Thuram, Destro, 10° gol stagionaleAssist:Yann Bisseck, Passaggio, 1° assist stagionale
+15;Matteo Darmian;Matteo Darmian, AutoreteAssist: Senza assist
+16;Hakan Çalhanoğlu;Hakan Çalhanoğlu, Rigore, 3° gol stagionaleAssist: Rigore: mani diSamuel Gigot
+16;Federico Dimarco;Federico Dimarco, Sinistro, 3° gol stagionaleAssist:Denzel Dumfries, Cross, 2° assist stagionale
+16;Nicolò Barella;Nicolò Barella, Tiro dalla distanza, 3° gol stagionaleAssist:Hakan Çalhanoğlu, Passaggio, 1° assist stagionale
+16;Denzel Dumfries;Denzel Dumfries, Colpo di testa, 3° gol stagionaleAssist:Alessandro Bastoni, Cross, 4° assist stagionale
+16;Carlos Augusto;Carlos Augusto, Sinistro, 1° gol stagionaleAssist:Federico Dimarco, Passaggio, 3° assist stagionale
+16;Marcus Thuram;Marcus Thuram, Destro, 11° gol stagionaleAssist:Henrikh Mkhitaryan, Passaggio, 4° assist stagionale

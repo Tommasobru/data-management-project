@@ -9,7 +9,7 @@ headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 }
 
-def extract_match_goals(match_url):
+def extract_match_goals(match_url, giornata):
 
     # Richiesta alla pagina
     response = requests.get(match_url, headers=headers)
@@ -22,14 +22,14 @@ def extract_match_goals(match_url):
         goal_section = soup.find("div", id="sb-tore")
         if goal_section:
             goals = []
-            for goal in goal_section.find_all("li", class_="sb-aktion-gast"):
+            for goal in goal_section.find_all("li", class_=["sb-aktion-heim", "sb-aktion-gast"]):
                 try:
                     # Estrarre il marcatore
                     scorer = goal.find("a", class_="wichtig").get_text(strip=True)
                     # Estrarre il tipo di azione (es. rigore, tiro, ecc.)
                     action_details = goal.find("div", class_="sb-aktion-aktion").get_text(strip=True)
                     # Aggiungere alla lista
-                    goals.append({"scorer": scorer, "details": action_details})
+                    goals.append({"giornata": giornata,"scorer": scorer, "details": action_details})
                 except AttributeError:
                     continue
             
@@ -52,24 +52,39 @@ def get_serie_a_matches_links(base_url):
         if serie_a_section:
             table = serie_a_section.find_next("div", class_="responsive-table")
             if table:
-                for match in table.find_all("a", class_="ergebnis-link"):
-                    #numero = match.find_parent('td', class_='zentriert').find('a').get_text()
-                    match_href = match.get("href")
-                    if match_href:  # Aggiunge tutti i link delle partite nella tabella Serie A
-                        full_url = "https://www.transfermarkt.it" + match_href
-                        serie_a_matches.append(full_url)
-                    lista_diz.append({"giornata":numero, "link":full_url})
-    return serie_a_matches, lista_diz
+                rows = table.find_all("tr")
+                for row in rows:
+                    # Trova il numero della giornata
+                    giornata_cell = row.find("td", class_="zentriert")
+                    if giornata_cell:
+                        giornata_link = giornata_cell.find("a")
+                        if giornata_link and giornata_link.text.isdigit():
+                            numero_giornata = int(giornata_link.text)  # Converti il numero in intero
+                        else:
+                            numero_giornata = None
+
+                    # Trova il link della partita
+                    match = row.find("a", class_="ergebnis-link")
+                    if match:
+                        match_href = match.get("href")
+                        if match_href:
+                            full_url = "https://www.transfermarkt.it" + match_href
+                            serie_a_matches.append(full_url)
+                            # Aggiungi giornata e link a un dizionario
+                            lista_diz.append({"giornata": numero_giornata, "link": full_url})
+    
+
+    urls_df = pd.DataFrame(lista_diz)
+    return lista_diz, urls_df
 
 
 all_goals = []
-match_links, lista_diz = get_serie_a_matches_links(base_url)
+lista_diz, urls_df = get_serie_a_matches_links(base_url)
 
-print(len(match_links))
-for match in match_links:
-    all_goals.extend(extract_match_goals(match))
 
-print(match_links)
+for index,row in urls_df.iterrows():
+    all_goals.extend(extract_match_goals(row['link'], row['giornata']))
+
 all_goals_df = pd.DataFrame(all_goals)
 all_goals_df.to_csv("serie_a_matches_link.csv", index= False, sep = ';')
 lista_df = pd.DataFrame(lista_diz)
