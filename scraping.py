@@ -65,7 +65,8 @@ def link_squadre(anno):
                 "Giocatori in Rosa": squad_size,
                 "Età Media": avg_age,
                 "Stranieri": foreigners,
-                "Valore Rosa": squad_value
+                "Valore Rosa": squad_value,
+                "Stagione": anno 
             })
         except Exception as e:
             print(f"Errore nell'elaborazione di una riga: {e}")
