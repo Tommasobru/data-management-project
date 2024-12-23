@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
+from scraping import link_squadre
 # URL della pagina
 url = "https://www.transfermarkt.it/spielbericht/index/spielbericht/4374060"
 
@@ -8,6 +9,16 @@ url = "https://www.transfermarkt.it/spielbericht/index/spielbericht/4374060"
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 }
+
+# https://www.transfermarkt.it/inter-mailand/startseite/verein/46/saison_id/2024
+def url_calendario_per_competizione(url):
+    
+    segments = url.split('/')
+    index_verein = segments.index('verein')
+    id = segments[index_verein+1]
+    anno = segments[-1]
+    url_calendario = f'https://www.transfermarkt.it/inter-mailand/spielplan/verein/{id}/saison_id/{anno}'
+    return url_calendario
 
 # funzione per estrarre i goal di ogni giornata 
 def extract_match_goals(match_url, giornata):
@@ -34,15 +45,16 @@ def extract_match_goals(match_url, giornata):
                 except AttributeError:
                     continue
             
-            return goals
         else:
-            print("Sezione dei gol non trovata.")
+            goals = [{'giornata': giornata, "scorer": "NAN", "details": "NAN"}]
+        
+        return goals
     else:
         print(f"Errore nel caricamento della pagina, codice: {response.status_code}")
 
+
 # Funzione per estrarre i link delle partite giocate (solo Serie A con conferma dal contesto)
-def get_serie_a_matches_links(anno):
-    base_url = "https://www.transfermarkt.it/inter-mailand/spielplan/verein/46/saison_id/{anno}"
+def get_serie_a_matches_links(base_url, anno):
     response = requests.get(base_url, headers=headers)
     serie_a_matches = []
     diz ={}
@@ -82,11 +94,16 @@ def get_serie_a_matches_links(anno):
 
 all_goals = []
 anno = 2024
-lista_diz, urls_df = get_serie_a_matches_links(anno)
 
+df_link_squadre = link_squadre(anno)
 
-for index,row in urls_df.iterrows():
-    all_goals.extend(extract_match_goals(row['link'], row['giornata']))
+for index, row in df_link_squadre.iterrows():
+    url = row["Link"]
+    url_calendario_partite = url_calendario_per_competizione(url)
+    anno = row['Stagione']
+    lista_diz, urls_df = get_serie_a_matches_links(url_calendario_partite, anno)
+    for index,row in urls_df.iterrows():
+        all_goals.extend(extract_match_goals(row['link'], row['giornata']))
 
 all_goals_df = pd.DataFrame(all_goals)
 all_goals_df.to_csv("serie_a_matches_link.csv", index= False, sep = ';')
