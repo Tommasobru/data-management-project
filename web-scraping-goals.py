@@ -3,12 +3,13 @@ from bs4 import BeautifulSoup
 import pandas as pd
 # URL della pagina
 url = "https://www.transfermarkt.it/spielbericht/index/spielbericht/4374060"
-base_url = "https://www.transfermarkt.it/inter-mailand/spielplan/verein/46/saison_id/2024"
+
 # Headers per simulare un browser
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 }
 
+# funzione per estrarre i goal di ogni giornata 
 def extract_match_goals(match_url, giornata):
 
     # Richiesta alla pagina
@@ -40,7 +41,8 @@ def extract_match_goals(match_url, giornata):
         print(f"Errore nel caricamento della pagina, codice: {response.status_code}")
 
 # Funzione per estrarre i link delle partite giocate (solo Serie A con conferma dal contesto)
-def get_serie_a_matches_links(base_url):
+def get_serie_a_matches_links(anno):
+    base_url = "https://www.transfermarkt.it/inter-mailand/spielplan/verein/46/saison_id/{anno}"
     response = requests.get(base_url, headers=headers)
     serie_a_matches = []
     diz ={}
@@ -71,7 +73,7 @@ def get_serie_a_matches_links(base_url):
                             full_url = "https://www.transfermarkt.it" + match_href
                             serie_a_matches.append(full_url)
                             # Aggiungi giornata e link a un dizionario
-                            lista_diz.append({"giornata": numero_giornata, "link": full_url})
+                            lista_diz.append({"anno": anno,"giornata": numero_giornata, "link": full_url})
     
 
     urls_df = pd.DataFrame(lista_diz)
@@ -79,7 +81,8 @@ def get_serie_a_matches_links(base_url):
 
 
 all_goals = []
-lista_diz, urls_df = get_serie_a_matches_links(base_url)
+anno = 2024
+lista_diz, urls_df = get_serie_a_matches_links(anno)
 
 
 for index,row in urls_df.iterrows():
