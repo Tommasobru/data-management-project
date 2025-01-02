@@ -1,0 +1,31 @@
+id,season,name,date_of_birth,nationality,position,team_id,team,goals,assist,penalties
+9434,2022,Victor Osimhen,1998-12-29,Nigeria,,113,SSC Napoli,26,4.0,2.0
+3220,2022,Lautaro Martínez,1997-08-22,Argentina,,108,FC Internazionale Milano,21,6.0,1.0
+98299,2022,Boulaye Dia,1996-11-16,Senegal,,455,US Salernitana 1919,16,6.0,1.0
+15892,2022,Rafael Leão,1999-06-10,Portugal,,98,AC Milan,15,7.0,
+9554,2022,Ademola Lookman,1997-10-20,Nigeria,,102,Atalanta BC,13,6.0,3.0
+161370,2022,M'Bala Nzola,1996-08-18,Angola,,488,Spezia Calcio,13,2.0,3.0
+3371,2022,Olivier Giroud,1986-09-30,France,,98,AC Milan,13,5.0,3.0
+14,2022,Antonio Sanabria,1996-03-04,Paraguay,,586,Torino FC,12,4.0,1.0
+2076,2022,Ciro Immobile,1990-02-20,Italy,,110,SS Lazio,12,5.0,4.0
+113285,2022,Khvicha Kvaratskhelia,2001-02-12,Georgia,,113,SSC Napoli,12,10.0,2.0
+3220,2023,Lautaro Martínez,1997-08-22,Argentina,,108,FC Internazionale Milano,24,5.0,2.0
+82002,2023,Dušan Vlahović,2000-01-28,Serbia,,109,Juventus FC,16,3.0,2.0
+9434,2023,Victor Osimhen,1998-12-29,Nigeria,,113,SSC Napoli,15,4.0,3.0
+3371,2023,Olivier Giroud,1986-09-30,France,,98,AC Milan,15,7.0,4.0
+3851,2023,Albert Guðmundsson,1997-06-15,Iceland,,107,Genoa CFC,14,5.0,4.0
+2271,2023,Duván Zapata,1991-04-01,Colombia,,586,Torino FC,13,5.0,
+8685,2023,Marcus Thuram-Ulien,1997-08-06,France,,108,FC Internazionale Milano,13,8.0,
+1754,2023,Hakan Çalhanoğlu,1994-02-08,Turkey,,108,FC Internazionale Milano,13,3.0,10.0
+2046,2023,Paulo Dybala,1993-11-15,Argentina,,100,AS Roma,13,8.0,7.0
+3662,2023,Romelu Lukaku,1993-05-13,Belgium,,100,AS Roma,13,3.0,
+8685,2024,Marcus Thuram-Ulien,1997-08-06,France,,108,FC Internazionale Milano,12,4.0,
+11710,2024,Mateo Retegui,1999-04-29,Italy,,102,Atalanta BC,12,2.0,2.0
+2171,2024,Moise Kean,2000-02-28,Italy,,99,ACF Fiorentina,11,1.0,1.0
+9554,2024,Ademola Lookman,1997-10-20,Nigeria,,102,Atalanta BC,9,4.0,1.0
+28416,2024,Valentín Castellanos,1998-10-03,Argentina,,110,SS Lazio,7,1.0,2.0
+40305,2024,Lorenzo Lucca,2000-09-10,Italy,,115,Udinese Calcio,7,,
+82002,2024,Dušan Vlahović,2000-01-28,Serbia,,109,Juventus FC,7,1.0,4.0
+1886,2024,Riccardo Orsolini,1997-01-24,Italy,,103,Bologna FC 1909,6,1.0,2.0
+2016,2024,Andrea Pinamonti,1999-05-19,Italy,,107,Genoa CFC,6,1.0,
+3662,2024,Romelu Lukaku,1993-05-13,Belgium,,113,SSC Napoli,6,4.0,1.0

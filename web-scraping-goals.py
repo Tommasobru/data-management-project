@@ -123,7 +123,7 @@ for anno in anni:
             all_goals.extend(extract_match_goals(row['link'], row['giornata'], row['anno'], row['partita']))
 
 all_goals_df = pd.DataFrame(all_goals)
-all_goals_df.to_csv("serie_a_matches_link.csv", index= False, sep = ';')
+all_goals_df.to_csv("dataset/serie_a_matches_link.csv", index= False, sep = ';')
 lista_df = pd.DataFrame(lista_diz)
-lista_df.to_csv("lista.csv", index= False, sep = ';')
+lista_df.to_csv("dataset/lista.csv", index= False, sep = ';')
 print(all_goals_df)

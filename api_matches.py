@@ -15,7 +15,11 @@ headers = { 'X-Auth-Token': TOKEN }
 
 
 #params = { 'dateFrom': '2023-01-01', 'dateTo': '2023-12-31' }
-years = [2022]
+years = [2022,2023,2024]
+
+matches_data = []
+goals_data =[]
+
 for year in years:
     params = {'season':year}
     response = requests.get(url, headers=headers, params=params)
@@ -27,12 +31,10 @@ for year in years:
     data = response.json()
     matches = data.get('matches',[])
 
-    matches_data = []
-    goals_data =[]
 
     for match in matches:
         match_id = match['id']
-        season = years
+        season = year
         date = match['utcDate'].split("T")[0]
         home_team = match['homeTeam']['name']
         away_team = match['awayTeam']['name']
@@ -73,17 +75,7 @@ for year in years:
     goals_df = pd.DataFrame(goals_data)
 
 # Salva i DataFrame in file CSV (opzionale)
-#matches_df.to_csv("matches.csv", index=False)
-#goals_df.to_csv("goals.csv", index=False)
-
-url2 = 'https://api.football-data.org/v4/competitions/SA/scores'
-response2 = requests.get(url, headers=headers, params=params)
-
-if response2.status_code != 200:
-    print(f"Errore nella richiesta: {response2.status_code}")
+matches_df.to_csv("dataset/matches.csv", index=False)
+goals_df.to_csv("dataset/goals.csv", index=False)
 
 
-data2 = response2.json()
-#matches2 = data2.get('matches',[])
-
-print(data2)

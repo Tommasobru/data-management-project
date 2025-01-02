@@ -144,4 +144,4 @@ for year in years:
     # Salva i dati in un file CSV
     df = pd.concat(df_list)
     nome_file = f"player_data-{year}.csv"
-    #df.to_csv(nome_file, index=False)
+    df.to_csv(f"dataset/{nome_file}", index=False)

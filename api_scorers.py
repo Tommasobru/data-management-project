@@ -13,7 +13,9 @@ TOKEN = token_file['TOKEN']
 url = 'http://api.football-data.org/v4/competitions/SA/scorers'
 headers = { 'X-Auth-Token': TOKEN }
 
-years = ['2022']
+years = [2022,2023,2024]
+
+scorers_data = []
 
 for year in years:
 
@@ -26,7 +28,6 @@ for year in years:
     data = response.json()
     scorers = data.get('scorers',[])
 
-    scorers_data = []
 
     for scorer in scorers:
         id = scorer['player']['id']
@@ -42,6 +43,7 @@ for year in years:
         
         scorers_data.append({
             'id': id,
+            'season': year,
             'name': name,
             'date_of_birth': date_of_birth,
             'nationality': nationalaity,
@@ -55,5 +57,7 @@ for year in years:
     
 
 scorers_df = pd.DataFrame(scorers_data)
+
+scorers_df.to_csv('dataset/scorers.csv', index= False)
 
 print(scorers_df)
