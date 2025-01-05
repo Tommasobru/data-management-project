@@ -80,8 +80,10 @@ def link_squadre(anno):
 
 years = [2022,2023,2024]
 df_list = []
+list_team = []
 for year in years:
     df_link = link_squadre(year)
+    list_team.append(df_link)
 
 
     
@@ -145,5 +147,8 @@ for year in years:
 
 # Salva i dati in un file CSV
 df = pd.concat(df_list, ignore_index=True)
-nome_file = "player_data.csv"
+df_list_team = pd.concat(list_team, ignore_index= True)
+df_list_team.to_csv("dataset/list-team.csv", index=False)
+
+nome_file = "player-data.csv"
 df.to_csv(f"dataset/{nome_file}", index=False)
