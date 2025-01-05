@@ -87,6 +87,7 @@ def find_closest_string(target, string_list):
 
     return closest_string
 
+# function that replaces a team name with the team name taken from the API data
 def find_and_replace_name(team_target, diz):
     team_api = diz[team_target] 
 
@@ -98,15 +99,15 @@ file_serie_a_matches_goal = 'dataset/serie_a_matches_link.csv'
 file_lista_team = 'dataset/list-team.csv'
 
 df_lista_team = pd.read_csv(file_lista_team)
-
+squadre_goal  = pd.read_csv(file_serie_a_matches_goal, sep=";")
 screaping_team = pd.read_csv(file_player_data)
-squadre_screaping = screaping_team['Squadra'].unique().tolist() 
+
+# we derive the list of team names taken from the api data
 api  = pd.read_csv(file_matches)
 squadre_api= api['home_team'].unique().tolist()
-squadre_goal  = pd.read_csv(file_serie_a_matches_goal, sep=";")
 
+# we create a dictionary for each dataframe derived from web scraping where for each team we associate the respective API name, so as to standardize the names 
 diz_squadre = {}
-
 for index,row in squadre_goal.iterrows():
     squadre = row['partita'].split('-')
     squadra_casa = squadre[0].strip()
@@ -118,7 +119,6 @@ for index,row in squadre_goal.iterrows():
         diz_squadre[squadra_casa] = squadra_api
 
 diz_squadre_player = {}
-
 for index,row in screaping_team.iterrows():
     squadra_casa_player = row['Squadra']
     
@@ -127,7 +127,6 @@ for index,row in screaping_team.iterrows():
         diz_squadre_player[squadra_casa_player] = squadra_api_player
 
 diz_lista_squadre = {}
-
 for index,row in df_lista_team.iterrows():
     team = row['Squadra']
 
@@ -136,9 +135,7 @@ for index,row in df_lista_team.iterrows():
     if team not in diz_lista_squadre:
         diz_lista_squadre[team] = squadra_api_team_list
 
-
-
-
+# replace all names with names taken from API
 
 squadre_goal[['Home Team','Away Team']] = squadre_goal['partita'].str.split('-', expand=True)
 squadre_goal['Home Team'] = squadre_goal['Home Team'].str.strip()
@@ -148,15 +145,16 @@ squadre_goal = squadre_goal[['anno','giornata','Home Team', 'Away Team', 'scorer
 squadre_goal['Home Team'] = squadre_goal['Home Team'].apply(lambda team_target: find_and_replace_name(team_target, diz = diz_squadre)) 
 squadre_goal['Away Team'] = squadre_goal['Away Team'].apply(lambda team_target: find_and_replace_name(team_target,diz=diz_squadre))
 
+
 df_player_data = cleaning_player_data_year(file_player_data)
-
-
-
 df_player_data['Squadra'] = df_player_data['Squadra'].apply(lambda team_target: find_and_replace_name(team_target, diz=diz_squadre_player))
 df_player_data.to_csv('dataset/clean-player-data.csv')
 
+
 df_lista_team['Squadra'] = df_lista_team['Squadra'].apply(lambda team_target: find_and_replace_name(team_target, diz=diz_lista_squadre))
 df_lista_team.to_csv('dataset/clean-list-team.csv')
+
+
 print(squadre_goal)
 print(df_player_data)
 print(df_lista_team)
