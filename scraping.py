@@ -79,12 +79,12 @@ def link_squadre(anno):
 
 
 years = [2022,2023,2024]
-
+df_list = []
 for year in years:
     df_link = link_squadre(year)
 
 
-    df_list = []
+    
     for index, row in df_link.iterrows(): 
         # Headers per simulare una richiesta da un browser
         headers = {
@@ -117,6 +117,7 @@ for year in years:
                     # Ruolo del giocatore
                     role_cell = row.find('td', {"class": "posrela"})
                     role = role_cell.text.strip() if role_cell else None
+                    
 
                     # Valore di mercato
                     market_value_cell = row.find('td', {"class": "rechts hauptlink"})
@@ -133,6 +134,7 @@ for year in years:
                 df = pd.DataFrame(players)
 
                 df['Squadra'] = squadra 
+                df['Season'] = year
                 df_list.append(df)           
 
 
@@ -141,7 +143,7 @@ for year in years:
         else:
             print(f"Errore nella richiesta: {response.status_code}")
 
-    # Salva i dati in un file CSV
-    df = pd.concat(df_list)
-    nome_file = f"player_data-{year}.csv"
-    df.to_csv(f"dataset/{nome_file}", index=False)
+# Salva i dati in un file CSV
+df = pd.concat(df_list, ignore_index=True)
+nome_file = "player_data.csv"
+df.to_csv(f"dataset/{nome_file}", index=False)

@@ -34,7 +34,6 @@ for year in years:
         name = scorer['player']['name']
         date_of_birth = scorer['player']['dateOfBirth']
         nationalaity = scorer['player']['nationality']
-        position = scorer['player']['position']
         team_id = scorer['team']['id']
         team = scorer['team']['name']
         goals = scorer['goals']
@@ -47,7 +46,6 @@ for year in years:
             'name': name,
             'date_of_birth': date_of_birth,
             'nationality': nationalaity,
-            'position': position,
             'team_id': team_id,
             'team': team,
             'goals': goals,
@@ -59,5 +57,3 @@ for year in years:
 scorers_df = pd.DataFrame(scorers_data)
 
 scorers_df.to_csv('dataset/scorers.csv', index= False)
-
-print(scorers_df)
