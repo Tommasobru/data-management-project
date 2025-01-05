@@ -144,7 +144,7 @@ squadre_goal.drop(columns=['partita'], inplace=True)
 squadre_goal = squadre_goal[['anno','giornata','Home Team', 'Away Team', 'scorer', 'details']]
 squadre_goal['Home Team'] = squadre_goal['Home Team'].apply(lambda team_target: find_and_replace_name(team_target, diz = diz_squadre)) 
 squadre_goal['Away Team'] = squadre_goal['Away Team'].apply(lambda team_target: find_and_replace_name(team_target,diz=diz_squadre))
-
+squadre_goal.to_csv('dataset/clean-squadre-goal.csv')
 
 df_player_data = cleaning_player_data_year(file_player_data)
 df_player_data['Squadra'] = df_player_data['Squadra'].apply(lambda team_target: find_and_replace_name(team_target, diz=diz_squadre_player))
