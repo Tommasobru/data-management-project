@@ -150,5 +150,5 @@ df = pd.concat(df_list, ignore_index=True)
 df_list_team = pd.concat(list_team, ignore_index= True)
 df_list_team.to_csv("dataset/list-team.csv", index=False)
 
-nome_file = "player-data.csv"
+nome_file = "player-team.csv"
 df.to_csv(f"dataset/{nome_file}", index=False)

@@ -93,9 +93,9 @@ def find_and_replace_name(team_target, diz):
 
     return team_api
 
-file_player_data = 'dataset/player-data.csv'
+file_player_data = 'dataset/player-team.csv'
 file_matches = 'dataset/matches.csv'
-file_serie_a_matches_goal = 'dataset/serie_a_matches_link.csv'
+file_serie_a_matches_goal = 'dataset/serie_a_matches_all_goal.csv'
 file_lista_team = 'dataset/list-team.csv'
 
 df_lista_team = pd.read_csv(file_lista_team)

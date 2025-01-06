@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-from scraping import link_squadre
+from data_acquisition_scraping import link_squadre
 # URL della pagina
 url = "https://www.transfermarkt.it/spielbericht/index/spielbericht/4374060"
 
@@ -108,6 +108,7 @@ def get_serie_a_matches_links(base_url, squadra,anno):
 all_goals = []
 anni = [2022,2023,2024]
 
+
 for anno in anni:
 
     df_link_squadre = link_squadre(anno)
@@ -123,7 +124,7 @@ for anno in anni:
             all_goals.extend(extract_match_goals(row['link'], row['giornata'], row['anno'], row['partita']))
 
 all_goals_df = pd.DataFrame(all_goals)
-all_goals_df.to_csv("dataset/serie_a_matches_link.csv", index= False, sep = ';')
+all_goals_df.to_csv("dataset/serie_a_matches_all_goal.csv", index= False, sep = ';')
 lista_df = pd.DataFrame(lista_diz)
-lista_df.to_csv("dataset/lista.csv", index= False, sep = ';')
+#lista_df.to_csv("dataset/lista_giornate.csv", index= False, sep = ';')
 print(all_goals_df)

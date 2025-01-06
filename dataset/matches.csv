@@ -939,13 +939,13 @@ match_id,season,home_team,away_team,home_score,away_score
 503219,2024,AC Milan,AS Roma,1.0,1.0
 503215,2024,Como 1907,US Lecce,2.0,0.0
 503213,2024,Bologna FC 1909,Hellas Verona FC,2.0,3.0
-503232,2024,Venezia FC,Empoli FC,,
-503225,2024,ACF Fiorentina,SSC Napoli,,
-503226,2024,Hellas Verona FC,Udinese Calcio,,
-503229,2024,AC Monza,Cagliari Calcio,,
-503228,2024,US Lecce,Genoa CFC,,
-503231,2024,Torino FC,Parma Calcio 1913,,
-503230,2024,AS Roma,SS Lazio,,
+503232,2024,Venezia FC,Empoli FC,1.0,1.0
+503225,2024,ACF Fiorentina,SSC Napoli,0.0,3.0
+503226,2024,Hellas Verona FC,Udinese Calcio,0.0,0.0
+503229,2024,AC Monza,Cagliari Calcio,1.0,2.0
+503228,2024,US Lecce,Genoa CFC,0.0,0.0
+503231,2024,Torino FC,Parma Calcio 1913,0.0,0.0
+503230,2024,AS Roma,SS Lazio,2.0,0.0
 503236,2024,SS Lazio,Como 1907,,
 503234,2024,Empoli FC,US Lecce,,
 503241,2024,Udinese Calcio,Atalanta BC,,

@@ -76,6 +76,6 @@ for year in years:
 
 # Salva i DataFrame in file CSV (opzionale)
 matches_df.to_csv("dataset/matches.csv", index=False)
-goals_df.to_csv("dataset/goals.csv", index=False)
+goals_df.to_csv("dataset/matches_details.csv", index=False)
 
 

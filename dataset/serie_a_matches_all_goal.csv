@@ -4288,6 +4288,9 @@ anno;giornata;partita;scorer;details
 2024;17;Genoa - SSC Napoli;Amir Rrahmani;Amir Rrahmani, Colpo di testa, 1° gol stagionaleAssist:Stanislav Lobotka, Punizione, 1° assist stagionale
 2024;17;Genoa - SSC Napoli;Andrea Pinamonti;Andrea Pinamonti, Destro, 6° gol stagionaleAssist:Vitinha, Passaggio, 2° assist stagionale
 2024;18;SSC Napoli - Venezia;Giacomo Raspadori;Giacomo Raspadori, Sinistro, 1° gol stagionaleAssist: Senza assist
+2024;19;Fiorentina - SSC Napoli;David Neres;David Neres, Destro, 2° gol stagionaleAssist:Romelu Lukaku, Passaggio, 5° assist stagionale
+2024;19;Fiorentina - SSC Napoli;Romelu Lukaku;Romelu Lukaku, Rigore, 7° gol stagionaleAssist:Frank Anguissa, Rigore: fallo ai danni di
+2024;19;Fiorentina - SSC Napoli;Scott McTominay;Scott McTominay, Destro, 4° gol stagionaleAssist: Senza assist
 2024;1;Cagliari - AS Roma;NAN;NAN
 2024;2;AS Roma - Empoli;Emmanuel Gyasi;Emmanuel Gyasi, Destro, 1° gol stagionaleAssist:Lorenzo Colombo, Colpo di testa, 1° assist stagionale
 2024;2;AS Roma - Empoli;Lorenzo Colombo;Lorenzo Colombo, Rigore, 1° gol stagionaleAssist:Sebastiano Esposito, Rigore: fallo ai danni di
@@ -4338,6 +4341,8 @@ anno;giornata;partita;scorer;details
 2024;17;AS Roma - Parma;Artem Dovbyk;Artem Dovbyk, Tap-in, 5° gol stagionaleAssist:Paulo Dybala, Passaggio, 2° assist stagionale
 2024;18;Milan - AS Roma;Tijjani Reijnders;Tijjani Reijnders, Destro, 5° gol stagionaleAssist:Youssouf Fofana, Passaggio, 4° assist stagionale
 2024;18;Milan - AS Roma;Paulo Dybala;Paulo Dybala, Destro, 5° gol stagionaleAssist:Artem Dovbyk, Passaggio, 3° assist stagionale
+2024;19;AS Roma - Lazio;Lorenzo Pellegrini;Lorenzo Pellegrini, Destro, 1° gol stagionaleAssist:Alexis Saelemaekers, Cross, 2° assist stagionale
+2024;19;AS Roma - Lazio;Alexis Saelemaekers;Alexis Saelemaekers, Sinistro, 3° gol stagionaleAssist: Senza assist
 2024;1;Parma - ACF Fiorentina;Dennis Man;Dennis Man, Sinistro, 1° gol stagionaleAssist:Ange-Yoan Bonny, Passaggio, 1° assist stagionale
 2024;1;Parma - ACF Fiorentina;Cristiano Biraghi;Cristiano Biraghi, Punizione, 1° gol stagionale
 2024;2;ACF Fiorentina - Venezia;NAN;NAN
@@ -4386,6 +4391,9 @@ anno;giornata;partita;scorer;details
 2024;18;Juventus - ACF Fiorentina;Moise Kean;Moise Kean, Colpo di testa, 11° gol stagionaleAssist:Yacine Adli, Cross, 4° assist stagionale
 2024;18;Juventus - ACF Fiorentina;Khéphren Thuram;Khéphren Thuram, Destro, 2° gol stagionaleAssist: Senza assist
 2024;18;Juventus - ACF Fiorentina;Riccardo Sottil;Riccardo Sottil, Sinistro, 1° gol stagionaleAssist:Moise Kean, Passaggio, 2° assist stagionale
+2024;19;ACF Fiorentina - Napoli;David Neres;David Neres, Destro, 2° gol stagionaleAssist:Romelu Lukaku, Passaggio, 5° assist stagionale
+2024;19;ACF Fiorentina - Napoli;Romelu Lukaku;Romelu Lukaku, Rigore, 7° gol stagionaleAssist:Frank Anguissa, Rigore: fallo ai danni di
+2024;19;ACF Fiorentina - Napoli;Scott McTominay;Scott McTominay, Destro, 4° gol stagionaleAssist: Senza assist
 2024;1;Bologna FC - Udinese;Riccardo Orsolini;Riccardo Orsolini, Rigore, 1° gol stagionaleAssist:Martin Erlić, Rigore: fallo ai danni di
 2024;1;Bologna FC - Udinese;Lautaro Giannetti;Lautaro Giannetti, Colpo di testa, 1° gol stagionaleAssist:Brenner, Corner, 1° assist stagionale
 2024;2;Napoli - Bologna FC;Giovanni Di Lorenzo;Giovanni Di Lorenzo, Sinistro, 1° gol stagionaleAssist:Khvicha Kvaratskhelia, Passaggio, 1° assist stagionale
@@ -4491,6 +4499,8 @@ anno;giornata;partita;scorer;details
 2024;17;Lecce - SS Lazio;Adam Marusic;Adam Marusic, Destro, 1° gol stagionaleAssist: Senza assist
 2024;18;SS Lazio - Atalanta;Fisayo Dele-Bashiru;Fisayo Dele-Bashiru, Destro, 2° gol stagionaleAssist:Nicolò Rovella, Passaggio, 1° assist stagionale
 2024;18;SS Lazio - Atalanta;Marco Brescianini;Marco Brescianini, Sinistro, 3° gol stagionaleAssist:Ademola Lookman, Passaggio, 5° assist stagionale
+2024;19;Roma - SS Lazio;Lorenzo Pellegrini;Lorenzo Pellegrini, Destro, 1° gol stagionaleAssist:Alexis Saelemaekers, Cross, 2° assist stagionale
+2024;19;Roma - SS Lazio;Alexis Saelemaekers;Alexis Saelemaekers, Sinistro, 3° gol stagionaleAssist: Senza assist
 2024;1;Milan - Torino FC;Malick Thiaw;Malick Thiaw, AutoreteAssist:Raoul Bellanova, Colpo di testa, 1° assist stagionale
 2024;1;Milan - Torino FC;Duván Zapata;Duván Zapata, Colpo di testa, 1° gol stagionaleAssist:Valentino Lazaro, Cross, 1° assist stagionale
 2024;1;Milan - Torino FC;Álvaro Morata;Álvaro Morata, Destro, 1° gol stagionaleAssist:Tijjani Reijnders, Tiro in porta, 1° assist stagionale
@@ -4536,6 +4546,7 @@ anno;giornata;partita;scorer;details
 2024;18;Udinese - Torino FC;Lorenzo Lucca;Lorenzo Lucca, Colpo di testa, 7° gol stagionaleAssist:Florian Thauvin, Corner, 3° assist stagionale
 2024;18;Udinese - Torino FC;Ché Adams;Ché Adams, Destro, 5° gol stagionaleAssist: Senza assist
 2024;18;Udinese - Torino FC;Samuele Ricci;Samuele Ricci, Destro, 1° gol stagionaleAssist:Ché Adams, Passaggio, 2° assist stagionale
+2024;19;Torino FC - Parma;NAN;NAN
 2024;1;Bologna - Udinese Calcio;Riccardo Orsolini;Riccardo Orsolini, Rigore, 1° gol stagionaleAssist:Martin Erlić, Rigore: fallo ai danni di
 2024;1;Bologna - Udinese Calcio;Lautaro Giannetti;Lautaro Giannetti, Colpo di testa, 1° gol stagionaleAssist:Brenner, Corner, 1° assist stagionale
 2024;2;Udinese Calcio - Lazio;Lorenzo Lucca;Lorenzo Lucca, Colpo di testa, 1° gol stagionaleAssist:Florian Thauvin, Cross, 1° assist stagionale
@@ -4587,6 +4598,7 @@ anno;giornata;partita;scorer;details
 2024;18;Udinese Calcio - Torino;Lorenzo Lucca;Lorenzo Lucca, Colpo di testa, 7° gol stagionaleAssist:Florian Thauvin, Corner, 3° assist stagionale
 2024;18;Udinese Calcio - Torino;Ché Adams;Ché Adams, Destro, 5° gol stagionaleAssist: Senza assist
 2024;18;Udinese Calcio - Torino;Samuele Ricci;Samuele Ricci, Destro, 1° gol stagionaleAssist:Ché Adams, Passaggio, 2° assist stagionale
+2024;19;Verona - Udinese Calcio;NAN;NAN
 2024;1;Genoa CFC - Inter;Alessandro Vogliacco;Alessandro Vogliacco, Destro, 1° gol stagionaleAssist: Senza assist
 2024;1;Genoa CFC - Inter;Marcus Thuram;Marcus Thuram, Colpo di testa, 1° gol stagionaleAssist:Nicolò Barella, Cross, 1° assist stagionale
 2024;1;Genoa CFC - Inter;Marcus Thuram;Marcus Thuram, Destro, 2° gol stagionaleAssist:Davide Frattesi, Passaggio, 1° assist stagionale
@@ -4632,6 +4644,7 @@ anno;giornata;partita;scorer;details
 2024;18;Empoli - Genoa CFC;Milan Badelj;Milan Badelj, Destro, 1° gol stagionaleAssist: Senza assist
 2024;18;Empoli - Genoa CFC;Caleb Ekuban;Caleb Ekuban, Sinistro, 1° gol stagionaleAssist:Fabio Miretti, Passaggio, 1° assist stagionale
 2024;18;Empoli - Genoa CFC;Sebastiano Esposito;Sebastiano Esposito, Colpo di testa, 6° gol stagionaleAssist:Tino Anjorin, Cross, 3° assist stagionale
+2024;19;Lecce - Genoa CFC;NAN;NAN
 2024;1;Parma Calcio - Fiorentina;Dennis Man;Dennis Man, Sinistro, 1° gol stagionaleAssist:Ange-Yoan Bonny, Passaggio, 1° assist stagionale
 2024;1;Parma Calcio - Fiorentina;Cristiano Biraghi;Cristiano Biraghi, Punizione, 1° gol stagionale
 2024;2;Parma Calcio - Milan;Dennis Man;Dennis Man, Sinistro, 2° gol stagionaleAssist:Emanuele Valeri, Passaggio, 1° assist stagionale
@@ -4692,6 +4705,7 @@ anno;giornata;partita;scorer;details
 2024;18;Parma Calcio - Monza;Hernani;Hernani, Rigore, 2° gol stagionaleAssist:Woyo Coulibaly, Rigore: fallo ai danni di
 2024;18;Parma Calcio - Monza;Pedro Pereira;Pedro Pereira, Destro, 1° gol stagionaleAssist:Kevin Martins, Cross, 1° assist stagionale
 2024;18;Parma Calcio - Monza;Lautaro Valenti;Lautaro Valenti, Colpo di testa, 1° gol stagionaleAssist:Valentin Mihăilă, Corner, 3° assist stagionale
+2024;19;Torino - Parma Calcio;NAN;NAN
 2024;1;Juventus - Como 1907;Samuel Mbangula;Samuel Mbangula, Destro, 1° gol stagionaleAssist:Timothy Weah, Passaggio, 1° assist stagionale
 2024;1;Juventus - Como 1907;Timothy Weah;Timothy Weah, Sinistro, 1° gol stagionaleAssist:Kenan Yıldız, Passaggio, 1° assist stagionale
 2024;1;Juventus - Como 1907;Andrea Cambiaso;Andrea Cambiaso, Sinistro, 1° gol stagionaleAssist:Samuel Mbangula, Passaggio, 1° assist stagionale
@@ -4785,6 +4799,7 @@ anno;giornata;partita;scorer;details
 2024;17;US Lecce - Lazio;Adam Marusic;Adam Marusic, Destro, 1° gol stagionaleAssist: Senza assist
 2024;18;Como - US Lecce;Nico Paz;Nico Paz, Sinistro, 3° gol stagionaleAssist:Patrick Cutrone, Passaggio, 3° assist stagionale
 2024;18;Como - US Lecce;Patrick Cutrone;Patrick Cutrone, Destro, 5° gol stagionaleAssist: Senza assist
+2024;19;US Lecce - Genoa;NAN;NAN
 2024;1;Hellas Verona - Napoli;Dailon Rocha Livramento;Dailon Rocha Livramento, Destro, 1° gol stagionaleAssist:Darko Lazović, Passaggio, 1° assist stagionale
 2024;1;Hellas Verona - Napoli;Daniel Mosquera;Daniel Mosquera, Destro, 1° gol stagionaleAssist:Ondrej Duda, Passaggio, 1° assist stagionale
 2024;1;Hellas Verona - Napoli;Daniel Mosquera;Daniel Mosquera, Destro, 2° gol stagionaleAssist:Darko Lazović, Passaggio, 2° assist stagionale
@@ -4851,6 +4866,7 @@ anno;giornata;partita;scorer;details
 2024;18;Bologna - Hellas Verona;Casper Tengstedt;Casper Tengstedt, Destro, 6° gol stagionaleAssist:Suat Serdar, Colpo di testa, 1° assist stagionale
 2024;18;Bologna - Hellas Verona;Benja Domínguez;Benja Domínguez, Tap-in, 2° gol stagionaleAssist:Jens Odgaard, Tiro in porta, 1° assist stagionale
 2024;18;Bologna - Hellas Verona;Santiago Castro;Santiago Castro, AutoreteAssist:Ondrej Duda, Punizione, 3° assist stagionale
+2024;19;Hellas Verona - Udinese;NAN;NAN
 2024;1;Empoli - AC Monza;NAN;NAN
 2024;2;AC Monza - Genoa;Andrea Pinamonti;Andrea Pinamonti, Colpo di testa, 1° gol stagionaleAssist:Stefano Sabelli, Cross, 1° assist stagionale
 2024;3;Fiorentina - AC Monza;Milan Djuric;Milan Djuric, Destro, 1° gol stagionaleAssist:Pedro Pereira, Cross, 1° assist stagionale
@@ -4893,6 +4909,9 @@ anno;giornata;partita;scorer;details
 2024;18;Parma - AC Monza;Hernani;Hernani, Rigore, 2° gol stagionaleAssist:Woyo Coulibaly, Rigore: fallo ai danni di
 2024;18;Parma - AC Monza;Pedro Pereira;Pedro Pereira, Destro, 1° gol stagionaleAssist:Kevin Martins, Cross, 1° assist stagionale
 2024;18;Parma - AC Monza;Lautaro Valenti;Lautaro Valenti, Colpo di testa, 1° gol stagionaleAssist:Valentin Mihăilă, Corner, 3° assist stagionale
+2024;19;AC Monza - Cagliari;Gianluca Caprari;Gianluca Caprari, Rigore, 2° gol stagionaleAssist: Rigore: mani diAntoine Makoumbou
+2024;19;AC Monza - Cagliari;Nadir Zortea;Nadir Zortea, Sinistro, 3° gol stagionaleAssist:Mattia Felici, Passaggio, 2° assist stagionale
+2024;19;AC Monza - Cagliari;Roberto Piccoli;Roberto Piccoli, Destro, 5° gol stagionaleAssist:Adam Obert, Passaggio, 1° assist stagionale
 2024;1;Empoli FC - Monza;NAN;NAN
 2024;2;Roma - Empoli FC;Emmanuel Gyasi;Emmanuel Gyasi, Destro, 1° gol stagionaleAssist:Lorenzo Colombo, Colpo di testa, 1° assist stagionale
 2024;2;Roma - Empoli FC;Lorenzo Colombo;Lorenzo Colombo, Rigore, 1° gol stagionaleAssist:Sebastiano Esposito, Rigore: fallo ai danni di
@@ -4934,6 +4953,8 @@ anno;giornata;partita;scorer;details
 2024;18;Empoli FC - Genoa;Milan Badelj;Milan Badelj, Destro, 1° gol stagionaleAssist: Senza assist
 2024;18;Empoli FC - Genoa;Caleb Ekuban;Caleb Ekuban, Sinistro, 1° gol stagionaleAssist:Fabio Miretti, Passaggio, 1° assist stagionale
 2024;18;Empoli FC - Genoa;Sebastiano Esposito;Sebastiano Esposito, Colpo di testa, 6° gol stagionaleAssist:Tino Anjorin, Cross, 3° assist stagionale
+2024;19;Venezia - Empoli FC;Joel Pohjanpalo;Joel Pohjanpalo, Tap-in, 5° gol stagionaleAssist: Senza assist
+2024;19;Venezia - Empoli FC;Sebastiano Esposito;Sebastiano Esposito, Destro, 7° gol stagionaleAssist:Lorenzo Colombo, Passaggio, 2° assist stagionale
 2024;1;Cagliari Calcio - Roma;NAN;NAN
 2024;2;Cagliari Calcio - Como;Roberto Piccoli;Roberto Piccoli, Colpo di testa, 1° gol stagionaleAssist:Sebastiano Luperto, Colpo di testa, 1° assist stagionale
 2024;2;Cagliari Calcio - Como;Patrick Cutrone;Patrick Cutrone, Destro, 1° gol stagionaleAssist:Alberto Dossena, Colpo di testa, 1° assist stagionale
@@ -4982,6 +5003,9 @@ anno;giornata;partita;scorer;details
 2024;18;Cagliari Calcio - Inter;Alessandro Bastoni;Alessandro Bastoni, Colpo di testa, 1° gol stagionaleAssist:Nicolò Barella, Cross, 3° assist stagionale
 2024;18;Cagliari Calcio - Inter;Lautaro Martínez;Lautaro Martínez, Sinistro, 6° gol stagionaleAssist:Nicolò Barella, Cross, 4° assist stagionale
 2024;18;Cagliari Calcio - Inter;Hakan Çalhanoğlu;Hakan Çalhanoğlu, Rigore, 4° gol stagionaleAssist: Rigore: mani diMateusz Wieteska
+2024;19;Monza - Cagliari Calcio;Gianluca Caprari;Gianluca Caprari, Rigore, 2° gol stagionaleAssist: Rigore: mani diAntoine Makoumbou
+2024;19;Monza - Cagliari Calcio;Nadir Zortea;Nadir Zortea, Sinistro, 3° gol stagionaleAssist:Mattia Felici, Passaggio, 2° assist stagionale
+2024;19;Monza - Cagliari Calcio;Roberto Piccoli;Roberto Piccoli, Destro, 5° gol stagionaleAssist:Adam Obert, Passaggio, 1° assist stagionale
 2024;1;Lazio - Venezia FC;Magnus Kofod Andersen;Magnus Kofod Andersen, Destro, 1° gol stagionaleAssist:Mikael Egill Ellertsson, Passaggio, 1° assist stagionale
 2024;1;Lazio - Venezia FC;Taty Castellanos;Taty Castellanos, Destro, 1° gol stagionaleAssist: Senza assist
 2024;1;Lazio - Venezia FC;Mattia Zaccagni;Mattia Zaccagni, Rigore, 1° gol stagionaleAssist:Taty Castellanos, Rigore: fallo ai danni di
@@ -5031,3 +5055,5 @@ anno;giornata;partita;scorer;details
 2024;17;Venezia FC - Cagliari;Marin Šverko;Marin Šverko, Sinistro, 1° gol stagionaleAssist: Senza assist
 2024;17;Venezia FC - Cagliari;Leonardo Pavoletti;Leonardo Pavoletti, Colpo di testa, 1° gol stagionaleAssist:Tommaso Augello, Cross, 2° assist stagionale
 2024;18;Napoli - Venezia FC;Giacomo Raspadori;Giacomo Raspadori, Sinistro, 1° gol stagionaleAssist: Senza assist
+2024;19;Venezia FC - Empoli;Joel Pohjanpalo;Joel Pohjanpalo, Tap-in, 5° gol stagionaleAssist: Senza assist
+2024;19;Venezia FC - Empoli;Sebastiano Esposito;Sebastiano Esposito, Destro, 7° gol stagionaleAssist:Lorenzo Colombo, Passaggio, 2° assist stagionale
