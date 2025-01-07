@@ -19,6 +19,10 @@ list_team_file = "dataset/clean-list-team.csv"
 list_team = pd.read_csv(list_team_file)
 list_team.to_sql('list_team', engine, schema='dim', if_exists='replace', index=False)
 
+calendar_file = "dataset/calendar.csv"
+calendar = pd.read_csv(calendar_file)
+calendar.to_sql('calendar', engine, schema='dim', if_exists='replace', index=False)
+
 goal_file = "dataset/clean-serie-a-matches-all-goal.csv"
 goal_matches = pd.read_csv(goal_file)
 goal_matches.to_sql('all_goal_serie_a', engine, schema='fact', if_exists='replace', index=False)

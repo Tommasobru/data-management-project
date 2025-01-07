@@ -144,6 +144,7 @@ squadre_goal.drop(columns=['partita'], inplace=True)
 squadre_goal = squadre_goal[['anno','giornata','Home Team', 'Away Team', 'scorer', 'details']]
 squadre_goal['Home Team'] = squadre_goal['Home Team'].apply(lambda team_target: find_and_replace_name(team_target, diz = diz_squadre)) 
 squadre_goal['Away Team'] = squadre_goal['Away Team'].apply(lambda team_target: find_and_replace_name(team_target,diz=diz_squadre))
+squadre_goal = squadre_goal.drop_duplicates(subset=['anno', 'giornata', 'Home Team','scorer', 'details'])
 squadre_goal.to_csv('dataset/clean-serie-a-matches-all-goal.csv')
 
 df_player_data = cleaning_player_data(file_player_data)
