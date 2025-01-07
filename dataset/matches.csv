@@ -1,1141 +1,1141 @@
-match_id,season,home_team,away_team,home_score,away_score
-418909,2022,UC Sampdoria,Atalanta BC,0.0,2.0
-418911,2022,AC Milan,Udinese Calcio,4.0,2.0
-418905,2022,US Lecce,FC Internazionale Milano,1.0,2.0
-418910,2022,AC Monza,Torino FC,1.0,2.0
-418907,2022,ACF Fiorentina,US Cremonese,3.0,2.0
-418908,2022,SS Lazio,Bologna FC 1909,2.0,1.0
-418904,2022,US Salernitana 1919,AS Roma,0.0,1.0
-418906,2022,Spezia Calcio,Empoli FC,1.0,0.0
-418913,2022,Hellas Verona FC,SSC Napoli,2.0,5.0
-418912,2022,Juventus FC,US Sassuolo Calcio,3.0,0.0
-418894,2022,Udinese Calcio,US Salernitana 1919,0.0,0.0
-418895,2022,Torino FC,SS Lazio,0.0,0.0
-418896,2022,US Sassuolo Calcio,US Lecce,1.0,0.0
-418900,2022,FC Internazionale Milano,Spezia Calcio,3.0,0.0
-418899,2022,SSC Napoli,AC Monza,4.0,0.0
-418901,2022,Empoli FC,ACF Fiorentina,0.0,0.0
-418902,2022,Bologna FC 1909,Hellas Verona FC,1.0,1.0
-418903,2022,Atalanta BC,AC Milan,1.0,1.0
-418898,2022,AS Roma,US Cremonese,1.0,0.0
-418897,2022,UC Sampdoria,Juventus FC,0.0,0.0
-418886,2022,AC Monza,Udinese Calcio,1.0,2.0
-418889,2022,SS Lazio,FC Internazionale Milano,3.0,1.0
-418890,2022,Juventus FC,AS Roma,1.0,1.0
-418893,2022,US Cremonese,Torino FC,1.0,2.0
-418884,2022,Spezia Calcio,US Sassuolo Calcio,2.0,2.0
-418887,2022,AC Milan,Bologna FC 1909,2.0,0.0
-418885,2022,US Salernitana 1919,UC Sampdoria,4.0,0.0
-418891,2022,Hellas Verona FC,Atalanta BC,0.0,1.0
-418888,2022,US Lecce,Empoli FC,1.0,1.0
-418892,2022,ACF Fiorentina,SSC Napoli,0.0,0.0
-418875,2022,US Sassuolo Calcio,AC Milan,0.0,0.0
-418877,2022,AS Roma,AC Monza,3.0,0.0
-418880,2022,FC Internazionale Milano,US Cremonese,3.0,1.0
-418874,2022,Udinese Calcio,ACF Fiorentina,1.0,0.0
-418876,2022,UC Sampdoria,SS Lazio,1.0,1.0
-418881,2022,Empoli FC,Hellas Verona FC,1.0,1.0
-418878,2022,SSC Napoli,US Lecce,1.0,1.0
-418879,2022,Juventus FC,Spezia Calcio,2.0,0.0
-418882,2022,Bologna FC 1909,US Salernitana 1919,1.0,1.0
-418883,2022,Atalanta BC,Torino FC,3.0,1.0
-418872,2022,ACF Fiorentina,Juventus FC,1.0,1.0
-418869,2022,AC Milan,FC Internazionale Milano,3.0,2.0
-418870,2022,SS Lazio,SSC Napoli,1.0,2.0
-418873,2022,US Cremonese,US Sassuolo Calcio,0.0,0.0
-418866,2022,Spezia Calcio,Bologna FC 1909,2.0,2.0
-418871,2022,Hellas Verona FC,UC Sampdoria,2.0,1.0
-418864,2022,Udinese Calcio,AS Roma,4.0,0.0
-418867,2022,US Salernitana 1919,Empoli FC,2.0,2.0
-418868,2022,AC Monza,Atalanta BC,0.0,2.0
-418865,2022,Torino FC,US Lecce,1.0,0.0
-418856,2022,SSC Napoli,Spezia Calcio,1.0,0.0
-418860,2022,FC Internazionale Milano,Torino FC,1.0,0.0
-418855,2022,UC Sampdoria,AC Milan,1.0,2.0
-418863,2022,Atalanta BC,US Cremonese,1.0,1.0
-418854,2022,US Sassuolo Calcio,Udinese Calcio,1.0,3.0
-418857,2022,US Lecce,AC Monza,1.0,1.0
-418862,2022,Bologna FC 1909,ACF Fiorentina,2.0,1.0
-418858,2022,SS Lazio,Hellas Verona FC,2.0,0.0
-418859,2022,Juventus FC,US Salernitana 1919,2.0,2.0
-418861,2022,Empoli FC,AS Roma,1.0,2.0
-418847,2022,US Salernitana 1919,US Lecce,1.0,2.0
-418853,2022,Bologna FC 1909,Empoli FC,0.0,1.0
-418846,2022,Spezia Calcio,UC Sampdoria,2.0,1.0
-418845,2022,Torino FC,US Sassuolo Calcio,0.0,1.0
-418844,2022,Udinese Calcio,FC Internazionale Milano,3.0,1.0
-418849,2022,AC Monza,Juventus FC,1.0,0.0
-418851,2022,ACF Fiorentina,Hellas Verona FC,2.0,0.0
-418852,2022,US Cremonese,SS Lazio,0.0,4.0
-418848,2022,AS Roma,Atalanta BC,0.0,1.0
-418850,2022,AC Milan,SSC Napoli,1.0,2.0
-418836,2022,SSC Napoli,Torino FC,3.0,1.0
-418840,2022,FC Internazionale Milano,AS Roma,1.0,2.0
-418842,2022,Empoli FC,AC Milan,1.0,3.0
-418838,2022,SS Lazio,Spezia Calcio,4.0,0.0
-418834,2022,US Sassuolo Calcio,US Salernitana 1919,5.0,0.0
-418835,2022,UC Sampdoria,AC Monza,0.0,3.0
-418837,2022,US Lecce,US Cremonese,1.0,1.0
-418843,2022,Atalanta BC,ACF Fiorentina,1.0,0.0
-418839,2022,Juventus FC,Bologna FC 1909,3.0,0.0
-418841,2022,Hellas Verona FC,Udinese Calcio,1.0,2.0
-418826,2022,US Sassuolo Calcio,FC Internazionale Milano,1.0,2.0
-418830,2022,AC Milan,Juventus FC,2.0,0.0
-418833,2022,Bologna FC 1909,UC Sampdoria,1.0,1.0
-418825,2022,Torino FC,Empoli FC,1.0,1.0
-418824,2022,Udinese Calcio,Atalanta BC,2.0,2.0
-418827,2022,US Salernitana 1919,Hellas Verona FC,2.0,1.0
-418829,2022,AC Monza,Spezia Calcio,2.0,0.0
-418832,2022,US Cremonese,SSC Napoli,1.0,4.0
-418828,2022,AS Roma,US Lecce,2.0,1.0
-418831,2022,ACF Fiorentina,SS Lazio,0.0,4.0
-418822,2022,Empoli FC,AC Monza,1.0,0.0
-418814,2022,Torino FC,Juventus FC,0.0,1.0
-418823,2022,Atalanta BC,US Sassuolo Calcio,2.0,1.0
-418820,2022,FC Internazionale Milano,US Salernitana 1919,2.0,0.0
-418819,2022,SS Lazio,Udinese Calcio,0.0,0.0
-418815,2022,Spezia Calcio,US Cremonese,2.0,2.0
-418817,2022,SSC Napoli,Bologna FC 1909,3.0,2.0
-418821,2022,Hellas Verona FC,AC Milan,1.0,2.0
-418816,2022,UC Sampdoria,AS Roma,0.0,1.0
-418818,2022,US Lecce,ACF Fiorentina,1.0,1.0
-418809,2022,Juventus FC,Empoli FC,4.0,0.0
-418806,2022,US Salernitana 1919,Spezia Calcio,1.0,0.0
-418808,2022,AC Milan,AC Monza,4.0,1.0
-418810,2022,ACF Fiorentina,FC Internazionale Milano,3.0,4.0
-418804,2022,Udinese Calcio,Torino FC,1.0,2.0
-418812,2022,Bologna FC 1909,US Lecce,2.0,0.0
-418813,2022,Atalanta BC,SS Lazio,0.0,2.0
-418807,2022,AS Roma,SSC Napoli,0.0,1.0
-418811,2022,US Cremonese,UC Sampdoria,0.0,1.0
-418805,2022,US Sassuolo Calcio,Hellas Verona FC,2.0,1.0
-418796,2022,SSC Napoli,US Sassuolo Calcio,4.0,0.0
-418798,2022,US Lecce,Juventus FC,0.0,1.0
-418800,2022,FC Internazionale Milano,UC Sampdoria,3.0,0.0
-418802,2022,Empoli FC,Atalanta BC,0.0,2.0
-418795,2022,Spezia Calcio,ACF Fiorentina,1.0,2.0
-418803,2022,US Cremonese,Udinese Calcio,0.0,0.0
-418799,2022,SS Lazio,US Salernitana 1919,1.0,3.0
-418794,2022,Torino FC,AC Milan,2.0,1.0
-418801,2022,Hellas Verona FC,AS Roma,1.0,3.0
-418797,2022,AC Monza,Bologna FC 1909,1.0,2.0
-418784,2022,Udinese Calcio,US Lecce,1.0,1.0
-418786,2022,US Salernitana 1919,US Cremonese,2.0,2.0
-418791,2022,Empoli FC,US Sassuolo Calcio,1.0,0.0
-418793,2022,Atalanta BC,SSC Napoli,1.0,2.0
-418789,2022,AC Milan,Spezia Calcio,2.0,1.0
-418792,2022,Bologna FC 1909,Torino FC,2.0,1.0
-418785,2022,UC Sampdoria,ACF Fiorentina,0.0,2.0
-418788,2022,AC Monza,Hellas Verona FC,2.0,0.0
-418787,2022,AS Roma,SS Lazio,0.0,1.0
-418790,2022,Juventus FC,FC Internazionale Milano,2.0,0.0
-418775,2022,Spezia Calcio,Udinese Calcio,1.0,1.0
-418777,2022,SSC Napoli,Empoli FC,2.0,0.0
-418783,2022,US Cremonese,AC Milan,0.0,0.0
-418776,2022,US Sassuolo Calcio,AS Roma,1.0,1.0
-418778,2022,US Lecce,Atalanta BC,2.0,1.0
-418774,2022,Torino FC,UC Sampdoria,2.0,0.0
-418780,2022,FC Internazionale Milano,Bologna FC 1909,6.0,1.0
-418782,2022,ACF Fiorentina,US Salernitana 1919,2.0,1.0
-418781,2022,Hellas Verona FC,Juventus FC,0.0,1.0
-418779,2022,SS Lazio,AC Monza,1.0,0.0
-418771,2022,Empoli FC,US Cremonese,2.0,0.0
-418766,2022,SSC Napoli,Udinese Calcio,3.0,2.0
-418764,2022,UC Sampdoria,US Lecce,0.0,2.0
-418772,2022,Bologna FC 1909,US Sassuolo Calcio,3.0,0.0
-418773,2022,Atalanta BC,FC Internazionale Milano,2.0,3.0
-418765,2022,AS Roma,Torino FC,1.0,1.0
-418767,2022,AC Monza,US Salernitana 1919,3.0,0.0
-418770,2022,Hellas Verona FC,Spezia Calcio,1.0,2.0
-418768,2022,AC Milan,ACF Fiorentina,2.0,1.0
-418769,2022,Juventus FC,SS Lazio,3.0,0.0
-418757,2022,US Sassuolo Calcio,UC Sampdoria,1.0,2.0
-418758,2022,US Salernitana 1919,AC Milan,1.0,2.0
-418755,2022,Torino FC,Hellas Verona FC,1.0,1.0
-418756,2022,Spezia Calcio,Atalanta BC,2.0,2.0
-418759,2022,AS Roma,Bologna FC 1909,1.0,0.0
-418760,2022,US Lecce,SS Lazio,2.0,1.0
-418762,2022,ACF Fiorentina,AC Monza,1.0,1.0
-418763,2022,US Cremonese,Juventus FC,0.0,1.0
-418754,2022,Udinese Calcio,Empoli FC,1.0,1.0
-418761,2022,FC Internazionale Milano,SSC Napoli,1.0,0.0
-418752,2022,ACF Fiorentina,US Sassuolo Calcio,2.0,1.0
-418750,2022,Juventus FC,Udinese Calcio,1.0,0.0
-418747,2022,AC Monza,FC Internazionale Milano,2.0,2.0
-418746,2022,US Salernitana 1919,Torino FC,1.0,1.0
-418744,2022,Spezia Calcio,US Lecce,0.0,0.0
-418749,2022,SS Lazio,Empoli FC,2.0,2.0
-418745,2022,UC Sampdoria,SSC Napoli,0.0,2.0
-418748,2022,AC Milan,AS Roma,2.0,2.0
-418751,2022,Hellas Verona FC,US Cremonese,2.0,0.0
-418753,2022,Bologna FC 1909,Atalanta BC,1.0,2.0
-418738,2022,SSC Napoli,Juventus FC,5.0,1.0
-418742,2022,US Cremonese,AC Monza,2.0,3.0
-418739,2022,US Lecce,AC Milan,2.0,2.0
-418740,2022,FC Internazionale Milano,Hellas Verona FC,1.0,0.0
-418736,2022,US Sassuolo Calcio,SS Lazio,0.0,2.0
-418734,2022,Udinese Calcio,Bologna FC 1909,1.0,2.0
-418735,2022,Torino FC,Spezia Calcio,0.0,1.0
-418743,2022,Atalanta BC,US Salernitana 1919,8.0,2.0
-418737,2022,AS Roma,ACF Fiorentina,2.0,0.0
-418741,2022,Empoli FC,UC Sampdoria,1.0,0.0
-418731,2022,Hellas Verona FC,US Lecce,2.0,0.0
-418726,2022,US Salernitana 1919,SSC Napoli,0.0,2.0
-418732,2022,ACF Fiorentina,Torino FC,0.0,1.0
-418725,2022,UC Sampdoria,Udinese Calcio,0.0,1.0
-418727,2022,AC Monza,US Sassuolo Calcio,1.0,1.0
-418724,2022,Spezia Calcio,AS Roma,0.0,2.0
-418729,2022,Juventus FC,Atalanta BC,3.0,3.0
-418733,2022,Bologna FC 1909,US Cremonese,1.0,1.0
-418730,2022,FC Internazionale Milano,Empoli FC,0.0,1.0
-418728,2022,SS Lazio,AC Milan,4.0,0.0
-418722,2022,Bologna FC 1909,Spezia Calcio,2.0,0.0
-418717,2022,US Lecce,US Salernitana 1919,1.0,2.0
-418720,2022,Empoli FC,Torino FC,2.0,2.0
-418721,2022,US Cremonese,FC Internazionale Milano,1.0,2.0
-418723,2022,Atalanta BC,UC Sampdoria,2.0,0.0
-418716,2022,AC Milan,US Sassuolo Calcio,2.0,5.0
-418719,2022,Juventus FC,AC Monza,0.0,2.0
-418718,2022,SS Lazio,ACF Fiorentina,1.0,1.0
-418715,2022,SSC Napoli,AS Roma,2.0,1.0
-418714,2022,Udinese Calcio,Hellas Verona FC,1.0,1.0
-418713,2022,US Cremonese,US Lecce,0.0,2.0
-418708,2022,AS Roma,Empoli FC,2.0,0.0
-418706,2022,US Sassuolo Calcio,Atalanta BC,1.0,0.0
-418705,2022,Spezia Calcio,SSC Napoli,0.0,3.0
-418704,2022,Torino FC,Udinese Calcio,1.0,0.0
-418712,2022,ACF Fiorentina,Bologna FC 1909,1.0,2.0
-418710,2022,FC Internazionale Milano,AC Milan,1.0,0.0
-418711,2022,Hellas Verona FC,SS Lazio,1.0,1.0
-418709,2022,AC Monza,UC Sampdoria,2.0,2.0
-418707,2022,US Salernitana 1919,Juventus FC,0.0,3.0
-418697,2022,AC Milan,Torino FC,1.0,0.0
-418702,2022,Empoli FC,Spezia Calcio,2.0,2.0
-418698,2022,US Lecce,AS Roma,1.0,1.0
-418699,2022,SS Lazio,Atalanta BC,0.0,2.0
-418694,2022,Udinese Calcio,US Sassuolo Calcio,2.0,2.0
-418703,2022,Bologna FC 1909,AC Monza,0.0,1.0
-418700,2022,Juventus FC,ACF Fiorentina,1.0,0.0
-418696,2022,SSC Napoli,US Cremonese,3.0,0.0
-418701,2022,Hellas Verona FC,US Salernitana 1919,1.0,0.0
-418695,2022,UC Sampdoria,FC Internazionale Milano,0.0,0.0
-418686,2022,US Sassuolo Calcio,SSC Napoli,0.0,2.0
-418687,2022,UC Sampdoria,Bologna FC 1909,1.0,2.0
-418690,2022,AC Monza,AC Milan,0.0,1.0
-418691,2022,FC Internazionale Milano,Udinese Calcio,3.0,1.0
-418693,2022,Atalanta BC,US Lecce,1.0,2.0
-418688,2022,US Salernitana 1919,SS Lazio,0.0,2.0
-418692,2022,ACF Fiorentina,Empoli FC,1.0,1.0
-418685,2022,Spezia Calcio,Juventus FC,0.0,2.0
-418689,2022,AS Roma,Hellas Verona FC,1.0,0.0
-418684,2022,Torino FC,US Cremonese,2.0,2.0
-418681,2022,Empoli FC,SSC Napoli,0.0,2.0
-418677,2022,US Lecce,US Sassuolo Calcio,0.0,1.0
-418683,2022,Bologna FC 1909,FC Internazionale Milano,1.0,0.0
-418675,2022,US Salernitana 1919,AC Monza,3.0,0.0
-418674,2022,Udinese Calcio,Spezia Calcio,2.0,2.0
-418676,2022,AC Milan,Atalanta BC,2.0,0.0
-418680,2022,Hellas Verona FC,ACF Fiorentina,0.0,3.0
-418678,2022,SS Lazio,UC Sampdoria,1.0,0.0
-418682,2022,US Cremonese,AS Roma,2.0,1.0
-418679,2022,Juventus FC,Torino FC,4.0,2.0
-418669,2022,SSC Napoli,SS Lazio,0.0,1.0
-418670,2022,AC Monza,Empoli FC,2.0,1.0
-418673,2022,Atalanta BC,Udinese Calcio,0.0,0.0
-418672,2022,ACF Fiorentina,AC Milan,2.0,1.0
-418665,2022,Spezia Calcio,Hellas Verona FC,0.0,0.0
-418667,2022,UC Sampdoria,US Salernitana 1919,0.0,0.0
-418671,2022,FC Internazionale Milano,US Lecce,2.0,0.0
-418668,2022,AS Roma,Juventus FC,1.0,0.0
-418666,2022,US Sassuolo Calcio,US Cremonese,3.0,2.0
-418664,2022,Torino FC,Bologna FC 1909,1.0,0.0
-418654,2022,Spezia Calcio,FC Internazionale Milano,2.0,1.0
-418661,2022,Empoli FC,Udinese Calcio,0.0,1.0
-418656,2022,SSC Napoli,Atalanta BC,2.0,0.0
-418663,2022,Bologna FC 1909,SS Lazio,0.0,0.0
-418658,2022,US Lecce,Torino FC,0.0,2.0
-418660,2022,Hellas Verona FC,AC Monza,1.0,1.0
-418662,2022,US Cremonese,ACF Fiorentina,0.0,2.0
-418655,2022,AS Roma,US Sassuolo Calcio,3.0,4.0
-418659,2022,Juventus FC,UC Sampdoria,4.0,2.0
-418657,2022,AC Milan,US Salernitana 1919,1.0,1.0
-418646,2022,US Sassuolo Calcio,Spezia Calcio,1.0,0.0
-418653,2022,Atalanta BC,Empoli FC,2.0,1.0
-418649,2022,AC Monza,US Cremonese,1.0,1.0
-418648,2022,US Salernitana 1919,Bologna FC 1909,2.0,2.0
-418644,2022,Udinese Calcio,AC Milan,3.0,1.0
-418647,2022,UC Sampdoria,Hellas Verona FC,3.0,1.0
-418645,2022,Torino FC,SSC Napoli,0.0,4.0
-418652,2022,ACF Fiorentina,US Lecce,1.0,0.0
-418650,2022,SS Lazio,AS Roma,1.0,0.0
-418651,2022,FC Internazionale Milano,Juventus FC,0.0,1.0
-418642,2022,US Cremonese,Atalanta BC,1.0,3.0
-418640,2022,FC Internazionale Milano,ACF Fiorentina,0.0,1.0
-418639,2022,Juventus FC,Hellas Verona FC,1.0,0.0
-418643,2022,Bologna FC 1909,Udinese Calcio,3.0,0.0
-418634,2022,Spezia Calcio,US Salernitana 1919,1.0,1.0
-418638,2022,AC Monza,SS Lazio,0.0,2.0
-418636,2022,AS Roma,UC Sampdoria,3.0,0.0
-418637,2022,SSC Napoli,AC Milan,0.0,4.0
-418641,2022,Empoli FC,US Lecce,1.0,0.0
-418635,2022,US Sassuolo Calcio,Torino FC,1.0,1.0
-418627,2022,US Salernitana 1919,FC Internazionale Milano,1.0,1.0
-418629,2022,US Lecce,SSC Napoli,1.0,2.0
-418628,2022,AC Milan,Empoli FC,0.0,0.0
-418624,2022,Udinese Calcio,AC Monza,2.0,2.0
-418632,2022,ACF Fiorentina,Spezia Calcio,1.0,1.0
-418626,2022,UC Sampdoria,US Cremonese,2.0,3.0
-418633,2022,Atalanta BC,Bologna FC 1909,0.0,2.0
-418625,2022,Torino FC,AS Roma,0.0,1.0
-418631,2022,Hellas Verona FC,US Sassuolo Calcio,2.0,1.0
-418630,2022,SS Lazio,Juventus FC,2.0,1.0
-418622,2022,US Cremonese,Empoli FC,1.0,0.0
-418615,2022,Spezia Calcio,SS Lazio,0.0,3.0
-418623,2022,Bologna FC 1909,AC Milan,1.0,1.0
-418618,2022,SSC Napoli,Hellas Verona FC,0.0,0.0
-418620,2022,FC Internazionale Milano,AC Monza,0.0,1.0
-418619,2022,US Lecce,UC Sampdoria,1.0,1.0
-418614,2022,Torino FC,US Salernitana 1919,1.0,1.0
-418616,2022,US Sassuolo Calcio,Juventus FC,1.0,0.0
-418617,2022,AS Roma,Udinese Calcio,3.0,0.0
-418621,2022,ACF Fiorentina,Atalanta BC,1.0,1.0
-418611,2022,Hellas Verona FC,Bologna FC 1909,2.0,1.0
-418606,2022,US Salernitana 1919,US Sassuolo Calcio,3.0,0.0
-418609,2022,SS Lazio,Torino FC,0.0,1.0
-418605,2022,UC Sampdoria,Spezia Calcio,1.0,1.0
-418612,2022,Empoli FC,FC Internazionale Milano,0.0,3.0
-418604,2022,Udinese Calcio,US Cremonese,3.0,0.0
-418607,2022,AC Monza,ACF Fiorentina,3.0,2.0
-418608,2022,AC Milan,US Lecce,2.0,0.0
-418610,2022,Juventus FC,SSC Napoli,0.0,1.0
-418613,2022,Atalanta BC,AS Roma,3.0,1.0
-418599,2022,US Lecce,Udinese Calcio,1.0,0.0
-418595,2022,Spezia Calcio,AC Monza,0.0,2.0
-418597,2022,AS Roma,AC Milan,1.0,1.0
-418594,2022,Torino FC,Atalanta BC,1.0,2.0
-418600,2022,FC Internazionale Milano,SS Lazio,3.0,1.0
-418596,2022,US Sassuolo Calcio,Empoli FC,2.0,1.0
-418598,2022,SSC Napoli,US Salernitana 1919,1.0,1.0
-418602,2022,US Cremonese,Hellas Verona FC,1.0,1.0
-418601,2022,ACF Fiorentina,UC Sampdoria,5.0,0.0
-418603,2022,Bologna FC 1909,Juventus FC,1.0,1.0
-418585,2022,UC Sampdoria,Torino FC,0.0,2.0
-418586,2022,US Salernitana 1919,ACF Fiorentina,3.0,3.0
-418590,2022,Juventus FC,US Lecce,2.0,1.0
-418593,2022,Atalanta BC,Spezia Calcio,3.0,2.0
-418587,2022,AC Monza,AS Roma,1.0,1.0
-418588,2022,AC Milan,US Cremonese,1.0,1.0
-418589,2022,SS Lazio,US Sassuolo Calcio,2.0,0.0
-418591,2022,Hellas Verona FC,FC Internazionale Milano,0.0,6.0
-418584,2022,Udinese Calcio,SSC Napoli,1.0,1.0
-418592,2022,Empoli FC,Bologna FC 1909,3.0,1.0
-418579,2022,AC Milan,SS Lazio,2.0,0.0
-418577,2022,AS Roma,FC Internazionale Milano,0.0,2.0
-418582,2022,US Cremonese,Spezia Calcio,2.0,0.0
-418583,2022,Atalanta BC,Juventus FC,0.0,2.0
-418575,2022,Torino FC,AC Monza,1.0,1.0
-418578,2022,SSC Napoli,ACF Fiorentina,1.0,0.0
-418580,2022,US Lecce,Hellas Verona FC,0.0,1.0
-418574,2022,Udinese Calcio,UC Sampdoria,2.0,0.0
-418581,2022,Empoli FC,US Salernitana 1919,2.0,1.0
-418576,2022,US Sassuolo Calcio,Bologna FC 1909,1.0,1.0
-418568,2022,SS Lazio,US Lecce,2.0,2.0
-418566,2022,US Salernitana 1919,Atalanta BC,1.0,0.0
-418564,2022,Spezia Calcio,AC Milan,2.0,0.0
-418570,2022,FC Internazionale Milano,US Sassuolo Calcio,4.0,2.0
-418571,2022,Hellas Verona FC,Torino FC,0.0,1.0
-418567,2022,AC Monza,SSC Napoli,2.0,0.0
-418572,2022,ACF Fiorentina,Udinese Calcio,2.0,0.0
-418573,2022,Bologna FC 1909,AS Roma,0.0,0.0
-418569,2022,Juventus FC,US Cremonese,2.0,0.0
-418565,2022,UC Sampdoria,Empoli FC,1.0,1.0
-418556,2022,US Sassuolo Calcio,AC Monza,1.0,2.0
-418562,2022,US Cremonese,Bologna FC 1909,1.0,5.0
-418563,2022,Atalanta BC,Hellas Verona FC,3.0,1.0
-418559,2022,AC Milan,UC Sampdoria,5.0,1.0
-418560,2022,US Lecce,Spezia Calcio,0.0,0.0
-418555,2022,Torino FC,ACF Fiorentina,1.0,1.0
-418558,2022,SSC Napoli,FC Internazionale Milano,3.0,1.0
-418554,2022,Udinese Calcio,SS Lazio,0.0,1.0
-418557,2022,AS Roma,US Salernitana 1919,2.0,2.0
-418561,2022,Empoli FC,Juventus FC,4.0,1.0
-418545,2022,UC Sampdoria,US Sassuolo Calcio,2.0,2.0
-418544,2022,Spezia Calcio,Torino FC,0.0,4.0
-418546,2022,US Salernitana 1919,Udinese Calcio,3.0,2.0
-418552,2022,ACF Fiorentina,AS Roma,2.0,1.0
-418550,2022,FC Internazionale Milano,Atalanta BC,3.0,2.0
-418551,2022,Hellas Verona FC,Empoli FC,1.0,1.0
-418547,2022,AC Monza,US Lecce,0.0,1.0
-418553,2022,Bologna FC 1909,SSC Napoli,2.0,2.0
-418548,2022,SS Lazio,US Cremonese,3.0,2.0
-418549,2022,Juventus FC,AC Milan,0.0,1.0
-418536,2022,US Sassuolo Calcio,ACF Fiorentina,1.0,3.0
-418535,2022,Torino FC,FC Internazionale Milano,0.0,1.0
-418541,2022,Empoli FC,SS Lazio,0.0,2.0
-418542,2022,US Cremonese,US Salernitana 1919,2.0,0.0
-418538,2022,SSC Napoli,UC Sampdoria,2.0,0.0
-418534,2022,Udinese Calcio,Juventus FC,0.0,1.0
-418537,2022,AS Roma,Spezia Calcio,2.0,1.0
-418539,2022,AC Milan,Hellas Verona FC,3.0,1.0
-418540,2022,US Lecce,Bologna FC 1909,2.0,3.0
-418543,2022,Atalanta BC,AC Monza,5.0,2.0
-444255,2023,Empoli FC,Hellas Verona FC,0.0,1.0
-444256,2023,Frosinone Calcio,SSC Napoli,1.0,3.0
-444257,2023,Genoa CFC,ACF Fiorentina,1.0,4.0
-444258,2023,FC Internazionale Milano,AC Monza,2.0,0.0
-444260,2023,AS Roma,US Salernitana 1919,2.0,2.0
-444261,2023,US Sassuolo Calcio,Atalanta BC,0.0,2.0
-444259,2023,US Lecce,SS Lazio,2.0,1.0
-444263,2023,Udinese Calcio,Juventus FC,0.0,3.0
-444262,2023,Torino FC,Cagliari Calcio,0.0,0.0
-444254,2023,Bologna FC 1909,AC Milan,0.0,2.0
-444266,2023,Frosinone Calcio,Atalanta BC,2.0,1.0
-444271,2023,AC Monza,Empoli FC,2.0,0.0
-444267,2023,Hellas Verona FC,AS Roma,2.0,1.0
-444270,2023,AC Milan,Torino FC,4.0,1.0
-444265,2023,ACF Fiorentina,US Lecce,2.0,2.0
-444268,2023,Juventus FC,Bologna FC 1909,1.0,1.0
-444269,2023,SS Lazio,Genoa CFC,0.0,1.0
-444272,2023,SSC Napoli,US Sassuolo Calcio,2.0,0.0
-444273,2023,US Salernitana 1919,Udinese Calcio,1.0,1.0
-444264,2023,Cagliari Calcio,FC Internazionale Milano,0.0,2.0
-444281,2023,US Sassuolo Calcio,Hellas Verona FC,3.0,1.0
-444280,2023,AS Roma,AC Milan,1.0,2.0
-444275,2023,Bologna FC 1909,Cagliari Calcio,2.0,1.0
-444283,2023,Udinese Calcio,Frosinone Calcio,0.0,0.0
-444274,2023,Atalanta BC,AC Monza,3.0,0.0
-444279,2023,SSC Napoli,SS Lazio,1.0,2.0
-444277,2023,FC Internazionale Milano,ACF Fiorentina,4.0,0.0
-444282,2023,Torino FC,Genoa CFC,1.0,0.0
-444276,2023,Empoli FC,Juventus FC,0.0,2.0
-444278,2023,US Lecce,US Salernitana 1919,2.0,0.0
-444290,2023,Juventus FC,SS Lazio,3.0,1.0
-444289,2023,FC Internazionale Milano,AC Milan,5.0,1.0
-444287,2023,Genoa CFC,SSC Napoli,2.0,2.0
-444284,2023,Cagliari Calcio,Udinese Calcio,0.0,0.0
-444286,2023,Frosinone Calcio,US Sassuolo Calcio,4.0,2.0
-444291,2023,AC Monza,US Lecce,1.0,1.0
-444285,2023,ACF Fiorentina,Atalanta BC,3.0,2.0
-444292,2023,AS Roma,Empoli FC,7.0,0.0
-444293,2023,US Salernitana 1919,Torino FC,0.0,3.0
-444288,2023,Hellas Verona FC,Bologna FC 1909,0.0,0.0
-444300,2023,US Salernitana 1919,Frosinone Calcio,1.0,1.0
-444298,2023,US Lecce,Genoa CFC,1.0,0.0
-444299,2023,AC Milan,Hellas Verona FC,1.0,0.0
-444301,2023,US Sassuolo Calcio,Juventus FC,4.0,2.0
-444297,2023,SS Lazio,AC Monza,1.0,1.0
-444296,2023,Empoli FC,FC Internazionale Milano,0.0,1.0
-444294,2023,Atalanta BC,Cagliari Calcio,2.0,0.0
-444303,2023,Udinese Calcio,ACF Fiorentina,0.0,2.0
-444295,2023,Bologna FC 1909,SSC Napoli,0.0,0.0
-444302,2023,Torino FC,AS Roma,1.0,1.0
-444310,2023,Juventus FC,US Lecce,1.0,0.0
-444304,2023,Cagliari Calcio,AC Milan,1.0,3.0
-444305,2023,Empoli FC,US Salernitana 1919,1.0,0.0
-444308,2023,Hellas Verona FC,Atalanta BC,0.0,1.0
-444309,2023,FC Internazionale Milano,US Sassuolo Calcio,1.0,2.0
-444311,2023,SS Lazio,Torino FC,2.0,0.0
-444313,2023,SSC Napoli,Udinese Calcio,4.0,1.0
-444306,2023,Frosinone Calcio,ACF Fiorentina,1.0,1.0
-444312,2023,AC Monza,Bologna FC 1909,0.0,0.0
-444307,2023,Genoa CFC,AS Roma,4.0,1.0
-444317,2023,US Lecce,SSC Napoli,0.0,4.0
-444318,2023,AC Milan,SS Lazio,2.0,0.0
-444320,2023,US Salernitana 1919,FC Internazionale Milano,0.0,4.0
-444315,2023,Bologna FC 1909,Empoli FC,3.0,0.0
-444323,2023,Udinese Calcio,Genoa CFC,2.0,2.0
-444314,2023,Atalanta BC,Juventus FC,0.0,0.0
-444319,2023,AS Roma,Frosinone Calcio,2.0,0.0
-444321,2023,US Sassuolo Calcio,AC Monza,0.0,1.0
-444322,2023,Torino FC,Hellas Verona FC,0.0,0.0
-444316,2023,ACF Fiorentina,Cagliari Calcio,3.0,0.0
-444325,2023,Empoli FC,Udinese Calcio,0.0,0.0
-444331,2023,US Lecce,US Sassuolo Calcio,1.0,1.0
-444328,2023,FC Internazionale Milano,Bologna FC 1909,2.0,2.0
-444329,2023,Juventus FC,Torino FC,2.0,0.0
-444327,2023,Genoa CFC,AC Milan,0.0,1.0
-444332,2023,AC Monza,US Salernitana 1919,3.0,0.0
-444326,2023,Frosinone Calcio,Hellas Verona FC,2.0,1.0
-444330,2023,SS Lazio,Atalanta BC,3.0,2.0
-444324,2023,Cagliari Calcio,AS Roma,1.0,4.0
-444333,2023,SSC Napoli,ACF Fiorentina,1.0,3.0
-444337,2023,Hellas Verona FC,SSC Napoli,1.0,3.0
-444342,2023,Torino FC,FC Internazionale Milano,0.0,3.0
-444341,2023,US Sassuolo Calcio,SS Lazio,0.0,2.0
-444339,2023,AS Roma,AC Monza,1.0,0.0
-444335,2023,Bologna FC 1909,Frosinone Calcio,2.0,1.0
-444340,2023,US Salernitana 1919,Cagliari Calcio,2.0,2.0
-444334,2023,Atalanta BC,Genoa CFC,2.0,0.0
-444338,2023,AC Milan,Juventus FC,0.0,1.0
-444343,2023,Udinese Calcio,US Lecce,1.0,1.0
-444336,2023,ACF Fiorentina,Empoli FC,0.0,2.0
-444346,2023,Genoa CFC,US Salernitana 1919,1.0,0.0
-444353,2023,US Sassuolo Calcio,Bologna FC 1909,1.0,1.0
-444350,2023,US Lecce,Torino FC,0.0,1.0
-444348,2023,Juventus FC,Hellas Verona FC,1.0,0.0
-444344,2023,Cagliari Calcio,Frosinone Calcio,4.0,3.0
-444351,2023,AC Monza,Udinese Calcio,1.0,1.0
-444347,2023,FC Internazionale Milano,AS Roma,1.0,0.0
-444352,2023,SSC Napoli,AC Milan,2.0,2.0
-444345,2023,Empoli FC,Atalanta BC,0.0,3.0
-444349,2023,SS Lazio,ACF Fiorentina,1.0,0.0
-444355,2023,Bologna FC 1909,SS Lazio,1.0,0.0
-444362,2023,US Salernitana 1919,SSC Napoli,0.0,2.0
-444354,2023,Atalanta BC,FC Internazionale Milano,1.0,2.0
-444360,2023,AC Milan,Udinese Calcio,0.0,1.0
-444359,2023,Hellas Verona FC,AC Monza,1.0,3.0
-444356,2023,Cagliari Calcio,Genoa CFC,2.0,1.0
-444361,2023,AS Roma,US Lecce,2.0,1.0
-444357,2023,ACF Fiorentina,Juventus FC,0.0,1.0
-444358,2023,Frosinone Calcio,Empoli FC,2.0,1.0
-444363,2023,Torino FC,US Sassuolo Calcio,2.0,1.0
-444372,2023,US Sassuolo Calcio,US Salernitana 1919,2.0,2.0
-444365,2023,Genoa CFC,Hellas Verona FC,1.0,0.0
-444369,2023,US Lecce,AC Milan,2.0,2.0
-444367,2023,Juventus FC,Cagliari Calcio,2.0,1.0
-444370,2023,AC Monza,Torino FC,1.0,1.0
-444371,2023,SSC Napoli,Empoli FC,0.0,1.0
-444364,2023,ACF Fiorentina,Bologna FC 1909,2.0,1.0
-444373,2023,Udinese Calcio,Atalanta BC,1.0,1.0
-444368,2023,SS Lazio,AS Roma,0.0,0.0
-444366,2023,FC Internazionale Milano,Frosinone Calcio,2.0,0.0
-444383,2023,US Salernitana 1919,SS Lazio,2.0,1.0
-444374,2023,Atalanta BC,SSC Napoli,1.0,2.0
-444381,2023,AC Milan,ACF Fiorentina,1.0,0.0
-444376,2023,Cagliari Calcio,AC Monza,1.0,1.0
-444377,2023,Empoli FC,US Sassuolo Calcio,3.0,4.0
-444378,2023,Frosinone Calcio,Genoa CFC,2.0,1.0
-444382,2023,AS Roma,Udinese Calcio,3.0,1.0
-444380,2023,Juventus FC,FC Internazionale Milano,1.0,1.0
-444379,2023,Hellas Verona FC,US Lecce,2.0,2.0
-444375,2023,Bologna FC 1909,Torino FC,2.0,0.0
-444389,2023,AC Monza,Juventus FC,1.0,2.0
-444385,2023,Genoa CFC,Empoli FC,1.0,1.0
-444386,2023,SS Lazio,Cagliari Calcio,1.0,0.0
-444388,2023,AC Milan,Frosinone Calcio,3.0,1.0
-444387,2023,US Lecce,Bologna FC 1909,1.0,1.0
-444384,2023,ACF Fiorentina,US Salernitana 1919,3.0,0.0
-444393,2023,Udinese Calcio,Hellas Verona FC,3.0,3.0
-444391,2023,US Sassuolo Calcio,AS Roma,1.0,2.0
-444390,2023,SSC Napoli,FC Internazionale Milano,0.0,3.0
-444392,2023,Torino FC,Atalanta BC,3.0,0.0
-444400,2023,Juventus FC,SSC Napoli,1.0,0.0
-444398,2023,Hellas Verona FC,SS Lazio,1.0,1.0
-444394,2023,Atalanta BC,AC Milan,3.0,2.0
-444399,2023,FC Internazionale Milano,Udinese Calcio,4.0,0.0
-444397,2023,Frosinone Calcio,Torino FC,0.0,0.0
-444401,2023,AC Monza,Genoa CFC,1.0,0.0
-444403,2023,US Salernitana 1919,Bologna FC 1909,1.0,2.0
-444402,2023,AS Roma,ACF Fiorentina,1.0,1.0
-444396,2023,Empoli FC,US Lecce,1.0,1.0
-444395,2023,Cagliari Calcio,US Sassuolo Calcio,2.0,1.0
-444407,2023,Genoa CFC,Juventus FC,1.0,1.0
-444409,2023,US Lecce,Frosinone Calcio,2.0,1.0
-444411,2023,SSC Napoli,Cagliari Calcio,2.0,1.0
-444412,2023,Torino FC,Empoli FC,1.0,0.0
-444410,2023,AC Milan,AC Monza,3.0,0.0
-444406,2023,ACF Fiorentina,Hellas Verona FC,1.0,0.0
-444413,2023,Udinese Calcio,US Sassuolo Calcio,2.0,2.0
-444405,2023,Bologna FC 1909,AS Roma,2.0,0.0
-444408,2023,SS Lazio,FC Internazionale Milano,0.0,2.0
-444404,2023,Atalanta BC,US Salernitana 1919,4.0,1.0
-444422,2023,US Sassuolo Calcio,Genoa CFC,1.0,2.0
-444415,2023,Empoli FC,SS Lazio,0.0,2.0
-444419,2023,AC Monza,ACF Fiorentina,0.0,1.0
-444421,2023,US Salernitana 1919,AC Milan,2.0,2.0
-444416,2023,Frosinone Calcio,Juventus FC,1.0,2.0
-444423,2023,Torino FC,Udinese Calcio,1.0,1.0
-444414,2023,Bologna FC 1909,Atalanta BC,1.0,0.0
-444417,2023,Hellas Verona FC,Cagliari Calcio,2.0,0.0
-444418,2023,FC Internazionale Milano,US Lecce,2.0,0.0
-444420,2023,AS Roma,SSC Napoli,2.0,0.0
-444426,2023,ACF Fiorentina,Torino FC,1.0,0.0
-444432,2023,SSC Napoli,AC Monza,0.0,0.0
-444427,2023,Genoa CFC,FC Internazionale Milano,1.0,1.0
-444430,2023,SS Lazio,Frosinone Calcio,3.0,1.0
-444424,2023,Atalanta BC,US Lecce,1.0,0.0
-444425,2023,Cagliari Calcio,Empoli FC,0.0,0.0
-444433,2023,Udinese Calcio,Bologna FC 1909,3.0,0.0
-444428,2023,Hellas Verona FC,US Salernitana 1919,0.0,1.0
-444431,2023,AC Milan,US Sassuolo Calcio,1.0,0.0
-444429,2023,Juventus FC,AS Roma,1.0,0.0
-444434,2023,Bologna FC 1909,Genoa CFC,1.0,1.0
-444437,2023,FC Internazionale Milano,Hellas Verona FC,2.0,1.0
-444436,2023,Frosinone Calcio,AC Monza,2.0,3.0
-444438,2023,US Lecce,Cagliari Calcio,1.0,1.0
-444441,2023,US Sassuolo Calcio,ACF Fiorentina,1.0,0.0
-444435,2023,Empoli FC,AC Milan,0.0,3.0
-444442,2023,Torino FC,SSC Napoli,3.0,0.0
-444443,2023,Udinese Calcio,SS Lazio,1.0,2.0
-444440,2023,US Salernitana 1919,Juventus FC,1.0,2.0
-444439,2023,AS Roma,Atalanta BC,1.0,1.0
-444447,2023,Genoa CFC,Torino FC,0.0,0.0
-444453,2023,SSC Napoli,US Salernitana 1919,2.0,1.0
-444448,2023,Hellas Verona FC,Empoli FC,2.0,1.0
-444452,2023,AC Monza,FC Internazionale Milano,1.0,5.0
-444450,2023,SS Lazio,US Lecce,1.0,0.0
-444445,2023,Cagliari Calcio,Bologna FC 1909,2.0,1.0
-444446,2023,ACF Fiorentina,Udinese Calcio,2.0,2.0
-444451,2023,AC Milan,AS Roma,3.0,1.0
-444444,2023,Atalanta BC,Frosinone Calcio,5.0,0.0
-444449,2023,Juventus FC,US Sassuolo Calcio,3.0,0.0
-444459,2023,AS Roma,Hellas Verona FC,2.0,1.0
-444463,2023,Udinese Calcio,AC Milan,2.0,3.0
-444456,2023,Frosinone Calcio,Cagliari Calcio,3.0,1.0
-444455,2023,Empoli FC,AC Monza,3.0,0.0
-444460,2023,US Salernitana 1919,Genoa CFC,1.0,2.0
-444458,2023,US Lecce,Juventus FC,0.0,3.0
-444465,2023,Cagliari Calcio,Torino FC,1.0,2.0
-444464,2023,Atalanta BC,Udinese Calcio,2.0,0.0
-444469,2023,Juventus FC,Empoli FC,1.0,1.0
-444471,2023,AC Milan,Bologna FC 1909,2.0,2.0
-444467,2023,Genoa CFC,US Lecce,2.0,1.0
-444468,2023,Hellas Verona FC,Frosinone Calcio,1.0,1.0
-444472,2023,AC Monza,US Sassuolo Calcio,1.0,0.0
-444470,2023,SS Lazio,SSC Napoli,0.0,0.0
-444466,2023,ACF Fiorentina,FC Internazionale Milano,0.0,1.0
-444473,2023,US Salernitana 1919,AS Roma,1.0,2.0
-444479,2023,US Lecce,ACF Fiorentina,3.0,2.0
-444476,2023,Empoli FC,Genoa CFC,0.0,0.0
-444483,2023,Udinese Calcio,AC Monza,0.0,0.0
-444477,2023,Frosinone Calcio,AC Milan,2.0,3.0
-444475,2023,Bologna FC 1909,US Sassuolo Calcio,4.0,2.0
-444482,2023,Torino FC,US Salernitana 1919,0.0,0.0
-444480,2023,SSC Napoli,Hellas Verona FC,2.0,1.0
-444474,2023,Atalanta BC,SS Lazio,3.0,1.0
-444478,2023,FC Internazionale Milano,Juventus FC,1.0,0.0
-444481,2023,AS Roma,Cagliari Calcio,4.0,0.0
-444492,2023,US Salernitana 1919,Empoli FC,1.0,3.0
-444485,2023,Cagliari Calcio,SS Lazio,1.0,3.0
-444491,2023,AS Roma,FC Internazionale Milano,2.0,4.0
-444493,2023,US Sassuolo Calcio,Torino FC,1.0,1.0
-444486,2023,ACF Fiorentina,Frosinone Calcio,5.0,1.0
-444484,2023,Bologna FC 1909,US Lecce,4.0,0.0
-444490,2023,AC Monza,Hellas Verona FC,0.0,0.0
-444487,2023,Genoa CFC,Atalanta BC,1.0,4.0
-444489,2023,AC Milan,SSC Napoli,1.0,0.0
-444488,2023,Juventus FC,Udinese Calcio,0.0,1.0
-444454,2023,Bologna FC 1909,ACF Fiorentina,2.0,0.0
-444502,2023,Torino FC,US Lecce,2.0,0.0
-444498,2023,FC Internazionale Milano,US Salernitana 1919,4.0,0.0
-444501,2023,SSC Napoli,Genoa CFC,1.0,1.0
-444497,2023,Hellas Verona FC,Juventus FC,2.0,2.0
-444494,2023,Atalanta BC,US Sassuolo Calcio,3.0,0.0
-444499,2023,SS Lazio,Bologna FC 1909,1.0,2.0
-444495,2023,Empoli FC,ACF Fiorentina,1.0,1.0
-444503,2023,Udinese Calcio,Cagliari Calcio,1.0,1.0
-444496,2023,Frosinone Calcio,AS Roma,0.0,3.0
-444500,2023,AC Monza,AC Milan,4.0,2.0
-444462,2023,Torino FC,SS Lazio,0.0,2.0
-444504,2023,Bologna FC 1909,Hellas Verona FC,2.0,0.0
-444513,2023,US Sassuolo Calcio,Empoli FC,2.0,3.0
-444512,2023,US Salernitana 1919,AC Monza,0.0,2.0
-444507,2023,Genoa CFC,Udinese Calcio,2.0,0.0
-444508,2023,Juventus FC,Frosinone Calcio,3.0,2.0
-444505,2023,Cagliari Calcio,SSC Napoli,1.0,1.0
-444509,2023,US Lecce,FC Internazionale Milano,0.0,4.0
-444510,2023,AC Milan,Atalanta BC,1.0,1.0
-444511,2023,AS Roma,Torino FC,3.0,2.0
-444506,2023,ACF Fiorentina,SS Lazio,2.0,1.0
-444461,2023,US Sassuolo Calcio,SSC Napoli,1.0,6.0
-444457,2023,FC Internazionale Milano,Atalanta BC,4.0,0.0
-444519,2023,SS Lazio,AC Milan,0.0,1.0
-444523,2023,Udinese Calcio,US Salernitana 1919,1.0,1.0
-444520,2023,AC Monza,AS Roma,1.0,4.0
-444522,2023,Torino FC,ACF Fiorentina,0.0,0.0
-444517,2023,Hellas Verona FC,US Sassuolo Calcio,1.0,0.0
-444515,2023,Empoli FC,Cagliari Calcio,0.0,1.0
-444516,2023,Frosinone Calcio,US Lecce,1.0,1.0
-444514,2023,Atalanta BC,Bologna FC 1909,1.0,2.0
-444521,2023,SSC Napoli,Juventus FC,2.0,1.0
-444518,2023,FC Internazionale Milano,Genoa CFC,2.0,1.0
-444532,2023,SSC Napoli,Torino FC,1.0,1.0
-444525,2023,Cagliari Calcio,US Salernitana 1919,4.0,2.0
-444533,2023,US Sassuolo Calcio,Frosinone Calcio,1.0,0.0
-444524,2023,Bologna FC 1909,FC Internazionale Milano,0.0,1.0
-444527,2023,Genoa CFC,AC Monza,2.0,3.0
-444530,2023,US Lecce,Hellas Verona FC,0.0,1.0
-444531,2023,AC Milan,Empoli FC,1.0,0.0
-444528,2023,Juventus FC,Atalanta BC,2.0,2.0
-444526,2023,ACF Fiorentina,AS Roma,2.0,2.0
-444529,2023,SS Lazio,Udinese Calcio,1.0,2.0
-444535,2023,Empoli FC,Bologna FC 1909,0.0,1.0
-444540,2023,AC Monza,Cagliari Calcio,1.0,0.0
-444543,2023,Udinese Calcio,Torino FC,0.0,2.0
-444542,2023,US Salernitana 1919,US Lecce,0.0,1.0
-444536,2023,Frosinone Calcio,SS Lazio,2.0,3.0
-444539,2023,Juventus FC,Genoa CFC,0.0,0.0
-444537,2023,Hellas Verona FC,AC Milan,1.0,3.0
-444541,2023,AS Roma,US Sassuolo Calcio,1.0,0.0
-444538,2023,FC Internazionale Milano,SSC Napoli,1.0,1.0
-444551,2023,SSC Napoli,Atalanta BC,0.0,3.0
-444547,2023,Genoa CFC,Frosinone Calcio,1.0,1.0
-444553,2023,Torino FC,AC Monza,1.0,0.0
-444549,2023,SS Lazio,Juventus FC,1.0,0.0
-444546,2023,ACF Fiorentina,AC Milan,1.0,2.0
-444544,2023,Bologna FC 1909,US Salernitana 1919,3.0,0.0
-444545,2023,Cagliari Calcio,Hellas Verona FC,1.0,1.0
-444552,2023,US Sassuolo Calcio,Udinese Calcio,1.0,1.0
-444550,2023,US Lecce,AS Roma,0.0,0.0
-444548,2023,FC Internazionale Milano,Empoli FC,2.0,0.0
-444562,2023,US Salernitana 1919,US Sassuolo Calcio,2.0,2.0
-444559,2023,AC Milan,US Lecce,3.0,0.0
-444561,2023,AS Roma,SS Lazio,1.0,0.0
-444555,2023,Empoli FC,Torino FC,3.0,2.0
-444556,2023,Frosinone Calcio,Bologna FC 1909,0.0,0.0
-444560,2023,AC Monza,SSC Napoli,2.0,4.0
-444554,2023,Cagliari Calcio,Atalanta BC,2.0,1.0
-444557,2023,Hellas Verona FC,Genoa CFC,1.0,2.0
-444558,2023,Juventus FC,ACF Fiorentina,1.0,0.0
-444563,2023,Udinese Calcio,FC Internazionale Milano,1.0,2.0
-444568,2023,SS Lazio,US Salernitana 1919,4.0,1.0
-444569,2023,US Lecce,Empoli FC,1.0,0.0
-444572,2023,Torino FC,Juventus FC,0.0,0.0
-444565,2023,Bologna FC 1909,AC Monza,0.0,0.0
-444570,2023,SSC Napoli,Frosinone Calcio,2.0,2.0
-444571,2023,US Sassuolo Calcio,AC Milan,3.0,3.0
-444567,2023,FC Internazionale Milano,Cagliari Calcio,2.0,2.0
-444566,2023,ACF Fiorentina,Genoa CFC,1.0,1.0
-444564,2023,Atalanta BC,Hellas Verona FC,2.0,2.0
-444576,2023,Genoa CFC,SS Lazio,0.0,1.0
-444574,2023,Cagliari Calcio,Juventus FC,2.0,2.0
-444575,2023,Empoli FC,SSC Napoli,1.0,0.0
-444577,2023,Hellas Verona FC,Udinese Calcio,1.0,0.0
-444582,2023,US Sassuolo Calcio,US Lecce,0.0,3.0
-444583,2023,Torino FC,Frosinone Calcio,0.0,0.0
-444581,2023,US Salernitana 1919,ACF Fiorentina,0.0,2.0
-444579,2023,AC Monza,Atalanta BC,1.0,2.0
-444580,2023,AS Roma,Bologna FC 1909,1.0,3.0
-444578,2023,AC Milan,FC Internazionale Milano,1.0,2.0
-444573,2023,Udinese Calcio,AS Roma,1.0,2.0
-444587,2023,Frosinone Calcio,US Salernitana 1919,3.0,0.0
-444592,2023,US Lecce,AC Monza,1.0,1.0
-444590,2023,Juventus FC,AC Milan,0.0,0.0
-444591,2023,SS Lazio,Hellas Verona FC,1.0,0.0
-444589,2023,FC Internazionale Milano,Torino FC,2.0,0.0
-444585,2023,Bologna FC 1909,Udinese Calcio,1.0,1.0
-444584,2023,Atalanta BC,Empoli FC,2.0,0.0
-444593,2023,SSC Napoli,AS Roma,2.0,2.0
-444586,2023,ACF Fiorentina,US Sassuolo Calcio,5.0,1.0
-444588,2023,Genoa CFC,Cagliari Calcio,3.0,0.0
-444602,2023,Torino FC,Bologna FC 1909,0.0,0.0
-444598,2023,AC Monza,SS Lazio,2.0,2.0
-444601,2023,US Sassuolo Calcio,FC Internazionale Milano,1.0,0.0
-444594,2023,Cagliari Calcio,US Lecce,1.0,1.0
-444595,2023,Empoli FC,Frosinone Calcio,0.0,0.0
-444596,2023,Hellas Verona FC,ACF Fiorentina,2.0,1.0
-444597,2023,AC Milan,Genoa CFC,3.0,3.0
-444599,2023,AS Roma,Juventus FC,1.0,1.0
-444600,2023,US Salernitana 1919,Atalanta BC,1.0,2.0
-444603,2023,Udinese Calcio,SSC Napoli,1.0,1.0
-444606,2023,Frosinone Calcio,FC Internazionale Milano,0.0,5.0
-444613,2023,SSC Napoli,Bologna FC 1909,0.0,2.0
-444612,2023,AC Milan,Cagliari Calcio,5.0,1.0
-444610,2023,SS Lazio,Empoli FC,2.0,0.0
-444607,2023,Genoa CFC,US Sassuolo Calcio,2.0,1.0
-444608,2023,Hellas Verona FC,Torino FC,1.0,2.0
-444609,2023,Juventus FC,US Salernitana 1919,1.0,1.0
-444604,2023,Atalanta BC,AS Roma,2.0,1.0
-444611,2023,US Lecce,Udinese Calcio,0.0,2.0
-444605,2023,ACF Fiorentina,AC Monza,2.0,1.0
-444615,2023,ACF Fiorentina,SSC Napoli,2.0,2.0
-444617,2023,US Lecce,Atalanta BC,0.0,2.0
-444622,2023,Torino FC,AC Milan,3.0,1.0
-444621,2023,US Sassuolo Calcio,Cagliari Calcio,0.0,2.0
-444618,2023,AC Monza,Frosinone Calcio,0.0,1.0
-444623,2023,Udinese Calcio,Empoli FC,1.0,1.0
-444616,2023,FC Internazionale Milano,SS Lazio,1.0,1.0
-444619,2023,AS Roma,Genoa CFC,1.0,0.0
-444620,2023,US Salernitana 1919,Hellas Verona FC,1.0,2.0
-444614,2023,Bologna FC 1909,Juventus FC,3.0,3.0
-444625,2023,Cagliari Calcio,ACF Fiorentina,2.0,3.0
-444628,2023,Genoa CFC,Bologna FC 1909,2.0,0.0
-444630,2023,Juventus FC,AC Monza,2.0,0.0
-444632,2023,AC Milan,US Salernitana 1919,3.0,3.0
-444624,2023,Atalanta BC,Torino FC,3.0,0.0
-444633,2023,SSC Napoli,US Lecce,0.0,0.0
-444626,2023,Empoli FC,AS Roma,2.0,1.0
-444627,2023,Frosinone Calcio,Udinese Calcio,0.0,1.0
-444629,2023,Hellas Verona FC,FC Internazionale Milano,2.0,2.0
-444631,2023,SS Lazio,US Sassuolo Calcio,1.0,1.0
-444534,2023,Atalanta BC,ACF Fiorentina,2.0,3.0
-503046,2024,Genoa CFC,FC Internazionale Milano,2.0,2.0
-503052,2024,Parma Calcio 1913,ACF Fiorentina,1.0,1.0
-503045,2024,Empoli FC,AC Monza,0.0,0.0
-503051,2024,AC Milan,Torino FC,2.0,2.0
-503043,2024,Bologna FC 1909,Udinese Calcio,1.0,1.0
-503047,2024,Hellas Verona FC,SSC Napoli,3.0,0.0
-503044,2024,Cagliari Calcio,AS Roma,0.0,0.0
-503049,2024,SS Lazio,Venezia FC,3.0,1.0
-503050,2024,US Lecce,Atalanta BC,0.0,4.0
-503048,2024,Juventus FC,Como 1907,3.0,0.0
-503059,2024,Parma Calcio 1913,AC Milan,2.0,1.0
-503062,2024,Udinese Calcio,SS Lazio,2.0,1.0
-503056,2024,FC Internazionale Milano,US Lecce,2.0,0.0
-503057,2024,AC Monza,Genoa CFC,0.0,1.0
-503054,2024,ACF Fiorentina,Venezia FC,0.0,0.0
-503061,2024,Torino FC,Atalanta BC,2.0,1.0
-503058,2024,SSC Napoli,Bologna FC 1909,3.0,0.0
-503060,2024,AS Roma,Empoli FC,1.0,2.0
-503053,2024,Cagliari Calcio,Como 1907,1.0,1.0
-503055,2024,Hellas Verona FC,Juventus FC,0.0,3.0
-503072,2024,Venezia FC,Torino FC,0.0,1.0
-503066,2024,FC Internazionale Milano,Atalanta BC,4.0,0.0
-503063,2024,Bologna FC 1909,Empoli FC,1.0,1.0
-503069,2024,US Lecce,Cagliari Calcio,1.0,0.0
-503068,2024,SS Lazio,AC Milan,2.0,2.0
-503070,2024,SSC Napoli,Parma Calcio 1913,2.0,1.0
-503064,2024,ACF Fiorentina,AC Monza,2.0,2.0
-503065,2024,Genoa CFC,Hellas Verona FC,0.0,2.0
-503067,2024,Juventus FC,AS Roma,0.0,0.0
-503071,2024,Udinese Calcio,Como 1907,1.0,0.0
-503075,2024,Como 1907,Bologna FC 1909,2.0,2.0
-503076,2024,Empoli FC,Juventus FC,0.0,0.0
-503079,2024,AC Milan,Venezia FC,4.0,0.0
-503077,2024,Genoa CFC,AS Roma,1.0,1.0
-503073,2024,Atalanta BC,ACF Fiorentina,3.0,2.0
-503082,2024,Torino FC,US Lecce,0.0,0.0
-503074,2024,Cagliari Calcio,SSC Napoli,0.0,4.0
-503080,2024,AC Monza,FC Internazionale Milano,1.0,1.0
-503081,2024,Parma Calcio 1913,Udinese Calcio,2.0,3.0
-503078,2024,SS Lazio,Hellas Verona FC,2.0,1.0
-503084,2024,Cagliari Calcio,Empoli FC,0.0,2.0
-503086,2024,Hellas Verona FC,Torino FC,2.0,3.0
-503092,2024,Venezia FC,Genoa CFC,2.0,0.0
-503088,2024,Juventus FC,SSC Napoli,0.0,0.0
-503089,2024,US Lecce,Parma Calcio 1913,2.0,2.0
-503085,2024,ACF Fiorentina,SS Lazio,2.0,1.0
-503090,2024,AC Monza,Bologna FC 1909,1.0,2.0
-503091,2024,AS Roma,Udinese Calcio,3.0,0.0
-503087,2024,FC Internazionale Milano,AC Milan,1.0,2.0
-503083,2024,Atalanta BC,Como 1907,2.0,3.0
-503097,2024,AC Milan,US Lecce,3.0,0.0
-503102,2024,Udinese Calcio,FC Internazionale Milano,2.0,3.0
-503096,2024,Genoa CFC,Juventus FC,0.0,3.0
-503093,2024,Bologna FC 1909,Atalanta BC,1.0,1.0
-503101,2024,Torino FC,SS Lazio,2.0,3.0
-503094,2024,Como 1907,Hellas Verona FC,3.0,2.0
-503100,2024,AS Roma,Venezia FC,2.0,1.0
-503095,2024,Empoli FC,ACF Fiorentina,0.0,0.0
-503098,2024,SSC Napoli,AC Monza,2.0,0.0
-503099,2024,Parma Calcio 1913,Cagliari Calcio,2.0,3.0
-503111,2024,SSC Napoli,Como 1907,3.0,1.0
-503106,2024,Hellas Verona FC,Venezia FC,2.0,1.0
-503112,2024,Udinese Calcio,US Lecce,1.0,0.0
-503103,2024,Atalanta BC,Genoa CFC,5.0,1.0
-503107,2024,FC Internazionale Milano,Torino FC,3.0,2.0
-503108,2024,Juventus FC,Cagliari Calcio,1.0,1.0
-503104,2024,Bologna FC 1909,Parma Calcio 1913,0.0,0.0
-503109,2024,SS Lazio,Empoli FC,2.0,1.0
-503110,2024,AC Monza,AS Roma,1.0,1.0
-503105,2024,ACF Fiorentina,AC Milan,2.0,1.0
-503114,2024,Como 1907,Parma Calcio 1913,1.0,1.0
-503116,2024,Genoa CFC,Bologna FC 1909,2.0,2.0
-503120,2024,AC Milan,Udinese Calcio,1.0,0.0
-503118,2024,Juventus FC,SS Lazio,1.0,0.0
-503115,2024,Empoli FC,SSC Napoli,0.0,1.0
-503119,2024,US Lecce,ACF Fiorentina,0.0,6.0
-503122,2024,Venezia FC,Atalanta BC,0.0,2.0
-503113,2024,Cagliari Calcio,Torino FC,3.0,2.0
-503121,2024,AS Roma,FC Internazionale Milano,0.0,1.0
-503117,2024,Hellas Verona FC,AC Monza,0.0,3.0
-503132,2024,Udinese Calcio,Cagliari Calcio,2.0,0.0
-503131,2024,Torino FC,Como 1907,1.0,0.0
-503124,2024,Bologna FC 1909,AC Milan,,
-503129,2024,SSC Napoli,US Lecce,1.0,0.0
-503123,2024,Atalanta BC,Hellas Verona FC,6.0,1.0
-503130,2024,Parma Calcio 1913,Empoli FC,1.0,1.0
-503127,2024,SS Lazio,Genoa CFC,3.0,0.0
-503128,2024,AC Monza,Venezia FC,2.0,2.0
-503126,2024,FC Internazionale Milano,Juventus FC,4.0,4.0
-503125,2024,ACF Fiorentina,AS Roma,5.0,1.0
-503134,2024,Cagliari Calcio,Bologna FC 1909,0.0,2.0
-503139,2024,US Lecce,Hellas Verona FC,1.0,0.0
-503140,2024,AC Milan,SSC Napoli,0.0,2.0
-503136,2024,Empoli FC,FC Internazionale Milano,0.0,3.0
-503142,2024,Venezia FC,Udinese Calcio,3.0,2.0
-503133,2024,Atalanta BC,AC Monza,2.0,0.0
-503138,2024,Juventus FC,Parma Calcio 1913,2.0,2.0
-503137,2024,Genoa CFC,ACF Fiorentina,0.0,1.0
-503135,2024,Como 1907,SS Lazio,1.0,5.0
-503141,2024,AS Roma,Torino FC,1.0,0.0
-503143,2024,Bologna FC 1909,US Lecce,1.0,0.0
-503152,2024,Udinese Calcio,Juventus FC,0.0,2.0
-503148,2024,AC Monza,AC Milan,0.0,1.0
-503149,2024,SSC Napoli,Atalanta BC,0.0,3.0
-503151,2024,Torino FC,ACF Fiorentina,0.0,1.0
-503145,2024,Hellas Verona FC,AS Roma,3.0,2.0
-503146,2024,FC Internazionale Milano,Venezia FC,1.0,0.0
-503144,2024,Empoli FC,Como 1907,1.0,0.0
-503150,2024,Parma Calcio 1913,Genoa CFC,0.0,1.0
-503147,2024,SS Lazio,Cagliari Calcio,2.0,1.0
-503156,2024,Genoa CFC,Como 1907,1.0,1.0
-503159,2024,US Lecce,Empoli FC,1.0,1.0
-503162,2024,Venezia FC,Parma Calcio 1913,1.0,2.0
-503154,2024,Cagliari Calcio,AC Milan,3.0,3.0
-503158,2024,Juventus FC,Torino FC,2.0,0.0
-503153,2024,Atalanta BC,Udinese Calcio,2.0,1.0
-503155,2024,ACF Fiorentina,Hellas Verona FC,3.0,1.0
-503161,2024,AS Roma,Bologna FC 1909,2.0,3.0
-503160,2024,AC Monza,SS Lazio,0.0,1.0
-503157,2024,FC Internazionale Milano,SSC Napoli,1.0,1.0
-503166,2024,Hellas Verona FC,FC Internazionale Milano,0.0,5.0
-503168,2024,AC Milan,Juventus FC,0.0,0.0
-503170,2024,Parma Calcio 1913,Atalanta BC,1.0,3.0
-503165,2024,Genoa CFC,Cagliari Calcio,2.0,2.0
-503163,2024,Como 1907,ACF Fiorentina,0.0,2.0
-503171,2024,Torino FC,AC Monza,1.0,1.0
-503169,2024,SSC Napoli,AS Roma,1.0,0.0
-503167,2024,SS Lazio,Bologna FC 1909,3.0,0.0
-503164,2024,Empoli FC,Udinese Calcio,1.0,1.0
-503172,2024,Venezia FC,US Lecce,0.0,1.0
-503174,2024,Cagliari Calcio,Hellas Verona FC,1.0,0.0
-503175,2024,Como 1907,AC Monza,1.0,1.0
-503178,2024,AC Milan,Empoli FC,3.0,0.0
-503173,2024,Bologna FC 1909,Venezia FC,3.0,0.0
-503182,2024,Udinese Calcio,Genoa CFC,0.0,2.0
-503179,2024,Parma Calcio 1913,SS Lazio,3.0,1.0
-503181,2024,Torino FC,SSC Napoli,0.0,1.0
-503176,2024,ACF Fiorentina,FC Internazionale Milano,0.0,0.0
-503177,2024,US Lecce,Juventus FC,1.0,1.0
-503180,2024,AS Roma,Atalanta BC,0.0,2.0
-503187,2024,FC Internazionale Milano,Parma Calcio 1913,3.0,1.0
-503183,2024,Atalanta BC,AC Milan,2.0,1.0
-503185,2024,Genoa CFC,Torino FC,0.0,0.0
-503188,2024,Juventus FC,Bologna FC 1909,2.0,2.0
-503191,2024,AS Roma,US Lecce,4.0,1.0
-503184,2024,ACF Fiorentina,Cagliari Calcio,1.0,0.0
-503186,2024,Hellas Verona FC,Empoli FC,1.0,4.0
-503192,2024,Venezia FC,Como 1907,2.0,2.0
-503190,2024,SSC Napoli,SS Lazio,0.0,1.0
-503189,2024,AC Monza,Udinese Calcio,1.0,2.0
-503196,2024,Empoli FC,Torino FC,0.0,1.0
-503194,2024,Cagliari Calcio,Atalanta BC,0.0,1.0
-503202,2024,Udinese Calcio,SSC Napoli,1.0,3.0
-503197,2024,Juventus FC,Venezia FC,2.0,2.0
-503199,2024,US Lecce,AC Monza,2.0,1.0
-503193,2024,Bologna FC 1909,ACF Fiorentina,1.0,0.0
-503201,2024,Parma Calcio 1913,Hellas Verona FC,2.0,3.0
-503195,2024,Como 1907,AS Roma,2.0,0.0
-503200,2024,AC Milan,Genoa CFC,0.0,0.0
-503198,2024,SS Lazio,FC Internazionale Milano,0.0,6.0
-503206,2024,Hellas Verona FC,AC Milan,0.0,1.0
-503211,2024,Torino FC,Bologna FC 1909,0.0,2.0
-503205,2024,Genoa CFC,SSC Napoli,1.0,2.0
-503208,2024,US Lecce,SS Lazio,1.0,2.0
-503210,2024,AS Roma,Parma Calcio 1913,5.0,0.0
-503212,2024,Venezia FC,Cagliari Calcio,2.0,1.0
-503203,2024,Atalanta BC,Empoli FC,3.0,2.0
-503209,2024,AC Monza,Juventus FC,1.0,2.0
-503204,2024,ACF Fiorentina,Udinese Calcio,1.0,2.0
-503207,2024,FC Internazionale Milano,Como 1907,2.0,0.0
-503216,2024,Empoli FC,Genoa CFC,1.0,2.0
-503221,2024,Parma Calcio 1913,AC Monza,2.0,1.0
-503214,2024,Cagliari Calcio,FC Internazionale Milano,0.0,3.0
-503218,2024,SS Lazio,Atalanta BC,1.0,1.0
-503222,2024,Udinese Calcio,Torino FC,2.0,2.0
-503220,2024,SSC Napoli,Venezia FC,1.0,0.0
-503217,2024,Juventus FC,ACF Fiorentina,2.0,2.0
-503219,2024,AC Milan,AS Roma,1.0,1.0
-503215,2024,Como 1907,US Lecce,2.0,0.0
-503213,2024,Bologna FC 1909,Hellas Verona FC,2.0,3.0
-503232,2024,Venezia FC,Empoli FC,1.0,1.0
-503225,2024,ACF Fiorentina,SSC Napoli,0.0,3.0
-503226,2024,Hellas Verona FC,Udinese Calcio,0.0,0.0
-503229,2024,AC Monza,Cagliari Calcio,1.0,2.0
-503228,2024,US Lecce,Genoa CFC,0.0,0.0
-503231,2024,Torino FC,Parma Calcio 1913,0.0,0.0
-503230,2024,AS Roma,SS Lazio,2.0,0.0
-503236,2024,SS Lazio,Como 1907,,
-503234,2024,Empoli FC,US Lecce,,
-503241,2024,Udinese Calcio,Atalanta BC,,
-503240,2024,Torino FC,Juventus FC,,
-503237,2024,AC Milan,Cagliari Calcio,,
-503235,2024,Genoa CFC,Parma Calcio 1913,,
-503242,2024,Venezia FC,FC Internazionale Milano,,
-503233,2024,Bologna FC 1909,AS Roma,,
-503239,2024,SSC Napoli,Hellas Verona FC,,
-503238,2024,AC Monza,ACF Fiorentina,,
-503224,2024,Como 1907,AC Milan,,
-503223,2024,Atalanta BC,Juventus FC,,
-503227,2024,FC Internazionale Milano,Bologna FC 1909,,
-503252,2024,AS Roma,Genoa CFC,,
-503244,2024,Bologna FC 1909,AC Monza,,
-503250,2024,Juventus FC,AC Milan,,
-503243,2024,Atalanta BC,SSC Napoli,,
-503247,2024,ACF Fiorentina,Torino FC,,
-503245,2024,Cagliari Calcio,US Lecce,,
-503251,2024,Parma Calcio 1913,Venezia FC,,
-503248,2024,Hellas Verona FC,SS Lazio,,
-503249,2024,FC Internazionale Milano,Empoli FC,,
-503246,2024,Como 1907,Udinese Calcio,,
-503260,2024,Torino FC,Cagliari Calcio,,
-503253,2024,Como 1907,Atalanta BC,,
-503259,2024,SSC Napoli,Juventus FC,,
-503254,2024,Empoli FC,Bologna FC 1909,,
-503258,2024,AC Milan,Parma Calcio 1913,,
-503261,2024,Udinese Calcio,AS Roma,,
-503257,2024,US Lecce,FC Internazionale Milano,,
-503256,2024,SS Lazio,ACF Fiorentina,,
-503262,2024,Venezia FC,Hellas Verona FC,,
-503255,2024,Genoa CFC,AC Monza,,
-503270,2024,Parma Calcio 1913,US Lecce,,
-503269,2024,AC Monza,Hellas Verona FC,,
-503272,2024,Udinese Calcio,Venezia FC,,
-503263,2024,Atalanta BC,Torino FC,,
-503264,2024,Bologna FC 1909,Como 1907,,
-503267,2024,Juventus FC,Empoli FC,,
-503266,2024,ACF Fiorentina,Genoa CFC,,
-503268,2024,AC Milan,FC Internazionale Milano,,
-503271,2024,AS Roma,SSC Napoli,,
-503265,2024,Cagliari Calcio,SS Lazio,,
-503273,2024,Cagliari Calcio,Parma Calcio 1913,,
-503274,2024,Como 1907,Juventus FC,,
-503275,2024,Empoli FC,AC Milan,,
-503276,2024,Hellas Verona FC,Atalanta BC,,
-503277,2024,FC Internazionale Milano,ACF Fiorentina,,
-503278,2024,SS Lazio,AC Monza,,
-503279,2024,US Lecce,Bologna FC 1909,,
-503280,2024,SSC Napoli,Udinese Calcio,,
-503281,2024,Torino FC,Genoa CFC,,
-503282,2024,Venezia FC,AS Roma,,
-503283,2024,Atalanta BC,Cagliari Calcio,,
-503284,2024,Bologna FC 1909,Torino FC,,
-503285,2024,ACF Fiorentina,Como 1907,,
-503286,2024,Genoa CFC,Venezia FC,,
-503287,2024,Juventus FC,FC Internazionale Milano,,
-503288,2024,SS Lazio,SSC Napoli,,
-503289,2024,AC Milan,Hellas Verona FC,,
-503290,2024,AC Monza,US Lecce,,
-503291,2024,Parma Calcio 1913,AS Roma,,
-503292,2024,Udinese Calcio,Empoli FC,,
-503296,2024,Hellas Verona FC,ACF Fiorentina,,
-503297,2024,FC Internazionale Milano,Genoa CFC,,
-503298,2024,US Lecce,Udinese Calcio,,
-503299,2024,Parma Calcio 1913,Bologna FC 1909,,
-503300,2024,AS Roma,AC Monza,,
-503301,2024,Torino FC,AC Milan,,
-503302,2024,Venezia FC,SS Lazio,,
-503293,2024,Cagliari Calcio,Juventus FC,,
-503294,2024,Como 1907,SSC Napoli,,
-503295,2024,Empoli FC,Atalanta BC,,
-503303,2024,Atalanta BC,Venezia FC,,
-503304,2024,Bologna FC 1909,Cagliari Calcio,,
-503305,2024,ACF Fiorentina,US Lecce,,
-503306,2024,Genoa CFC,Empoli FC,,
-503307,2024,Juventus FC,Hellas Verona FC,,
-503308,2024,AC Milan,SS Lazio,,
-503309,2024,AC Monza,Torino FC,,
-503310,2024,SSC Napoli,FC Internazionale Milano,,
-503311,2024,AS Roma,Como 1907,,
-503312,2024,Udinese Calcio,Parma Calcio 1913,,
-503313,2024,Cagliari Calcio,Genoa CFC,,
-503314,2024,Como 1907,Venezia FC,,
-503315,2024,Empoli FC,AS Roma,,
-503316,2024,Hellas Verona FC,Bologna FC 1909,,
-503317,2024,FC Internazionale Milano,AC Monza,,
-503318,2024,Juventus FC,Atalanta BC,,
-503319,2024,SS Lazio,Udinese Calcio,,
-503320,2024,US Lecce,AC Milan,,
-503321,2024,SSC Napoli,ACF Fiorentina,,
-503322,2024,Parma Calcio 1913,Torino FC,,
-503323,2024,Atalanta BC,FC Internazionale Milano,,
-503324,2024,Bologna FC 1909,SS Lazio,,
-503325,2024,ACF Fiorentina,Juventus FC,,
-503326,2024,Genoa CFC,US Lecce,,
-503327,2024,AC Milan,Como 1907,,
-503328,2024,AC Monza,Parma Calcio 1913,,
-503329,2024,AS Roma,Cagliari Calcio,,
-503330,2024,Torino FC,Empoli FC,,
-503331,2024,Udinese Calcio,Hellas Verona FC,,
-503332,2024,Venezia FC,SSC Napoli,,
-503333,2024,Cagliari Calcio,AC Monza,,
-503334,2024,Como 1907,Empoli FC,,
-503335,2024,ACF Fiorentina,Atalanta BC,,
-503336,2024,Hellas Verona FC,Parma Calcio 1913,,
-503337,2024,FC Internazionale Milano,Udinese Calcio,,
-503338,2024,Juventus FC,Genoa CFC,,
-503339,2024,SS Lazio,Torino FC,,
-503340,2024,US Lecce,AS Roma,,
-503341,2024,SSC Napoli,AC Milan,,
-503342,2024,Venezia FC,Bologna FC 1909,,
-503343,2024,Atalanta BC,SS Lazio,,
-503344,2024,Bologna FC 1909,SSC Napoli,,
-503345,2024,Empoli FC,Cagliari Calcio,,
-503346,2024,Genoa CFC,Udinese Calcio,,
-503347,2024,US Lecce,Venezia FC,,
-503348,2024,AC Milan,ACF Fiorentina,,
-503349,2024,AC Monza,Como 1907,,
-503350,2024,Parma Calcio 1913,FC Internazionale Milano,,
-503351,2024,AS Roma,Juventus FC,,
-503352,2024,Torino FC,Hellas Verona FC,,
-503353,2024,Atalanta BC,Bologna FC 1909,,
-503354,2024,Como 1907,Torino FC,,
-503355,2024,ACF Fiorentina,Parma Calcio 1913,,
-503356,2024,Hellas Verona FC,Genoa CFC,,
-503357,2024,FC Internazionale Milano,Cagliari Calcio,,
-503358,2024,Juventus FC,US Lecce,,
-503359,2024,SS Lazio,AS Roma,,
-503360,2024,SSC Napoli,Empoli FC,,
-503361,2024,Udinese Calcio,AC Milan,,
-503362,2024,Venezia FC,AC Monza,,
-503363,2024,Bologna FC 1909,FC Internazionale Milano,,
-503364,2024,Cagliari Calcio,ACF Fiorentina,,
-503365,2024,Empoli FC,Venezia FC,,
-503366,2024,Genoa CFC,SS Lazio,,
-503367,2024,US Lecce,Como 1907,,
-503368,2024,AC Milan,Atalanta BC,,
-503369,2024,AC Monza,SSC Napoli,,
-503370,2024,Parma Calcio 1913,Juventus FC,,
-503371,2024,AS Roma,Hellas Verona FC,,
-503372,2024,Torino FC,Udinese Calcio,,
-503373,2024,Atalanta BC,US Lecce,,
-503374,2024,Como 1907,Genoa CFC,,
-503375,2024,ACF Fiorentina,Empoli FC,,
-503376,2024,Hellas Verona FC,Cagliari Calcio,,
-503377,2024,FC Internazionale Milano,AS Roma,,
-503378,2024,Juventus FC,AC Monza,,
-503379,2024,SS Lazio,Parma Calcio 1913,,
-503380,2024,SSC Napoli,Torino FC,,
-503381,2024,Udinese Calcio,Bologna FC 1909,,
-503382,2024,Venezia FC,AC Milan,,
-503383,2024,Bologna FC 1909,Juventus FC,,
-503384,2024,Cagliari Calcio,Udinese Calcio,,
-503385,2024,Empoli FC,SS Lazio,,
-503386,2024,Genoa CFC,AC Milan,,
-503387,2024,FC Internazionale Milano,Hellas Verona FC,,
-503388,2024,US Lecce,SSC Napoli,,
-503389,2024,AC Monza,Atalanta BC,,
-503390,2024,Parma Calcio 1913,Como 1907,,
-503391,2024,AS Roma,ACF Fiorentina,,
-503392,2024,Torino FC,Venezia FC,,
-503393,2024,Atalanta BC,AS Roma,,
-503394,2024,Como 1907,Cagliari Calcio,,
-503395,2024,Empoli FC,Parma Calcio 1913,,
-503396,2024,Hellas Verona FC,US Lecce,,
-503397,2024,SS Lazio,Juventus FC,,
-503398,2024,AC Milan,Bologna FC 1909,,
-503399,2024,SSC Napoli,Genoa CFC,,
-503400,2024,Torino FC,FC Internazionale Milano,,
-503401,2024,Udinese Calcio,AC Monza,,
-503402,2024,Venezia FC,ACF Fiorentina,,
-503403,2024,Cagliari Calcio,Venezia FC,,
-503404,2024,ACF Fiorentina,Bologna FC 1909,,
-503405,2024,Genoa CFC,Atalanta BC,,
-503406,2024,Hellas Verona FC,Como 1907,,
-503407,2024,FC Internazionale Milano,SS Lazio,,
-503408,2024,Juventus FC,Udinese Calcio,,
-503409,2024,US Lecce,Torino FC,,
-503410,2024,AC Monza,Empoli FC,,
-503411,2024,Parma Calcio 1913,SSC Napoli,,
-503412,2024,AS Roma,AC Milan,,
-503413,2024,Atalanta BC,Parma Calcio 1913,,
-503414,2024,Bologna FC 1909,Genoa CFC,,
-503415,2024,Como 1907,FC Internazionale Milano,,
-503416,2024,Empoli FC,Hellas Verona FC,,
-503417,2024,SS Lazio,US Lecce,,
-503418,2024,AC Milan,AC Monza,,
-503419,2024,SSC Napoli,Cagliari Calcio,,
-503420,2024,Torino FC,AS Roma,,
-503421,2024,Udinese Calcio,ACF Fiorentina,,
-503422,2024,Venezia FC,Juventus FC,,
+match_id,giornata,season,home_team,away_team,home_score,away_score
+418909,1,2022,UC Sampdoria,Atalanta BC,0.0,2.0
+418911,1,2022,AC Milan,Udinese Calcio,4.0,2.0
+418905,1,2022,US Lecce,FC Internazionale Milano,1.0,2.0
+418910,1,2022,AC Monza,Torino FC,1.0,2.0
+418907,1,2022,ACF Fiorentina,US Cremonese,3.0,2.0
+418908,1,2022,SS Lazio,Bologna FC 1909,2.0,1.0
+418904,1,2022,US Salernitana 1919,AS Roma,0.0,1.0
+418906,1,2022,Spezia Calcio,Empoli FC,1.0,0.0
+418913,1,2022,Hellas Verona FC,SSC Napoli,2.0,5.0
+418912,1,2022,Juventus FC,US Sassuolo Calcio,3.0,0.0
+418894,2,2022,Udinese Calcio,US Salernitana 1919,0.0,0.0
+418895,2,2022,Torino FC,SS Lazio,0.0,0.0
+418896,2,2022,US Sassuolo Calcio,US Lecce,1.0,0.0
+418900,2,2022,FC Internazionale Milano,Spezia Calcio,3.0,0.0
+418899,2,2022,SSC Napoli,AC Monza,4.0,0.0
+418901,2,2022,Empoli FC,ACF Fiorentina,0.0,0.0
+418902,2,2022,Bologna FC 1909,Hellas Verona FC,1.0,1.0
+418903,2,2022,Atalanta BC,AC Milan,1.0,1.0
+418898,2,2022,AS Roma,US Cremonese,1.0,0.0
+418897,2,2022,UC Sampdoria,Juventus FC,0.0,0.0
+418886,3,2022,AC Monza,Udinese Calcio,1.0,2.0
+418889,3,2022,SS Lazio,FC Internazionale Milano,3.0,1.0
+418890,3,2022,Juventus FC,AS Roma,1.0,1.0
+418893,3,2022,US Cremonese,Torino FC,1.0,2.0
+418884,3,2022,Spezia Calcio,US Sassuolo Calcio,2.0,2.0
+418887,3,2022,AC Milan,Bologna FC 1909,2.0,0.0
+418885,3,2022,US Salernitana 1919,UC Sampdoria,4.0,0.0
+418891,3,2022,Hellas Verona FC,Atalanta BC,0.0,1.0
+418888,3,2022,US Lecce,Empoli FC,1.0,1.0
+418892,3,2022,ACF Fiorentina,SSC Napoli,0.0,0.0
+418875,4,2022,US Sassuolo Calcio,AC Milan,0.0,0.0
+418877,4,2022,AS Roma,AC Monza,3.0,0.0
+418880,4,2022,FC Internazionale Milano,US Cremonese,3.0,1.0
+418874,4,2022,Udinese Calcio,ACF Fiorentina,1.0,0.0
+418876,4,2022,UC Sampdoria,SS Lazio,1.0,1.0
+418881,4,2022,Empoli FC,Hellas Verona FC,1.0,1.0
+418878,4,2022,SSC Napoli,US Lecce,1.0,1.0
+418879,4,2022,Juventus FC,Spezia Calcio,2.0,0.0
+418882,4,2022,Bologna FC 1909,US Salernitana 1919,1.0,1.0
+418883,4,2022,Atalanta BC,Torino FC,3.0,1.0
+418872,5,2022,ACF Fiorentina,Juventus FC,1.0,1.0
+418869,5,2022,AC Milan,FC Internazionale Milano,3.0,2.0
+418870,5,2022,SS Lazio,SSC Napoli,1.0,2.0
+418873,5,2022,US Cremonese,US Sassuolo Calcio,0.0,0.0
+418866,5,2022,Spezia Calcio,Bologna FC 1909,2.0,2.0
+418871,5,2022,Hellas Verona FC,UC Sampdoria,2.0,1.0
+418864,5,2022,Udinese Calcio,AS Roma,4.0,0.0
+418867,5,2022,US Salernitana 1919,Empoli FC,2.0,2.0
+418868,5,2022,AC Monza,Atalanta BC,0.0,2.0
+418865,5,2022,Torino FC,US Lecce,1.0,0.0
+418856,6,2022,SSC Napoli,Spezia Calcio,1.0,0.0
+418860,6,2022,FC Internazionale Milano,Torino FC,1.0,0.0
+418855,6,2022,UC Sampdoria,AC Milan,1.0,2.0
+418863,6,2022,Atalanta BC,US Cremonese,1.0,1.0
+418854,6,2022,US Sassuolo Calcio,Udinese Calcio,1.0,3.0
+418857,6,2022,US Lecce,AC Monza,1.0,1.0
+418862,6,2022,Bologna FC 1909,ACF Fiorentina,2.0,1.0
+418858,6,2022,SS Lazio,Hellas Verona FC,2.0,0.0
+418859,6,2022,Juventus FC,US Salernitana 1919,2.0,2.0
+418861,6,2022,Empoli FC,AS Roma,1.0,2.0
+418847,7,2022,US Salernitana 1919,US Lecce,1.0,2.0
+418853,7,2022,Bologna FC 1909,Empoli FC,0.0,1.0
+418846,7,2022,Spezia Calcio,UC Sampdoria,2.0,1.0
+418845,7,2022,Torino FC,US Sassuolo Calcio,0.0,1.0
+418844,7,2022,Udinese Calcio,FC Internazionale Milano,3.0,1.0
+418849,7,2022,AC Monza,Juventus FC,1.0,0.0
+418851,7,2022,ACF Fiorentina,Hellas Verona FC,2.0,0.0
+418852,7,2022,US Cremonese,SS Lazio,0.0,4.0
+418848,7,2022,AS Roma,Atalanta BC,0.0,1.0
+418850,7,2022,AC Milan,SSC Napoli,1.0,2.0
+418836,8,2022,SSC Napoli,Torino FC,3.0,1.0
+418840,8,2022,FC Internazionale Milano,AS Roma,1.0,2.0
+418842,8,2022,Empoli FC,AC Milan,1.0,3.0
+418838,8,2022,SS Lazio,Spezia Calcio,4.0,0.0
+418834,8,2022,US Sassuolo Calcio,US Salernitana 1919,5.0,0.0
+418835,8,2022,UC Sampdoria,AC Monza,0.0,3.0
+418837,8,2022,US Lecce,US Cremonese,1.0,1.0
+418843,8,2022,Atalanta BC,ACF Fiorentina,1.0,0.0
+418839,8,2022,Juventus FC,Bologna FC 1909,3.0,0.0
+418841,8,2022,Hellas Verona FC,Udinese Calcio,1.0,2.0
+418826,9,2022,US Sassuolo Calcio,FC Internazionale Milano,1.0,2.0
+418830,9,2022,AC Milan,Juventus FC,2.0,0.0
+418833,9,2022,Bologna FC 1909,UC Sampdoria,1.0,1.0
+418825,9,2022,Torino FC,Empoli FC,1.0,1.0
+418824,9,2022,Udinese Calcio,Atalanta BC,2.0,2.0
+418827,9,2022,US Salernitana 1919,Hellas Verona FC,2.0,1.0
+418829,9,2022,AC Monza,Spezia Calcio,2.0,0.0
+418832,9,2022,US Cremonese,SSC Napoli,1.0,4.0
+418828,9,2022,AS Roma,US Lecce,2.0,1.0
+418831,9,2022,ACF Fiorentina,SS Lazio,0.0,4.0
+418822,10,2022,Empoli FC,AC Monza,1.0,0.0
+418814,10,2022,Torino FC,Juventus FC,0.0,1.0
+418823,10,2022,Atalanta BC,US Sassuolo Calcio,2.0,1.0
+418820,10,2022,FC Internazionale Milano,US Salernitana 1919,2.0,0.0
+418819,10,2022,SS Lazio,Udinese Calcio,0.0,0.0
+418815,10,2022,Spezia Calcio,US Cremonese,2.0,2.0
+418817,10,2022,SSC Napoli,Bologna FC 1909,3.0,2.0
+418821,10,2022,Hellas Verona FC,AC Milan,1.0,2.0
+418816,10,2022,UC Sampdoria,AS Roma,0.0,1.0
+418818,10,2022,US Lecce,ACF Fiorentina,1.0,1.0
+418809,11,2022,Juventus FC,Empoli FC,4.0,0.0
+418806,11,2022,US Salernitana 1919,Spezia Calcio,1.0,0.0
+418808,11,2022,AC Milan,AC Monza,4.0,1.0
+418810,11,2022,ACF Fiorentina,FC Internazionale Milano,3.0,4.0
+418804,11,2022,Udinese Calcio,Torino FC,1.0,2.0
+418812,11,2022,Bologna FC 1909,US Lecce,2.0,0.0
+418813,11,2022,Atalanta BC,SS Lazio,0.0,2.0
+418807,11,2022,AS Roma,SSC Napoli,0.0,1.0
+418811,11,2022,US Cremonese,UC Sampdoria,0.0,1.0
+418805,11,2022,US Sassuolo Calcio,Hellas Verona FC,2.0,1.0
+418796,12,2022,SSC Napoli,US Sassuolo Calcio,4.0,0.0
+418798,12,2022,US Lecce,Juventus FC,0.0,1.0
+418800,12,2022,FC Internazionale Milano,UC Sampdoria,3.0,0.0
+418802,12,2022,Empoli FC,Atalanta BC,0.0,2.0
+418795,12,2022,Spezia Calcio,ACF Fiorentina,1.0,2.0
+418803,12,2022,US Cremonese,Udinese Calcio,0.0,0.0
+418799,12,2022,SS Lazio,US Salernitana 1919,1.0,3.0
+418794,12,2022,Torino FC,AC Milan,2.0,1.0
+418801,12,2022,Hellas Verona FC,AS Roma,1.0,3.0
+418797,12,2022,AC Monza,Bologna FC 1909,1.0,2.0
+418784,13,2022,Udinese Calcio,US Lecce,1.0,1.0
+418786,13,2022,US Salernitana 1919,US Cremonese,2.0,2.0
+418791,13,2022,Empoli FC,US Sassuolo Calcio,1.0,0.0
+418793,13,2022,Atalanta BC,SSC Napoli,1.0,2.0
+418789,13,2022,AC Milan,Spezia Calcio,2.0,1.0
+418792,13,2022,Bologna FC 1909,Torino FC,2.0,1.0
+418785,13,2022,UC Sampdoria,ACF Fiorentina,0.0,2.0
+418788,13,2022,AC Monza,Hellas Verona FC,2.0,0.0
+418787,13,2022,AS Roma,SS Lazio,0.0,1.0
+418790,13,2022,Juventus FC,FC Internazionale Milano,2.0,0.0
+418775,14,2022,Spezia Calcio,Udinese Calcio,1.0,1.0
+418777,14,2022,SSC Napoli,Empoli FC,2.0,0.0
+418783,14,2022,US Cremonese,AC Milan,0.0,0.0
+418776,14,2022,US Sassuolo Calcio,AS Roma,1.0,1.0
+418778,14,2022,US Lecce,Atalanta BC,2.0,1.0
+418774,14,2022,Torino FC,UC Sampdoria,2.0,0.0
+418780,14,2022,FC Internazionale Milano,Bologna FC 1909,6.0,1.0
+418782,14,2022,ACF Fiorentina,US Salernitana 1919,2.0,1.0
+418781,14,2022,Hellas Verona FC,Juventus FC,0.0,1.0
+418779,14,2022,SS Lazio,AC Monza,1.0,0.0
+418771,15,2022,Empoli FC,US Cremonese,2.0,0.0
+418766,15,2022,SSC Napoli,Udinese Calcio,3.0,2.0
+418764,15,2022,UC Sampdoria,US Lecce,0.0,2.0
+418772,15,2022,Bologna FC 1909,US Sassuolo Calcio,3.0,0.0
+418773,15,2022,Atalanta BC,FC Internazionale Milano,2.0,3.0
+418765,15,2022,AS Roma,Torino FC,1.0,1.0
+418767,15,2022,AC Monza,US Salernitana 1919,3.0,0.0
+418770,15,2022,Hellas Verona FC,Spezia Calcio,1.0,2.0
+418768,15,2022,AC Milan,ACF Fiorentina,2.0,1.0
+418769,15,2022,Juventus FC,SS Lazio,3.0,0.0
+418757,16,2022,US Sassuolo Calcio,UC Sampdoria,1.0,2.0
+418758,16,2022,US Salernitana 1919,AC Milan,1.0,2.0
+418755,16,2022,Torino FC,Hellas Verona FC,1.0,1.0
+418756,16,2022,Spezia Calcio,Atalanta BC,2.0,2.0
+418759,16,2022,AS Roma,Bologna FC 1909,1.0,0.0
+418760,16,2022,US Lecce,SS Lazio,2.0,1.0
+418762,16,2022,ACF Fiorentina,AC Monza,1.0,1.0
+418763,16,2022,US Cremonese,Juventus FC,0.0,1.0
+418754,16,2022,Udinese Calcio,Empoli FC,1.0,1.0
+418761,16,2022,FC Internazionale Milano,SSC Napoli,1.0,0.0
+418752,17,2022,ACF Fiorentina,US Sassuolo Calcio,2.0,1.0
+418750,17,2022,Juventus FC,Udinese Calcio,1.0,0.0
+418747,17,2022,AC Monza,FC Internazionale Milano,2.0,2.0
+418746,17,2022,US Salernitana 1919,Torino FC,1.0,1.0
+418744,17,2022,Spezia Calcio,US Lecce,0.0,0.0
+418749,17,2022,SS Lazio,Empoli FC,2.0,2.0
+418745,17,2022,UC Sampdoria,SSC Napoli,0.0,2.0
+418748,17,2022,AC Milan,AS Roma,2.0,2.0
+418751,17,2022,Hellas Verona FC,US Cremonese,2.0,0.0
+418753,17,2022,Bologna FC 1909,Atalanta BC,1.0,2.0
+418738,18,2022,SSC Napoli,Juventus FC,5.0,1.0
+418742,18,2022,US Cremonese,AC Monza,2.0,3.0
+418739,18,2022,US Lecce,AC Milan,2.0,2.0
+418740,18,2022,FC Internazionale Milano,Hellas Verona FC,1.0,0.0
+418736,18,2022,US Sassuolo Calcio,SS Lazio,0.0,2.0
+418734,18,2022,Udinese Calcio,Bologna FC 1909,1.0,2.0
+418735,18,2022,Torino FC,Spezia Calcio,0.0,1.0
+418743,18,2022,Atalanta BC,US Salernitana 1919,8.0,2.0
+418737,18,2022,AS Roma,ACF Fiorentina,2.0,0.0
+418741,18,2022,Empoli FC,UC Sampdoria,1.0,0.0
+418731,19,2022,Hellas Verona FC,US Lecce,2.0,0.0
+418726,19,2022,US Salernitana 1919,SSC Napoli,0.0,2.0
+418732,19,2022,ACF Fiorentina,Torino FC,0.0,1.0
+418725,19,2022,UC Sampdoria,Udinese Calcio,0.0,1.0
+418727,19,2022,AC Monza,US Sassuolo Calcio,1.0,1.0
+418724,19,2022,Spezia Calcio,AS Roma,0.0,2.0
+418729,19,2022,Juventus FC,Atalanta BC,3.0,3.0
+418733,19,2022,Bologna FC 1909,US Cremonese,1.0,1.0
+418730,19,2022,FC Internazionale Milano,Empoli FC,0.0,1.0
+418728,19,2022,SS Lazio,AC Milan,4.0,0.0
+418722,20,2022,Bologna FC 1909,Spezia Calcio,2.0,0.0
+418717,20,2022,US Lecce,US Salernitana 1919,1.0,2.0
+418720,20,2022,Empoli FC,Torino FC,2.0,2.0
+418721,20,2022,US Cremonese,FC Internazionale Milano,1.0,2.0
+418723,20,2022,Atalanta BC,UC Sampdoria,2.0,0.0
+418716,20,2022,AC Milan,US Sassuolo Calcio,2.0,5.0
+418719,20,2022,Juventus FC,AC Monza,0.0,2.0
+418718,20,2022,SS Lazio,ACF Fiorentina,1.0,1.0
+418715,20,2022,SSC Napoli,AS Roma,2.0,1.0
+418714,20,2022,Udinese Calcio,Hellas Verona FC,1.0,1.0
+418713,21,2022,US Cremonese,US Lecce,0.0,2.0
+418708,21,2022,AS Roma,Empoli FC,2.0,0.0
+418706,21,2022,US Sassuolo Calcio,Atalanta BC,1.0,0.0
+418705,21,2022,Spezia Calcio,SSC Napoli,0.0,3.0
+418704,21,2022,Torino FC,Udinese Calcio,1.0,0.0
+418712,21,2022,ACF Fiorentina,Bologna FC 1909,1.0,2.0
+418710,21,2022,FC Internazionale Milano,AC Milan,1.0,0.0
+418711,21,2022,Hellas Verona FC,SS Lazio,1.0,1.0
+418709,21,2022,AC Monza,UC Sampdoria,2.0,2.0
+418707,21,2022,US Salernitana 1919,Juventus FC,0.0,3.0
+418697,22,2022,AC Milan,Torino FC,1.0,0.0
+418702,22,2022,Empoli FC,Spezia Calcio,2.0,2.0
+418698,22,2022,US Lecce,AS Roma,1.0,1.0
+418699,22,2022,SS Lazio,Atalanta BC,0.0,2.0
+418694,22,2022,Udinese Calcio,US Sassuolo Calcio,2.0,2.0
+418703,22,2022,Bologna FC 1909,AC Monza,0.0,1.0
+418700,22,2022,Juventus FC,ACF Fiorentina,1.0,0.0
+418696,22,2022,SSC Napoli,US Cremonese,3.0,0.0
+418701,22,2022,Hellas Verona FC,US Salernitana 1919,1.0,0.0
+418695,22,2022,UC Sampdoria,FC Internazionale Milano,0.0,0.0
+418686,23,2022,US Sassuolo Calcio,SSC Napoli,0.0,2.0
+418687,23,2022,UC Sampdoria,Bologna FC 1909,1.0,2.0
+418690,23,2022,AC Monza,AC Milan,0.0,1.0
+418691,23,2022,FC Internazionale Milano,Udinese Calcio,3.0,1.0
+418693,23,2022,Atalanta BC,US Lecce,1.0,2.0
+418688,23,2022,US Salernitana 1919,SS Lazio,0.0,2.0
+418692,23,2022,ACF Fiorentina,Empoli FC,1.0,1.0
+418685,23,2022,Spezia Calcio,Juventus FC,0.0,2.0
+418689,23,2022,AS Roma,Hellas Verona FC,1.0,0.0
+418684,23,2022,Torino FC,US Cremonese,2.0,2.0
+418681,24,2022,Empoli FC,SSC Napoli,0.0,2.0
+418677,24,2022,US Lecce,US Sassuolo Calcio,0.0,1.0
+418683,24,2022,Bologna FC 1909,FC Internazionale Milano,1.0,0.0
+418675,24,2022,US Salernitana 1919,AC Monza,3.0,0.0
+418674,24,2022,Udinese Calcio,Spezia Calcio,2.0,2.0
+418676,24,2022,AC Milan,Atalanta BC,2.0,0.0
+418680,24,2022,Hellas Verona FC,ACF Fiorentina,0.0,3.0
+418678,24,2022,SS Lazio,UC Sampdoria,1.0,0.0
+418682,24,2022,US Cremonese,AS Roma,2.0,1.0
+418679,24,2022,Juventus FC,Torino FC,4.0,2.0
+418669,25,2022,SSC Napoli,SS Lazio,0.0,1.0
+418670,25,2022,AC Monza,Empoli FC,2.0,1.0
+418673,25,2022,Atalanta BC,Udinese Calcio,0.0,0.0
+418672,25,2022,ACF Fiorentina,AC Milan,2.0,1.0
+418665,25,2022,Spezia Calcio,Hellas Verona FC,0.0,0.0
+418667,25,2022,UC Sampdoria,US Salernitana 1919,0.0,0.0
+418671,25,2022,FC Internazionale Milano,US Lecce,2.0,0.0
+418668,25,2022,AS Roma,Juventus FC,1.0,0.0
+418666,25,2022,US Sassuolo Calcio,US Cremonese,3.0,2.0
+418664,25,2022,Torino FC,Bologna FC 1909,1.0,0.0
+418654,26,2022,Spezia Calcio,FC Internazionale Milano,2.0,1.0
+418661,26,2022,Empoli FC,Udinese Calcio,0.0,1.0
+418656,26,2022,SSC Napoli,Atalanta BC,2.0,0.0
+418663,26,2022,Bologna FC 1909,SS Lazio,0.0,0.0
+418658,26,2022,US Lecce,Torino FC,0.0,2.0
+418660,26,2022,Hellas Verona FC,AC Monza,1.0,1.0
+418662,26,2022,US Cremonese,ACF Fiorentina,0.0,2.0
+418655,26,2022,AS Roma,US Sassuolo Calcio,3.0,4.0
+418659,26,2022,Juventus FC,UC Sampdoria,4.0,2.0
+418657,26,2022,AC Milan,US Salernitana 1919,1.0,1.0
+418646,27,2022,US Sassuolo Calcio,Spezia Calcio,1.0,0.0
+418653,27,2022,Atalanta BC,Empoli FC,2.0,1.0
+418649,27,2022,AC Monza,US Cremonese,1.0,1.0
+418648,27,2022,US Salernitana 1919,Bologna FC 1909,2.0,2.0
+418644,27,2022,Udinese Calcio,AC Milan,3.0,1.0
+418647,27,2022,UC Sampdoria,Hellas Verona FC,3.0,1.0
+418645,27,2022,Torino FC,SSC Napoli,0.0,4.0
+418652,27,2022,ACF Fiorentina,US Lecce,1.0,0.0
+418650,27,2022,SS Lazio,AS Roma,1.0,0.0
+418651,27,2022,FC Internazionale Milano,Juventus FC,0.0,1.0
+418642,28,2022,US Cremonese,Atalanta BC,1.0,3.0
+418640,28,2022,FC Internazionale Milano,ACF Fiorentina,0.0,1.0
+418639,28,2022,Juventus FC,Hellas Verona FC,1.0,0.0
+418643,28,2022,Bologna FC 1909,Udinese Calcio,3.0,0.0
+418634,28,2022,Spezia Calcio,US Salernitana 1919,1.0,1.0
+418638,28,2022,AC Monza,SS Lazio,0.0,2.0
+418636,28,2022,AS Roma,UC Sampdoria,3.0,0.0
+418637,28,2022,SSC Napoli,AC Milan,0.0,4.0
+418641,28,2022,Empoli FC,US Lecce,1.0,0.0
+418635,28,2022,US Sassuolo Calcio,Torino FC,1.0,1.0
+418627,29,2022,US Salernitana 1919,FC Internazionale Milano,1.0,1.0
+418629,29,2022,US Lecce,SSC Napoli,1.0,2.0
+418628,29,2022,AC Milan,Empoli FC,0.0,0.0
+418624,29,2022,Udinese Calcio,AC Monza,2.0,2.0
+418632,29,2022,ACF Fiorentina,Spezia Calcio,1.0,1.0
+418626,29,2022,UC Sampdoria,US Cremonese,2.0,3.0
+418633,29,2022,Atalanta BC,Bologna FC 1909,0.0,2.0
+418625,29,2022,Torino FC,AS Roma,0.0,1.0
+418631,29,2022,Hellas Verona FC,US Sassuolo Calcio,2.0,1.0
+418630,29,2022,SS Lazio,Juventus FC,2.0,1.0
+418622,30,2022,US Cremonese,Empoli FC,1.0,0.0
+418615,30,2022,Spezia Calcio,SS Lazio,0.0,3.0
+418623,30,2022,Bologna FC 1909,AC Milan,1.0,1.0
+418618,30,2022,SSC Napoli,Hellas Verona FC,0.0,0.0
+418620,30,2022,FC Internazionale Milano,AC Monza,0.0,1.0
+418619,30,2022,US Lecce,UC Sampdoria,1.0,1.0
+418614,30,2022,Torino FC,US Salernitana 1919,1.0,1.0
+418616,30,2022,US Sassuolo Calcio,Juventus FC,1.0,0.0
+418617,30,2022,AS Roma,Udinese Calcio,3.0,0.0
+418621,30,2022,ACF Fiorentina,Atalanta BC,1.0,1.0
+418611,31,2022,Hellas Verona FC,Bologna FC 1909,2.0,1.0
+418606,31,2022,US Salernitana 1919,US Sassuolo Calcio,3.0,0.0
+418609,31,2022,SS Lazio,Torino FC,0.0,1.0
+418605,31,2022,UC Sampdoria,Spezia Calcio,1.0,1.0
+418612,31,2022,Empoli FC,FC Internazionale Milano,0.0,3.0
+418604,31,2022,Udinese Calcio,US Cremonese,3.0,0.0
+418607,31,2022,AC Monza,ACF Fiorentina,3.0,2.0
+418608,31,2022,AC Milan,US Lecce,2.0,0.0
+418610,31,2022,Juventus FC,SSC Napoli,0.0,1.0
+418613,31,2022,Atalanta BC,AS Roma,3.0,1.0
+418599,32,2022,US Lecce,Udinese Calcio,1.0,0.0
+418595,32,2022,Spezia Calcio,AC Monza,0.0,2.0
+418597,32,2022,AS Roma,AC Milan,1.0,1.0
+418594,32,2022,Torino FC,Atalanta BC,1.0,2.0
+418600,32,2022,FC Internazionale Milano,SS Lazio,3.0,1.0
+418596,32,2022,US Sassuolo Calcio,Empoli FC,2.0,1.0
+418598,32,2022,SSC Napoli,US Salernitana 1919,1.0,1.0
+418602,32,2022,US Cremonese,Hellas Verona FC,1.0,1.0
+418601,32,2022,ACF Fiorentina,UC Sampdoria,5.0,0.0
+418603,32,2022,Bologna FC 1909,Juventus FC,1.0,1.0
+418585,33,2022,UC Sampdoria,Torino FC,0.0,2.0
+418586,33,2022,US Salernitana 1919,ACF Fiorentina,3.0,3.0
+418590,33,2022,Juventus FC,US Lecce,2.0,1.0
+418593,33,2022,Atalanta BC,Spezia Calcio,3.0,2.0
+418587,33,2022,AC Monza,AS Roma,1.0,1.0
+418588,33,2022,AC Milan,US Cremonese,1.0,1.0
+418589,33,2022,SS Lazio,US Sassuolo Calcio,2.0,0.0
+418591,33,2022,Hellas Verona FC,FC Internazionale Milano,0.0,6.0
+418584,33,2022,Udinese Calcio,SSC Napoli,1.0,1.0
+418592,33,2022,Empoli FC,Bologna FC 1909,3.0,1.0
+418579,34,2022,AC Milan,SS Lazio,2.0,0.0
+418577,34,2022,AS Roma,FC Internazionale Milano,0.0,2.0
+418582,34,2022,US Cremonese,Spezia Calcio,2.0,0.0
+418583,34,2022,Atalanta BC,Juventus FC,0.0,2.0
+418575,34,2022,Torino FC,AC Monza,1.0,1.0
+418578,34,2022,SSC Napoli,ACF Fiorentina,1.0,0.0
+418580,34,2022,US Lecce,Hellas Verona FC,0.0,1.0
+418574,34,2022,Udinese Calcio,UC Sampdoria,2.0,0.0
+418581,34,2022,Empoli FC,US Salernitana 1919,2.0,1.0
+418576,34,2022,US Sassuolo Calcio,Bologna FC 1909,1.0,1.0
+418568,35,2022,SS Lazio,US Lecce,2.0,2.0
+418566,35,2022,US Salernitana 1919,Atalanta BC,1.0,0.0
+418564,35,2022,Spezia Calcio,AC Milan,2.0,0.0
+418570,35,2022,FC Internazionale Milano,US Sassuolo Calcio,4.0,2.0
+418571,35,2022,Hellas Verona FC,Torino FC,0.0,1.0
+418567,35,2022,AC Monza,SSC Napoli,2.0,0.0
+418572,35,2022,ACF Fiorentina,Udinese Calcio,2.0,0.0
+418573,35,2022,Bologna FC 1909,AS Roma,0.0,0.0
+418569,35,2022,Juventus FC,US Cremonese,2.0,0.0
+418565,35,2022,UC Sampdoria,Empoli FC,1.0,1.0
+418556,36,2022,US Sassuolo Calcio,AC Monza,1.0,2.0
+418562,36,2022,US Cremonese,Bologna FC 1909,1.0,5.0
+418563,36,2022,Atalanta BC,Hellas Verona FC,3.0,1.0
+418559,36,2022,AC Milan,UC Sampdoria,5.0,1.0
+418560,36,2022,US Lecce,Spezia Calcio,0.0,0.0
+418555,36,2022,Torino FC,ACF Fiorentina,1.0,1.0
+418558,36,2022,SSC Napoli,FC Internazionale Milano,3.0,1.0
+418554,36,2022,Udinese Calcio,SS Lazio,0.0,1.0
+418557,36,2022,AS Roma,US Salernitana 1919,2.0,2.0
+418561,36,2022,Empoli FC,Juventus FC,4.0,1.0
+418545,37,2022,UC Sampdoria,US Sassuolo Calcio,2.0,2.0
+418544,37,2022,Spezia Calcio,Torino FC,0.0,4.0
+418546,37,2022,US Salernitana 1919,Udinese Calcio,3.0,2.0
+418552,37,2022,ACF Fiorentina,AS Roma,2.0,1.0
+418550,37,2022,FC Internazionale Milano,Atalanta BC,3.0,2.0
+418551,37,2022,Hellas Verona FC,Empoli FC,1.0,1.0
+418547,37,2022,AC Monza,US Lecce,0.0,1.0
+418553,37,2022,Bologna FC 1909,SSC Napoli,2.0,2.0
+418548,37,2022,SS Lazio,US Cremonese,3.0,2.0
+418549,37,2022,Juventus FC,AC Milan,0.0,1.0
+418536,38,2022,US Sassuolo Calcio,ACF Fiorentina,1.0,3.0
+418535,38,2022,Torino FC,FC Internazionale Milano,0.0,1.0
+418541,38,2022,Empoli FC,SS Lazio,0.0,2.0
+418542,38,2022,US Cremonese,US Salernitana 1919,2.0,0.0
+418538,38,2022,SSC Napoli,UC Sampdoria,2.0,0.0
+418534,38,2022,Udinese Calcio,Juventus FC,0.0,1.0
+418537,38,2022,AS Roma,Spezia Calcio,2.0,1.0
+418539,38,2022,AC Milan,Hellas Verona FC,3.0,1.0
+418540,38,2022,US Lecce,Bologna FC 1909,2.0,3.0
+418543,38,2022,Atalanta BC,AC Monza,5.0,2.0
+444255,1,2023,Empoli FC,Hellas Verona FC,0.0,1.0
+444256,1,2023,Frosinone Calcio,SSC Napoli,1.0,3.0
+444257,1,2023,Genoa CFC,ACF Fiorentina,1.0,4.0
+444258,1,2023,FC Internazionale Milano,AC Monza,2.0,0.0
+444260,1,2023,AS Roma,US Salernitana 1919,2.0,2.0
+444261,1,2023,US Sassuolo Calcio,Atalanta BC,0.0,2.0
+444259,1,2023,US Lecce,SS Lazio,2.0,1.0
+444263,1,2023,Udinese Calcio,Juventus FC,0.0,3.0
+444262,1,2023,Torino FC,Cagliari Calcio,0.0,0.0
+444254,1,2023,Bologna FC 1909,AC Milan,0.0,2.0
+444266,2,2023,Frosinone Calcio,Atalanta BC,2.0,1.0
+444271,2,2023,AC Monza,Empoli FC,2.0,0.0
+444267,2,2023,Hellas Verona FC,AS Roma,2.0,1.0
+444270,2,2023,AC Milan,Torino FC,4.0,1.0
+444265,2,2023,ACF Fiorentina,US Lecce,2.0,2.0
+444268,2,2023,Juventus FC,Bologna FC 1909,1.0,1.0
+444269,2,2023,SS Lazio,Genoa CFC,0.0,1.0
+444272,2,2023,SSC Napoli,US Sassuolo Calcio,2.0,0.0
+444273,2,2023,US Salernitana 1919,Udinese Calcio,1.0,1.0
+444264,2,2023,Cagliari Calcio,FC Internazionale Milano,0.0,2.0
+444281,3,2023,US Sassuolo Calcio,Hellas Verona FC,3.0,1.0
+444280,3,2023,AS Roma,AC Milan,1.0,2.0
+444275,3,2023,Bologna FC 1909,Cagliari Calcio,2.0,1.0
+444283,3,2023,Udinese Calcio,Frosinone Calcio,0.0,0.0
+444274,3,2023,Atalanta BC,AC Monza,3.0,0.0
+444279,3,2023,SSC Napoli,SS Lazio,1.0,2.0
+444277,3,2023,FC Internazionale Milano,ACF Fiorentina,4.0,0.0
+444282,3,2023,Torino FC,Genoa CFC,1.0,0.0
+444276,3,2023,Empoli FC,Juventus FC,0.0,2.0
+444278,3,2023,US Lecce,US Salernitana 1919,2.0,0.0
+444290,4,2023,Juventus FC,SS Lazio,3.0,1.0
+444289,4,2023,FC Internazionale Milano,AC Milan,5.0,1.0
+444287,4,2023,Genoa CFC,SSC Napoli,2.0,2.0
+444284,4,2023,Cagliari Calcio,Udinese Calcio,0.0,0.0
+444286,4,2023,Frosinone Calcio,US Sassuolo Calcio,4.0,2.0
+444291,4,2023,AC Monza,US Lecce,1.0,1.0
+444285,4,2023,ACF Fiorentina,Atalanta BC,3.0,2.0
+444292,4,2023,AS Roma,Empoli FC,7.0,0.0
+444293,4,2023,US Salernitana 1919,Torino FC,0.0,3.0
+444288,4,2023,Hellas Verona FC,Bologna FC 1909,0.0,0.0
+444300,5,2023,US Salernitana 1919,Frosinone Calcio,1.0,1.0
+444298,5,2023,US Lecce,Genoa CFC,1.0,0.0
+444299,5,2023,AC Milan,Hellas Verona FC,1.0,0.0
+444301,5,2023,US Sassuolo Calcio,Juventus FC,4.0,2.0
+444297,5,2023,SS Lazio,AC Monza,1.0,1.0
+444296,5,2023,Empoli FC,FC Internazionale Milano,0.0,1.0
+444294,5,2023,Atalanta BC,Cagliari Calcio,2.0,0.0
+444303,5,2023,Udinese Calcio,ACF Fiorentina,0.0,2.0
+444295,5,2023,Bologna FC 1909,SSC Napoli,0.0,0.0
+444302,5,2023,Torino FC,AS Roma,1.0,1.0
+444310,6,2023,Juventus FC,US Lecce,1.0,0.0
+444304,6,2023,Cagliari Calcio,AC Milan,1.0,3.0
+444305,6,2023,Empoli FC,US Salernitana 1919,1.0,0.0
+444308,6,2023,Hellas Verona FC,Atalanta BC,0.0,1.0
+444309,6,2023,FC Internazionale Milano,US Sassuolo Calcio,1.0,2.0
+444311,6,2023,SS Lazio,Torino FC,2.0,0.0
+444313,6,2023,SSC Napoli,Udinese Calcio,4.0,1.0
+444306,6,2023,Frosinone Calcio,ACF Fiorentina,1.0,1.0
+444312,6,2023,AC Monza,Bologna FC 1909,0.0,0.0
+444307,6,2023,Genoa CFC,AS Roma,4.0,1.0
+444317,7,2023,US Lecce,SSC Napoli,0.0,4.0
+444318,7,2023,AC Milan,SS Lazio,2.0,0.0
+444320,7,2023,US Salernitana 1919,FC Internazionale Milano,0.0,4.0
+444315,7,2023,Bologna FC 1909,Empoli FC,3.0,0.0
+444323,7,2023,Udinese Calcio,Genoa CFC,2.0,2.0
+444314,7,2023,Atalanta BC,Juventus FC,0.0,0.0
+444319,7,2023,AS Roma,Frosinone Calcio,2.0,0.0
+444321,7,2023,US Sassuolo Calcio,AC Monza,0.0,1.0
+444322,7,2023,Torino FC,Hellas Verona FC,0.0,0.0
+444316,7,2023,ACF Fiorentina,Cagliari Calcio,3.0,0.0
+444325,8,2023,Empoli FC,Udinese Calcio,0.0,0.0
+444331,8,2023,US Lecce,US Sassuolo Calcio,1.0,1.0
+444328,8,2023,FC Internazionale Milano,Bologna FC 1909,2.0,2.0
+444329,8,2023,Juventus FC,Torino FC,2.0,0.0
+444327,8,2023,Genoa CFC,AC Milan,0.0,1.0
+444332,8,2023,AC Monza,US Salernitana 1919,3.0,0.0
+444326,8,2023,Frosinone Calcio,Hellas Verona FC,2.0,1.0
+444330,8,2023,SS Lazio,Atalanta BC,3.0,2.0
+444324,8,2023,Cagliari Calcio,AS Roma,1.0,4.0
+444333,8,2023,SSC Napoli,ACF Fiorentina,1.0,3.0
+444337,9,2023,Hellas Verona FC,SSC Napoli,1.0,3.0
+444342,9,2023,Torino FC,FC Internazionale Milano,0.0,3.0
+444341,9,2023,US Sassuolo Calcio,SS Lazio,0.0,2.0
+444339,9,2023,AS Roma,AC Monza,1.0,0.0
+444335,9,2023,Bologna FC 1909,Frosinone Calcio,2.0,1.0
+444340,9,2023,US Salernitana 1919,Cagliari Calcio,2.0,2.0
+444334,9,2023,Atalanta BC,Genoa CFC,2.0,0.0
+444338,9,2023,AC Milan,Juventus FC,0.0,1.0
+444343,9,2023,Udinese Calcio,US Lecce,1.0,1.0
+444336,9,2023,ACF Fiorentina,Empoli FC,0.0,2.0
+444346,10,2023,Genoa CFC,US Salernitana 1919,1.0,0.0
+444353,10,2023,US Sassuolo Calcio,Bologna FC 1909,1.0,1.0
+444350,10,2023,US Lecce,Torino FC,0.0,1.0
+444348,10,2023,Juventus FC,Hellas Verona FC,1.0,0.0
+444344,10,2023,Cagliari Calcio,Frosinone Calcio,4.0,3.0
+444351,10,2023,AC Monza,Udinese Calcio,1.0,1.0
+444347,10,2023,FC Internazionale Milano,AS Roma,1.0,0.0
+444352,10,2023,SSC Napoli,AC Milan,2.0,2.0
+444345,10,2023,Empoli FC,Atalanta BC,0.0,3.0
+444349,10,2023,SS Lazio,ACF Fiorentina,1.0,0.0
+444355,11,2023,Bologna FC 1909,SS Lazio,1.0,0.0
+444362,11,2023,US Salernitana 1919,SSC Napoli,0.0,2.0
+444354,11,2023,Atalanta BC,FC Internazionale Milano,1.0,2.0
+444360,11,2023,AC Milan,Udinese Calcio,0.0,1.0
+444359,11,2023,Hellas Verona FC,AC Monza,1.0,3.0
+444356,11,2023,Cagliari Calcio,Genoa CFC,2.0,1.0
+444361,11,2023,AS Roma,US Lecce,2.0,1.0
+444357,11,2023,ACF Fiorentina,Juventus FC,0.0,1.0
+444358,11,2023,Frosinone Calcio,Empoli FC,2.0,1.0
+444363,11,2023,Torino FC,US Sassuolo Calcio,2.0,1.0
+444372,12,2023,US Sassuolo Calcio,US Salernitana 1919,2.0,2.0
+444365,12,2023,Genoa CFC,Hellas Verona FC,1.0,0.0
+444369,12,2023,US Lecce,AC Milan,2.0,2.0
+444367,12,2023,Juventus FC,Cagliari Calcio,2.0,1.0
+444370,12,2023,AC Monza,Torino FC,1.0,1.0
+444371,12,2023,SSC Napoli,Empoli FC,0.0,1.0
+444364,12,2023,ACF Fiorentina,Bologna FC 1909,2.0,1.0
+444373,12,2023,Udinese Calcio,Atalanta BC,1.0,1.0
+444368,12,2023,SS Lazio,AS Roma,0.0,0.0
+444366,12,2023,FC Internazionale Milano,Frosinone Calcio,2.0,0.0
+444383,13,2023,US Salernitana 1919,SS Lazio,2.0,1.0
+444374,13,2023,Atalanta BC,SSC Napoli,1.0,2.0
+444381,13,2023,AC Milan,ACF Fiorentina,1.0,0.0
+444376,13,2023,Cagliari Calcio,AC Monza,1.0,1.0
+444377,13,2023,Empoli FC,US Sassuolo Calcio,3.0,4.0
+444378,13,2023,Frosinone Calcio,Genoa CFC,2.0,1.0
+444382,13,2023,AS Roma,Udinese Calcio,3.0,1.0
+444380,13,2023,Juventus FC,FC Internazionale Milano,1.0,1.0
+444379,13,2023,Hellas Verona FC,US Lecce,2.0,2.0
+444375,13,2023,Bologna FC 1909,Torino FC,2.0,0.0
+444389,14,2023,AC Monza,Juventus FC,1.0,2.0
+444385,14,2023,Genoa CFC,Empoli FC,1.0,1.0
+444386,14,2023,SS Lazio,Cagliari Calcio,1.0,0.0
+444388,14,2023,AC Milan,Frosinone Calcio,3.0,1.0
+444387,14,2023,US Lecce,Bologna FC 1909,1.0,1.0
+444384,14,2023,ACF Fiorentina,US Salernitana 1919,3.0,0.0
+444393,14,2023,Udinese Calcio,Hellas Verona FC,3.0,3.0
+444391,14,2023,US Sassuolo Calcio,AS Roma,1.0,2.0
+444390,14,2023,SSC Napoli,FC Internazionale Milano,0.0,3.0
+444392,14,2023,Torino FC,Atalanta BC,3.0,0.0
+444400,15,2023,Juventus FC,SSC Napoli,1.0,0.0
+444398,15,2023,Hellas Verona FC,SS Lazio,1.0,1.0
+444394,15,2023,Atalanta BC,AC Milan,3.0,2.0
+444399,15,2023,FC Internazionale Milano,Udinese Calcio,4.0,0.0
+444397,15,2023,Frosinone Calcio,Torino FC,0.0,0.0
+444401,15,2023,AC Monza,Genoa CFC,1.0,0.0
+444403,15,2023,US Salernitana 1919,Bologna FC 1909,1.0,2.0
+444402,15,2023,AS Roma,ACF Fiorentina,1.0,1.0
+444396,15,2023,Empoli FC,US Lecce,1.0,1.0
+444395,15,2023,Cagliari Calcio,US Sassuolo Calcio,2.0,1.0
+444407,16,2023,Genoa CFC,Juventus FC,1.0,1.0
+444409,16,2023,US Lecce,Frosinone Calcio,2.0,1.0
+444411,16,2023,SSC Napoli,Cagliari Calcio,2.0,1.0
+444412,16,2023,Torino FC,Empoli FC,1.0,0.0
+444410,16,2023,AC Milan,AC Monza,3.0,0.0
+444406,16,2023,ACF Fiorentina,Hellas Verona FC,1.0,0.0
+444413,16,2023,Udinese Calcio,US Sassuolo Calcio,2.0,2.0
+444405,16,2023,Bologna FC 1909,AS Roma,2.0,0.0
+444408,16,2023,SS Lazio,FC Internazionale Milano,0.0,2.0
+444404,16,2023,Atalanta BC,US Salernitana 1919,4.0,1.0
+444422,17,2023,US Sassuolo Calcio,Genoa CFC,1.0,2.0
+444415,17,2023,Empoli FC,SS Lazio,0.0,2.0
+444419,17,2023,AC Monza,ACF Fiorentina,0.0,1.0
+444421,17,2023,US Salernitana 1919,AC Milan,2.0,2.0
+444416,17,2023,Frosinone Calcio,Juventus FC,1.0,2.0
+444423,17,2023,Torino FC,Udinese Calcio,1.0,1.0
+444414,17,2023,Bologna FC 1909,Atalanta BC,1.0,0.0
+444417,17,2023,Hellas Verona FC,Cagliari Calcio,2.0,0.0
+444418,17,2023,FC Internazionale Milano,US Lecce,2.0,0.0
+444420,17,2023,AS Roma,SSC Napoli,2.0,0.0
+444426,18,2023,ACF Fiorentina,Torino FC,1.0,0.0
+444432,18,2023,SSC Napoli,AC Monza,0.0,0.0
+444427,18,2023,Genoa CFC,FC Internazionale Milano,1.0,1.0
+444430,18,2023,SS Lazio,Frosinone Calcio,3.0,1.0
+444424,18,2023,Atalanta BC,US Lecce,1.0,0.0
+444425,18,2023,Cagliari Calcio,Empoli FC,0.0,0.0
+444433,18,2023,Udinese Calcio,Bologna FC 1909,3.0,0.0
+444428,18,2023,Hellas Verona FC,US Salernitana 1919,0.0,1.0
+444431,18,2023,AC Milan,US Sassuolo Calcio,1.0,0.0
+444429,18,2023,Juventus FC,AS Roma,1.0,0.0
+444434,19,2023,Bologna FC 1909,Genoa CFC,1.0,1.0
+444437,19,2023,FC Internazionale Milano,Hellas Verona FC,2.0,1.0
+444436,19,2023,Frosinone Calcio,AC Monza,2.0,3.0
+444438,19,2023,US Lecce,Cagliari Calcio,1.0,1.0
+444441,19,2023,US Sassuolo Calcio,ACF Fiorentina,1.0,0.0
+444435,19,2023,Empoli FC,AC Milan,0.0,3.0
+444442,19,2023,Torino FC,SSC Napoli,3.0,0.0
+444443,19,2023,Udinese Calcio,SS Lazio,1.0,2.0
+444440,19,2023,US Salernitana 1919,Juventus FC,1.0,2.0
+444439,19,2023,AS Roma,Atalanta BC,1.0,1.0
+444447,20,2023,Genoa CFC,Torino FC,0.0,0.0
+444453,20,2023,SSC Napoli,US Salernitana 1919,2.0,1.0
+444448,20,2023,Hellas Verona FC,Empoli FC,2.0,1.0
+444452,20,2023,AC Monza,FC Internazionale Milano,1.0,5.0
+444450,20,2023,SS Lazio,US Lecce,1.0,0.0
+444445,20,2023,Cagliari Calcio,Bologna FC 1909,2.0,1.0
+444446,20,2023,ACF Fiorentina,Udinese Calcio,2.0,2.0
+444451,20,2023,AC Milan,AS Roma,3.0,1.0
+444444,20,2023,Atalanta BC,Frosinone Calcio,5.0,0.0
+444449,20,2023,Juventus FC,US Sassuolo Calcio,3.0,0.0
+444459,21,2023,AS Roma,Hellas Verona FC,2.0,1.0
+444463,21,2023,Udinese Calcio,AC Milan,2.0,3.0
+444456,21,2023,Frosinone Calcio,Cagliari Calcio,3.0,1.0
+444455,21,2023,Empoli FC,AC Monza,3.0,0.0
+444460,21,2023,US Salernitana 1919,Genoa CFC,1.0,2.0
+444458,21,2023,US Lecce,Juventus FC,0.0,3.0
+444465,22,2023,Cagliari Calcio,Torino FC,1.0,2.0
+444464,22,2023,Atalanta BC,Udinese Calcio,2.0,0.0
+444469,22,2023,Juventus FC,Empoli FC,1.0,1.0
+444471,22,2023,AC Milan,Bologna FC 1909,2.0,2.0
+444467,22,2023,Genoa CFC,US Lecce,2.0,1.0
+444468,22,2023,Hellas Verona FC,Frosinone Calcio,1.0,1.0
+444472,22,2023,AC Monza,US Sassuolo Calcio,1.0,0.0
+444470,22,2023,SS Lazio,SSC Napoli,0.0,0.0
+444466,22,2023,ACF Fiorentina,FC Internazionale Milano,0.0,1.0
+444473,22,2023,US Salernitana 1919,AS Roma,1.0,2.0
+444479,23,2023,US Lecce,ACF Fiorentina,3.0,2.0
+444476,23,2023,Empoli FC,Genoa CFC,0.0,0.0
+444483,23,2023,Udinese Calcio,AC Monza,0.0,0.0
+444477,23,2023,Frosinone Calcio,AC Milan,2.0,3.0
+444475,23,2023,Bologna FC 1909,US Sassuolo Calcio,4.0,2.0
+444482,23,2023,Torino FC,US Salernitana 1919,0.0,0.0
+444480,23,2023,SSC Napoli,Hellas Verona FC,2.0,1.0
+444474,23,2023,Atalanta BC,SS Lazio,3.0,1.0
+444478,23,2023,FC Internazionale Milano,Juventus FC,1.0,0.0
+444481,23,2023,AS Roma,Cagliari Calcio,4.0,0.0
+444492,24,2023,US Salernitana 1919,Empoli FC,1.0,3.0
+444485,24,2023,Cagliari Calcio,SS Lazio,1.0,3.0
+444491,24,2023,AS Roma,FC Internazionale Milano,2.0,4.0
+444493,24,2023,US Sassuolo Calcio,Torino FC,1.0,1.0
+444486,24,2023,ACF Fiorentina,Frosinone Calcio,5.0,1.0
+444484,24,2023,Bologna FC 1909,US Lecce,4.0,0.0
+444490,24,2023,AC Monza,Hellas Verona FC,0.0,0.0
+444487,24,2023,Genoa CFC,Atalanta BC,1.0,4.0
+444489,24,2023,AC Milan,SSC Napoli,1.0,0.0
+444488,24,2023,Juventus FC,Udinese Calcio,0.0,1.0
+444454,21,2023,Bologna FC 1909,ACF Fiorentina,2.0,0.0
+444502,25,2023,Torino FC,US Lecce,2.0,0.0
+444498,25,2023,FC Internazionale Milano,US Salernitana 1919,4.0,0.0
+444501,25,2023,SSC Napoli,Genoa CFC,1.0,1.0
+444497,25,2023,Hellas Verona FC,Juventus FC,2.0,2.0
+444494,25,2023,Atalanta BC,US Sassuolo Calcio,3.0,0.0
+444499,25,2023,SS Lazio,Bologna FC 1909,1.0,2.0
+444495,25,2023,Empoli FC,ACF Fiorentina,1.0,1.0
+444503,25,2023,Udinese Calcio,Cagliari Calcio,1.0,1.0
+444496,25,2023,Frosinone Calcio,AS Roma,0.0,3.0
+444500,25,2023,AC Monza,AC Milan,4.0,2.0
+444462,21,2023,Torino FC,SS Lazio,0.0,2.0
+444504,26,2023,Bologna FC 1909,Hellas Verona FC,2.0,0.0
+444513,26,2023,US Sassuolo Calcio,Empoli FC,2.0,3.0
+444512,26,2023,US Salernitana 1919,AC Monza,0.0,2.0
+444507,26,2023,Genoa CFC,Udinese Calcio,2.0,0.0
+444508,26,2023,Juventus FC,Frosinone Calcio,3.0,2.0
+444505,26,2023,Cagliari Calcio,SSC Napoli,1.0,1.0
+444509,26,2023,US Lecce,FC Internazionale Milano,0.0,4.0
+444510,26,2023,AC Milan,Atalanta BC,1.0,1.0
+444511,26,2023,AS Roma,Torino FC,3.0,2.0
+444506,26,2023,ACF Fiorentina,SS Lazio,2.0,1.0
+444461,21,2023,US Sassuolo Calcio,SSC Napoli,1.0,6.0
+444457,21,2023,FC Internazionale Milano,Atalanta BC,4.0,0.0
+444519,27,2023,SS Lazio,AC Milan,0.0,1.0
+444523,27,2023,Udinese Calcio,US Salernitana 1919,1.0,1.0
+444520,27,2023,AC Monza,AS Roma,1.0,4.0
+444522,27,2023,Torino FC,ACF Fiorentina,0.0,0.0
+444517,27,2023,Hellas Verona FC,US Sassuolo Calcio,1.0,0.0
+444515,27,2023,Empoli FC,Cagliari Calcio,0.0,1.0
+444516,27,2023,Frosinone Calcio,US Lecce,1.0,1.0
+444514,27,2023,Atalanta BC,Bologna FC 1909,1.0,2.0
+444521,27,2023,SSC Napoli,Juventus FC,2.0,1.0
+444518,27,2023,FC Internazionale Milano,Genoa CFC,2.0,1.0
+444532,28,2023,SSC Napoli,Torino FC,1.0,1.0
+444525,28,2023,Cagliari Calcio,US Salernitana 1919,4.0,2.0
+444533,28,2023,US Sassuolo Calcio,Frosinone Calcio,1.0,0.0
+444524,28,2023,Bologna FC 1909,FC Internazionale Milano,0.0,1.0
+444527,28,2023,Genoa CFC,AC Monza,2.0,3.0
+444530,28,2023,US Lecce,Hellas Verona FC,0.0,1.0
+444531,28,2023,AC Milan,Empoli FC,1.0,0.0
+444528,28,2023,Juventus FC,Atalanta BC,2.0,2.0
+444526,28,2023,ACF Fiorentina,AS Roma,2.0,2.0
+444529,28,2023,SS Lazio,Udinese Calcio,1.0,2.0
+444535,29,2023,Empoli FC,Bologna FC 1909,0.0,1.0
+444540,29,2023,AC Monza,Cagliari Calcio,1.0,0.0
+444543,29,2023,Udinese Calcio,Torino FC,0.0,2.0
+444542,29,2023,US Salernitana 1919,US Lecce,0.0,1.0
+444536,29,2023,Frosinone Calcio,SS Lazio,2.0,3.0
+444539,29,2023,Juventus FC,Genoa CFC,0.0,0.0
+444537,29,2023,Hellas Verona FC,AC Milan,1.0,3.0
+444541,29,2023,AS Roma,US Sassuolo Calcio,1.0,0.0
+444538,29,2023,FC Internazionale Milano,SSC Napoli,1.0,1.0
+444551,30,2023,SSC Napoli,Atalanta BC,0.0,3.0
+444547,30,2023,Genoa CFC,Frosinone Calcio,1.0,1.0
+444553,30,2023,Torino FC,AC Monza,1.0,0.0
+444549,30,2023,SS Lazio,Juventus FC,1.0,0.0
+444546,30,2023,ACF Fiorentina,AC Milan,1.0,2.0
+444544,30,2023,Bologna FC 1909,US Salernitana 1919,3.0,0.0
+444545,30,2023,Cagliari Calcio,Hellas Verona FC,1.0,1.0
+444552,30,2023,US Sassuolo Calcio,Udinese Calcio,1.0,1.0
+444550,30,2023,US Lecce,AS Roma,0.0,0.0
+444548,30,2023,FC Internazionale Milano,Empoli FC,2.0,0.0
+444562,31,2023,US Salernitana 1919,US Sassuolo Calcio,2.0,2.0
+444559,31,2023,AC Milan,US Lecce,3.0,0.0
+444561,31,2023,AS Roma,SS Lazio,1.0,0.0
+444555,31,2023,Empoli FC,Torino FC,3.0,2.0
+444556,31,2023,Frosinone Calcio,Bologna FC 1909,0.0,0.0
+444560,31,2023,AC Monza,SSC Napoli,2.0,4.0
+444554,31,2023,Cagliari Calcio,Atalanta BC,2.0,1.0
+444557,31,2023,Hellas Verona FC,Genoa CFC,1.0,2.0
+444558,31,2023,Juventus FC,ACF Fiorentina,1.0,0.0
+444563,31,2023,Udinese Calcio,FC Internazionale Milano,1.0,2.0
+444568,32,2023,SS Lazio,US Salernitana 1919,4.0,1.0
+444569,32,2023,US Lecce,Empoli FC,1.0,0.0
+444572,32,2023,Torino FC,Juventus FC,0.0,0.0
+444565,32,2023,Bologna FC 1909,AC Monza,0.0,0.0
+444570,32,2023,SSC Napoli,Frosinone Calcio,2.0,2.0
+444571,32,2023,US Sassuolo Calcio,AC Milan,3.0,3.0
+444567,32,2023,FC Internazionale Milano,Cagliari Calcio,2.0,2.0
+444566,32,2023,ACF Fiorentina,Genoa CFC,1.0,1.0
+444564,32,2023,Atalanta BC,Hellas Verona FC,2.0,2.0
+444576,33,2023,Genoa CFC,SS Lazio,0.0,1.0
+444574,33,2023,Cagliari Calcio,Juventus FC,2.0,2.0
+444575,33,2023,Empoli FC,SSC Napoli,1.0,0.0
+444577,33,2023,Hellas Verona FC,Udinese Calcio,1.0,0.0
+444582,33,2023,US Sassuolo Calcio,US Lecce,0.0,3.0
+444583,33,2023,Torino FC,Frosinone Calcio,0.0,0.0
+444581,33,2023,US Salernitana 1919,ACF Fiorentina,0.0,2.0
+444579,33,2023,AC Monza,Atalanta BC,1.0,2.0
+444580,33,2023,AS Roma,Bologna FC 1909,1.0,3.0
+444578,33,2023,AC Milan,FC Internazionale Milano,1.0,2.0
+444573,32,2023,Udinese Calcio,AS Roma,1.0,2.0
+444587,34,2023,Frosinone Calcio,US Salernitana 1919,3.0,0.0
+444592,34,2023,US Lecce,AC Monza,1.0,1.0
+444590,34,2023,Juventus FC,AC Milan,0.0,0.0
+444591,34,2023,SS Lazio,Hellas Verona FC,1.0,0.0
+444589,34,2023,FC Internazionale Milano,Torino FC,2.0,0.0
+444585,34,2023,Bologna FC 1909,Udinese Calcio,1.0,1.0
+444584,34,2023,Atalanta BC,Empoli FC,2.0,0.0
+444593,34,2023,SSC Napoli,AS Roma,2.0,2.0
+444586,34,2023,ACF Fiorentina,US Sassuolo Calcio,5.0,1.0
+444588,34,2023,Genoa CFC,Cagliari Calcio,3.0,0.0
+444602,35,2023,Torino FC,Bologna FC 1909,0.0,0.0
+444598,35,2023,AC Monza,SS Lazio,2.0,2.0
+444601,35,2023,US Sassuolo Calcio,FC Internazionale Milano,1.0,0.0
+444594,35,2023,Cagliari Calcio,US Lecce,1.0,1.0
+444595,35,2023,Empoli FC,Frosinone Calcio,0.0,0.0
+444596,35,2023,Hellas Verona FC,ACF Fiorentina,2.0,1.0
+444597,35,2023,AC Milan,Genoa CFC,3.0,3.0
+444599,35,2023,AS Roma,Juventus FC,1.0,1.0
+444600,35,2023,US Salernitana 1919,Atalanta BC,1.0,2.0
+444603,35,2023,Udinese Calcio,SSC Napoli,1.0,1.0
+444606,36,2023,Frosinone Calcio,FC Internazionale Milano,0.0,5.0
+444613,36,2023,SSC Napoli,Bologna FC 1909,0.0,2.0
+444612,36,2023,AC Milan,Cagliari Calcio,5.0,1.0
+444610,36,2023,SS Lazio,Empoli FC,2.0,0.0
+444607,36,2023,Genoa CFC,US Sassuolo Calcio,2.0,1.0
+444608,36,2023,Hellas Verona FC,Torino FC,1.0,2.0
+444609,36,2023,Juventus FC,US Salernitana 1919,1.0,1.0
+444604,36,2023,Atalanta BC,AS Roma,2.0,1.0
+444611,36,2023,US Lecce,Udinese Calcio,0.0,2.0
+444605,36,2023,ACF Fiorentina,AC Monza,2.0,1.0
+444615,37,2023,ACF Fiorentina,SSC Napoli,2.0,2.0
+444617,37,2023,US Lecce,Atalanta BC,0.0,2.0
+444622,37,2023,Torino FC,AC Milan,3.0,1.0
+444621,37,2023,US Sassuolo Calcio,Cagliari Calcio,0.0,2.0
+444618,37,2023,AC Monza,Frosinone Calcio,0.0,1.0
+444623,37,2023,Udinese Calcio,Empoli FC,1.0,1.0
+444616,37,2023,FC Internazionale Milano,SS Lazio,1.0,1.0
+444619,37,2023,AS Roma,Genoa CFC,1.0,0.0
+444620,37,2023,US Salernitana 1919,Hellas Verona FC,1.0,2.0
+444614,37,2023,Bologna FC 1909,Juventus FC,3.0,3.0
+444625,38,2023,Cagliari Calcio,ACF Fiorentina,2.0,3.0
+444628,38,2023,Genoa CFC,Bologna FC 1909,2.0,0.0
+444630,38,2023,Juventus FC,AC Monza,2.0,0.0
+444632,38,2023,AC Milan,US Salernitana 1919,3.0,3.0
+444624,38,2023,Atalanta BC,Torino FC,3.0,0.0
+444633,38,2023,SSC Napoli,US Lecce,0.0,0.0
+444626,38,2023,Empoli FC,AS Roma,2.0,1.0
+444627,38,2023,Frosinone Calcio,Udinese Calcio,0.0,1.0
+444629,38,2023,Hellas Verona FC,FC Internazionale Milano,2.0,2.0
+444631,38,2023,SS Lazio,US Sassuolo Calcio,1.0,1.0
+444534,29,2023,Atalanta BC,ACF Fiorentina,2.0,3.0
+503046,1,2024,Genoa CFC,FC Internazionale Milano,2.0,2.0
+503052,1,2024,Parma Calcio 1913,ACF Fiorentina,1.0,1.0
+503045,1,2024,Empoli FC,AC Monza,0.0,0.0
+503051,1,2024,AC Milan,Torino FC,2.0,2.0
+503043,1,2024,Bologna FC 1909,Udinese Calcio,1.0,1.0
+503047,1,2024,Hellas Verona FC,SSC Napoli,3.0,0.0
+503044,1,2024,Cagliari Calcio,AS Roma,0.0,0.0
+503049,1,2024,SS Lazio,Venezia FC,3.0,1.0
+503050,1,2024,US Lecce,Atalanta BC,0.0,4.0
+503048,1,2024,Juventus FC,Como 1907,3.0,0.0
+503059,2,2024,Parma Calcio 1913,AC Milan,2.0,1.0
+503062,2,2024,Udinese Calcio,SS Lazio,2.0,1.0
+503056,2,2024,FC Internazionale Milano,US Lecce,2.0,0.0
+503057,2,2024,AC Monza,Genoa CFC,0.0,1.0
+503054,2,2024,ACF Fiorentina,Venezia FC,0.0,0.0
+503061,2,2024,Torino FC,Atalanta BC,2.0,1.0
+503058,2,2024,SSC Napoli,Bologna FC 1909,3.0,0.0
+503060,2,2024,AS Roma,Empoli FC,1.0,2.0
+503053,2,2024,Cagliari Calcio,Como 1907,1.0,1.0
+503055,2,2024,Hellas Verona FC,Juventus FC,0.0,3.0
+503072,3,2024,Venezia FC,Torino FC,0.0,1.0
+503066,3,2024,FC Internazionale Milano,Atalanta BC,4.0,0.0
+503063,3,2024,Bologna FC 1909,Empoli FC,1.0,1.0
+503069,3,2024,US Lecce,Cagliari Calcio,1.0,0.0
+503068,3,2024,SS Lazio,AC Milan,2.0,2.0
+503070,3,2024,SSC Napoli,Parma Calcio 1913,2.0,1.0
+503064,3,2024,ACF Fiorentina,AC Monza,2.0,2.0
+503065,3,2024,Genoa CFC,Hellas Verona FC,0.0,2.0
+503067,3,2024,Juventus FC,AS Roma,0.0,0.0
+503071,3,2024,Udinese Calcio,Como 1907,1.0,0.0
+503075,4,2024,Como 1907,Bologna FC 1909,2.0,2.0
+503076,4,2024,Empoli FC,Juventus FC,0.0,0.0
+503079,4,2024,AC Milan,Venezia FC,4.0,0.0
+503077,4,2024,Genoa CFC,AS Roma,1.0,1.0
+503073,4,2024,Atalanta BC,ACF Fiorentina,3.0,2.0
+503082,4,2024,Torino FC,US Lecce,0.0,0.0
+503074,4,2024,Cagliari Calcio,SSC Napoli,0.0,4.0
+503080,4,2024,AC Monza,FC Internazionale Milano,1.0,1.0
+503081,4,2024,Parma Calcio 1913,Udinese Calcio,2.0,3.0
+503078,4,2024,SS Lazio,Hellas Verona FC,2.0,1.0
+503084,5,2024,Cagliari Calcio,Empoli FC,0.0,2.0
+503086,5,2024,Hellas Verona FC,Torino FC,2.0,3.0
+503092,5,2024,Venezia FC,Genoa CFC,2.0,0.0
+503088,5,2024,Juventus FC,SSC Napoli,0.0,0.0
+503089,5,2024,US Lecce,Parma Calcio 1913,2.0,2.0
+503085,5,2024,ACF Fiorentina,SS Lazio,2.0,1.0
+503090,5,2024,AC Monza,Bologna FC 1909,1.0,2.0
+503091,5,2024,AS Roma,Udinese Calcio,3.0,0.0
+503087,5,2024,FC Internazionale Milano,AC Milan,1.0,2.0
+503083,5,2024,Atalanta BC,Como 1907,2.0,3.0
+503097,6,2024,AC Milan,US Lecce,3.0,0.0
+503102,6,2024,Udinese Calcio,FC Internazionale Milano,2.0,3.0
+503096,6,2024,Genoa CFC,Juventus FC,0.0,3.0
+503093,6,2024,Bologna FC 1909,Atalanta BC,1.0,1.0
+503101,6,2024,Torino FC,SS Lazio,2.0,3.0
+503094,6,2024,Como 1907,Hellas Verona FC,3.0,2.0
+503100,6,2024,AS Roma,Venezia FC,2.0,1.0
+503095,6,2024,Empoli FC,ACF Fiorentina,0.0,0.0
+503098,6,2024,SSC Napoli,AC Monza,2.0,0.0
+503099,6,2024,Parma Calcio 1913,Cagliari Calcio,2.0,3.0
+503111,7,2024,SSC Napoli,Como 1907,3.0,1.0
+503106,7,2024,Hellas Verona FC,Venezia FC,2.0,1.0
+503112,7,2024,Udinese Calcio,US Lecce,1.0,0.0
+503103,7,2024,Atalanta BC,Genoa CFC,5.0,1.0
+503107,7,2024,FC Internazionale Milano,Torino FC,3.0,2.0
+503108,7,2024,Juventus FC,Cagliari Calcio,1.0,1.0
+503104,7,2024,Bologna FC 1909,Parma Calcio 1913,0.0,0.0
+503109,7,2024,SS Lazio,Empoli FC,2.0,1.0
+503110,7,2024,AC Monza,AS Roma,1.0,1.0
+503105,7,2024,ACF Fiorentina,AC Milan,2.0,1.0
+503114,8,2024,Como 1907,Parma Calcio 1913,1.0,1.0
+503116,8,2024,Genoa CFC,Bologna FC 1909,2.0,2.0
+503120,8,2024,AC Milan,Udinese Calcio,1.0,0.0
+503118,8,2024,Juventus FC,SS Lazio,1.0,0.0
+503115,8,2024,Empoli FC,SSC Napoli,0.0,1.0
+503119,8,2024,US Lecce,ACF Fiorentina,0.0,6.0
+503122,8,2024,Venezia FC,Atalanta BC,0.0,2.0
+503113,8,2024,Cagliari Calcio,Torino FC,3.0,2.0
+503121,8,2024,AS Roma,FC Internazionale Milano,0.0,1.0
+503117,8,2024,Hellas Verona FC,AC Monza,0.0,3.0
+503132,9,2024,Udinese Calcio,Cagliari Calcio,2.0,0.0
+503131,9,2024,Torino FC,Como 1907,1.0,0.0
+503124,9,2024,Bologna FC 1909,AC Milan,,
+503129,9,2024,SSC Napoli,US Lecce,1.0,0.0
+503123,9,2024,Atalanta BC,Hellas Verona FC,6.0,1.0
+503130,9,2024,Parma Calcio 1913,Empoli FC,1.0,1.0
+503127,9,2024,SS Lazio,Genoa CFC,3.0,0.0
+503128,9,2024,AC Monza,Venezia FC,2.0,2.0
+503126,9,2024,FC Internazionale Milano,Juventus FC,4.0,4.0
+503125,9,2024,ACF Fiorentina,AS Roma,5.0,1.0
+503134,10,2024,Cagliari Calcio,Bologna FC 1909,0.0,2.0
+503139,10,2024,US Lecce,Hellas Verona FC,1.0,0.0
+503140,10,2024,AC Milan,SSC Napoli,0.0,2.0
+503136,10,2024,Empoli FC,FC Internazionale Milano,0.0,3.0
+503142,10,2024,Venezia FC,Udinese Calcio,3.0,2.0
+503133,10,2024,Atalanta BC,AC Monza,2.0,0.0
+503138,10,2024,Juventus FC,Parma Calcio 1913,2.0,2.0
+503137,10,2024,Genoa CFC,ACF Fiorentina,0.0,1.0
+503135,10,2024,Como 1907,SS Lazio,1.0,5.0
+503141,10,2024,AS Roma,Torino FC,1.0,0.0
+503143,11,2024,Bologna FC 1909,US Lecce,1.0,0.0
+503152,11,2024,Udinese Calcio,Juventus FC,0.0,2.0
+503148,11,2024,AC Monza,AC Milan,0.0,1.0
+503149,11,2024,SSC Napoli,Atalanta BC,0.0,3.0
+503151,11,2024,Torino FC,ACF Fiorentina,0.0,1.0
+503145,11,2024,Hellas Verona FC,AS Roma,3.0,2.0
+503146,11,2024,FC Internazionale Milano,Venezia FC,1.0,0.0
+503144,11,2024,Empoli FC,Como 1907,1.0,0.0
+503150,11,2024,Parma Calcio 1913,Genoa CFC,0.0,1.0
+503147,11,2024,SS Lazio,Cagliari Calcio,2.0,1.0
+503156,12,2024,Genoa CFC,Como 1907,1.0,1.0
+503159,12,2024,US Lecce,Empoli FC,1.0,1.0
+503162,12,2024,Venezia FC,Parma Calcio 1913,1.0,2.0
+503154,12,2024,Cagliari Calcio,AC Milan,3.0,3.0
+503158,12,2024,Juventus FC,Torino FC,2.0,0.0
+503153,12,2024,Atalanta BC,Udinese Calcio,2.0,1.0
+503155,12,2024,ACF Fiorentina,Hellas Verona FC,3.0,1.0
+503161,12,2024,AS Roma,Bologna FC 1909,2.0,3.0
+503160,12,2024,AC Monza,SS Lazio,0.0,1.0
+503157,12,2024,FC Internazionale Milano,SSC Napoli,1.0,1.0
+503166,13,2024,Hellas Verona FC,FC Internazionale Milano,0.0,5.0
+503168,13,2024,AC Milan,Juventus FC,0.0,0.0
+503170,13,2024,Parma Calcio 1913,Atalanta BC,1.0,3.0
+503165,13,2024,Genoa CFC,Cagliari Calcio,2.0,2.0
+503163,13,2024,Como 1907,ACF Fiorentina,0.0,2.0
+503171,13,2024,Torino FC,AC Monza,1.0,1.0
+503169,13,2024,SSC Napoli,AS Roma,1.0,0.0
+503167,13,2024,SS Lazio,Bologna FC 1909,3.0,0.0
+503164,13,2024,Empoli FC,Udinese Calcio,1.0,1.0
+503172,13,2024,Venezia FC,US Lecce,0.0,1.0
+503174,14,2024,Cagliari Calcio,Hellas Verona FC,1.0,0.0
+503175,14,2024,Como 1907,AC Monza,1.0,1.0
+503178,14,2024,AC Milan,Empoli FC,3.0,0.0
+503173,14,2024,Bologna FC 1909,Venezia FC,3.0,0.0
+503182,14,2024,Udinese Calcio,Genoa CFC,0.0,2.0
+503179,14,2024,Parma Calcio 1913,SS Lazio,3.0,1.0
+503181,14,2024,Torino FC,SSC Napoli,0.0,1.0
+503176,14,2024,ACF Fiorentina,FC Internazionale Milano,0.0,0.0
+503177,14,2024,US Lecce,Juventus FC,1.0,1.0
+503180,14,2024,AS Roma,Atalanta BC,0.0,2.0
+503187,15,2024,FC Internazionale Milano,Parma Calcio 1913,3.0,1.0
+503183,15,2024,Atalanta BC,AC Milan,2.0,1.0
+503185,15,2024,Genoa CFC,Torino FC,0.0,0.0
+503188,15,2024,Juventus FC,Bologna FC 1909,2.0,2.0
+503191,15,2024,AS Roma,US Lecce,4.0,1.0
+503184,15,2024,ACF Fiorentina,Cagliari Calcio,1.0,0.0
+503186,15,2024,Hellas Verona FC,Empoli FC,1.0,4.0
+503192,15,2024,Venezia FC,Como 1907,2.0,2.0
+503190,15,2024,SSC Napoli,SS Lazio,0.0,1.0
+503189,15,2024,AC Monza,Udinese Calcio,1.0,2.0
+503196,16,2024,Empoli FC,Torino FC,0.0,1.0
+503194,16,2024,Cagliari Calcio,Atalanta BC,0.0,1.0
+503202,16,2024,Udinese Calcio,SSC Napoli,1.0,3.0
+503197,16,2024,Juventus FC,Venezia FC,2.0,2.0
+503199,16,2024,US Lecce,AC Monza,2.0,1.0
+503193,16,2024,Bologna FC 1909,ACF Fiorentina,1.0,0.0
+503201,16,2024,Parma Calcio 1913,Hellas Verona FC,2.0,3.0
+503195,16,2024,Como 1907,AS Roma,2.0,0.0
+503200,16,2024,AC Milan,Genoa CFC,0.0,0.0
+503198,16,2024,SS Lazio,FC Internazionale Milano,0.0,6.0
+503206,17,2024,Hellas Verona FC,AC Milan,0.0,1.0
+503211,17,2024,Torino FC,Bologna FC 1909,0.0,2.0
+503205,17,2024,Genoa CFC,SSC Napoli,1.0,2.0
+503208,17,2024,US Lecce,SS Lazio,1.0,2.0
+503210,17,2024,AS Roma,Parma Calcio 1913,5.0,0.0
+503212,17,2024,Venezia FC,Cagliari Calcio,2.0,1.0
+503203,17,2024,Atalanta BC,Empoli FC,3.0,2.0
+503209,17,2024,AC Monza,Juventus FC,1.0,2.0
+503204,17,2024,ACF Fiorentina,Udinese Calcio,1.0,2.0
+503207,17,2024,FC Internazionale Milano,Como 1907,2.0,0.0
+503216,18,2024,Empoli FC,Genoa CFC,1.0,2.0
+503221,18,2024,Parma Calcio 1913,AC Monza,2.0,1.0
+503214,18,2024,Cagliari Calcio,FC Internazionale Milano,0.0,3.0
+503218,18,2024,SS Lazio,Atalanta BC,1.0,1.0
+503222,18,2024,Udinese Calcio,Torino FC,2.0,2.0
+503220,18,2024,SSC Napoli,Venezia FC,1.0,0.0
+503217,18,2024,Juventus FC,ACF Fiorentina,2.0,2.0
+503219,18,2024,AC Milan,AS Roma,1.0,1.0
+503215,18,2024,Como 1907,US Lecce,2.0,0.0
+503213,18,2024,Bologna FC 1909,Hellas Verona FC,2.0,3.0
+503232,19,2024,Venezia FC,Empoli FC,1.0,1.0
+503225,19,2024,ACF Fiorentina,SSC Napoli,0.0,3.0
+503226,19,2024,Hellas Verona FC,Udinese Calcio,0.0,0.0
+503229,19,2024,AC Monza,Cagliari Calcio,1.0,2.0
+503228,19,2024,US Lecce,Genoa CFC,0.0,0.0
+503231,19,2024,Torino FC,Parma Calcio 1913,0.0,0.0
+503230,19,2024,AS Roma,SS Lazio,2.0,0.0
+503236,20,2024,SS Lazio,Como 1907,,
+503234,20,2024,Empoli FC,US Lecce,,
+503241,20,2024,Udinese Calcio,Atalanta BC,,
+503240,20,2024,Torino FC,Juventus FC,,
+503237,20,2024,AC Milan,Cagliari Calcio,,
+503235,20,2024,Genoa CFC,Parma Calcio 1913,,
+503242,20,2024,Venezia FC,FC Internazionale Milano,,
+503233,20,2024,Bologna FC 1909,AS Roma,,
+503239,20,2024,SSC Napoli,Hellas Verona FC,,
+503238,20,2024,AC Monza,ACF Fiorentina,,
+503224,19,2024,Como 1907,AC Milan,,
+503223,19,2024,Atalanta BC,Juventus FC,,
+503227,19,2024,FC Internazionale Milano,Bologna FC 1909,,
+503252,21,2024,AS Roma,Genoa CFC,,
+503244,21,2024,Bologna FC 1909,AC Monza,,
+503250,21,2024,Juventus FC,AC Milan,,
+503243,21,2024,Atalanta BC,SSC Napoli,,
+503247,21,2024,ACF Fiorentina,Torino FC,,
+503245,21,2024,Cagliari Calcio,US Lecce,,
+503251,21,2024,Parma Calcio 1913,Venezia FC,,
+503248,21,2024,Hellas Verona FC,SS Lazio,,
+503249,21,2024,FC Internazionale Milano,Empoli FC,,
+503246,21,2024,Como 1907,Udinese Calcio,,
+503260,22,2024,Torino FC,Cagliari Calcio,,
+503253,22,2024,Como 1907,Atalanta BC,,
+503259,22,2024,SSC Napoli,Juventus FC,,
+503254,22,2024,Empoli FC,Bologna FC 1909,,
+503258,22,2024,AC Milan,Parma Calcio 1913,,
+503261,22,2024,Udinese Calcio,AS Roma,,
+503257,22,2024,US Lecce,FC Internazionale Milano,,
+503256,22,2024,SS Lazio,ACF Fiorentina,,
+503262,22,2024,Venezia FC,Hellas Verona FC,,
+503255,22,2024,Genoa CFC,AC Monza,,
+503270,23,2024,Parma Calcio 1913,US Lecce,,
+503269,23,2024,AC Monza,Hellas Verona FC,,
+503272,23,2024,Udinese Calcio,Venezia FC,,
+503263,23,2024,Atalanta BC,Torino FC,,
+503264,23,2024,Bologna FC 1909,Como 1907,,
+503267,23,2024,Juventus FC,Empoli FC,,
+503266,23,2024,ACF Fiorentina,Genoa CFC,,
+503268,23,2024,AC Milan,FC Internazionale Milano,,
+503271,23,2024,AS Roma,SSC Napoli,,
+503265,23,2024,Cagliari Calcio,SS Lazio,,
+503273,24,2024,Cagliari Calcio,Parma Calcio 1913,,
+503274,24,2024,Como 1907,Juventus FC,,
+503275,24,2024,Empoli FC,AC Milan,,
+503276,24,2024,Hellas Verona FC,Atalanta BC,,
+503277,24,2024,FC Internazionale Milano,ACF Fiorentina,,
+503278,24,2024,SS Lazio,AC Monza,,
+503279,24,2024,US Lecce,Bologna FC 1909,,
+503280,24,2024,SSC Napoli,Udinese Calcio,,
+503281,24,2024,Torino FC,Genoa CFC,,
+503282,24,2024,Venezia FC,AS Roma,,
+503283,25,2024,Atalanta BC,Cagliari Calcio,,
+503284,25,2024,Bologna FC 1909,Torino FC,,
+503285,25,2024,ACF Fiorentina,Como 1907,,
+503286,25,2024,Genoa CFC,Venezia FC,,
+503287,25,2024,Juventus FC,FC Internazionale Milano,,
+503288,25,2024,SS Lazio,SSC Napoli,,
+503289,25,2024,AC Milan,Hellas Verona FC,,
+503290,25,2024,AC Monza,US Lecce,,
+503291,25,2024,Parma Calcio 1913,AS Roma,,
+503292,25,2024,Udinese Calcio,Empoli FC,,
+503296,26,2024,Hellas Verona FC,ACF Fiorentina,,
+503297,26,2024,FC Internazionale Milano,Genoa CFC,,
+503298,26,2024,US Lecce,Udinese Calcio,,
+503299,26,2024,Parma Calcio 1913,Bologna FC 1909,,
+503300,26,2024,AS Roma,AC Monza,,
+503301,26,2024,Torino FC,AC Milan,,
+503302,26,2024,Venezia FC,SS Lazio,,
+503293,26,2024,Cagliari Calcio,Juventus FC,,
+503294,26,2024,Como 1907,SSC Napoli,,
+503295,26,2024,Empoli FC,Atalanta BC,,
+503303,27,2024,Atalanta BC,Venezia FC,,
+503304,27,2024,Bologna FC 1909,Cagliari Calcio,,
+503305,27,2024,ACF Fiorentina,US Lecce,,
+503306,27,2024,Genoa CFC,Empoli FC,,
+503307,27,2024,Juventus FC,Hellas Verona FC,,
+503308,27,2024,AC Milan,SS Lazio,,
+503309,27,2024,AC Monza,Torino FC,,
+503310,27,2024,SSC Napoli,FC Internazionale Milano,,
+503311,27,2024,AS Roma,Como 1907,,
+503312,27,2024,Udinese Calcio,Parma Calcio 1913,,
+503313,28,2024,Cagliari Calcio,Genoa CFC,,
+503314,28,2024,Como 1907,Venezia FC,,
+503315,28,2024,Empoli FC,AS Roma,,
+503316,28,2024,Hellas Verona FC,Bologna FC 1909,,
+503317,28,2024,FC Internazionale Milano,AC Monza,,
+503318,28,2024,Juventus FC,Atalanta BC,,
+503319,28,2024,SS Lazio,Udinese Calcio,,
+503320,28,2024,US Lecce,AC Milan,,
+503321,28,2024,SSC Napoli,ACF Fiorentina,,
+503322,28,2024,Parma Calcio 1913,Torino FC,,
+503323,29,2024,Atalanta BC,FC Internazionale Milano,,
+503324,29,2024,Bologna FC 1909,SS Lazio,,
+503325,29,2024,ACF Fiorentina,Juventus FC,,
+503326,29,2024,Genoa CFC,US Lecce,,
+503327,29,2024,AC Milan,Como 1907,,
+503328,29,2024,AC Monza,Parma Calcio 1913,,
+503329,29,2024,AS Roma,Cagliari Calcio,,
+503330,29,2024,Torino FC,Empoli FC,,
+503331,29,2024,Udinese Calcio,Hellas Verona FC,,
+503332,29,2024,Venezia FC,SSC Napoli,,
+503333,30,2024,Cagliari Calcio,AC Monza,,
+503334,30,2024,Como 1907,Empoli FC,,
+503335,30,2024,ACF Fiorentina,Atalanta BC,,
+503336,30,2024,Hellas Verona FC,Parma Calcio 1913,,
+503337,30,2024,FC Internazionale Milano,Udinese Calcio,,
+503338,30,2024,Juventus FC,Genoa CFC,,
+503339,30,2024,SS Lazio,Torino FC,,
+503340,30,2024,US Lecce,AS Roma,,
+503341,30,2024,SSC Napoli,AC Milan,,
+503342,30,2024,Venezia FC,Bologna FC 1909,,
+503343,31,2024,Atalanta BC,SS Lazio,,
+503344,31,2024,Bologna FC 1909,SSC Napoli,,
+503345,31,2024,Empoli FC,Cagliari Calcio,,
+503346,31,2024,Genoa CFC,Udinese Calcio,,
+503347,31,2024,US Lecce,Venezia FC,,
+503348,31,2024,AC Milan,ACF Fiorentina,,
+503349,31,2024,AC Monza,Como 1907,,
+503350,31,2024,Parma Calcio 1913,FC Internazionale Milano,,
+503351,31,2024,AS Roma,Juventus FC,,
+503352,31,2024,Torino FC,Hellas Verona FC,,
+503353,32,2024,Atalanta BC,Bologna FC 1909,,
+503354,32,2024,Como 1907,Torino FC,,
+503355,32,2024,ACF Fiorentina,Parma Calcio 1913,,
+503356,32,2024,Hellas Verona FC,Genoa CFC,,
+503357,32,2024,FC Internazionale Milano,Cagliari Calcio,,
+503358,32,2024,Juventus FC,US Lecce,,
+503359,32,2024,SS Lazio,AS Roma,,
+503360,32,2024,SSC Napoli,Empoli FC,,
+503361,32,2024,Udinese Calcio,AC Milan,,
+503362,32,2024,Venezia FC,AC Monza,,
+503363,33,2024,Bologna FC 1909,FC Internazionale Milano,,
+503364,33,2024,Cagliari Calcio,ACF Fiorentina,,
+503365,33,2024,Empoli FC,Venezia FC,,
+503366,33,2024,Genoa CFC,SS Lazio,,
+503367,33,2024,US Lecce,Como 1907,,
+503368,33,2024,AC Milan,Atalanta BC,,
+503369,33,2024,AC Monza,SSC Napoli,,
+503370,33,2024,Parma Calcio 1913,Juventus FC,,
+503371,33,2024,AS Roma,Hellas Verona FC,,
+503372,33,2024,Torino FC,Udinese Calcio,,
+503373,34,2024,Atalanta BC,US Lecce,,
+503374,34,2024,Como 1907,Genoa CFC,,
+503375,34,2024,ACF Fiorentina,Empoli FC,,
+503376,34,2024,Hellas Verona FC,Cagliari Calcio,,
+503377,34,2024,FC Internazionale Milano,AS Roma,,
+503378,34,2024,Juventus FC,AC Monza,,
+503379,34,2024,SS Lazio,Parma Calcio 1913,,
+503380,34,2024,SSC Napoli,Torino FC,,
+503381,34,2024,Udinese Calcio,Bologna FC 1909,,
+503382,34,2024,Venezia FC,AC Milan,,
+503383,35,2024,Bologna FC 1909,Juventus FC,,
+503384,35,2024,Cagliari Calcio,Udinese Calcio,,
+503385,35,2024,Empoli FC,SS Lazio,,
+503386,35,2024,Genoa CFC,AC Milan,,
+503387,35,2024,FC Internazionale Milano,Hellas Verona FC,,
+503388,35,2024,US Lecce,SSC Napoli,,
+503389,35,2024,AC Monza,Atalanta BC,,
+503390,35,2024,Parma Calcio 1913,Como 1907,,
+503391,35,2024,AS Roma,ACF Fiorentina,,
+503392,35,2024,Torino FC,Venezia FC,,
+503393,36,2024,Atalanta BC,AS Roma,,
+503394,36,2024,Como 1907,Cagliari Calcio,,
+503395,36,2024,Empoli FC,Parma Calcio 1913,,
+503396,36,2024,Hellas Verona FC,US Lecce,,
+503397,36,2024,SS Lazio,Juventus FC,,
+503398,36,2024,AC Milan,Bologna FC 1909,,
+503399,36,2024,SSC Napoli,Genoa CFC,,
+503400,36,2024,Torino FC,FC Internazionale Milano,,
+503401,36,2024,Udinese Calcio,AC Monza,,
+503402,36,2024,Venezia FC,ACF Fiorentina,,
+503403,37,2024,Cagliari Calcio,Venezia FC,,
+503404,37,2024,ACF Fiorentina,Bologna FC 1909,,
+503405,37,2024,Genoa CFC,Atalanta BC,,
+503406,37,2024,Hellas Verona FC,Como 1907,,
+503407,37,2024,FC Internazionale Milano,SS Lazio,,
+503408,37,2024,Juventus FC,Udinese Calcio,,
+503409,37,2024,US Lecce,Torino FC,,
+503410,37,2024,AC Monza,Empoli FC,,
+503411,37,2024,Parma Calcio 1913,SSC Napoli,,
+503412,37,2024,AS Roma,AC Milan,,
+503413,38,2024,Atalanta BC,Parma Calcio 1913,,
+503414,38,2024,Bologna FC 1909,Genoa CFC,,
+503415,38,2024,Como 1907,FC Internazionale Milano,,
+503416,38,2024,Empoli FC,Hellas Verona FC,,
+503417,38,2024,SS Lazio,US Lecce,,
+503418,38,2024,AC Milan,AC Monza,,
+503419,38,2024,SSC Napoli,Cagliari Calcio,,
+503420,38,2024,Torino FC,AS Roma,,
+503421,38,2024,Udinese Calcio,ACF Fiorentina,,
+503422,38,2024,Venezia FC,Juventus FC,,

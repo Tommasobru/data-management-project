@@ -1,25 +1,25 @@
 import pandas as pd
 import difflib  
 
-def cleaning_player_data_year(file):
+def convert_string(string):
+    # removes symbols "€" and replace "," with "."
+    clean_string = string.replace("€", "").strip().replace(",", ".")
+
+    # check if string contains mln or mila and remove them 
+    if "mln" in clean_string:
+        # remove "mln" and convert the value to millions
+        return float(clean_string.replace("mln", "").strip()) * 1000000
+    elif "mila" in clean_string:
+        # remove "mila" and convert the value to thousans
+        return float(clean_string.replace("mila", "").strip()) * 1000
+    elif "-" in clean_string:
+        return 0
+    else:
+        return float(clean_string)
+
+def cleaning_player_data(file):
     # leggi il file 
     df = pd.read_csv(file)
-
-    def convert_string(string):
-        # removes symbols "€" and replace "," with "."
-        clean_string = string.replace("€", "").strip().replace(",", ".")
-    
-        # check if string contains mln or mila and remove them 
-        if "mln" in clean_string:
-            # remove "mln" and convert the value to millions
-            return float(clean_string.replace("mln", "").strip()) * 1000000
-        elif "mila" in clean_string:
-            # remove "mila" and convert the value to thousans
-            return float(clean_string.replace("mila", "").strip()) * 1000
-        elif "-" in clean_string:
-            return 0
-        else:
-            return float(clean_string)
 
     
     for index, row in df.iterrows():
@@ -146,12 +146,14 @@ squadre_goal['Home Team'] = squadre_goal['Home Team'].apply(lambda team_target: 
 squadre_goal['Away Team'] = squadre_goal['Away Team'].apply(lambda team_target: find_and_replace_name(team_target,diz=diz_squadre))
 squadre_goal.to_csv('dataset/clean-serie-a-matches-all-goal.csv')
 
-df_player_data = cleaning_player_data_year(file_player_data)
+df_player_data = cleaning_player_data(file_player_data)
 df_player_data['Squadra'] = df_player_data['Squadra'].apply(lambda team_target: find_and_replace_name(team_target, diz=diz_squadre_player))
 df_player_data.to_csv('dataset/clean-player-team.csv')
 
 
 df_lista_team['Squadra'] = df_lista_team['Squadra'].apply(lambda team_target: find_and_replace_name(team_target, diz=diz_lista_squadre))
+df_lista_team['Valore Rosa'] = df_lista_team['Valore Rosa'].apply(convert_string)
+df_lista_team = df_lista_team.drop('Link', axis=1)
 df_lista_team.to_csv('dataset/clean-list-team.csv')
 
 
