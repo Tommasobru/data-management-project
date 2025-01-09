@@ -34,19 +34,28 @@ def extract_match_goals(match_url, giornata, anno, partita):
         goal_section = soup.find("div", id="sb-tore")
         if goal_section:
             goals = []
+            numero_goal_partita = 0 # inizializzo il contatore dei goal
             for goal in goal_section.find_all("li", class_=["sb-aktion-heim", "sb-aktion-gast"]):
                 try:
+                    if "sb-aktion-heim" in goal['class']:
+                        team_goal = "home"
+                    elif "sb-aktion-gast" in goal['class']:    
+                        team_goal = "away"
+                    
+                    numero_goal_partita +=1
                     # Estrarre il marcatore
                     scorer = goal.find("a", class_="wichtig").get_text(strip=True)
+                    # Goal segnato
+                    numero_goal = goal.find("div", class_="sb-aktion-spielstand").get_text(strip = True)
                     # Estrarre il tipo di azione (es. rigore, tiro, ecc.)
                     action_details = goal.find("div", class_="sb-aktion-aktion").get_text(strip=True)
                     # Aggiungere alla lista
-                    goals.append({"anno": anno,"giornata": giornata, "partita": partita ,"scorer": scorer, "details": action_details})
+                    goals.append({"anno": anno,"giornata": giornata, "partita": partita ,"scorer": scorer,"numero_goal_partita":numero_goal_partita,"team_goal":team_goal ,"goal":numero_goal, "details": action_details})
                 except AttributeError:
                     continue
             
         else:
-            goals = [{"anno": anno, 'giornata': giornata, "partita": partita, "scorer": "NAN", "details": "NAN"}]
+            goals = [{"anno": anno, 'giornata': giornata, "partita": partita, "scorer": "NaN","numero_goal_partita":"NaN", "team_goal" : "NaN","goal":"NaN", "details": "NaN"}]
         
         return goals
     else:
