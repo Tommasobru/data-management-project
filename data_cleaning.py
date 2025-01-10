@@ -93,6 +93,19 @@ def find_and_replace_name(team_target, diz):
 
     return team_api
 
+# function that extract assist-man from details string
+def extract_assist_man(details):
+    
+    if pd.isna(details):
+        return None
+     
+    if "Assist" in details:
+        return details.split("Assist:")[1].split(",")[0].strip()
+    
+    else:
+        return None
+
+
 file_player_data = 'dataset/player-team.csv'
 file_matches = 'dataset/matches.csv'
 file_serie_a_matches_goal = 'dataset/serie_a_matches_all_goal.csv'
@@ -141,10 +154,15 @@ squadre_goal[['Home Team','Away Team']] = squadre_goal['partita'].str.split('-',
 squadre_goal['Home Team'] = squadre_goal['Home Team'].str.strip()
 squadre_goal['Away Team'] = squadre_goal['Away Team'].str.strip()
 squadre_goal.drop(columns=['partita'], inplace=True)
-squadre_goal = squadre_goal[['anno','giornata','Home Team', 'Away Team', 'scorer', 'details']]
 squadre_goal['Home Team'] = squadre_goal['Home Team'].apply(lambda team_target: find_and_replace_name(team_target, diz = diz_squadre)) 
 squadre_goal['Away Team'] = squadre_goal['Away Team'].apply(lambda team_target: find_and_replace_name(team_target,diz=diz_squadre))
 squadre_goal = squadre_goal.drop_duplicates(subset=['anno', 'giornata', 'Home Team','scorer', 'details'])
+squadre_goal['details'] = squadre_goal['details'].apply(extract_assist_man) 
+squadre_goal = squadre_goal.rename(columns={'details': 'assist'})
+squadre_goal[['goal_home','goal_away']] = squadre_goal['goal'].str.split(':', expand=True)
+squadre_goal['goal_home'] = squadre_goal['goal_home'].astype(float)
+squadre_goal['goal_away'] = squadre_goal['goal_away'].astype(float)
+squadre_goal = squadre_goal[['anno','giornata','Home Team', 'Away Team', 'scorer', 'numero_goal_partita', 'team_goal', 'goal','goal_home','goal_away','assist']]
 squadre_goal.to_csv('dataset/clean-serie-a-matches-all-goal.csv')
 
 df_player_data = cleaning_player_data(file_player_data)

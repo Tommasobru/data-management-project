@@ -937,14 +937,14 @@
 935,Carlos Alcaraz,Centrale,15000000.0,Juventus FC,2023
 936,Joseph Nonge,Centrale,3000000.0,Juventus FC,2023
 937,Hans Nicolussi Caviglia,Centrale,3000000.0,Juventus FC,2023
-938,Paul Pogba,Centrale,0.0,Juventus FC,2023
-939,Nikola Sekulov,Trequartista,800000.0,Juventus FC,2023
-940,Kenan Yıldız,Ala sinistra,30000000.0,Juventus FC,2023
-941,Samuel Iling-Junior,Ala sinistra,13000000.0,Juventus FC,2023
-942,Federico Chiesa,Ala destra,35000000.0,Juventus FC,2023
-943,Matías Soulé,Ala destra,25000000.0,Juventus FC,2023
-944,Timothy Weah,Ala destra,12000000.0,Juventus FC,2023
-945,Luis Hasa,Ala destra,1000000.0,Juventus FC,2023
+938,Luis Hasa,Centrale,1000000.0,Juventus FC,2023
+939,Paul Pogba,Centrale,0.0,Juventus FC,2023
+940,Nikola Sekulov,Trequartista,800000.0,Juventus FC,2023
+941,Kenan Yıldız,Ala sinistra,30000000.0,Juventus FC,2023
+942,Samuel Iling-Junior,Ala sinistra,13000000.0,Juventus FC,2023
+943,Federico Chiesa,Ala destra,35000000.0,Juventus FC,2023
+944,Matías Soulé,Ala destra,25000000.0,Juventus FC,2023
+945,Timothy Weah,Ala destra,12000000.0,Juventus FC,2023
 946,Dušan Vlahović,Punta centrale,65000000.0,Juventus FC,2023
 947,Moise Kean,Punta centrale,14000000.0,Juventus FC,2023
 948,Arkadiusz Milik,Punta centrale,6000000.0,Juventus FC,2023
@@ -1732,7 +1732,7 @@
 1730,Mateo Retegui,Punta centrale,35000000.0,Atalanta BC,2024
 1731,Gianluca Scamacca,Punta centrale,30000000.0,Atalanta BC,2024
 1732,Alex Meret,Portiere,12000000.0,SSC Napoli,2024
-1733,Elia Caprile,Portiere,6000000.0,SSC Napoli,2024
+1733,Simone Scuffet,Portiere,2000000.0,SSC Napoli,2024
 1734,Nikita Contini,Portiere,400000.0,SSC Napoli,2024
 1735,Claudio Turi,Portiere,150000.0,SSC Napoli,2024
 1736,Alessandro Buongiorno,Difensore centrale,45000000.0,SSC Napoli,2024
@@ -1748,48 +1748,48 @@
 1746,Scott McTominay,Centrale,40000000.0,SSC Napoli,2024
 1747,Frank Anguissa,Centrale,27000000.0,SSC Napoli,2024
 1748,Michael Folorunsho,Centrale,7000000.0,SSC Napoli,2024
-1749,Khvicha Kvaratskhelia,Ala sinistra,85000000.0,SSC Napoli,2024
-1750,Alessio Zerbin,Ala sinistra,3500000.0,SSC Napoli,2024
-1751,David Neres,Ala destra,28000000.0,SSC Napoli,2024
-1752,Cyril Ngonge,Ala destra,12000000.0,SSC Napoli,2024
-1753,Matteo Politano,Ala destra,10000000.0,SSC Napoli,2024
-1754,Giacomo Raspadori,Seconda punta,15000000.0,SSC Napoli,2024
-1755,Romelu Lukaku,Punta centrale,25000000.0,SSC Napoli,2024
-1756,Giovanni Simeone,Punta centrale,10000000.0,SSC Napoli,2024
-1757,Mile Svilar,Portiere,14000000.0,AS Roma,2024
-1758,Mathew Ryan,Portiere,2500000.0,AS Roma,2024
-1759,Renato Marin,Portiere,500000.0,AS Roma,2024
-1760,Evan Ndicka,Difensore centrale,25000000.0,AS Roma,2024
-1761,Gianluca Mancini,Difensore centrale,18000000.0,AS Roma,2024
-1762,Mario Hermoso,Difensore centrale,10000000.0,AS Roma,2024
-1763,Mats Hummels,Difensore centrale,3500000.0,AS Roma,2024
-1764,Angeliño,Terzino sinistro,8000000.0,AS Roma,2024
-1765,Samuel Dahl,Terzino sinistro,4000000.0,AS Roma,2024
-1766,Zeki Çelik,Terzino destro,5000000.0,AS Roma,2024
-1767,Saud Abdulhamid,Terzino destro,4000000.0,AS Roma,2024
-1768,Buba Sangaré,Terzino destro,1000000.0,AS Roma,2024
-1769,Bryan Cristante,Mediano,12000000.0,AS Roma,2024
-1770,Leandro Paredes,Mediano,5000000.0,AS Roma,2024
-1771,Manu Koné,Centrale,26000000.0,AS Roma,2024
-1772,Enzo Le Fée,Centrale,18000000.0,AS Roma,2024
-1773,Niccolò Pisilli,Centrale,12000000.0,AS Roma,2024
-1774,Nicola Zalewski,Centrocampista di sinistra,10000000.0,AS Roma,2024
-1775,Lorenzo Pellegrini,Trequartista,14000000.0,AS Roma,2024
-1776,Tommaso Baldanzi,Trequartista,14000000.0,AS Roma,2024
-1777,Stephan El Shaarawy,Ala sinistra,5000000.0,AS Roma,2024
-1778,Matías Soulé,Ala destra,22000000.0,AS Roma,2024
-1779,Alexis Saelemaekers,Ala destra,12000000.0,AS Roma,2024
-1780,Paulo Dybala,Seconda punta,8000000.0,AS Roma,2024
-1781,Artem Dovbyk,Punta centrale,30000000.0,AS Roma,2024
-1782,Eldor Shomurodov,Punta centrale,4000000.0,AS Roma,2024
-1783,David de Gea,Portiere,5000000.0,ACF Fiorentina,2024
-1784,Tommaso Martinelli,Portiere,1800000.0,ACF Fiorentina,2024
-1785,Pietro Terracciano,Portiere,1500000.0,ACF Fiorentina,2024
-1786,Oliver Christensen,Portiere,1500000.0,ACF Fiorentina,2024
-1787,Pietro Comuzzo,Difensore centrale,15000000.0,ACF Fiorentina,2024
-1788,Luca Ranieri,Difensore centrale,12000000.0,ACF Fiorentina,2024
-1789,Marin Pongračić,Difensore centrale,10000000.0,ACF Fiorentina,2024
-1790,Lucas Martínez Quarta,Difensore centrale,10000000.0,ACF Fiorentina,2024
+1749,Luis Hasa,Centrale,1000000.0,SSC Napoli,2024
+1750,Khvicha Kvaratskhelia,Ala sinistra,85000000.0,SSC Napoli,2024
+1751,Alessio Zerbin,Ala sinistra,3500000.0,SSC Napoli,2024
+1752,David Neres,Ala destra,28000000.0,SSC Napoli,2024
+1753,Cyril Ngonge,Ala destra,12000000.0,SSC Napoli,2024
+1754,Matteo Politano,Ala destra,10000000.0,SSC Napoli,2024
+1755,Giacomo Raspadori,Seconda punta,15000000.0,SSC Napoli,2024
+1756,Romelu Lukaku,Punta centrale,25000000.0,SSC Napoli,2024
+1757,Giovanni Simeone,Punta centrale,10000000.0,SSC Napoli,2024
+1758,Mile Svilar,Portiere,14000000.0,AS Roma,2024
+1759,Mathew Ryan,Portiere,2500000.0,AS Roma,2024
+1760,Renato Marin,Portiere,500000.0,AS Roma,2024
+1761,Evan Ndicka,Difensore centrale,25000000.0,AS Roma,2024
+1762,Gianluca Mancini,Difensore centrale,18000000.0,AS Roma,2024
+1763,Mario Hermoso,Difensore centrale,10000000.0,AS Roma,2024
+1764,Mats Hummels,Difensore centrale,3500000.0,AS Roma,2024
+1765,Angeliño,Terzino sinistro,8000000.0,AS Roma,2024
+1766,Samuel Dahl,Terzino sinistro,4000000.0,AS Roma,2024
+1767,Zeki Çelik,Terzino destro,5000000.0,AS Roma,2024
+1768,Saud Abdulhamid,Terzino destro,4000000.0,AS Roma,2024
+1769,Buba Sangaré,Terzino destro,1000000.0,AS Roma,2024
+1770,Bryan Cristante,Mediano,12000000.0,AS Roma,2024
+1771,Leandro Paredes,Mediano,5000000.0,AS Roma,2024
+1772,Manu Koné,Centrale,26000000.0,AS Roma,2024
+1773,Enzo Le Fée,Centrale,18000000.0,AS Roma,2024
+1774,Niccolò Pisilli,Centrale,12000000.0,AS Roma,2024
+1775,Nicola Zalewski,Centrocampista di sinistra,10000000.0,AS Roma,2024
+1776,Lorenzo Pellegrini,Trequartista,14000000.0,AS Roma,2024
+1777,Tommaso Baldanzi,Trequartista,14000000.0,AS Roma,2024
+1778,Stephan El Shaarawy,Ala sinistra,5000000.0,AS Roma,2024
+1779,Matías Soulé,Ala destra,22000000.0,AS Roma,2024
+1780,Alexis Saelemaekers,Ala destra,12000000.0,AS Roma,2024
+1781,Paulo Dybala,Seconda punta,8000000.0,AS Roma,2024
+1782,Artem Dovbyk,Punta centrale,30000000.0,AS Roma,2024
+1783,Eldor Shomurodov,Punta centrale,4000000.0,AS Roma,2024
+1784,David de Gea,Portiere,5000000.0,ACF Fiorentina,2024
+1785,Tommaso Martinelli,Portiere,1800000.0,ACF Fiorentina,2024
+1786,Pietro Terracciano,Portiere,1500000.0,ACF Fiorentina,2024
+1787,Oliver Christensen,Portiere,1500000.0,ACF Fiorentina,2024
+1788,Pietro Comuzzo,Difensore centrale,15000000.0,ACF Fiorentina,2024
+1789,Luca Ranieri,Difensore centrale,12000000.0,ACF Fiorentina,2024
+1790,Marin Pongračić,Difensore centrale,10000000.0,ACF Fiorentina,2024
 1791,Nicolás Valentini,Difensore centrale,4500000.0,ACF Fiorentina,2024
 1792,Matías Moreno,Difensore centrale,4000000.0,ACF Fiorentina,2024
 1793,Robin Gosens,Terzino sinistro,8000000.0,ACF Fiorentina,2024
@@ -1818,397 +1818,393 @@
 1816,Martin Erlić,Difensore centrale,5000000.0,Bologna FC 1909,2024
 1817,Joaquín Sosa,Difensore centrale,1200000.0,Bologna FC 1909,2024
 1818,Juan Miranda,Terzino sinistro,11000000.0,Bologna FC 1909,2024
-1819,Tommaso Corazza,Terzino sinistro,1000000.0,Bologna FC 1909,2024
-1820,Charalampos Lykogiannis,Terzino sinistro,1000000.0,Bologna FC 1909,2024
-1821,Stefan Posch,Terzino destro,10000000.0,Bologna FC 1909,2024
-1822,Emil Holm,Terzino destro,7000000.0,Bologna FC 1909,2024
-1823,Lorenzo De Silvestri,Terzino destro,400000.0,Bologna FC 1909,2024
-1824,Nikola Moro,Mediano,5000000.0,Bologna FC 1909,2024
-1825,Oussama El Azzouzi,Mediano,2000000.0,Bologna FC 1909,2024
-1826,Tommaso Pobega,Centrale,10000000.0,Bologna FC 1909,2024
-1827,Michel Aebischer,Centrale,10000000.0,Bologna FC 1909,2024
-1828,Kacper Urbanski,Centrale,7000000.0,Bologna FC 1909,2024
-1829,Remo Freuler,Centrale,6500000.0,Bologna FC 1909,2024
-1830,Niklas Pyyhtiä,Centrale,1000000.0,Bologna FC 1909,2024
-1831,Andri Fannar Baldursson,Centrale,900000.0,Bologna FC 1909,2024
-1832,Lewis Ferguson,Trequartista,22000000.0,Bologna FC 1909,2024
-1833,Giovanni Fabbian,Trequartista,13000000.0,Bologna FC 1909,2024
-1834,Samuel Iling-Junior,Ala sinistra,11000000.0,Bologna FC 1909,2024
-1835,Benja Domínguez,Ala sinistra,6000000.0,Bologna FC 1909,2024
-1836,Dan Ndoye,Ala destra,25000000.0,Bologna FC 1909,2024
-1837,Riccardo Orsolini,Ala destra,16000000.0,Bologna FC 1909,2024
-1838,Nicolò Cambiaghi,Seconda punta,7000000.0,Bologna FC 1909,2024
-1839,Santiago Castro,Punta centrale,25000000.0,Bologna FC 1909,2024
-1840,Thijs Dallinga,Punta centrale,12000000.0,Bologna FC 1909,2024
-1841,Jens Odgaard,Punta centrale,7000000.0,Bologna FC 1909,2024
-1842,Ivan Provedel,Portiere,14000000.0,SS Lazio,2024
-1843,Christos Mandas,Portiere,5000000.0,SS Lazio,2024
-1844,Davide Renzetti,Portiere,100000.0,SS Lazio,2024
-1845,Alessio Furlanetto,Portiere,50000.0,SS Lazio,2024
-1846,Mario Gila,Difensore centrale,28000000.0,SS Lazio,2024
-1847,Alessio Romagnoli,Difensore centrale,12000000.0,SS Lazio,2024
-1848,Samuel Gigot,Difensore centrale,4000000.0,SS Lazio,2024
-1849,Patric,Difensore centrale,4000000.0,SS Lazio,2024
-1850,Filipe Bordon,Difensore centrale,500000.0,SS Lazio,2024
-1851,Nuno Tavares,Terzino sinistro,25000000.0,SS Lazio,2024
-1852,Luca Pellegrini,Terzino sinistro,3500000.0,SS Lazio,2024
-1853,Adam Marusic,Terzino destro,4000000.0,SS Lazio,2024
-1854,Elseid Hysaj,Terzino destro,2000000.0,SS Lazio,2024
-1855,Nicolò Rovella,Mediano,25000000.0,SS Lazio,2024
-1856,Mattéo Guendouzi,Centrale,32000000.0,SS Lazio,2024
-1857,Gaetano Castrovilli,Centrale,5000000.0,SS Lazio,2024
-1858,Matías Vecino,Centrale,2500000.0,SS Lazio,2024
-1859,Toma Bašić,Centrale,1000000.0,SS Lazio,2024
-1860,Manuel Lazzari,Centrocampista di destra,4000000.0,SS Lazio,2024
-1861,Fisayo Dele-Bashiru,Trequartista,6000000.0,SS Lazio,2024
-1862,Cristo Muñoz,Trequartista,250000.0,SS Lazio,2024
-1863,André Anderson,Trequartista,200000.0,SS Lazio,2024
-1864,Mattia Zaccagni,Ala sinistra,20000000.0,SS Lazio,2024
-1865,Gustav Isaksen,Ala destra,15000000.0,SS Lazio,2024
-1866,Tijjani Noslin,Ala destra,12000000.0,SS Lazio,2024
-1867,Loum Tchaouna,Ala destra,10000000.0,SS Lazio,2024
-1868,Pedro,Ala destra,1000000.0,SS Lazio,2024
-1869,Taty Castellanos,Punta centrale,20000000.0,SS Lazio,2024
-1870,Boulaye Dia,Punta centrale,15000000.0,SS Lazio,2024
-1871,Vanja Milinković-Savić,Portiere,8000000.0,Torino FC,2024
-1872,Alberto Paleari,Portiere,500000.0,Torino FC,2024
-1873,Antonio Donnarumma,Portiere,300000.0,Torino FC,2024
-1874,Perr Schuurs,Difensore centrale,15000000.0,Torino FC,2024
-1875,Saúl Coco,Difensore centrale,14000000.0,Torino FC,2024
-1876,Sebastian Walukiewicz,Difensore centrale,5000000.0,Torino FC,2024
-1877,Guillermo Maripán,Difensore centrale,4000000.0,Torino FC,2024
-1878,Adam Masina,Difensore centrale,1500000.0,Torino FC,2024
-1879,Côme Bianay Balcot,Difensore centrale,200000.0,Torino FC,2024
-1880,Mërgim Vojvoda,Terzino destro,3000000.0,Torino FC,2024
-1881,Samuele Ricci,Mediano,28000000.0,Torino FC,2024
-1882,Adrien Tamèze,Mediano,3500000.0,Torino FC,2024
-1883,Ivan Ilić,Centrale,18000000.0,Torino FC,2024
-1884,Gvidas Gineitis,Centrale,4000000.0,Torino FC,2024
-1885,Karol Linetty,Centrale,3500000.0,Torino FC,2024
-1886,Emirhan İlkhan,Centrale,2500000.0,Torino FC,2024
-1887,Aaron Ciammaglichella,Centrale,1000000.0,Torino FC,2024
-1888,Marcus Pedersen,Centrocampista di destra,4500000.0,Torino FC,2024
-1889,Ali Dembélé,Centrocampista di destra,800000.0,Torino FC,2024
-1890,Brian Bayeye,Centrocampista di destra,400000.0,Torino FC,2024
-1891,Borna Sosa,Centrocampista di sinistra,6000000.0,Torino FC,2024
-1892,Valentino Lazaro,Centrocampista di sinistra,3500000.0,Torino FC,2024
-1893,Nikola Vlašić,Trequartista,7000000.0,Torino FC,2024
-1894,Alieu Njie,Ala sinistra,2500000.0,Torino FC,2024
-1895,Yann Karamoh,Ala sinistra,1800000.0,Torino FC,2024
-1896,Zanos Savva,Ala destra,1000000.0,Torino FC,2024
-1897,Ché Adams,Punta centrale,15000000.0,Torino FC,2024
-1898,Antonio Sanabria,Punta centrale,6000000.0,Torino FC,2024
-1899,Duván Zapata,Punta centrale,4000000.0,Torino FC,2024
-1900,Maduka Okoye,Portiere,7500000.0,Udinese Calcio,2024
-1901,Răzvan Sava,Portiere,2000000.0,Udinese Calcio,2024
-1902,Daniele Padelli,Portiere,150000.0,Udinese Calcio,2024
-1903,Edoardo Piana,Portiere,50000.0,Udinese Calcio,2024
-1904,Jaka Bijol,Difensore centrale,18000000.0,Udinese Calcio,2024
-1905,Oumar Solet,Difensore centrale,8000000.0,Udinese Calcio,2024
-1906,Isaak Touré,Difensore centrale,8000000.0,Udinese Calcio,2024
-1907,Thomas Kristensen,Difensore centrale,4500000.0,Udinese Calcio,2024
-1908,Lautaro Giannetti,Difensore centrale,2500000.0,Udinese Calcio,2024
-1909,Enzo Ebosse,Difensore centrale,2000000.0,Udinese Calcio,2024
-1910,Matteo Palma,Difensore centrale,1000000.0,Udinese Calcio,2024
-1911,Christian Kabasele,Difensore centrale,1000000.0,Udinese Calcio,2024
-1912,James Abankwah,Difensore centrale,800000.0,Udinese Calcio,2024
-1913,Axel Guessand,Difensore centrale,500000.0,Udinese Calcio,2024
-1914,Jordan Zemura,Terzino sinistro,5000000.0,Udinese Calcio,2024
-1915,Hassane Kamara,Terzino sinistro,3500000.0,Udinese Calcio,2024
-1916,Kingsley Ehizibue,Terzino destro,3000000.0,Udinese Calcio,2024
-1917,Jesper Karlström,Mediano,2500000.0,Udinese Calcio,2024
-1918,Arthur Atta,Mediano,1000000.0,Udinese Calcio,2024
-1919,Sandi Lovrić,Centrale,8000000.0,Udinese Calcio,2024
-1920,Martín Payero,Centrale,4500000.0,Udinese Calcio,2024
-1921,Oier Zarraga,Centrale,2000000.0,Udinese Calcio,2024
-1922,Rui Modesto,Centrocampista di destra,1800000.0,Udinese Calcio,2024
-1923,Simone Pafundi,Trequartista,6000000.0,Udinese Calcio,2024
-1924,Jurgen Ekkelenkamp,Trequartista,5500000.0,Udinese Calcio,2024
-1925,David Pejičić,Trequartista,1000000.0,Udinese Calcio,2024
-1926,Florian Thauvin,Ala destra,5000000.0,Udinese Calcio,2024
-1927,Lorenzo Lucca,Punta centrale,18000000.0,Udinese Calcio,2024
-1928,Brenner,Punta centrale,8000000.0,Udinese Calcio,2024
-1929,Damián Pizarro,Punta centrale,6500000.0,Udinese Calcio,2024
-1930,Keinan Davis,Punta centrale,4000000.0,Udinese Calcio,2024
-1931,Alexis Sánchez,Punta centrale,2000000.0,Udinese Calcio,2024
-1932,Iker Bravo,Punta centrale,1500000.0,Udinese Calcio,2024
-1933,Gerard Deulofeu,Punta centrale,1000000.0,Udinese Calcio,2024
-1934,Pierluigi Gollini,Portiere,2500000.0,Genoa CFC,2024
-1935,Nicola Leali,Portiere,800000.0,Genoa CFC,2024
-1936,Franz Stolz,Portiere,200000.0,Genoa CFC,2024
-1937,Daniele Sommariva,Portiere,100000.0,Genoa CFC,2024
-1938,Koni De Winter,Difensore centrale,12000000.0,Genoa CFC,2024
-1939,Johan Vásquez,Difensore centrale,10000000.0,Genoa CFC,2024
-1940,Alan Matturro,Difensore centrale,8000000.0,Genoa CFC,2024
-1941,Mattia Bani,Difensore centrale,2000000.0,Genoa CFC,2024
-1942,Alessandro Vogliacco,Difensore centrale,2000000.0,Genoa CFC,2024
-1943,Alessandro Marcandalli,Difensore centrale,2000000.0,Genoa CFC,2024
-1944,Aarón Martín,Terzino sinistro,5000000.0,Genoa CFC,2024
-1945,Honest Ahanor,Terzino sinistro,3000000.0,Genoa CFC,2024
-1946,Alessandro Zanoli,Terzino destro,6000000.0,Genoa CFC,2024
-1947,Brooke Norton-Cuffy,Terzino destro,4500000.0,Genoa CFC,2024
-1948,Stefano Sabelli,Terzino destro,1500000.0,Genoa CFC,2024
-1949,Emil Bohinen,Mediano,1800000.0,Genoa CFC,2024
-1950,Lior Kasa,Mediano,1000000.0,Genoa CFC,2024
-1951,Milan Badelj,Mediano,800000.0,Genoa CFC,2024
-1952,Morten Frendrup,Centrale,20000000.0,Genoa CFC,2024
-1953,Fabio Miretti,Centrale,12000000.0,Genoa CFC,2024
-1954,Morten Thorsby,Centrale,3000000.0,Genoa CFC,2024
-1955,Filippo Melegoni,Centrale,1000000.0,Genoa CFC,2024
-1956,Patrizio Masini,Centrale,600000.0,Genoa CFC,2024
-1957,Ruslan Malinovskyi,Trequartista,3500000.0,Genoa CFC,2024
-1958,Gastón Pereiro,Trequartista,1000000.0,Genoa CFC,2024
-1959,Federico Accornero,Ala sinistra,500000.0,Genoa CFC,2024
-1960,Junior Messias,Ala destra,2000000.0,Genoa CFC,2024
-1961,Andrea Pinamonti,Punta centrale,16000000.0,Genoa CFC,2024
-1962,Vitinha,Punta centrale,13000000.0,Genoa CFC,2024
-1963,Jeff Ekhator,Punta centrale,5000000.0,Genoa CFC,2024
-1964,David Ankeye,Punta centrale,1800000.0,Genoa CFC,2024
-1965,Caleb Ekuban,Punta centrale,1500000.0,Genoa CFC,2024
-1966,Mario Balotelli,Punta centrale,500000.0,Genoa CFC,2024
-1967,Zion Suzuki,Portiere,9000000.0,Parma Calcio 1913,2024
-1968,Leandro Chichizola,Portiere,400000.0,Parma Calcio 1913,2024
-1969,Edoardo Corvi,Portiere,350000.0,Parma Calcio 1913,2024
-1970,Alessandro Circati,Difensore centrale,8500000.0,Parma Calcio 1913,2024
-1971,Giovanni Leoni,Difensore centrale,4500000.0,Parma Calcio 1913,2024
-1972,Botond Balogh,Difensore centrale,2500000.0,Parma Calcio 1913,2024
-1973,Yordan Osorio,Difensore centrale,1700000.0,Parma Calcio 1913,2024
-1974,Lautaro Valenti,Difensore centrale,1500000.0,Parma Calcio 1913,2024
-1975,Emanuele Valeri,Terzino sinistro,3000000.0,Parma Calcio 1913,2024
-1976,Gianluca Di Chiara,Terzino sinistro,500000.0,Parma Calcio 1913,2024
-1977,Enrico Delprato,Terzino destro,6000000.0,Parma Calcio 1913,2024
-1978,Woyo Coulibaly,Terzino destro,2000000.0,Parma Calcio 1913,2024
-1979,Mandela Keita,Mediano,11000000.0,Parma Calcio 1913,2024
-1980,Nahuel Estévez,Mediano,3500000.0,Parma Calcio 1913,2024
-1981,Adrián Bernabé,Centrale,15000000.0,Parma Calcio 1913,2024
-1982,Simon Sohm,Centrale,4000000.0,Parma Calcio 1913,2024
-1983,Hernani,Centrale,2000000.0,Parma Calcio 1913,2024
-1984,Antoine Hainaut,Centrale,1000000.0,Parma Calcio 1913,2024
-1985,Drissa Camara,Centrale,1000000.0,Parma Calcio 1913,2024
-1986,Wylan Cyprien,Centrale,1000000.0,Parma Calcio 1913,2024
-1987,Adrian Benedyczak,Ala sinistra,6000000.0,Parma Calcio 1913,2024
-1988,Valentin Mihăilă,Ala sinistra,3000000.0,Parma Calcio 1913,2024
-1989,Dennis Man,Ala destra,17000000.0,Parma Calcio 1913,2024
-1990,Matteo Cancellieri,Ala destra,5000000.0,Parma Calcio 1913,2024
-1991,Pontus Almqvist,Ala destra,2500000.0,Parma Calcio 1913,2024
-1992,Anas Haj Mohamed,Ala destra,1800000.0,Parma Calcio 1913,2024
-1993,Mateusz Kowalski,Seconda punta,300000.0,Parma Calcio 1913,2024
-1994,Ange-Yoan Bonny,Punta centrale,20000000.0,Parma Calcio 1913,2024
-1995,Gabriel Charpentier,Punta centrale,1600000.0,Parma Calcio 1913,2024
-1996,Emil Audero,Portiere,5000000.0,Como 1907,2024
-1997,Pepe Reina,Portiere,600000.0,Como 1907,2024
-1998,Mauro Vigorito,Portiere,150000.0,Como 1907,2024
-1999,Pierre Bolchini,Portiere,50000.0,Como 1907,2024
-2000,Alberto Dossena,Difensore centrale,7000000.0,Como 1907,2024
-2001,Marc Oliver Kempf,Difensore centrale,2500000.0,Como 1907,2024
-2002,Edoardo Goldaniga,Difensore centrale,1200000.0,Como 1907,2024
-2003,Federico Barba,Difensore centrale,1000000.0,Como 1907,2024
-2004,Fellipe Jack,Difensore centrale,200000.0,Como 1907,2024
-2005,Alberto Moreno,Terzino sinistro,1800000.0,Como 1907,2024
-2006,Marco Sala,Terzino sinistro,1000000.0,Como 1907,2024
-2007,Ignace Van der Brempt,Terzino destro,3000000.0,Como 1907,2024
-2008,Máximo Perrone,Mediano,9000000.0,Como 1907,2024
-2009,Yannik Engelhardt,Mediano,7000000.0,Como 1907,2024
-2010,Sergi Roberto,Centrale,2000000.0,Como 1907,2024
-2011,Matthias Braunöder,Centrale,2000000.0,Como 1907,2024
-2012,Luca Mazzitelli,Centrale,2000000.0,Como 1907,2024
-2013,Ben Lhassine Kone,Centrale,600000.0,Como 1907,2024
-2014,Daniele Baselli,Centrale,400000.0,Como 1907,2024
-2015,Giuseppe Mazzaglia,Centrale,250000.0,Como 1907,2024
-2016,Alessio Iovine,Centrocampista di destra,400000.0,Como 1907,2024
-2017,Nico Paz,Trequartista,20000000.0,Como 1907,2024
-2018,Simone Verdi,Trequartista,2000000.0,Como 1907,2024
-2019,Moutir Chajia,Trequartista,400000.0,Como 1907,2024
-2020,Naj Razi,Trequartista,300000.0,Como 1907,2024
-2021,Lucas Da Cunha,Ala sinistra,6000000.0,Como 1907,2024
-2022,Alieu Fadera,Ala sinistra,5000000.0,Como 1907,2024
-2023,Ali Jasim,Ala sinistra,450000.0,Como 1907,2024
+1819,Charalampos Lykogiannis,Terzino sinistro,1000000.0,Bologna FC 1909,2024
+1820,Stefan Posch,Terzino destro,10000000.0,Bologna FC 1909,2024
+1821,Emil Holm,Terzino destro,7000000.0,Bologna FC 1909,2024
+1822,Lorenzo De Silvestri,Terzino destro,400000.0,Bologna FC 1909,2024
+1823,Nikola Moro,Mediano,5000000.0,Bologna FC 1909,2024
+1824,Oussama El Azzouzi,Mediano,2000000.0,Bologna FC 1909,2024
+1825,Tommaso Pobega,Centrale,10000000.0,Bologna FC 1909,2024
+1826,Michel Aebischer,Centrale,10000000.0,Bologna FC 1909,2024
+1827,Kacper Urbanski,Centrale,7000000.0,Bologna FC 1909,2024
+1828,Remo Freuler,Centrale,6500000.0,Bologna FC 1909,2024
+1829,Andri Fannar Baldursson,Centrale,900000.0,Bologna FC 1909,2024
+1830,Lewis Ferguson,Trequartista,22000000.0,Bologna FC 1909,2024
+1831,Giovanni Fabbian,Trequartista,13000000.0,Bologna FC 1909,2024
+1832,Samuel Iling-Junior,Ala sinistra,11000000.0,Bologna FC 1909,2024
+1833,Benja Domínguez,Ala sinistra,6000000.0,Bologna FC 1909,2024
+1834,Dan Ndoye,Ala destra,25000000.0,Bologna FC 1909,2024
+1835,Riccardo Orsolini,Ala destra,16000000.0,Bologna FC 1909,2024
+1836,Nicolò Cambiaghi,Seconda punta,7000000.0,Bologna FC 1909,2024
+1837,Santiago Castro,Punta centrale,25000000.0,Bologna FC 1909,2024
+1838,Thijs Dallinga,Punta centrale,12000000.0,Bologna FC 1909,2024
+1839,Jens Odgaard,Punta centrale,7000000.0,Bologna FC 1909,2024
+1840,Ivan Provedel,Portiere,14000000.0,SS Lazio,2024
+1841,Christos Mandas,Portiere,5000000.0,SS Lazio,2024
+1842,Davide Renzetti,Portiere,100000.0,SS Lazio,2024
+1843,Alessio Furlanetto,Portiere,50000.0,SS Lazio,2024
+1844,Mario Gila,Difensore centrale,28000000.0,SS Lazio,2024
+1845,Alessio Romagnoli,Difensore centrale,12000000.0,SS Lazio,2024
+1846,Samuel Gigot,Difensore centrale,4000000.0,SS Lazio,2024
+1847,Patric,Difensore centrale,4000000.0,SS Lazio,2024
+1848,Filipe Bordon,Difensore centrale,500000.0,SS Lazio,2024
+1849,Nuno Tavares,Terzino sinistro,25000000.0,SS Lazio,2024
+1850,Luca Pellegrini,Terzino sinistro,3500000.0,SS Lazio,2024
+1851,Adam Marusic,Terzino destro,4000000.0,SS Lazio,2024
+1852,Elseid Hysaj,Terzino destro,2000000.0,SS Lazio,2024
+1853,Nicolò Rovella,Mediano,25000000.0,SS Lazio,2024
+1854,Mattéo Guendouzi,Centrale,32000000.0,SS Lazio,2024
+1855,Gaetano Castrovilli,Centrale,5000000.0,SS Lazio,2024
+1856,Matías Vecino,Centrale,2500000.0,SS Lazio,2024
+1857,Toma Bašić,Centrale,1000000.0,SS Lazio,2024
+1858,Manuel Lazzari,Centrocampista di destra,4000000.0,SS Lazio,2024
+1859,Fisayo Dele-Bashiru,Trequartista,6000000.0,SS Lazio,2024
+1860,Cristo Muñoz,Trequartista,250000.0,SS Lazio,2024
+1861,André Anderson,Trequartista,200000.0,SS Lazio,2024
+1862,Mattia Zaccagni,Ala sinistra,20000000.0,SS Lazio,2024
+1863,Gustav Isaksen,Ala destra,15000000.0,SS Lazio,2024
+1864,Tijjani Noslin,Ala destra,12000000.0,SS Lazio,2024
+1865,Loum Tchaouna,Ala destra,10000000.0,SS Lazio,2024
+1866,Pedro,Ala destra,1000000.0,SS Lazio,2024
+1867,Taty Castellanos,Punta centrale,20000000.0,SS Lazio,2024
+1868,Boulaye Dia,Punta centrale,15000000.0,SS Lazio,2024
+1869,Vanja Milinković-Savić,Portiere,8000000.0,Torino FC,2024
+1870,Alberto Paleari,Portiere,500000.0,Torino FC,2024
+1871,Antonio Donnarumma,Portiere,300000.0,Torino FC,2024
+1872,Perr Schuurs,Difensore centrale,15000000.0,Torino FC,2024
+1873,Saúl Coco,Difensore centrale,14000000.0,Torino FC,2024
+1874,Sebastian Walukiewicz,Difensore centrale,5000000.0,Torino FC,2024
+1875,Guillermo Maripán,Difensore centrale,4000000.0,Torino FC,2024
+1876,Adam Masina,Difensore centrale,1500000.0,Torino FC,2024
+1877,Côme Bianay Balcot,Difensore centrale,200000.0,Torino FC,2024
+1878,Mërgim Vojvoda,Terzino destro,3000000.0,Torino FC,2024
+1879,Samuele Ricci,Mediano,28000000.0,Torino FC,2024
+1880,Adrien Tamèze,Mediano,3500000.0,Torino FC,2024
+1881,Ivan Ilić,Centrale,18000000.0,Torino FC,2024
+1882,Gvidas Gineitis,Centrale,4000000.0,Torino FC,2024
+1883,Karol Linetty,Centrale,3500000.0,Torino FC,2024
+1884,Emirhan İlkhan,Centrale,2500000.0,Torino FC,2024
+1885,Aaron Ciammaglichella,Centrale,1000000.0,Torino FC,2024
+1886,Marcus Pedersen,Centrocampista di destra,4500000.0,Torino FC,2024
+1887,Ali Dembélé,Centrocampista di destra,800000.0,Torino FC,2024
+1888,Brian Bayeye,Centrocampista di destra,400000.0,Torino FC,2024
+1889,Borna Sosa,Centrocampista di sinistra,6000000.0,Torino FC,2024
+1890,Valentino Lazaro,Centrocampista di sinistra,3500000.0,Torino FC,2024
+1891,Nikola Vlašić,Trequartista,7000000.0,Torino FC,2024
+1892,Alieu Njie,Ala sinistra,2500000.0,Torino FC,2024
+1893,Yann Karamoh,Ala sinistra,1800000.0,Torino FC,2024
+1894,Zanos Savva,Ala destra,1000000.0,Torino FC,2024
+1895,Ché Adams,Punta centrale,15000000.0,Torino FC,2024
+1896,Antonio Sanabria,Punta centrale,6000000.0,Torino FC,2024
+1897,Duván Zapata,Punta centrale,4000000.0,Torino FC,2024
+1898,Maduka Okoye,Portiere,7500000.0,Udinese Calcio,2024
+1899,Răzvan Sava,Portiere,2000000.0,Udinese Calcio,2024
+1900,Daniele Padelli,Portiere,150000.0,Udinese Calcio,2024
+1901,Edoardo Piana,Portiere,50000.0,Udinese Calcio,2024
+1902,Jaka Bijol,Difensore centrale,18000000.0,Udinese Calcio,2024
+1903,Oumar Solet,Difensore centrale,8000000.0,Udinese Calcio,2024
+1904,Isaak Touré,Difensore centrale,8000000.0,Udinese Calcio,2024
+1905,Thomas Kristensen,Difensore centrale,4500000.0,Udinese Calcio,2024
+1906,Lautaro Giannetti,Difensore centrale,2500000.0,Udinese Calcio,2024
+1907,Enzo Ebosse,Difensore centrale,2000000.0,Udinese Calcio,2024
+1908,Matteo Palma,Difensore centrale,1000000.0,Udinese Calcio,2024
+1909,Christian Kabasele,Difensore centrale,1000000.0,Udinese Calcio,2024
+1910,James Abankwah,Difensore centrale,800000.0,Udinese Calcio,2024
+1911,Axel Guessand,Difensore centrale,500000.0,Udinese Calcio,2024
+1912,Jordan Zemura,Terzino sinistro,5000000.0,Udinese Calcio,2024
+1913,Hassane Kamara,Terzino sinistro,3500000.0,Udinese Calcio,2024
+1914,Kingsley Ehizibue,Terzino destro,3000000.0,Udinese Calcio,2024
+1915,Jesper Karlström,Mediano,2500000.0,Udinese Calcio,2024
+1916,Arthur Atta,Mediano,1000000.0,Udinese Calcio,2024
+1917,Sandi Lovrić,Centrale,8000000.0,Udinese Calcio,2024
+1918,Martín Payero,Centrale,4500000.0,Udinese Calcio,2024
+1919,Oier Zarraga,Centrale,2000000.0,Udinese Calcio,2024
+1920,Rui Modesto,Centrocampista di destra,1800000.0,Udinese Calcio,2024
+1921,Simone Pafundi,Trequartista,6000000.0,Udinese Calcio,2024
+1922,Jurgen Ekkelenkamp,Trequartista,5500000.0,Udinese Calcio,2024
+1923,David Pejičić,Trequartista,1000000.0,Udinese Calcio,2024
+1924,Florian Thauvin,Ala destra,5000000.0,Udinese Calcio,2024
+1925,Lorenzo Lucca,Punta centrale,18000000.0,Udinese Calcio,2024
+1926,Brenner,Punta centrale,8000000.0,Udinese Calcio,2024
+1927,Damián Pizarro,Punta centrale,6500000.0,Udinese Calcio,2024
+1928,Keinan Davis,Punta centrale,4000000.0,Udinese Calcio,2024
+1929,Alexis Sánchez,Punta centrale,2000000.0,Udinese Calcio,2024
+1930,Iker Bravo,Punta centrale,1500000.0,Udinese Calcio,2024
+1931,Gerard Deulofeu,Punta centrale,1000000.0,Udinese Calcio,2024
+1932,Pierluigi Gollini,Portiere,2500000.0,Genoa CFC,2024
+1933,Nicola Leali,Portiere,800000.0,Genoa CFC,2024
+1934,Franz Stolz,Portiere,200000.0,Genoa CFC,2024
+1935,Daniele Sommariva,Portiere,100000.0,Genoa CFC,2024
+1936,Koni De Winter,Difensore centrale,12000000.0,Genoa CFC,2024
+1937,Johan Vásquez,Difensore centrale,10000000.0,Genoa CFC,2024
+1938,Alan Matturro,Difensore centrale,8000000.0,Genoa CFC,2024
+1939,Mattia Bani,Difensore centrale,2000000.0,Genoa CFC,2024
+1940,Alessandro Vogliacco,Difensore centrale,2000000.0,Genoa CFC,2024
+1941,Alessandro Marcandalli,Difensore centrale,2000000.0,Genoa CFC,2024
+1942,Aarón Martín,Terzino sinistro,5000000.0,Genoa CFC,2024
+1943,Honest Ahanor,Terzino sinistro,3000000.0,Genoa CFC,2024
+1944,Alessandro Zanoli,Terzino destro,6000000.0,Genoa CFC,2024
+1945,Brooke Norton-Cuffy,Terzino destro,4500000.0,Genoa CFC,2024
+1946,Stefano Sabelli,Terzino destro,1500000.0,Genoa CFC,2024
+1947,Emil Bohinen,Mediano,1800000.0,Genoa CFC,2024
+1948,Lior Kasa,Mediano,1000000.0,Genoa CFC,2024
+1949,Milan Badelj,Mediano,800000.0,Genoa CFC,2024
+1950,Morten Frendrup,Centrale,20000000.0,Genoa CFC,2024
+1951,Fabio Miretti,Centrale,12000000.0,Genoa CFC,2024
+1952,Morten Thorsby,Centrale,3000000.0,Genoa CFC,2024
+1953,Filippo Melegoni,Centrale,1000000.0,Genoa CFC,2024
+1954,Patrizio Masini,Centrale,600000.0,Genoa CFC,2024
+1955,Ruslan Malinovskyi,Trequartista,3500000.0,Genoa CFC,2024
+1956,Gastón Pereiro,Trequartista,1000000.0,Genoa CFC,2024
+1957,Federico Accornero,Ala sinistra,500000.0,Genoa CFC,2024
+1958,Junior Messias,Ala destra,2000000.0,Genoa CFC,2024
+1959,Andrea Pinamonti,Punta centrale,16000000.0,Genoa CFC,2024
+1960,Vitinha,Punta centrale,13000000.0,Genoa CFC,2024
+1961,Jeff Ekhator,Punta centrale,5000000.0,Genoa CFC,2024
+1962,David Ankeye,Punta centrale,1800000.0,Genoa CFC,2024
+1963,Caleb Ekuban,Punta centrale,1500000.0,Genoa CFC,2024
+1964,Mario Balotelli,Punta centrale,500000.0,Genoa CFC,2024
+1965,Zion Suzuki,Portiere,9000000.0,Parma Calcio 1913,2024
+1966,Edoardo Corvi,Portiere,350000.0,Parma Calcio 1913,2024
+1967,Alessandro Circati,Difensore centrale,8500000.0,Parma Calcio 1913,2024
+1968,Giovanni Leoni,Difensore centrale,4500000.0,Parma Calcio 1913,2024
+1969,Botond Balogh,Difensore centrale,2500000.0,Parma Calcio 1913,2024
+1970,Yordan Osorio,Difensore centrale,1700000.0,Parma Calcio 1913,2024
+1971,Lautaro Valenti,Difensore centrale,1500000.0,Parma Calcio 1913,2024
+1972,Mathias Løvik,Terzino sinistro,5000000.0,Parma Calcio 1913,2024
+1973,Emanuele Valeri,Terzino sinistro,3000000.0,Parma Calcio 1913,2024
+1974,Gianluca Di Chiara,Terzino sinistro,500000.0,Parma Calcio 1913,2024
+1975,Enrico Delprato,Terzino destro,6000000.0,Parma Calcio 1913,2024
+1976,Woyo Coulibaly,Terzino destro,2000000.0,Parma Calcio 1913,2024
+1977,Mandela Keita,Mediano,11000000.0,Parma Calcio 1913,2024
+1978,Nahuel Estévez,Mediano,3500000.0,Parma Calcio 1913,2024
+1979,Adrián Bernabé,Centrale,15000000.0,Parma Calcio 1913,2024
+1980,Simon Sohm,Centrale,4000000.0,Parma Calcio 1913,2024
+1981,Hernani,Centrale,2000000.0,Parma Calcio 1913,2024
+1982,Antoine Hainaut,Centrale,1000000.0,Parma Calcio 1913,2024
+1983,Drissa Camara,Centrale,1000000.0,Parma Calcio 1913,2024
+1984,Wylan Cyprien,Centrale,1000000.0,Parma Calcio 1913,2024
+1985,Adrian Benedyczak,Ala sinistra,6000000.0,Parma Calcio 1913,2024
+1986,Valentin Mihăilă,Ala sinistra,3000000.0,Parma Calcio 1913,2024
+1987,Dennis Man,Ala destra,17000000.0,Parma Calcio 1913,2024
+1988,Matteo Cancellieri,Ala destra,5000000.0,Parma Calcio 1913,2024
+1989,Pontus Almqvist,Ala destra,2500000.0,Parma Calcio 1913,2024
+1990,Anas Haj Mohamed,Ala destra,1800000.0,Parma Calcio 1913,2024
+1991,Mateusz Kowalski,Seconda punta,300000.0,Parma Calcio 1913,2024
+1992,Ange-Yoan Bonny,Punta centrale,20000000.0,Parma Calcio 1913,2024
+1993,Gabriel Charpentier,Punta centrale,1600000.0,Parma Calcio 1913,2024
+1994,Emil Audero,Portiere,5000000.0,Como 1907,2024
+1995,Jean Butez,Portiere,4000000.0,Como 1907,2024
+1996,Pepe Reina,Portiere,600000.0,Como 1907,2024
+1997,Mauro Vigorito,Portiere,150000.0,Como 1907,2024
+1998,Pierre Bolchini,Portiere,50000.0,Como 1907,2024
+1999,Alberto Dossena,Difensore centrale,7000000.0,Como 1907,2024
+2000,Marc Oliver Kempf,Difensore centrale,2500000.0,Como 1907,2024
+2001,Edoardo Goldaniga,Difensore centrale,1200000.0,Como 1907,2024
+2002,Federico Barba,Difensore centrale,1000000.0,Como 1907,2024
+2003,Fellipe Jack,Difensore centrale,200000.0,Como 1907,2024
+2004,Alberto Moreno,Terzino sinistro,1800000.0,Como 1907,2024
+2005,Marco Sala,Terzino sinistro,1000000.0,Como 1907,2024
+2006,Ignace Van der Brempt,Terzino destro,3000000.0,Como 1907,2024
+2007,Máximo Perrone,Mediano,9000000.0,Como 1907,2024
+2008,Yannik Engelhardt,Mediano,7000000.0,Como 1907,2024
+2009,Sergi Roberto,Centrale,2000000.0,Como 1907,2024
+2010,Matthias Braunöder,Centrale,2000000.0,Como 1907,2024
+2011,Luca Mazzitelli,Centrale,2000000.0,Como 1907,2024
+2012,Ben Lhassine Kone,Centrale,600000.0,Como 1907,2024
+2013,Daniele Baselli,Centrale,400000.0,Como 1907,2024
+2014,Giuseppe Mazzaglia,Centrale,250000.0,Como 1907,2024
+2015,Alessio Iovine,Centrocampista di destra,400000.0,Como 1907,2024
+2016,Nico Paz,Trequartista,20000000.0,Como 1907,2024
+2017,Simone Verdi,Trequartista,2000000.0,Como 1907,2024
+2018,Moutir Chajia,Trequartista,400000.0,Como 1907,2024
+2019,Naj Razi,Trequartista,300000.0,Como 1907,2024
+2020,Lucas Da Cunha,Ala sinistra,6000000.0,Como 1907,2024
+2021,Alieu Fadera,Ala sinistra,5000000.0,Como 1907,2024
+2022,Ali Jasim,Ala sinistra,450000.0,Como 1907,2024
+2023,Assane Diao,Ala destra,9000000.0,Como 1907,2024
 2024,Gabriel Strefezza,Ala destra,6000000.0,Como 1907,2024
 2025,Patrick Cutrone,Punta centrale,7000000.0,Como 1907,2024
 2026,Nicholas Gioacchini,Punta centrale,2000000.0,Como 1907,2024
 2027,Andrea Belotti,Punta centrale,2000000.0,Como 1907,2024
-2028,Alberto Cerri,Punta centrale,1500000.0,Como 1907,2024
-2029,Alessandro Gabrielloni,Punta centrale,1000000.0,Como 1907,2024
-2030,Wladimiro Falcone,Portiere,4000000.0,US Lecce,2024
-2031,Christian Früchtl,Portiere,1500000.0,US Lecce,2024
-2032,Alexandru Borbei,Portiere,150000.0,US Lecce,2024
-2033,Jasper Samooja,Portiere,75000.0,US Lecce,2024
-2034,Federico Baschirotto,Difensore centrale,5000000.0,US Lecce,2024
-2035,Kialonda Gaspar,Difensore centrale,2500000.0,US Lecce,2024
-2036,Gaby Jean,Difensore centrale,1000000.0,US Lecce,2024
-2037,Kevin Bonifazi,Difensore centrale,1000000.0,US Lecce,2024
-2038,Sebastian Esposito,Difensore centrale,200000.0,US Lecce,2024
-2039,Antonino Gallo,Terzino sinistro,5500000.0,US Lecce,2024
-2040,Vernon Addo,Terzino sinistro,150000.0,US Lecce,2024
-2041,Andy Pelmard,Terzino destro,2500000.0,US Lecce,2024
-2042,Frédéric Guilbert,Terzino destro,2500000.0,US Lecce,2024
-2043,Ylber Ramadani,Mediano,4000000.0,US Lecce,2024
-2044,Balthazar Pierret,Mediano,1000000.0,US Lecce,2024
-2045,Mohamed Kaba,Centrale,3500000.0,US Lecce,2024
-2046,Lassana Coulibaly,Centrale,2500000.0,US Lecce,2024
-2047,Joan González,Centrale,2000000.0,US Lecce,2024
-2048,Hamza Rafia,Centrale,1700000.0,US Lecce,2024
-2049,Medon Berisha,Centrale,1000000.0,US Lecce,2024
-2050,Thórir Jóhann Helgason,Centrale,800000.0,US Lecce,2024
-2051,Ed McJannet,Centrale,150000.0,US Lecce,2024
-2052,Filip Marchwinski,Trequartista,4500000.0,US Lecce,2024
-2053,Rémi Oudin,Trequartista,2500000.0,US Lecce,2024
-2054,Lameck Banda,Ala sinistra,6000000.0,US Lecce,2024
-2055,Jesper Karlsson,Ala sinistra,6000000.0,US Lecce,2024
-2056,Tete Morente,Ala sinistra,2000000.0,US Lecce,2024
-2057,Ante Rebić,Ala sinistra,1500000.0,US Lecce,2024
-2058,Nicola Sansone,Ala sinistra,800000.0,US Lecce,2024
-2059,Patrick Dorgu,Ala destra,20000000.0,US Lecce,2024
-2060,Santiago Pierotti,Ala destra,2500000.0,US Lecce,2024
-2061,Luis Hasa,Ala destra,1000000.0,US Lecce,2024
-2062,Jeppe Corfitzen,Ala destra,400000.0,US Lecce,2024
-2063,Dario Daka,Ala destra,75000.0,US Lecce,2024
-2064,Nikola Krstović,Punta centrale,6000000.0,US Lecce,2024
-2065,Rareș Burnete,Punta centrale,700000.0,US Lecce,2024
-2066,Joel Voelkerling Persson,Punta centrale,350000.0,US Lecce,2024
-2067,Lorenzo Montipò,Portiere,3000000.0,Hellas Verona FC,2024
-2068,Simone Perilli,Portiere,200000.0,Hellas Verona FC,2024
-2069,Alessandro Berardi,Portiere,50000.0,Hellas Verona FC,2024
-2070,Diego Coppola,Difensore centrale,7500000.0,Hellas Verona FC,2024
-2071,Flavius Daniliuc,Difensore centrale,4000000.0,Hellas Verona FC,2024
-2072,Giangiacomo Magnani,Difensore centrale,2500000.0,Hellas Verona FC,2024
-2073,Paweł Dawidowicz,Difensore centrale,2500000.0,Hellas Verona FC,2024
-2074,Daniele Ghilardi,Difensore centrale,1600000.0,Hellas Verona FC,2024
-2075,Yllan Okou,Difensore centrale,900000.0,Hellas Verona FC,2024
-2076,Christian Corradi,Difensore centrale,800000.0,Hellas Verona FC,2024
-2077,Domagoj Bradarić,Terzino sinistro,4000000.0,Hellas Verona FC,2024
-2078,Martin Frese,Terzino sinistro,2000000.0,Hellas Verona FC,2024
-2079,Jackson Tchatchoua,Terzino destro,8000000.0,Hellas Verona FC,2024
-2080,Davide Faraoni,Terzino destro,1000000.0,Hellas Verona FC,2024
-2081,Reda Belahyane,Mediano,10000000.0,Hellas Verona FC,2024
-2082,Joselito,Mediano,75000.0,Hellas Verona FC,2024
-2083,Suat Serdar,Centrale,5000000.0,Hellas Verona FC,2024
-2084,Ondrej Duda,Centrale,4000000.0,Hellas Verona FC,2024
-2085,Abdou Harroui,Centrale,2500000.0,Hellas Verona FC,2024
-2086,Dani Silva,Centrale,1500000.0,Hellas Verona FC,2024
-2087,Darko Lazović,Centrocampista di sinistra,1500000.0,Hellas Verona FC,2024
-2088,Tomas Suslov,Trequartista,6000000.0,Hellas Verona FC,2024
-2089,Ayanda Sishuba,Trequartista,2000000.0,Hellas Verona FC,2024
-2090,Grigoris Kastanos,Trequartista,1800000.0,Hellas Verona FC,2024
-2091,Alphadjo Cissè,Trequartista,1400000.0,Hellas Verona FC,2024
-2092,Faride Alidou,Ala sinistra,2000000.0,Hellas Verona FC,2024
-2093,Casper Tengstedt,Punta centrale,7000000.0,Hellas Verona FC,2024
-2094,Amin Sarr,Punta centrale,4000000.0,Hellas Verona FC,2024
-2095,Daniel Mosquera,Punta centrale,1500000.0,Hellas Verona FC,2024
-2096,Dailon Rocha Livramento,Punta centrale,800000.0,Hellas Verona FC,2024
-2097,Mathis Lambourde,Punta centrale,500000.0,Hellas Verona FC,2024
-2098,Juan Manuel Cruz,Punta centrale,400000.0,Hellas Verona FC,2024
-2099,Junior Ajayi,Punta centrale,150000.0,Hellas Verona FC,2024
-2100,Stefano Turati,Portiere,7500000.0,AC Monza,2024
-2101,Alessio Cragno,Portiere,1000000.0,AC Monza,2024
-2102,Semuel Pizzignacco,Portiere,800000.0,AC Monza,2024
-2103,Andrea Mazza,Portiere,75000.0,AC Monza,2024
-2104,Andrea Carboni,Difensore centrale,4000000.0,AC Monza,2024
-2105,Pablo Marí,Difensore centrale,3500000.0,AC Monza,2024
-2106,Armando Izzo,Difensore centrale,2500000.0,AC Monza,2024
-2107,Luca Caldirola,Difensore centrale,1000000.0,AC Monza,2024
-2108,Danilo D'Ambrosio,Difensore centrale,800000.0,AC Monza,2024
-2109,Samuele Birindelli,Terzino destro,3500000.0,AC Monza,2024
-2110,Pedro Pereira,Terzino destro,1800000.0,AC Monza,2024
-2111,Matteo Pessina,Centrale,12000000.0,AC Monza,2024
-2112,Warren Bondo,Centrale,7000000.0,AC Monza,2024
-2113,Alessandro Bianco,Centrale,5000000.0,AC Monza,2024
-2114,Roberto Gagliardini,Centrale,2000000.0,AC Monza,2024
-2115,Stefano Sensi,Centrale,1500000.0,AC Monza,2024
-2116,Mattia Valoti,Centrale,1000000.0,AC Monza,2024
-2117,Jean-Daniel Akpa Akpro,Centrale,500000.0,AC Monza,2024
-2118,Patrick Ciurria,Centrocampista di destra,3000000.0,AC Monza,2024
-2119,Georgios Kyriakopoulos,Centrocampista di sinistra,3500000.0,AC Monza,2024
-2120,Daniel Maldini,Trequartista,6000000.0,AC Monza,2024
-2121,Samuele Vignato,Trequartista,3500000.0,AC Monza,2024
-2122,Omari Forson,Ala destra,2000000.0,AC Monza,2024
-2123,Dany Mota,Seconda punta,5000000.0,AC Monza,2024
-2124,Gianluca Caprari,Seconda punta,2500000.0,AC Monza,2024
-2125,Andrea Petagna,Punta centrale,2000000.0,AC Monza,2024
-2126,Milan Djuric,Punta centrale,1500000.0,AC Monza,2024
-2127,Mirko Maric,Punta centrale,700000.0,AC Monza,2024
-2128,Davide Diaw,Punta centrale,600000.0,AC Monza,2024
-2129,Devis Vásquez,Portiere,4000000.0,Empoli FC,2024
-2130,Jacopo Seghetti,Portiere,1000000.0,Empoli FC,2024
-2131,Samuele Perisan,Portiere,500000.0,Empoli FC,2024
-2132,Federico Brancolini,Portiere,200000.0,Empoli FC,2024
-2133,Saba Goglichidze,Difensore centrale,8000000.0,Empoli FC,2024
-2134,Mattia Viti,Difensore centrale,6500000.0,Empoli FC,2024
-2135,Ardian Ismajli,Difensore centrale,6000000.0,Empoli FC,2024
-2136,Saba Sazonov,Difensore centrale,2500000.0,Empoli FC,2024
-2137,Luca Marianucci,Difensore centrale,800000.0,Empoli FC,2024
-2138,Giuseppe Pezzella,Terzino sinistro,2500000.0,Empoli FC,2024
-2139,Liberato Cacace,Terzino sinistro,2000000.0,Empoli FC,2024
-2140,Tyronne Ebuehi,Terzino destro,1500000.0,Empoli FC,2024
-2141,Junior Sambia,Terzino destro,1400000.0,Empoli FC,2024
-2142,Mattia De Sciglio,Terzino destro,1000000.0,Empoli FC,2024
-2143,Alberto Grassi,Mediano,1800000.0,Empoli FC,2024
-2144,Jacopo Fazzini,Centrale,8000000.0,Empoli FC,2024
-2145,Youssef Maleh,Centrale,4000000.0,Empoli FC,2024
-2146,Szymon Żurkowski,Centrale,2500000.0,Empoli FC,2024
-2147,Liam Henderson,Centrale,1400000.0,Empoli FC,2024
-2148,Luca Belardinelli,Centrale,800000.0,Empoli FC,2024
-2149,Nicolas Haas,Centrale,700000.0,Empoli FC,2024
-2150,Tino Anjorin,Trequartista,2500000.0,Empoli FC,2024
-2151,Emmanuel Gyasi,Ala sinistra,2000000.0,Empoli FC,2024
-2152,Emmanuel Ekong,Ala sinistra,500000.0,Empoli FC,2024
-2153,Ola Solbakken,Ala destra,2500000.0,Empoli FC,2024
-2154,Sebastiano Esposito,Seconda punta,7000000.0,Empoli FC,2024
-2155,Lorenzo Colombo,Punta centrale,6000000.0,Empoli FC,2024
-2156,Pietro Pellegri,Punta centrale,3000000.0,Empoli FC,2024
-2157,Simone Scuffet,Portiere,2000000.0,Cagliari Calcio,2024
-2158,Alen Sherri,Portiere,1000000.0,Cagliari Calcio,2024
-2159,Giuseppe Ciocci,Portiere,100000.0,Cagliari Calcio,2024
-2160,Sebastiano Luperto,Difensore centrale,3500000.0,Cagliari Calcio,2024
-2161,Yerry Mina,Difensore centrale,3000000.0,Cagliari Calcio,2024
-2162,Adam Obert,Difensore centrale,3000000.0,Cagliari Calcio,2024
-2163,Mateusz Wieteska,Difensore centrale,2200000.0,Cagliari Calcio,2024
-2164,José Luis Palomino,Difensore centrale,700000.0,Cagliari Calcio,2024
-2165,Tommaso Augello,Terzino sinistro,1800000.0,Cagliari Calcio,2024
-2166,Paulo Azzi,Terzino sinistro,1000000.0,Cagliari Calcio,2024
-2167,Gabriele Zappa,Terzino destro,3500000.0,Cagliari Calcio,2024
-2168,Matteo Prati,Mediano,9000000.0,Cagliari Calcio,2024
-2169,Răzvan Marin,Mediano,4000000.0,Cagliari Calcio,2024
-2170,Antoine Makoumbou,Mediano,4000000.0,Cagliari Calcio,2024
-2171,Alessandro Deiola,Centrale,1600000.0,Cagliari Calcio,2024
-2172,Michel Adopo,Centrale,1500000.0,Cagliari Calcio,2024
-2173,Marko Rog,Centrale,1300000.0,Cagliari Calcio,2024
-2174,Nicolas Viola,Centrale,800000.0,Cagliari Calcio,2024
-2175,Nadir Zortea,Centrocampista di destra,3000000.0,Cagliari Calcio,2024
-2176,Jakub Jankto,Centrocampista di sinistra,1000000.0,Cagliari Calcio,2024
-2177,Gianluca Gaetano,Trequartista,5000000.0,Cagliari Calcio,2024
-2178,Mattia Felici,Ala sinistra,1500000.0,Cagliari Calcio,2024
-2179,Zito Luvumbo,Punta centrale,7000000.0,Cagliari Calcio,2024
-2180,Roberto Piccoli,Punta centrale,6000000.0,Cagliari Calcio,2024
-2181,Gianluca Lapadula,Punta centrale,1000000.0,Cagliari Calcio,2024
-2182,Kingstone Mutandwa,Punta centrale,1000000.0,Cagliari Calcio,2024
-2183,Leonardo Pavoletti,Punta centrale,700000.0,Cagliari Calcio,2024
-2184,Filip Stankovic,Portiere,4500000.0,Venezia FC,2024
-2185,Jesse Joronen,Portiere,1000000.0,Venezia FC,2024
-2186,Filippo Neri,Portiere,200000.0,Venezia FC,2024
-2187,Matteo Grandi,Portiere,150000.0,Venezia FC,2024
-2188,Jay Idzes,Difensore centrale,3000000.0,Venezia FC,2024
-2189,Michael Svoboda,Difensore centrale,3000000.0,Venezia FC,2024
-2190,Joël Schingtienne,Difensore centrale,2000000.0,Venezia FC,2024
-2191,Giorgio Altare,Difensore centrale,1800000.0,Venezia FC,2024
-2192,Marin Šverko,Difensore centrale,1200000.0,Venezia FC,2024
-2193,Francesco Zampano,Terzino sinistro,1100000.0,Venezia FC,2024
-2194,Ridgeciano Haps,Terzino sinistro,1000000.0,Venezia FC,2024
-2195,Franco Carboni,Terzino sinistro,900000.0,Venezia FC,2024
-2196,Antonio Candela,Terzino destro,2300000.0,Venezia FC,2024
-2197,Richie Sagrado,Terzino destro,2000000.0,Venezia FC,2024
-2198,Gianluca Busio,Centrale,6500000.0,Venezia FC,2024
-2199,Hans Nicolussi Caviglia,Centrale,6000000.0,Venezia FC,2024
-2200,Mikael Egill Ellertsson,Centrale,2800000.0,Venezia FC,2024
-2201,Alfred Duncan,Centrale,2500000.0,Venezia FC,2024
-2202,Magnus Kofod Andersen,Centrale,1200000.0,Venezia FC,2024
-2203,Issa Doumbia,Centrale,1000000.0,Venezia FC,2024
-2204,Domen Crnigoj,Centrale,900000.0,Venezia FC,2024
-2205,Gaetano Oristanio,Trequartista,6500000.0,Venezia FC,2024
-2206,John Yeboah,Trequartista,2500000.0,Venezia FC,2024
-2207,Saad El Haddad,Trequartista,250000.0,Venezia FC,2024
-2208,Bjarki Bjarkason,Ala sinistra,800000.0,Venezia FC,2024
-2209,Joel Pohjanpalo,Punta centrale,5000000.0,Venezia FC,2024
-2210,Antonio Raimondo,Punta centrale,4500000.0,Venezia FC,2024
-2211,Christian Gytkjaer,Punta centrale,700000.0,Venezia FC,2024
-2212,Hilmir Rafn Mikaelsson,Punta centrale,600000.0,Venezia FC,2024
+2028,Alessandro Gabrielloni,Punta centrale,1000000.0,Como 1907,2024
+2029,Wladimiro Falcone,Portiere,4000000.0,US Lecce,2024
+2030,Christian Früchtl,Portiere,1500000.0,US Lecce,2024
+2031,Alexandru Borbei,Portiere,150000.0,US Lecce,2024
+2032,Jasper Samooja,Portiere,75000.0,US Lecce,2024
+2033,Federico Baschirotto,Difensore centrale,5000000.0,US Lecce,2024
+2034,Kialonda Gaspar,Difensore centrale,2500000.0,US Lecce,2024
+2035,Gaby Jean,Difensore centrale,1000000.0,US Lecce,2024
+2036,Kevin Bonifazi,Difensore centrale,1000000.0,US Lecce,2024
+2037,Sebastian Esposito,Difensore centrale,200000.0,US Lecce,2024
+2038,Antonino Gallo,Terzino sinistro,5500000.0,US Lecce,2024
+2039,Vernon Addo,Terzino sinistro,150000.0,US Lecce,2024
+2040,Andy Pelmard,Terzino destro,2500000.0,US Lecce,2024
+2041,Frédéric Guilbert,Terzino destro,2500000.0,US Lecce,2024
+2042,Ylber Ramadani,Mediano,4000000.0,US Lecce,2024
+2043,Balthazar Pierret,Mediano,1000000.0,US Lecce,2024
+2044,Mohamed Kaba,Centrale,3500000.0,US Lecce,2024
+2045,Lassana Coulibaly,Centrale,2500000.0,US Lecce,2024
+2046,Joan González,Centrale,2000000.0,US Lecce,2024
+2047,Hamza Rafia,Centrale,1700000.0,US Lecce,2024
+2048,Medon Berisha,Centrale,1000000.0,US Lecce,2024
+2049,Thórir Jóhann Helgason,Centrale,800000.0,US Lecce,2024
+2050,Ed McJannet,Centrale,150000.0,US Lecce,2024
+2051,Filip Marchwinski,Trequartista,4500000.0,US Lecce,2024
+2052,Rémi Oudin,Trequartista,2500000.0,US Lecce,2024
+2053,Lameck Banda,Ala sinistra,6000000.0,US Lecce,2024
+2054,Jesper Karlsson,Ala sinistra,6000000.0,US Lecce,2024
+2055,Tete Morente,Ala sinistra,2000000.0,US Lecce,2024
+2056,Ante Rebić,Ala sinistra,1500000.0,US Lecce,2024
+2057,Nicola Sansone,Ala sinistra,800000.0,US Lecce,2024
+2058,Patrick Dorgu,Ala destra,20000000.0,US Lecce,2024
+2059,Santiago Pierotti,Ala destra,2500000.0,US Lecce,2024
+2060,Jeppe Corfitzen,Ala destra,400000.0,US Lecce,2024
+2061,Dario Daka,Ala destra,75000.0,US Lecce,2024
+2062,Nikola Krstović,Punta centrale,6000000.0,US Lecce,2024
+2063,Rareș Burnete,Punta centrale,700000.0,US Lecce,2024
+2064,Joel Voelkerling Persson,Punta centrale,350000.0,US Lecce,2024
+2065,Lorenzo Montipò,Portiere,3000000.0,Hellas Verona FC,2024
+2066,Simone Perilli,Portiere,200000.0,Hellas Verona FC,2024
+2067,Alessandro Berardi,Portiere,50000.0,Hellas Verona FC,2024
+2068,Diego Coppola,Difensore centrale,7500000.0,Hellas Verona FC,2024
+2069,Flavius Daniliuc,Difensore centrale,4000000.0,Hellas Verona FC,2024
+2070,Giangiacomo Magnani,Difensore centrale,2500000.0,Hellas Verona FC,2024
+2071,Paweł Dawidowicz,Difensore centrale,2500000.0,Hellas Verona FC,2024
+2072,Daniele Ghilardi,Difensore centrale,1600000.0,Hellas Verona FC,2024
+2073,Yllan Okou,Difensore centrale,900000.0,Hellas Verona FC,2024
+2074,Christian Corradi,Difensore centrale,800000.0,Hellas Verona FC,2024
+2075,Domagoj Bradarić,Terzino sinistro,4000000.0,Hellas Verona FC,2024
+2076,Martin Frese,Terzino sinistro,2000000.0,Hellas Verona FC,2024
+2077,Jackson Tchatchoua,Terzino destro,8000000.0,Hellas Verona FC,2024
+2078,Davide Faraoni,Terzino destro,1000000.0,Hellas Verona FC,2024
+2079,Reda Belahyane,Mediano,10000000.0,Hellas Verona FC,2024
+2080,Joselito,Mediano,75000.0,Hellas Verona FC,2024
+2081,Suat Serdar,Centrale,5000000.0,Hellas Verona FC,2024
+2082,Ondrej Duda,Centrale,4000000.0,Hellas Verona FC,2024
+2083,Abdou Harroui,Centrale,2500000.0,Hellas Verona FC,2024
+2084,Dani Silva,Centrale,1500000.0,Hellas Verona FC,2024
+2085,Darko Lazović,Centrocampista di sinistra,1500000.0,Hellas Verona FC,2024
+2086,Tomas Suslov,Trequartista,6000000.0,Hellas Verona FC,2024
+2087,Ayanda Sishuba,Trequartista,2000000.0,Hellas Verona FC,2024
+2088,Grigoris Kastanos,Trequartista,1800000.0,Hellas Verona FC,2024
+2089,Alphadjo Cissè,Trequartista,1400000.0,Hellas Verona FC,2024
+2090,Faride Alidou,Ala sinistra,2000000.0,Hellas Verona FC,2024
+2091,Casper Tengstedt,Punta centrale,7000000.0,Hellas Verona FC,2024
+2092,Amin Sarr,Punta centrale,4000000.0,Hellas Verona FC,2024
+2093,Daniel Mosquera,Punta centrale,1500000.0,Hellas Verona FC,2024
+2094,Dailon Rocha Livramento,Punta centrale,800000.0,Hellas Verona FC,2024
+2095,Mathis Lambourde,Punta centrale,500000.0,Hellas Verona FC,2024
+2096,Juan Manuel Cruz,Punta centrale,400000.0,Hellas Verona FC,2024
+2097,Junior Ajayi,Punta centrale,150000.0,Hellas Verona FC,2024
+2098,Stefano Turati,Portiere,7500000.0,AC Monza,2024
+2099,Alessio Cragno,Portiere,1000000.0,AC Monza,2024
+2100,Semuel Pizzignacco,Portiere,800000.0,AC Monza,2024
+2101,Andrea Mazza,Portiere,75000.0,AC Monza,2024
+2102,Andrea Carboni,Difensore centrale,4000000.0,AC Monza,2024
+2103,Pablo Marí,Difensore centrale,3500000.0,AC Monza,2024
+2104,Armando Izzo,Difensore centrale,2500000.0,AC Monza,2024
+2105,Luca Caldirola,Difensore centrale,1000000.0,AC Monza,2024
+2106,Danilo D'Ambrosio,Difensore centrale,800000.0,AC Monza,2024
+2107,Samuele Birindelli,Terzino destro,3500000.0,AC Monza,2024
+2108,Pedro Pereira,Terzino destro,1800000.0,AC Monza,2024
+2109,Matteo Pessina,Centrale,12000000.0,AC Monza,2024
+2110,Warren Bondo,Centrale,7000000.0,AC Monza,2024
+2111,Alessandro Bianco,Centrale,5000000.0,AC Monza,2024
+2112,Roberto Gagliardini,Centrale,2000000.0,AC Monza,2024
+2113,Stefano Sensi,Centrale,1500000.0,AC Monza,2024
+2114,Mattia Valoti,Centrale,1000000.0,AC Monza,2024
+2115,Jean-Daniel Akpa Akpro,Centrale,500000.0,AC Monza,2024
+2116,Patrick Ciurria,Centrocampista di destra,3000000.0,AC Monza,2024
+2117,Georgios Kyriakopoulos,Centrocampista di sinistra,3500000.0,AC Monza,2024
+2118,Daniel Maldini,Trequartista,6000000.0,AC Monza,2024
+2119,Samuele Vignato,Trequartista,3500000.0,AC Monza,2024
+2120,Omari Forson,Ala destra,2000000.0,AC Monza,2024
+2121,Dany Mota,Seconda punta,5000000.0,AC Monza,2024
+2122,Gianluca Caprari,Seconda punta,2500000.0,AC Monza,2024
+2123,Andrea Petagna,Punta centrale,2000000.0,AC Monza,2024
+2124,Milan Djuric,Punta centrale,1500000.0,AC Monza,2024
+2125,Mirko Maric,Punta centrale,700000.0,AC Monza,2024
+2126,Davide Diaw,Punta centrale,600000.0,AC Monza,2024
+2127,Devis Vásquez,Portiere,4000000.0,Empoli FC,2024
+2128,Jacopo Seghetti,Portiere,1000000.0,Empoli FC,2024
+2129,Samuele Perisan,Portiere,500000.0,Empoli FC,2024
+2130,Federico Brancolini,Portiere,200000.0,Empoli FC,2024
+2131,Saba Goglichidze,Difensore centrale,8000000.0,Empoli FC,2024
+2132,Mattia Viti,Difensore centrale,6500000.0,Empoli FC,2024
+2133,Ardian Ismajli,Difensore centrale,6000000.0,Empoli FC,2024
+2134,Saba Sazonov,Difensore centrale,2500000.0,Empoli FC,2024
+2135,Luca Marianucci,Difensore centrale,800000.0,Empoli FC,2024
+2136,Giuseppe Pezzella,Terzino sinistro,2500000.0,Empoli FC,2024
+2137,Liberato Cacace,Terzino sinistro,2000000.0,Empoli FC,2024
+2138,Tyronne Ebuehi,Terzino destro,1500000.0,Empoli FC,2024
+2139,Junior Sambia,Terzino destro,1400000.0,Empoli FC,2024
+2140,Mattia De Sciglio,Terzino destro,1000000.0,Empoli FC,2024
+2141,Alberto Grassi,Mediano,1800000.0,Empoli FC,2024
+2142,Jacopo Fazzini,Centrale,8000000.0,Empoli FC,2024
+2143,Youssef Maleh,Centrale,4000000.0,Empoli FC,2024
+2144,Szymon Żurkowski,Centrale,2500000.0,Empoli FC,2024
+2145,Liam Henderson,Centrale,1400000.0,Empoli FC,2024
+2146,Nicolas Haas,Centrale,700000.0,Empoli FC,2024
+2147,Tino Anjorin,Trequartista,2500000.0,Empoli FC,2024
+2148,Emmanuel Gyasi,Ala sinistra,2000000.0,Empoli FC,2024
+2149,Emmanuel Ekong,Ala sinistra,500000.0,Empoli FC,2024
+2150,Ola Solbakken,Ala destra,2500000.0,Empoli FC,2024
+2151,Sebastiano Esposito,Seconda punta,7000000.0,Empoli FC,2024
+2152,Lorenzo Colombo,Punta centrale,6000000.0,Empoli FC,2024
+2153,Pietro Pellegri,Punta centrale,3000000.0,Empoli FC,2024
+2154,Elia Caprile,Portiere,6000000.0,Cagliari Calcio,2024
+2155,Alen Sherri,Portiere,1000000.0,Cagliari Calcio,2024
+2156,Giuseppe Ciocci,Portiere,100000.0,Cagliari Calcio,2024
+2157,Sebastiano Luperto,Difensore centrale,3500000.0,Cagliari Calcio,2024
+2158,Yerry Mina,Difensore centrale,3000000.0,Cagliari Calcio,2024
+2159,Adam Obert,Difensore centrale,3000000.0,Cagliari Calcio,2024
+2160,Mateusz Wieteska,Difensore centrale,2200000.0,Cagliari Calcio,2024
+2161,José Luis Palomino,Difensore centrale,700000.0,Cagliari Calcio,2024
+2162,Tommaso Augello,Terzino sinistro,1800000.0,Cagliari Calcio,2024
+2163,Paulo Azzi,Terzino sinistro,1000000.0,Cagliari Calcio,2024
+2164,Gabriele Zappa,Terzino destro,3500000.0,Cagliari Calcio,2024
+2165,Matteo Prati,Mediano,9000000.0,Cagliari Calcio,2024
+2166,Răzvan Marin,Mediano,4000000.0,Cagliari Calcio,2024
+2167,Antoine Makoumbou,Mediano,4000000.0,Cagliari Calcio,2024
+2168,Alessandro Deiola,Centrale,1600000.0,Cagliari Calcio,2024
+2169,Michel Adopo,Centrale,1500000.0,Cagliari Calcio,2024
+2170,Marko Rog,Centrale,1300000.0,Cagliari Calcio,2024
+2171,Nicolas Viola,Centrale,800000.0,Cagliari Calcio,2024
+2172,Nadir Zortea,Centrocampista di destra,3000000.0,Cagliari Calcio,2024
+2173,Jakub Jankto,Centrocampista di sinistra,1000000.0,Cagliari Calcio,2024
+2174,Gianluca Gaetano,Trequartista,5000000.0,Cagliari Calcio,2024
+2175,Mattia Felici,Ala sinistra,1500000.0,Cagliari Calcio,2024
+2176,Zito Luvumbo,Punta centrale,7000000.0,Cagliari Calcio,2024
+2177,Roberto Piccoli,Punta centrale,6000000.0,Cagliari Calcio,2024
+2178,Gianluca Lapadula,Punta centrale,1000000.0,Cagliari Calcio,2024
+2179,Kingstone Mutandwa,Punta centrale,1000000.0,Cagliari Calcio,2024
+2180,Leonardo Pavoletti,Punta centrale,700000.0,Cagliari Calcio,2024
+2181,Filip Stankovic,Portiere,4500000.0,Venezia FC,2024
+2182,Jesse Joronen,Portiere,1000000.0,Venezia FC,2024
+2183,Matteo Grandi,Portiere,150000.0,Venezia FC,2024
+2184,Jay Idzes,Difensore centrale,3000000.0,Venezia FC,2024
+2185,Michael Svoboda,Difensore centrale,3000000.0,Venezia FC,2024
+2186,Joël Schingtienne,Difensore centrale,2000000.0,Venezia FC,2024
+2187,Giorgio Altare,Difensore centrale,1800000.0,Venezia FC,2024
+2188,Marin Šverko,Difensore centrale,1200000.0,Venezia FC,2024
+2189,Francesco Zampano,Terzino sinistro,1100000.0,Venezia FC,2024
+2190,Ridgeciano Haps,Terzino sinistro,1000000.0,Venezia FC,2024
+2191,Franco Carboni,Terzino sinistro,900000.0,Venezia FC,2024
+2192,Antonio Candela,Terzino destro,2300000.0,Venezia FC,2024
+2193,Richie Sagrado,Terzino destro,2000000.0,Venezia FC,2024
+2194,Cheick Condé,Mediano,3000000.0,Venezia FC,2024
+2195,Gianluca Busio,Centrale,6500000.0,Venezia FC,2024
+2196,Hans Nicolussi Caviglia,Centrale,6000000.0,Venezia FC,2024
+2197,Mikael Egill Ellertsson,Centrale,2800000.0,Venezia FC,2024
+2198,Alfred Duncan,Centrale,2500000.0,Venezia FC,2024
+2199,Magnus Kofod Andersen,Centrale,1200000.0,Venezia FC,2024
+2200,Issa Doumbia,Centrale,1000000.0,Venezia FC,2024
+2201,Domen Crnigoj,Centrale,900000.0,Venezia FC,2024
+2202,Gaetano Oristanio,Trequartista,6500000.0,Venezia FC,2024
+2203,John Yeboah,Trequartista,2500000.0,Venezia FC,2024
+2204,Saad El Haddad,Trequartista,250000.0,Venezia FC,2024
+2205,Bjarki Bjarkason,Ala sinistra,800000.0,Venezia FC,2024
+2206,Joel Pohjanpalo,Punta centrale,5000000.0,Venezia FC,2024
+2207,Christian Gytkjaer,Punta centrale,700000.0,Venezia FC,2024
+2208,Hilmir Rafn Mikaelsson,Punta centrale,600000.0,Venezia FC,2024
