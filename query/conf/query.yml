@@ -1,0 +1,7 @@
+query:
+  - costo_giocatore_per_goal: costo_giocatore_per_goal.sql
+  - integrated_view: integrated_view.sql
+  - players_draw_matches: players_draw_matches.sql
+  - players_goal_victory: players_goal_victory.sql
+  - point_half_vs_full_time: point_half_vs_full_time.sql
+  - team_performance_analysis: team_performance_analysis.sql
