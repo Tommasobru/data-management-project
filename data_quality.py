@@ -84,17 +84,25 @@ scraping_player_team = pd.read_csv(file_player_team)
 
 scraping_serie_a_matches_goal[['Home Team','Away Team']] = scraping_serie_a_matches_goal['partita'].str.split('-', expand=True)
 
+##### CONSISTENCY
 unique_id(api_matches['match_id'])
 unique_id(api_matches_details['match_id'])
 
-count_nulls_per_column(api_matches)
+
+##### COMPLETENESS
+count_nulls_per_column(api_matches) 
 count_nulls_per_column(api_matches_details)
+# null value are the matches that have yet to be played 
+
 count_nulls_per_column(scraping_serie_a_matches_goal)
+# null values are for games in which no goals were scored
 count_nulls_per_column(scraping_lista_team)
 count_nulls_per_column(scraping_player_team)
 
+#### SYNTACTIC ACCURACY
 scraping_team = scraping_serie_a_matches_goal['Home Team'].unique().tolist()
 api_team = api_matches['home_team'].unique().tolist()
+
 for team in scraping_team:
     team_api, dist = find_closest_string(team, api_team)
     print("##########################")
