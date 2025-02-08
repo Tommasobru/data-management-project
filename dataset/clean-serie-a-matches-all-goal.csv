@@ -1,4 +1,4 @@
-,anno,giornata,Home Team,Away Team,scorer,numero_goal_partita,team_goal,goal,goal_home,goal_away,assist
+,anno,giornata,home_team,away_team,scorer,numero_goal_partita,team_goal,goal,goal_home,goal_away,assist
 0,2022,1,Hellas Verona FC,SSC Napoli,Kevin Lasagna,1.0,home,1:0,1.0,0.0,Koray Günter
 1,2022,1,Hellas Verona FC,SSC Napoli,Khvicha Kvaratskhelia,2.0,away,1:1,1.0,1.0,Hirving Lozano
 2,2022,1,Hellas Verona FC,SSC Napoli,Victor Osimhen,3.0,away,1:2,1.0,2.0,Giovanni Di Lorenzo
@@ -1154,7 +1154,7 @@
 2152,2023,19,Empoli FC,AC Milan,Olivier Giroud,2.0,away,0:2,0.0,2.0,Rigore: mani diYoussef Maleh
 2153,2023,19,Empoli FC,AC Milan,Chaka Traorè,3.0,away,0:3,0.0,3.0,Christian Pulisic
 2154,2023,20,AC Milan,AS Roma,Yacine Adli,1.0,home,1:0,1.0,0.0,Tijjani Reijnders
-2155,2023,20,AC Milan,AS Roma,Olivier Giroud,2.0,home,2:0,2.0,0.0,Simon Kjær
+2155,2023,20,AC Milan,AS Roma,Olivier Giroud,2.0,home,2:0,2.0,0.0,Simon Kjaer
 2156,2023,20,AC Milan,AS Roma,Leandro Paredes,3.0,away,2:1,2.0,1.0,Lorenzo Pellegrini
 2157,2023,20,AC Milan,AS Roma,Theo Hernández,4.0,home,3:1,3.0,1.0,Olivier Giroud
 2158,2023,21,Udinese Calcio,AC Milan,Ruben Loftus-Cheek,1.0,away,0:1,0.0,1.0,Theo Hernández
@@ -2075,490 +2075,519 @@
 4089,2024,18,Cagliari Calcio,FC Internazionale Milano,Alessandro Bastoni,1.0,away,0:1,0.0,1.0,Nicolò Barella
 4090,2024,18,Cagliari Calcio,FC Internazionale Milano,Lautaro Martínez,2.0,away,0:2,0.0,2.0,Nicolò Barella
 4091,2024,18,Cagliari Calcio,FC Internazionale Milano,Hakan Çalhanoğlu,3.0,away,0:3,0.0,3.0,Rigore: mani diMateusz Wieteska
-4092,2024,1,Juventus FC,Como 1907,Samuel Mbangula,1.0,home,1:0,1.0,0.0,Timothy Weah
-4093,2024,1,Juventus FC,Como 1907,Timothy Weah,2.0,home,2:0,2.0,0.0,Kenan Yıldız
-4094,2024,1,Juventus FC,Como 1907,Andrea Cambiaso,3.0,home,3:0,3.0,0.0,Samuel Mbangula
-4095,2024,2,Hellas Verona FC,Juventus FC,Dušan Vlahović,1.0,away,0:1,0.0,1.0,Kenan Yıldız
-4096,2024,2,Hellas Verona FC,Juventus FC,Nicolò Savona,2.0,away,0:2,0.0,2.0,Samuel Mbangula
-4097,2024,2,Hellas Verona FC,Juventus FC,Dušan Vlahović,3.0,away,0:3,0.0,3.0,Samuel Mbangula
-4098,2024,3,Juventus FC,AS Roma,,,,,,,
-4099,2024,4,Empoli FC,Juventus FC,,,,,,,
-4100,2024,5,Juventus FC,SSC Napoli,,,,,,,
-4101,2024,6,Genoa CFC,Juventus FC,Dušan Vlahović,1.0,away,0:1,0.0,1.0,Rigore: mani diKoni De Winter
-4102,2024,6,Genoa CFC,Juventus FC,Dušan Vlahović,2.0,away,0:2,0.0,2.0,Teun Koopmeiners
-4103,2024,6,Genoa CFC,Juventus FC,Francisco Conceição,3.0,away,0:3,0.0,3.0,Khéphren Thuram
-4104,2024,7,Juventus FC,Cagliari Calcio,Dušan Vlahović,1.0,home,1:0,1.0,0.0,Rigore: mani diSebastiano Luperto
-4105,2024,7,Juventus FC,Cagliari Calcio,Răzvan Marin,2.0,away,1:1,1.0,1.0,Roberto Piccoli
-4106,2024,8,Juventus FC,SS Lazio,Mario Gila,1.0,home,1:0,1.0,0.0,Juan Cabal
-4115,2024,10,Juventus FC,AS Roma,Enrico Delprato,1.0,away,0:1,0.0,1.0,Botond Balogh
-4116,2024,10,Juventus FC,AS Roma,Weston McKennie,2.0,home,1:1,1.0,1.0,Timothy Weah
-4117,2024,10,Juventus FC,AS Roma,Simon Sohm,3.0,away,1:2,1.0,2.0,Dennis Man
-4118,2024,10,Juventus FC,AS Roma,Timothy Weah,4.0,home,2:2,2.0,2.0,Francisco Conceição
-4119,2024,11,Udinese Calcio,Juventus FC,Maduka Okoye,1.0,away,0:1,0.0,1.0,Khéphren Thuram
-4120,2024,11,Udinese Calcio,Juventus FC,Nicolò Savona,2.0,away,0:2,0.0,2.0,Kenan Yıldız
-4121,2024,12,Juventus FC,Torino FC,Timothy Weah,1.0,home,1:0,1.0,0.0,Andrea Cambiaso
-4122,2024,12,Juventus FC,Torino FC,Kenan Yıldız,2.0,home,2:0,2.0,0.0,Francisco Conceição
-4123,2024,13,AC Milan,Juventus FC,,,,,,,
-4124,2024,14,US Lecce,Juventus FC,Andrea Cambiaso,1.0,away,0:1,0.0,1.0,Teun Koopmeiners
-4125,2024,14,US Lecce,Juventus FC,Ante Rebić,2.0,home,1:1,1.0,1.0,Nikola Krstović
-4126,2024,15,Juventus FC,Bologna FC 1909,Dan Ndoye,1.0,away,0:1,0.0,1.0,Emil Holm
-4127,2024,15,Juventus FC,Bologna FC 1909,Tommaso Pobega,2.0,away,0:2,0.0,2.0,Santiago Castro
-4128,2024,15,Juventus FC,Bologna FC 1909,Teun Koopmeiners,3.0,home,1:2,1.0,2.0,Danilo
-4129,2024,15,Juventus FC,Bologna FC 1909,Samuel Mbangula,4.0,home,2:2,2.0,2.0,Dušan Vlahović
-4130,2024,16,Juventus FC,Venezia FC,Federico Gatti,1.0,home,1:0,1.0,0.0,Khéphren Thuram
-4131,2024,16,Juventus FC,Venezia FC,Mikael Egill Ellertsson,2.0,away,1:1,1.0,1.0,Francesco Zampano
-4132,2024,16,Juventus FC,Venezia FC,Jay Idzes,3.0,away,1:2,1.0,2.0,Hans Nicolussi Caviglia
-4133,2024,16,Juventus FC,Venezia FC,Dušan Vlahović,4.0,home,2:2,2.0,2.0,Rigore: mani diAntonio Candela
-4134,2024,17,AC Monza,Juventus FC,Weston McKennie,1.0,away,0:1,0.0,1.0,Teun Koopmeiners
-4135,2024,17,AC Monza,Juventus FC,Samuele Birindelli,2.0,home,1:1,1.0,1.0,Andrea Carboni
-4136,2024,17,AC Monza,Juventus FC,Nico González,3.0,away,1:2,1.0,2.0,Manuel Locatelli
-4137,2024,18,Juventus FC,ACF Fiorentina,Khéphren Thuram,1.0,home,1:0,1.0,0.0,Manuel Locatelli
-4138,2024,18,Juventus FC,ACF Fiorentina,Moise Kean,2.0,away,1:1,1.0,1.0,Yacine Adli
-4139,2024,18,Juventus FC,ACF Fiorentina,Khéphren Thuram,3.0,home,2:1,2.0,1.0,Senza assist
-4140,2024,18,Juventus FC,ACF Fiorentina,Riccardo Sottil,4.0,away,2:2,2.0,2.0,Moise Kean
-4141,2024,1,AC Milan,Torino FC,Malick Thiaw,1.0,away,0:1,0.0,1.0,Raoul Bellanova
-4142,2024,1,AC Milan,Torino FC,Duván Zapata,2.0,away,0:2,0.0,2.0,Valentino Lazaro
-4143,2024,1,AC Milan,Torino FC,Álvaro Morata,3.0,home,1:2,1.0,2.0,Tijjani Reijnders
-4144,2024,1,AC Milan,Torino FC,Noah Okafor,4.0,home,2:2,2.0,2.0,Yunus Musah
-4145,2024,2,AS Roma,AC Milan,Dennis Man,1.0,home,1:0,1.0,0.0,Emanuele Valeri
-4146,2024,2,AS Roma,AC Milan,Christian Pulisic,2.0,away,1:1,1.0,1.0,Rafael Leão
-4147,2024,2,AS Roma,AC Milan,Matteo Cancellieri,3.0,home,2:1,2.0,1.0,Pontus Almqvist
-4148,2024,3,SS Lazio,AC Milan,Strahinja Pavlović,1.0,away,0:1,0.0,1.0,Christian Pulisic
-4149,2024,3,SS Lazio,AC Milan,Taty Castellanos,2.0,home,1:1,1.0,1.0,Nuno Tavares
-4150,2024,3,SS Lazio,AC Milan,Boulaye Dia,3.0,home,2:1,2.0,1.0,Nuno Tavares
-4151,2024,3,SS Lazio,AC Milan,Rafael Leão,4.0,away,2:2,2.0,2.0,Tammy Abraham
-4152,2024,4,AC Milan,Venezia FC,Theo Hernández,1.0,home,1:0,1.0,0.0,Rafael Leão
-4153,2024,4,AC Milan,Venezia FC,Youssouf Fofana,2.0,home,2:0,2.0,0.0,Christian Pulisic
-4154,2024,4,AC Milan,Venezia FC,Christian Pulisic,3.0,home,3:0,3.0,0.0,Tammy Abraham
-4155,2024,4,AC Milan,Venezia FC,Tammy Abraham,4.0,home,4:0,4.0,0.0,Rafael Leão
-4159,2024,6,AC Milan,US Lecce,Álvaro Morata,1.0,home,1:0,1.0,0.0,Theo Hernández
-4160,2024,6,AC Milan,US Lecce,Theo Hernández,2.0,home,2:0,2.0,0.0,Rafael Leão
-4161,2024,6,AC Milan,US Lecce,Christian Pulisic,3.0,home,3:0,3.0,0.0,Senza assist
-4162,2024,7,ACF Fiorentina,AC Milan,Yacine Adli,1.0,home,1:0,1.0,0.0,Robin Gosens
-4163,2024,7,ACF Fiorentina,AC Milan,Christian Pulisic,2.0,away,1:1,1.0,1.0,Theo Hernández
-4164,2024,7,ACF Fiorentina,AC Milan,Albert Gudmundsson,3.0,home,2:1,2.0,1.0,Moise Kean
-4165,2024,8,AC Milan,Udinese Calcio,Samuel Chukwueze,1.0,home,1:0,1.0,0.0,Christian Pulisic
-4166,2024,10,AC Milan,SSC Napoli,Romelu Lukaku,1.0,away,0:1,0.0,1.0,Frank Anguissa
-4167,2024,10,AC Milan,SSC Napoli,Khvicha Kvaratskhelia,2.0,away,0:2,0.0,2.0,Mathías Olivera
-4168,2024,11,AC Monza,AC Milan,Tijjani Reijnders,1.0,away,0:1,0.0,1.0,Álvaro Morata
-4169,2024,12,Cagliari Calcio,AC Milan,Nadir Zortea,1.0,home,1:0,1.0,0.0,Sebastiano Luperto
-4170,2024,12,Cagliari Calcio,AC Milan,Rafael Leão,2.0,away,1:1,1.0,1.0,Tijjani Reijnders
-4171,2024,12,Cagliari Calcio,AC Milan,Rafael Leão,3.0,away,1:2,1.0,2.0,Youssouf Fofana
-4172,2024,12,Cagliari Calcio,AC Milan,Gabriele Zappa,4.0,home,2:2,2.0,2.0,Senza assist
-4173,2024,12,Cagliari Calcio,AC Milan,Tammy Abraham,5.0,away,2:3,2.0,3.0,Christian Pulisic
-4174,2024,12,Cagliari Calcio,AC Milan,Gabriele Zappa,6.0,home,3:3,3.0,3.0,Tommaso Augello
-4176,2024,14,AC Milan,Empoli FC,Álvaro Morata,1.0,home,1:0,1.0,0.0,Senza assist
-4177,2024,14,AC Milan,Empoli FC,Tijjani Reijnders,2.0,home,2:0,2.0,0.0,Christian Pulisic
-4178,2024,14,AC Milan,Empoli FC,Tijjani Reijnders,3.0,home,3:0,3.0,0.0,Youssouf Fofana
-4179,2024,15,Atalanta BC,AC Milan,Charles De Ketelaere,1.0,home,1:0,1.0,0.0,Marten de Roon
-4180,2024,15,Atalanta BC,AC Milan,Álvaro Morata,2.0,away,1:1,1.0,1.0,Rafael Leão
-4181,2024,15,Atalanta BC,AC Milan,Ademola Lookman,3.0,home,2:1,2.0,1.0,Sead Kolasinac
-4182,2024,16,AC Milan,Genoa CFC,,,,,,,
-4183,2024,17,Hellas Verona FC,AC Milan,Tijjani Reijnders,1.0,away,0:1,0.0,1.0,Youssouf Fofana
-4184,2024,18,AC Milan,AS Roma,Tijjani Reijnders,1.0,home,1:0,1.0,0.0,Youssouf Fofana
-4185,2024,18,AC Milan,AS Roma,Paulo Dybala,2.0,away,1:1,1.0,1.0,Artem Dovbyk
-4186,2024,1,US Lecce,Atalanta BC,Marco Brescianini,1.0,away,0:1,0.0,1.0,Senza assist
-4187,2024,1,US Lecce,Atalanta BC,Mateo Retegui,2.0,away,0:2,0.0,2.0,Matteo Ruggeri
-4188,2024,1,US Lecce,Atalanta BC,Mateo Retegui,3.0,away,0:3,0.0,3.0,Mateo Retegui
-4189,2024,1,US Lecce,Atalanta BC,Marco Brescianini,4.0,away,0:4,0.0,4.0,Mario Pasalic
-4190,2024,2,Torino FC,Atalanta BC,Mateo Retegui,1.0,away,0:1,0.0,1.0,Davide Zappacosta
-4191,2024,2,Torino FC,Atalanta BC,Ivan Ilić,2.0,home,1:1,1.0,1.0,Ché Adams
-4192,2024,2,Torino FC,Atalanta BC,Ché Adams,3.0,home,2:1,2.0,1.0,Senza assist
-4197,2024,4,Atalanta BC,ACF Fiorentina,Lucas Martínez Quarta,1.0,away,0:1,0.0,1.0,Senza assist
-4198,2024,4,Atalanta BC,ACF Fiorentina,Mateo Retegui,2.0,home,1:1,1.0,1.0,Ademola Lookman
-4199,2024,4,Atalanta BC,ACF Fiorentina,Moise Kean,3.0,away,1:2,1.0,2.0,Robin Gosens
-4200,2024,4,Atalanta BC,ACF Fiorentina,Charles De Ketelaere,4.0,home,2:2,2.0,2.0,Éderson
-4201,2024,4,Atalanta BC,ACF Fiorentina,Ademola Lookman,5.0,home,3:2,3.0,2.0,Charles De Ketelaere
-4202,2024,5,Atalanta BC,Como 1907,Davide Zappacosta,1.0,home,1:0,1.0,0.0,Senza assist
-4203,2024,5,Atalanta BC,Como 1907,Gabriel Strefezza,2.0,away,1:1,1.0,1.0,Sergi Roberto
-4204,2024,5,Atalanta BC,Como 1907,Sead Kolasinac,3.0,away,1:2,1.0,2.0,Nico Paz
-4205,2024,5,Atalanta BC,Como 1907,Alieu Fadera,4.0,away,1:3,1.0,3.0,Nico Paz
-4206,2024,5,Atalanta BC,Como 1907,Ademola Lookman,5.0,home,2:3,2.0,3.0,Vanja Vlahovic
-4207,2024,6,Bologna FC 1909,Atalanta BC,Santiago Castro,1.0,home,1:0,1.0,0.0,Dan Ndoye
-4208,2024,6,Bologna FC 1909,Atalanta BC,Lazar Samardžić,2.0,away,1:1,1.0,1.0,Nicolò Zaniolo
-4209,2024,7,Atalanta BC,Genoa CFC,Mateo Retegui,1.0,home,1:0,1.0,0.0,Ademola Lookman
-4210,2024,7,Atalanta BC,Genoa CFC,Mateo Retegui,2.0,home,2:0,2.0,0.0,Senza assist
-4211,2024,7,Atalanta BC,Genoa CFC,Éderson,3.0,home,3:0,3.0,0.0,Mateo Retegui
-4212,2024,7,Atalanta BC,Genoa CFC,Mateo Retegui,4.0,home,4:0,4.0,0.0,Rigore: mani diAlessandro Vogliacco
-4213,2024,7,Atalanta BC,Genoa CFC,Marten de Roon,5.0,home,5:0,5.0,0.0,Senza assist
-4214,2024,7,Atalanta BC,Genoa CFC,Jeff Ekhator,6.0,away,5:1,5.0,1.0,Filippo Melegoni
-4215,2024,8,Venezia FC,Atalanta BC,Mario Pasalic,1.0,away,0:1,0.0,1.0,Mateo Retegui
-4216,2024,8,Venezia FC,Atalanta BC,Mateo Retegui,2.0,away,0:2,0.0,2.0,Senza assist
-4217,2024,9,Atalanta BC,Hellas Verona FC,Marten de Roon,1.0,home,1:0,1.0,0.0,Ademola Lookman
-4218,2024,9,Atalanta BC,Hellas Verona FC,Mateo Retegui,2.0,home,2:0,2.0,0.0,Senza assist
-4219,2024,9,Atalanta BC,Hellas Verona FC,Charles De Ketelaere,3.0,home,3:0,3.0,0.0,Ademola Lookman
-4220,2024,9,Atalanta BC,Hellas Verona FC,Ademola Lookman,4.0,home,4:0,4.0,0.0,Senza assist
-4221,2024,9,Atalanta BC,Hellas Verona FC,Ademola Lookman,5.0,home,5:0,5.0,0.0,Charles De Ketelaere
-4222,2024,9,Atalanta BC,Hellas Verona FC,Amin Sarr,6.0,away,5:1,5.0,1.0,Reda Belahyane
-4223,2024,9,Atalanta BC,Hellas Verona FC,Mateo Retegui,7.0,home,6:1,6.0,1.0,Charles De Ketelaere
-4224,2024,10,Atalanta BC,AC Monza,Lazar Samardžić,1.0,home,1:0,1.0,0.0,Mateo Retegui
-4225,2024,10,Atalanta BC,AC Monza,Davide Zappacosta,2.0,home,2:0,2.0,0.0,Lazar Samardžić
-4226,2024,11,SSC Napoli,Atalanta BC,Ademola Lookman,1.0,away,0:1,0.0,1.0,Charles De Ketelaere
-4227,2024,11,SSC Napoli,Atalanta BC,Ademola Lookman,2.0,away,0:2,0.0,2.0,Charles De Ketelaere
-4228,2024,11,SSC Napoli,Atalanta BC,Mateo Retegui,3.0,away,0:3,0.0,3.0,Raoul Bellanova
-4229,2024,12,Atalanta BC,Udinese Calcio,Hassane Kamara,1.0,away,0:1,0.0,1.0,Florian Thauvin
-4230,2024,12,Atalanta BC,Udinese Calcio,Mario Pasalic,2.0,home,1:1,1.0,1.0,Raoul Bellanova
-4231,2024,12,Atalanta BC,Udinese Calcio,Isaak Touré,3.0,home,2:1,2.0,1.0,Raoul Bellanova
-4232,2024,13,AS Roma,Atalanta BC,Mateo Retegui,1.0,away,0:1,0.0,1.0,Raoul Bellanova
-4233,2024,13,AS Roma,Atalanta BC,Éderson,2.0,away,0:2,0.0,2.0,Matteo Ruggeri
-4234,2024,13,AS Roma,Atalanta BC,Matteo Cancellieri,3.0,home,1:2,1.0,2.0,Valentin Mihăilă
-4235,2024,13,AS Roma,Atalanta BC,Ademola Lookman,4.0,away,1:3,1.0,3.0,Juan Cuadrado
-4236,2024,14,AS Roma,Atalanta BC,Marten de Roon,1.0,away,0:1,0.0,1.0,Senza assist
-4237,2024,14,AS Roma,Atalanta BC,Nicolò Zaniolo,2.0,away,0:2,0.0,2.0,Juan Cuadrado
-4241,2024,16,Cagliari Calcio,Atalanta BC,Nicolò Zaniolo,1.0,away,0:1,0.0,1.0,Raoul Bellanova
-4242,2024,17,Atalanta BC,Empoli FC,Lorenzo Colombo,1.0,away,0:1,0.0,1.0,Liam Henderson
-4243,2024,17,Atalanta BC,Empoli FC,Charles De Ketelaere,2.0,home,1:1,1.0,1.0,Davide Zappacosta
-4244,2024,17,Atalanta BC,Empoli FC,Ademola Lookman,3.0,home,2:1,2.0,1.0,Nicolò Zaniolo
-4245,2024,17,Atalanta BC,Empoli FC,Sebastiano Esposito,4.0,away,2:2,2.0,2.0,Alberto Grassi
-4246,2024,17,Atalanta BC,Empoli FC,Charles De Ketelaere,5.0,home,3:2,3.0,2.0,Mario Pasalic
-4247,2024,18,SS Lazio,Atalanta BC,Fisayo Dele-Bashiru,1.0,home,1:0,1.0,0.0,Nicolò Rovella
-4248,2024,18,SS Lazio,Atalanta BC,Marco Brescianini,2.0,away,1:1,1.0,1.0,Ademola Lookman
-4249,2024,1,Hellas Verona FC,SSC Napoli,Dailon Rocha Livramento,1.0,home,1:0,1.0,0.0,Darko Lazović
-4250,2024,1,Hellas Verona FC,SSC Napoli,Daniel Mosquera,2.0,home,2:0,2.0,0.0,Ondrej Duda
-4251,2024,1,Hellas Verona FC,SSC Napoli,Daniel Mosquera,3.0,home,3:0,3.0,0.0,Darko Lazović
-4252,2024,2,SSC Napoli,Bologna FC 1909,Giovanni Di Lorenzo,1.0,home,1:0,1.0,0.0,Khvicha Kvaratskhelia
-4253,2024,2,SSC Napoli,Bologna FC 1909,Khvicha Kvaratskhelia,2.0,home,2:0,2.0,0.0,Amir Rrahmani
-4254,2024,2,SSC Napoli,Bologna FC 1909,Giovanni Simeone,3.0,home,3:0,3.0,0.0,David Neres
-4255,2024,3,SSC Napoli,AS Roma,Ange-Yoan Bonny,1.0,away,0:1,0.0,1.0,Ange-Yoan Bonny
-4256,2024,3,SSC Napoli,AS Roma,Romelu Lukaku,2.0,home,1:1,1.0,1.0,Leonardo Spinazzola
-4257,2024,3,SSC Napoli,AS Roma,Frank Anguissa,3.0,home,2:1,2.0,1.0,David Neres
-4258,2024,4,Cagliari Calcio,SSC Napoli,Giovanni Di Lorenzo,1.0,away,0:1,0.0,1.0,Romelu Lukaku
-4259,2024,4,Cagliari Calcio,SSC Napoli,Khvicha Kvaratskhelia,2.0,away,0:2,0.0,2.0,Romelu Lukaku
-4260,2024,4,Cagliari Calcio,SSC Napoli,Romelu Lukaku,3.0,away,0:3,0.0,3.0,Khvicha Kvaratskhelia
-4261,2024,4,Cagliari Calcio,SSC Napoli,Alessandro Buongiorno,4.0,away,0:4,0.0,4.0,David Neres
-4263,2024,6,SSC Napoli,AC Monza,Matteo Politano,1.0,home,1:0,1.0,0.0,Senza assist
-4264,2024,6,SSC Napoli,AC Monza,Khvicha Kvaratskhelia,2.0,home,2:0,2.0,0.0,Scott McTominay
-4265,2024,7,SSC Napoli,Como 1907,Scott McTominay,1.0,home,1:0,1.0,0.0,Romelu Lukaku
-4266,2024,7,SSC Napoli,Como 1907,Gabriel Strefezza,2.0,away,1:1,1.0,1.0,Máximo Perrone
-4267,2024,7,SSC Napoli,Como 1907,Romelu Lukaku,3.0,home,2:1,2.0,1.0,Mathías Olivera
-4268,2024,7,SSC Napoli,Como 1907,David Neres,4.0,home,3:1,3.0,1.0,Romelu Lukaku
-4269,2024,8,Empoli FC,SSC Napoli,Khvicha Kvaratskhelia,1.0,away,0:1,0.0,1.0,Matteo Politano
-4270,2024,9,SSC Napoli,US Lecce,Giovanni Di Lorenzo,1.0,home,1:0,1.0,0.0,Scott McTominay
-4278,2024,13,SSC Napoli,AS Roma,Romelu Lukaku,1.0,home,1:0,1.0,0.0,Giovanni Di Lorenzo
-4279,2024,14,Torino FC,SSC Napoli,Scott McTominay,1.0,away,0:1,0.0,1.0,Khvicha Kvaratskhelia
-4280,2024,15,SSC Napoli,SS Lazio,Gustav Isaksen,1.0,away,0:1,0.0,1.0,Tijjani Noslin
-4281,2024,16,Udinese Calcio,SSC Napoli,Florian Thauvin,1.0,home,1:0,1.0,0.0,Senza assist
-4282,2024,16,Udinese Calcio,SSC Napoli,Romelu Lukaku,2.0,away,1:1,1.0,1.0,Scott McTominay
-4283,2024,16,Udinese Calcio,SSC Napoli,Lautaro Giannetti,3.0,away,1:2,1.0,2.0,David Neres
-4284,2024,16,Udinese Calcio,SSC Napoli,Frank Anguissa,4.0,away,1:3,1.0,3.0,Giovanni Simeone
-4285,2024,17,Genoa CFC,SSC Napoli,Frank Anguissa,1.0,away,0:1,0.0,1.0,David Neres
-4286,2024,17,Genoa CFC,SSC Napoli,Amir Rrahmani,2.0,away,0:2,0.0,2.0,Stanislav Lobotka
-4287,2024,17,Genoa CFC,SSC Napoli,Andrea Pinamonti,3.0,home,1:2,1.0,2.0,Vitinha
-4288,2024,18,SSC Napoli,Venezia FC,Giacomo Raspadori,1.0,home,1:0,1.0,0.0,Senza assist
-4289,2024,19,ACF Fiorentina,SSC Napoli,David Neres,1.0,away,0:1,0.0,1.0,Romelu Lukaku
-4290,2024,19,ACF Fiorentina,SSC Napoli,Romelu Lukaku,2.0,away,0:2,0.0,2.0,Frank Anguissa
-4291,2024,19,ACF Fiorentina,SSC Napoli,Scott McTominay,3.0,away,0:3,0.0,3.0,
-4292,2024,1,Cagliari Calcio,AS Roma,,,,,,,
-4293,2024,2,AS Roma,Empoli FC,Emmanuel Gyasi,1.0,away,0:1,0.0,1.0,Lorenzo Colombo
-4294,2024,2,AS Roma,Empoli FC,Lorenzo Colombo,2.0,away,0:2,0.0,2.0,Sebastiano Esposito
-4295,2024,2,AS Roma,Empoli FC,Eldor Shomurodov,3.0,home,1:2,1.0,2.0,Tommaso Baldanzi
-4297,2024,4,Genoa CFC,AS Roma,Artem Dovbyk,1.0,away,0:1,0.0,1.0,Senza assist
-4298,2024,4,Genoa CFC,AS Roma,Koni De Winter,2.0,home,1:1,1.0,1.0,Vitinha
-4299,2024,5,AS Roma,Udinese Calcio,Artem Dovbyk,1.0,home,1:0,1.0,0.0,Stephan El Shaarawy
-4300,2024,5,AS Roma,Udinese Calcio,Paulo Dybala,2.0,home,2:0,2.0,0.0,Paulo Dybala
-4301,2024,5,AS Roma,Udinese Calcio,Tommaso Baldanzi,3.0,home,3:0,3.0,0.0,Artem Dovbyk
-4302,2024,6,AS Roma,Venezia FC,Joel Pohjanpalo,1.0,away,0:1,0.0,1.0,Senza assist
-4303,2024,6,AS Roma,Venezia FC,Bryan Cristante,2.0,home,1:1,1.0,1.0,Lorenzo Pellegrini
-4304,2024,6,AS Roma,Venezia FC,Niccolò Pisilli,3.0,home,2:1,2.0,1.0,Leandro Paredes
-4305,2024,7,AC Monza,AS Roma,Artem Dovbyk,1.0,away,0:1,0.0,1.0,Bryan Cristante
-4306,2024,7,AC Monza,AS Roma,Dany Mota,2.0,home,1:1,1.0,1.0,Senza assist
-4308,2024,9,ACF Fiorentina,AS Roma,Moise Kean,1.0,home,1:0,1.0,0.0,Lucas Beltrán
-4309,2024,9,ACF Fiorentina,AS Roma,Lucas Beltrán,2.0,home,2:0,2.0,0.0,Edoardo Bove
-4310,2024,9,ACF Fiorentina,AS Roma,Manu Koné,3.0,away,2:1,2.0,1.0,Evan Ndicka
-4311,2024,9,ACF Fiorentina,AS Roma,Moise Kean,4.0,home,3:1,3.0,1.0,Edoardo Bove
-4312,2024,9,ACF Fiorentina,AS Roma,Edoardo Bove,5.0,home,4:1,4.0,1.0,Yacine Adli
-4313,2024,9,ACF Fiorentina,AS Roma,Mats Hummels,6.0,home,5:1,5.0,1.0,Christian Kouamé
-4314,2024,10,AS Roma,Torino FC,Paulo Dybala,1.0,home,1:0,1.0,0.0,Senza assist
-4315,2024,11,Hellas Verona FC,AS Roma,Casper Tengstedt,1.0,home,1:0,1.0,0.0,Senza assist
-4316,2024,11,Hellas Verona FC,AS Roma,Matías Soulé,2.0,away,1:1,1.0,1.0,Nicola Zalewski
-4317,2024,11,Hellas Verona FC,AS Roma,Giangiacomo Magnani,3.0,home,2:1,2.0,1.0,Ondrej Duda
-4318,2024,11,Hellas Verona FC,AS Roma,Artem Dovbyk,4.0,away,2:2,2.0,2.0,Zeki Çelik
-4319,2024,11,Hellas Verona FC,AS Roma,Abdou Harroui,5.0,home,3:2,3.0,2.0,Dailon Rocha Livramento
-4320,2024,12,AS Roma,Bologna FC 1909,Santiago Castro,1.0,away,0:1,0.0,1.0,Riccardo Orsolini
-4321,2024,12,AS Roma,Bologna FC 1909,Stephan El Shaarawy,2.0,home,1:1,1.0,1.0,Gianluca Mancini
-4322,2024,12,AS Roma,Bologna FC 1909,Riccardo Orsolini,3.0,away,1:2,1.0,2.0,Santiago Castro
-4323,2024,12,AS Roma,Bologna FC 1909,Jesper Karlsson,4.0,away,1:3,1.0,3.0,Juan Miranda
-4324,2024,12,AS Roma,Bologna FC 1909,Stephan El Shaarawy,5.0,home,2:3,2.0,3.0,Eldor Shomurodov
-4328,2024,15,AS Roma,US Lecce,Alexis Saelemaekers,1.0,home,1:0,1.0,0.0,Stephan El Shaarawy
-4329,2024,15,AS Roma,US Lecce,Nikola Krstović,2.0,away,1:1,1.0,1.0,Lassana Coulibaly
-4330,2024,15,AS Roma,US Lecce,Gianluca Mancini,3.0,home,2:1,2.0,1.0,Stephan El Shaarawy
-4331,2024,15,AS Roma,US Lecce,Niccolò Pisilli,4.0,home,3:1,3.0,1.0,Saud Abdulhamid
-4332,2024,15,AS Roma,US Lecce,Manu Koné,5.0,home,4:1,4.0,1.0,Niccolò Pisilli
-4333,2024,16,Como 1907,AS Roma,Alessandro Gabrielloni,1.0,home,1:0,1.0,0.0,Patrick Cutrone
-4334,2024,16,Como 1907,AS Roma,Nico Paz,2.0,home,2:0,2.0,0.0,Alessandro Gabrielloni
-4335,2024,17,AS Roma,AS Roma,Paulo Dybala,1.0,home,1:0,1.0,0.0,Paulo Dybala
-4336,2024,17,AS Roma,AS Roma,Alexis Saelemaekers,2.0,home,2:0,2.0,0.0,Angeliño
-4337,2024,17,AS Roma,AS Roma,Paulo Dybala,3.0,home,3:0,3.0,0.0,Artem Dovbyk
-4338,2024,17,AS Roma,AS Roma,Leandro Paredes,4.0,home,4:0,4.0,0.0,Alexis Saelemaekers
-4339,2024,17,AS Roma,AS Roma,Artem Dovbyk,5.0,home,5:0,5.0,0.0,Paulo Dybala
-4342,2024,19,AS Roma,SS Lazio,Lorenzo Pellegrini,1.0,home,1:0,1.0,0.0,Alexis Saelemaekers
-4343,2024,19,AS Roma,SS Lazio,Alexis Saelemaekers,2.0,home,2:0,2.0,0.0,Senza assist
-4344,2024,1,AS Roma,ACF Fiorentina,Dennis Man,1.0,home,1:0,1.0,0.0,Ange-Yoan Bonny
-4345,2024,1,AS Roma,ACF Fiorentina,Cristiano Biraghi,2.0,away,1:1,1.0,1.0,
-4346,2024,2,ACF Fiorentina,Venezia FC,,,,,,,
-4347,2024,3,ACF Fiorentina,AC Monza,Milan Djuric,1.0,away,0:1,0.0,1.0,Pedro Pereira
-4348,2024,3,ACF Fiorentina,AC Monza,Daniel Maldini,2.0,away,0:2,0.0,2.0,Georgios Kyriakopoulos
-4349,2024,3,ACF Fiorentina,AC Monza,Moise Kean,3.0,home,1:2,1.0,2.0,Luca Ranieri
-4350,2024,3,ACF Fiorentina,AC Monza,Robin Gosens,4.0,home,2:2,2.0,2.0,Yacine Adli
-4356,2024,5,ACF Fiorentina,SS Lazio,Mario Gila,1.0,away,0:1,0.0,1.0,Nuno Tavares
-4357,2024,5,ACF Fiorentina,SS Lazio,Albert Gudmundsson,2.0,home,1:1,1.0,1.0,Albert Gudmundsson
-4358,2024,5,ACF Fiorentina,SS Lazio,Albert Gudmundsson,3.0,home,2:1,2.0,1.0,Dodô
-4359,2024,6,Empoli FC,ACF Fiorentina,,,,,,,
-4363,2024,8,US Lecce,ACF Fiorentina,Danilo Cataldi,1.0,away,0:1,0.0,1.0,Edoardo Bove
-4364,2024,8,US Lecce,ACF Fiorentina,Andrea Colpani,2.0,away,0:2,0.0,2.0,Senza assist
-4365,2024,8,US Lecce,ACF Fiorentina,Danilo Cataldi,3.0,away,0:3,0.0,3.0,Senza assist
-4366,2024,8,US Lecce,ACF Fiorentina,Andrea Colpani,4.0,away,0:4,0.0,4.0,Senza assist
-4367,2024,8,US Lecce,ACF Fiorentina,Lucas Beltrán,5.0,away,0:5,0.0,5.0,Christian Kouamé
-4368,2024,8,US Lecce,ACF Fiorentina,Fabiano Parisi,6.0,away,0:6,0.0,6.0,Andrea Colpani
-4375,2024,10,Genoa CFC,ACF Fiorentina,Robin Gosens,1.0,away,0:1,0.0,1.0,Lucas Beltrán
-4376,2024,11,Torino FC,ACF Fiorentina,Moise Kean,1.0,away,0:1,0.0,1.0,Luca Ranieri
-4377,2024,12,ACF Fiorentina,Hellas Verona FC,Moise Kean,1.0,home,1:0,1.0,0.0,Lucas Beltrán
-4378,2024,12,ACF Fiorentina,Hellas Verona FC,Suat Serdar,2.0,away,1:1,1.0,1.0,Senza assist
-4379,2024,12,ACF Fiorentina,Hellas Verona FC,Moise Kean,3.0,home,2:1,2.0,1.0,Yacine Adli
-4380,2024,12,ACF Fiorentina,Hellas Verona FC,Moise Kean,4.0,home,3:1,3.0,1.0,David de Gea
-4381,2024,13,Como 1907,ACF Fiorentina,Yacine Adli,1.0,away,0:1,0.0,1.0,Lucas Beltrán
-4382,2024,13,Como 1907,ACF Fiorentina,Moise Kean,2.0,away,0:2,0.0,2.0,Riccardo Sottil
-4383,2024,15,ACF Fiorentina,Cagliari Calcio,Danilo Cataldi,1.0,home,1:0,1.0,0.0,Lucas Beltrán
-4384,2024,16,Bologna FC 1909,ACF Fiorentina,Jens Odgaard,1.0,home,1:0,1.0,0.0,Remo Freuler
-4385,2024,17,ACF Fiorentina,Udinese Calcio,Moise Kean,1.0,home,1:0,1.0,0.0,Riccardo Sottil
-4386,2024,17,ACF Fiorentina,Udinese Calcio,Lorenzo Lucca,2.0,away,1:1,1.0,1.0,Jurgen Ekkelenkamp
-4387,2024,17,ACF Fiorentina,Udinese Calcio,Florian Thauvin,3.0,away,1:2,1.0,2.0,Sandi Lovrić
-4395,2024,1,Bologna FC 1909,Udinese Calcio,Riccardo Orsolini,1.0,home,1:0,1.0,0.0,Martin Erlić
-4396,2024,1,Bologna FC 1909,Udinese Calcio,Lautaro Giannetti,2.0,away,1:1,1.0,1.0,Brenner
-4400,2024,3,Bologna FC 1909,Empoli FC,Giovanni Fabbian,1.0,home,1:0,1.0,0.0,Sam Beukema
-4401,2024,3,Bologna FC 1909,Empoli FC,Emmanuel Gyasi,2.0,away,1:1,1.0,1.0,Giuseppe Pezzella
-4402,2024,4,Como 1907,Bologna FC 1909,Nicolò Casale,1.0,home,1:0,1.0,0.0,Patrick Cutrone
-4403,2024,4,Como 1907,Bologna FC 1909,Patrick Cutrone,2.0,home,2:0,2.0,0.0,Gabriel Strefezza
-4404,2024,4,Como 1907,Bologna FC 1909,Santiago Castro,3.0,away,2:1,2.0,1.0,Senza assist
-4405,2024,4,Como 1907,Bologna FC 1909,Samuel Iling-Junior,4.0,away,2:2,2.0,2.0,Santiago Castro
-4406,2024,5,AC Monza,Bologna FC 1909,Kacper Urbanski,1.0,away,0:1,0.0,1.0,Charalampos Lykogiannis
-4407,2024,5,AC Monza,Bologna FC 1909,Milan Djuric,2.0,home,1:1,1.0,1.0,Daniel Maldini
-4408,2024,5,AC Monza,Bologna FC 1909,Santiago Castro,3.0,away,1:2,1.0,2.0,Remo Freuler
-4411,2024,7,Bologna FC 1909,AS Roma,,,,,,,
-4412,2024,8,Genoa CFC,Bologna FC 1909,Riccardo Orsolini,1.0,away,0:1,0.0,1.0,Nikola Moro
-4413,2024,8,Genoa CFC,Bologna FC 1909,Jens Odgaard,2.0,away,0:2,0.0,2.0,Senza assist
-4414,2024,8,Genoa CFC,Bologna FC 1909,Andrea Pinamonti,3.0,home,1:2,1.0,2.0,Jeff Ekhator
-4415,2024,8,Genoa CFC,Bologna FC 1909,Andrea Pinamonti,4.0,home,2:2,2.0,2.0,Aarón Martín
-4416,2024,10,Cagliari Calcio,Bologna FC 1909,Riccardo Orsolini,1.0,away,0:1,0.0,1.0,Dan Ndoye
-4417,2024,10,Cagliari Calcio,Bologna FC 1909,Jens Odgaard,2.0,away,0:2,0.0,2.0,Jhon Lucumí
-4418,2024,11,Bologna FC 1909,US Lecce,Riccardo Orsolini,1.0,home,1:0,1.0,0.0,Juan Miranda
-4424,2024,13,SS Lazio,Bologna FC 1909,Samuel Gigot,1.0,home,1:0,1.0,0.0,Senza assist
-4425,2024,13,SS Lazio,Bologna FC 1909,Mattia Zaccagni,2.0,home,2:0,2.0,0.0,Luca Pellegrini
-4426,2024,13,SS Lazio,Bologna FC 1909,Fisayo Dele-Bashiru,3.0,home,3:0,3.0,0.0,Gustav Isaksen
-4427,2024,14,Bologna FC 1909,Venezia FC,Dan Ndoye,1.0,home,1:0,1.0,0.0,Dan Ndoye
-4428,2024,14,Bologna FC 1909,Venezia FC,Riccardo Orsolini,2.0,home,2:0,2.0,0.0,Thijs Dallinga
-4429,2024,14,Bologna FC 1909,Venezia FC,Dan Ndoye,3.0,home,3:0,3.0,0.0,Riccardo Orsolini
-4435,2024,17,Torino FC,Bologna FC 1909,Thijs Dallinga,1.0,away,0:1,0.0,1.0,Juan Miranda
-4436,2024,17,Torino FC,Bologna FC 1909,Tommaso Pobega,2.0,away,0:2,0.0,2.0,Senza assist
-4437,2024,18,Bologna FC 1909,Hellas Verona FC,Benja Domínguez,1.0,home,1:0,1.0,0.0,Santiago Castro
-4438,2024,18,Bologna FC 1909,Hellas Verona FC,Amin Sarr,2.0,away,1:1,1.0,1.0,Casper Tengstedt
-4439,2024,18,Bologna FC 1909,Hellas Verona FC,Casper Tengstedt,3.0,away,1:2,1.0,2.0,Suat Serdar
-4440,2024,18,Bologna FC 1909,Hellas Verona FC,Benja Domínguez,4.0,home,2:2,2.0,2.0,Jens Odgaard
-4441,2024,18,Bologna FC 1909,Hellas Verona FC,Santiago Castro,5.0,away,2:3,2.0,3.0,Ondrej Duda
-4442,2024,1,SS Lazio,Venezia FC,Magnus Kofod Andersen,1.0,away,0:1,0.0,1.0,Mikael Egill Ellertsson
-4443,2024,1,SS Lazio,Venezia FC,Taty Castellanos,2.0,home,1:1,1.0,1.0,Senza assist
-4444,2024,1,SS Lazio,Venezia FC,Mattia Zaccagni,3.0,home,2:1,2.0,1.0,Taty Castellanos
-4445,2024,1,SS Lazio,Venezia FC,Giorgio Altare,4.0,home,3:1,3.0,1.0,Manuel Lazzari
-4446,2024,2,Udinese Calcio,SS Lazio,Lorenzo Lucca,1.0,home,1:0,1.0,0.0,Florian Thauvin
-4447,2024,2,Udinese Calcio,SS Lazio,Florian Thauvin,2.0,home,2:0,2.0,0.0,Senza assist
-4448,2024,2,Udinese Calcio,SS Lazio,Gustav Isaksen,3.0,away,2:1,2.0,1.0,Senza assist
-4453,2024,4,SS Lazio,Hellas Verona FC,Boulaye Dia,1.0,home,1:0,1.0,0.0,Mattia Zaccagni
-4454,2024,4,SS Lazio,Hellas Verona FC,Casper Tengstedt,2.0,away,1:1,1.0,1.0,Grigoris Kastanos
-4455,2024,4,SS Lazio,Hellas Verona FC,Taty Castellanos,3.0,home,2:1,2.0,1.0,Mattia Zaccagni
-4459,2024,6,Torino FC,SS Lazio,Mattéo Guendouzi,1.0,away,0:1,0.0,1.0,Nuno Tavares
-4460,2024,6,Torino FC,SS Lazio,Boulaye Dia,2.0,away,0:2,0.0,2.0,Gustav Isaksen
-4461,2024,6,Torino FC,SS Lazio,Ché Adams,3.0,home,1:2,1.0,2.0,Nikola Vlašić
-4462,2024,6,Torino FC,SS Lazio,Tijjani Noslin,4.0,away,1:3,1.0,3.0,Matías Vecino
-4463,2024,6,Torino FC,SS Lazio,Saúl Coco,5.0,home,2:3,2.0,3.0,Adam Masina
-4464,2024,7,SS Lazio,Empoli FC,Sebastiano Esposito,1.0,away,0:1,0.0,1.0,Giuseppe Pezzella
-4465,2024,7,SS Lazio,Empoli FC,Mattia Zaccagni,2.0,home,1:1,1.0,1.0,Nuno Tavares
-4466,2024,7,SS Lazio,Empoli FC,Pedro,3.0,home,2:1,2.0,1.0,Taty Castellanos
-4468,2024,9,SS Lazio,Genoa CFC,Tijjani Noslin,1.0,home,1:0,1.0,0.0,Nuno Tavares
-4469,2024,9,SS Lazio,Genoa CFC,Pedro,2.0,home,2:0,2.0,0.0,Taty Castellanos
-4470,2024,9,SS Lazio,Genoa CFC,Matías Vecino,3.0,home,3:0,3.0,0.0,Nuno Tavares
-4471,2024,10,Como 1907,SS Lazio,Taty Castellanos,1.0,away,0:1,0.0,1.0,Rigore: mani diAlberto Dossena
-4472,2024,10,Como 1907,SS Lazio,Pedro,2.0,away,0:2,0.0,2.0,Nuno Tavares
-4473,2024,10,Como 1907,SS Lazio,Luca Mazzitelli,3.0,home,1:2,1.0,2.0,Senza assist
-4474,2024,10,Como 1907,SS Lazio,Patric,4.0,away,1:3,1.0,3.0,Boulaye Dia
-4475,2024,10,Como 1907,SS Lazio,Taty Castellanos,5.0,away,1:4,1.0,4.0,Boulaye Dia
-4476,2024,10,Como 1907,SS Lazio,Loum Tchaouna,6.0,away,1:5,1.0,5.0,Manuel Lazzari
-4477,2024,11,SS Lazio,Cagliari Calcio,Boulaye Dia,1.0,home,1:0,1.0,0.0,Luca Pellegrini
-4478,2024,11,SS Lazio,Cagliari Calcio,Zito Luvumbo,2.0,away,1:1,1.0,1.0,Antoine Makoumbou
-4479,2024,11,SS Lazio,Cagliari Calcio,Mattia Zaccagni,3.0,home,2:1,2.0,1.0,Luca Pellegrini
-4480,2024,12,AC Monza,SS Lazio,Mattia Zaccagni,1.0,away,0:1,0.0,1.0,Mattéo Guendouzi
-4484,2024,14,AS Roma,SS Lazio,Dennis Man,1.0,home,1:0,1.0,0.0,Senza assist
-4485,2024,14,AS Roma,SS Lazio,Anas Haj Mohamed,2.0,home,2:0,2.0,0.0,Gabriel Charpentier
-4486,2024,14,AS Roma,SS Lazio,Taty Castellanos,3.0,away,2:1,2.0,1.0,Senza assist
-4487,2024,14,AS Roma,SS Lazio,Enrico Delprato,4.0,home,3:1,3.0,1.0,Gabriel Charpentier
-4495,2024,17,US Lecce,SS Lazio,Taty Castellanos,1.0,away,0:1,0.0,1.0,Rigore: mani diFrédéric Guilbert
-4496,2024,17,US Lecce,SS Lazio,Tete Morente,2.0,home,1:1,1.0,1.0,Senza assist
-4497,2024,17,US Lecce,SS Lazio,Adam Marusic,3.0,away,1:2,1.0,2.0,Senza assist
-4509,2024,3,Venezia FC,Torino FC,Saúl Coco,1.0,away,0:1,0.0,1.0,Adam Masina
-4510,2024,4,Torino FC,US Lecce,,,,,,,
-4511,2024,5,Hellas Verona FC,Torino FC,Antonio Sanabria,1.0,away,0:1,0.0,1.0,Senza assist
-4512,2024,5,Hellas Verona FC,Torino FC,Grigoris Kastanos,2.0,home,1:1,1.0,1.0,Darko Lazović
-4513,2024,5,Hellas Verona FC,Torino FC,Duván Zapata,3.0,away,1:2,1.0,2.0,Valentino Lazaro
-4514,2024,5,Hellas Verona FC,Torino FC,Ché Adams,4.0,away,1:3,1.0,3.0,Senza assist
-4515,2024,5,Hellas Verona FC,Torino FC,Daniel Mosquera,5.0,home,2:3,2.0,3.0,Reda Belahyane
-4526,2024,8,Cagliari Calcio,Torino FC,Nicolas Viola,1.0,home,1:0,1.0,0.0,Senza assist
-4527,2024,8,Cagliari Calcio,Torino FC,Antonio Sanabria,2.0,away,1:1,1.0,1.0,Valentino Lazaro
-4528,2024,8,Cagliari Calcio,Torino FC,Karol Linetty,3.0,away,1:2,1.0,2.0,Nikola Vlašić
-4529,2024,8,Cagliari Calcio,Torino FC,José Luis Palomino,4.0,home,2:2,2.0,2.0,Sebastiano Luperto
-4530,2024,8,Cagliari Calcio,Torino FC,Saúl Coco,5.0,home,3:2,3.0,2.0,Roberto Piccoli
-4531,2024,9,Torino FC,Como 1907,Alieu Njie,1.0,home,1:0,1.0,0.0,Senza assist
-4536,2024,13,Torino FC,AC Monza,Adam Masina,1.0,home,1:0,1.0,0.0,Valentino Lazaro
-4537,2024,13,Torino FC,AC Monza,Milan Djuric,2.0,away,1:1,1.0,1.0,Georgios Kyriakopoulos
-4539,2024,15,Genoa CFC,Torino FC,,,,,,,
-4540,2024,16,Empoli FC,Torino FC,Ché Adams,1.0,away,0:1,0.0,1.0,Nikola Vlašić
-4543,2024,18,Udinese Calcio,Torino FC,Isaak Touré,1.0,home,1:0,1.0,0.0,Jaka Bijol
-4544,2024,18,Udinese Calcio,Torino FC,Lorenzo Lucca,2.0,home,2:0,2.0,0.0,Florian Thauvin
-4545,2024,18,Udinese Calcio,Torino FC,Ché Adams,3.0,away,2:1,2.0,1.0,Senza assist
-4546,2024,18,Udinese Calcio,Torino FC,Samuele Ricci,4.0,away,2:2,2.0,2.0,Ché Adams
-4547,2024,19,Torino FC,AS Roma,,,,,,,
-4553,2024,3,Udinese Calcio,Como 1907,Brenner,1.0,home,1:0,1.0,0.0,Kingsley Ehizibue
-4554,2024,4,AS Roma,Udinese Calcio,Enrico Delprato,1.0,home,1:0,1.0,0.0,Valentin Mihăilă
-4555,2024,4,AS Roma,Udinese Calcio,Ange-Yoan Bonny,2.0,home,2:0,2.0,0.0,Dennis Man
-4556,2024,4,AS Roma,Udinese Calcio,Lorenzo Lucca,3.0,away,2:1,2.0,1.0,Hassane Kamara
-4557,2024,4,AS Roma,Udinese Calcio,Florian Thauvin,4.0,away,2:2,2.0,2.0,Keinan Davis
-4558,2024,4,AS Roma,Udinese Calcio,Florian Thauvin,5.0,away,2:3,2.0,3.0,Senza assist
-4567,2024,7,Udinese Calcio,US Lecce,Jordan Zemura,1.0,home,1:0,1.0,0.0,
-4569,2024,9,Udinese Calcio,Cagliari Calcio,Lorenzo Lucca,1.0,home,1:0,1.0,0.0,Hassane Kamara
-4570,2024,9,Udinese Calcio,Cagliari Calcio,Keinan Davis,2.0,home,2:0,2.0,0.0,Jesper Karlström
-4571,2024,10,Venezia FC,Udinese Calcio,Sandi Lovrić,1.0,away,0:1,0.0,1.0,Iker Bravo
-4572,2024,10,Venezia FC,Udinese Calcio,Iker Bravo,2.0,away,0:2,0.0,2.0,Jaka Bijol
-4573,2024,10,Venezia FC,Udinese Calcio,Joel Pohjanpalo,3.0,home,1:2,1.0,2.0,Joel Pohjanpalo
-4574,2024,10,Venezia FC,Udinese Calcio,Hans Nicolussi Caviglia,4.0,home,2:2,2.0,2.0,Senza assist
-4575,2024,10,Venezia FC,Udinese Calcio,Joel Pohjanpalo,5.0,home,3:2,3.0,2.0,Rigore: mani diChristian Kabasele
-4581,2024,13,Empoli FC,Udinese Calcio,Pietro Pellegri,1.0,home,1:0,1.0,0.0,Liberato Cacace
-4582,2024,13,Empoli FC,Udinese Calcio,Keinan Davis,2.0,away,1:1,1.0,1.0,Sandi Lovrić
-4583,2024,14,Udinese Calcio,Genoa CFC,Andrea Pinamonti,1.0,away,0:1,0.0,1.0,Senza assist
-4584,2024,14,Udinese Calcio,Genoa CFC,Lautaro Giannetti,2.0,away,0:2,0.0,2.0,Alessandro Zanoli
-4585,2024,15,AC Monza,Udinese Calcio,Lorenzo Lucca,1.0,away,0:1,0.0,1.0,Jordan Zemura
-4586,2024,15,AC Monza,Udinese Calcio,Georgios Kyriakopoulos,2.0,home,1:1,1.0,1.0,Senza assist
-4587,2024,15,AC Monza,Udinese Calcio,Jaka Bijol,3.0,away,1:2,1.0,2.0,Jurgen Ekkelenkamp
-4599,2024,19,Hellas Verona FC,Udinese Calcio,,,,,,,
-4604,2024,2,AC Monza,Genoa CFC,Andrea Pinamonti,1.0,away,0:1,0.0,1.0,Stefano Sabelli
-4605,2024,3,Genoa CFC,Hellas Verona FC,Jackson Tchatchoua,1.0,away,0:1,0.0,1.0,Senza assist
-4606,2024,3,Genoa CFC,Hellas Verona FC,Casper Tengstedt,2.0,away,0:2,0.0,2.0,Rigore: mani diMorten Thorsby
-4609,2024,5,Venezia FC,Genoa CFC,Gianluca Busio,1.0,home,1:0,1.0,0.0,Antonio Candela
-4610,2024,5,Venezia FC,Genoa CFC,Joel Pohjanpalo,2.0,home,2:0,2.0,0.0,John Yeboah
-4628,2024,11,AS Roma,Genoa CFC,Andrea Pinamonti,1.0,away,0:1,0.0,1.0,Senza assist
-4629,2024,12,Genoa CFC,Como 1907,Lucas Da Cunha,1.0,away,0:1,0.0,1.0,Nico Paz
-4630,2024,12,Genoa CFC,Como 1907,Alessandro Vogliacco,2.0,home,1:1,1.0,1.0,Andrea Pinamonti
-4631,2024,13,Genoa CFC,Cagliari Calcio,Răzvan Marin,1.0,away,0:1,0.0,1.0,Rigore: mani diMorten Thorsby
-4632,2024,13,Genoa CFC,Cagliari Calcio,Morten Frendrup,2.0,home,1:1,1.0,1.0,Senza assist
-4633,2024,13,Genoa CFC,Cagliari Calcio,Fabio Miretti,3.0,home,2:1,2.0,1.0,Morten Thorsby
-4634,2024,13,Genoa CFC,Cagliari Calcio,Roberto Piccoli,4.0,away,2:2,2.0,2.0,Roberto Piccoli
-4642,2024,18,Empoli FC,Genoa CFC,Milan Badelj,1.0,away,0:1,0.0,1.0,Senza assist
-4643,2024,18,Empoli FC,Genoa CFC,Caleb Ekuban,2.0,away,0:2,0.0,2.0,Fabio Miretti
-4644,2024,18,Empoli FC,Genoa CFC,Sebastiano Esposito,3.0,home,1:2,1.0,2.0,Tino Anjorin
-4645,2024,19,US Lecce,Genoa CFC,,,,,,,
-4646,2024,1,Parma Calcio 1913,ACF Fiorentina,Dennis Man,1.0,home,1:0,1.0,0.0,Ange-Yoan Bonny
-4647,2024,1,Parma Calcio 1913,ACF Fiorentina,Cristiano Biraghi,2.0,away,1:1,1.0,1.0,
-4648,2024,2,Parma Calcio 1913,AC Milan,Dennis Man,1.0,home,1:0,1.0,0.0,Emanuele Valeri
-4649,2024,2,Parma Calcio 1913,AC Milan,Christian Pulisic,2.0,away,1:1,1.0,1.0,Rafael Leão
-4650,2024,2,Parma Calcio 1913,AC Milan,Matteo Cancellieri,3.0,home,2:1,2.0,1.0,Pontus Almqvist
-4654,2024,4,Parma Calcio 1913,Udinese Calcio,Enrico Delprato,1.0,home,1:0,1.0,0.0,Valentin Mihăilă
-4655,2024,4,Parma Calcio 1913,Udinese Calcio,Ange-Yoan Bonny,2.0,home,2:0,2.0,0.0,Dennis Man
-4656,2024,4,Parma Calcio 1913,Udinese Calcio,Lorenzo Lucca,3.0,away,2:1,2.0,1.0,Hassane Kamara
-4657,2024,4,Parma Calcio 1913,Udinese Calcio,Florian Thauvin,4.0,away,2:2,2.0,2.0,Keinan Davis
-4658,2024,4,Parma Calcio 1913,Udinese Calcio,Florian Thauvin,5.0,away,2:3,2.0,3.0,Senza assist
-4659,2024,5,US Lecce,Parma Calcio 1913,Patrick Dorgu,1.0,home,1:0,1.0,0.0,Ylber Ramadani
-4660,2024,5,US Lecce,Parma Calcio 1913,Nikola Krstović,2.0,home,2:0,2.0,0.0,Senza assist
-4661,2024,5,US Lecce,Parma Calcio 1913,Pontus Almqvist,3.0,away,2:1,2.0,1.0,Senza assist
-4662,2024,5,US Lecce,Parma Calcio 1913,Antoine Hainaut,4.0,away,2:2,2.0,2.0,Anas Haj Mohamed
-4663,2024,6,Parma Calcio 1913,Cagliari Calcio,Nadir Zortea,1.0,away,0:1,0.0,1.0,Zito Luvumbo
-4664,2024,6,Parma Calcio 1913,Cagliari Calcio,Dennis Man,2.0,home,1:1,1.0,1.0,Woyo Coulibaly
-4665,2024,6,Parma Calcio 1913,Cagliari Calcio,Răzvan Marin,3.0,away,1:2,1.0,2.0,Michel Adopo
-4666,2024,6,Parma Calcio 1913,Cagliari Calcio,Hernani,4.0,home,2:2,2.0,2.0,Gabriel Charpentier
-4667,2024,6,Parma Calcio 1913,Cagliari Calcio,Roberto Piccoli,5.0,away,2:3,2.0,3.0,Gianluca Gaetano
-4669,2024,8,Como 1907,Parma Calcio 1913,Ange-Yoan Bonny,1.0,away,0:1,0.0,1.0,Hernani
-4670,2024,8,Como 1907,Parma Calcio 1913,Nico Paz,2.0,home,1:1,1.0,1.0,Alieu Fadera
-4671,2024,9,Parma Calcio 1913,Empoli FC,Woyo Coulibaly,1.0,away,0:1,0.0,1.0,Emmanuel Gyasi
-4672,2024,9,Parma Calcio 1913,Empoli FC,Gabriel Charpentier,2.0,home,1:1,1.0,1.0,Emanuele Valeri
-4677,2024,11,Parma Calcio 1913,Genoa CFC,Andrea Pinamonti,1.0,away,0:1,0.0,1.0,Senza assist
-4678,2024,12,Venezia FC,Parma Calcio 1913,Hans Nicolussi Caviglia,1.0,home,1:0,1.0,0.0,Gaetano Oristanio
-4679,2024,12,Venezia FC,Parma Calcio 1913,Emanuele Valeri,2.0,away,1:1,1.0,1.0,Dennis Man
-4680,2024,12,Venezia FC,Parma Calcio 1913,Ange-Yoan Bonny,3.0,away,1:2,1.0,2.0,Dennis Man
-4681,2024,13,Parma Calcio 1913,Atalanta BC,Mateo Retegui,1.0,away,0:1,0.0,1.0,Raoul Bellanova
-4682,2024,13,Parma Calcio 1913,Atalanta BC,Éderson,2.0,away,0:2,0.0,2.0,Matteo Ruggeri
-4683,2024,13,Parma Calcio 1913,Atalanta BC,Matteo Cancellieri,3.0,home,1:2,1.0,2.0,Valentin Mihăilă
-4684,2024,13,Parma Calcio 1913,Atalanta BC,Ademola Lookman,4.0,away,1:3,1.0,3.0,Juan Cuadrado
-4685,2024,14,Parma Calcio 1913,SS Lazio,Dennis Man,1.0,home,1:0,1.0,0.0,Senza assist
-4686,2024,14,Parma Calcio 1913,SS Lazio,Anas Haj Mohamed,2.0,home,2:0,2.0,0.0,Gabriel Charpentier
-4687,2024,14,Parma Calcio 1913,SS Lazio,Taty Castellanos,3.0,away,2:1,2.0,1.0,Senza assist
-4688,2024,14,Parma Calcio 1913,SS Lazio,Enrico Delprato,4.0,home,3:1,3.0,1.0,Gabriel Charpentier
-4693,2024,16,Parma Calcio 1913,Hellas Verona FC,Diego Coppola,1.0,away,0:1,0.0,1.0,Abdou Harroui
-4694,2024,16,Parma Calcio 1913,Hellas Verona FC,Simon Sohm,2.0,home,1:1,1.0,1.0,Ange-Yoan Bonny
-4695,2024,16,Parma Calcio 1913,Hellas Verona FC,Amin Sarr,3.0,away,1:2,1.0,2.0,Abdou Harroui
-4696,2024,16,Parma Calcio 1913,Hellas Verona FC,Daniel Mosquera,4.0,away,1:3,1.0,3.0,Dailon Rocha Livramento
-4697,2024,16,Parma Calcio 1913,Hellas Verona FC,Simon Sohm,5.0,home,2:3,2.0,3.0,Mandela Keita
-4703,2024,18,Parma Calcio 1913,AC Monza,Hernani,1.0,home,1:0,1.0,0.0,Woyo Coulibaly
-4704,2024,18,Parma Calcio 1913,AC Monza,Pedro Pereira,2.0,away,1:1,1.0,1.0,Kevin Martins
-4705,2024,18,Parma Calcio 1913,AC Monza,Lautaro Valenti,3.0,home,2:1,2.0,1.0,Valentin Mihăilă
-4710,2024,2,Cagliari Calcio,Como 1907,Roberto Piccoli,1.0,home,1:0,1.0,0.0,Sebastiano Luperto
-4711,2024,2,Cagliari Calcio,Como 1907,Patrick Cutrone,2.0,away,1:1,1.0,1.0,Alberto Dossena
-4722,2024,6,Como 1907,Hellas Verona FC,Patrick Cutrone,1.0,home,1:0,1.0,0.0,Alieu Fadera
-4723,2024,6,Como 1907,Hellas Verona FC,Darko Lazović,2.0,away,1:1,1.0,1.0,Darko Lazović
-4724,2024,6,Como 1907,Hellas Verona FC,Patrick Cutrone,3.0,home,2:1,2.0,1.0,Nico Paz
-4725,2024,6,Como 1907,Hellas Verona FC,Andrea Belotti,4.0,home,3:1,3.0,1.0,Luca Mazzitelli
-4726,2024,6,Como 1907,Hellas Verona FC,Mathis Lambourde,5.0,away,3:2,3.0,2.0,Jackson Tchatchoua
-4740,2024,11,Empoli FC,Como 1907,Pietro Pellegri,1.0,home,1:0,1.0,0.0,Senza assist
-4745,2024,14,Como 1907,AC Monza,Yannik Engelhardt,1.0,home,1:0,1.0,0.0,Senza assist
-4746,2024,14,Como 1907,AC Monza,Gianluca Caprari,2.0,away,1:1,1.0,1.0,Rigore: mani diNico Paz
-4747,2024,15,Venezia FC,Como 1907,Hans Nicolussi Caviglia,1.0,home,1:0,1.0,0.0,Francesco Zampano
-4748,2024,15,Venezia FC,Como 1907,Antonio Candela,2.0,away,1:1,1.0,1.0,Ignace Van der Brempt
-4749,2024,15,Venezia FC,Como 1907,Andrea Belotti,3.0,away,1:2,1.0,2.0,Ignace Van der Brempt
-4750,2024,15,Venezia FC,Como 1907,Gaetano Oristanio,4.0,home,2:2,2.0,2.0,Senza assist
-4755,2024,18,Como 1907,US Lecce,Nico Paz,1.0,home,1:0,1.0,0.0,Patrick Cutrone
-4756,2024,18,Como 1907,US Lecce,Patrick Cutrone,2.0,home,2:0,2.0,0.0,Senza assist
-4763,2024,3,US Lecce,Cagliari Calcio,Nikola Krstović,1.0,home,1:0,1.0,0.0,Kialonda Gaspar
-4780,2024,10,US Lecce,Hellas Verona FC,Patrick Dorgu,1.0,home,1:0,1.0,0.0,Lameck Banda
-4782,2024,12,US Lecce,Empoli FC,Pietro Pellegri,1.0,away,0:1,0.0,1.0,Liberato Cacace
-4783,2024,12,US Lecce,Empoli FC,Santiago Pierotti,2.0,home,1:1,1.0,1.0,Antonino Gallo
-4784,2024,13,Venezia FC,US Lecce,Patrick Dorgu,1.0,away,0:1,0.0,1.0,Antonino Gallo
-4792,2024,16,US Lecce,AC Monza,Tete Morente,1.0,home,1:0,1.0,0.0,Medon Berisha
-4793,2024,16,US Lecce,AC Monza,Patrick Dorgu,2.0,away,1:1,1.0,1.0,
-4794,2024,16,US Lecce,AC Monza,Nikola Krstović,3.0,home,2:1,2.0,1.0,Santiago Pierotti
-4822,2024,7,Hellas Verona FC,Venezia FC,Gaetano Oristanio,1.0,away,0:1,0.0,1.0,Hans Nicolussi Caviglia
-4823,2024,7,Hellas Verona FC,Venezia FC,Casper Tengstedt,2.0,home,1:1,1.0,1.0,Daniel Mosquera
-4824,2024,7,Hellas Verona FC,Venezia FC,Jesse Joronen,3.0,home,2:1,2.0,1.0,Grigoris Kastanos
-4825,2024,8,Hellas Verona FC,AC Monza,Dany Mota,1.0,away,0:1,0.0,1.0,Gianluca Caprari
-4826,2024,8,Hellas Verona FC,AC Monza,Dany Mota,2.0,away,0:2,0.0,2.0,Milan Djuric
-4827,2024,8,Hellas Verona FC,AC Monza,Alessandro Bianco,3.0,away,0:3,0.0,3.0,Senza assist
-4850,2024,14,Cagliari Calcio,Hellas Verona FC,Roberto Piccoli,1.0,home,1:0,1.0,0.0,Mattia Felici
-4851,2024,15,Hellas Verona FC,Empoli FC,Sebastiano Esposito,1.0,away,0:1,0.0,1.0,Senza assist
-4852,2024,15,Hellas Verona FC,Empoli FC,Sebastiano Esposito,2.0,away,0:2,0.0,2.0,Tino Anjorin
-4853,2024,15,Hellas Verona FC,Empoli FC,Liberato Cacace,3.0,away,0:3,0.0,3.0,Youssef Maleh
-4854,2024,15,Hellas Verona FC,Empoli FC,Casper Tengstedt,4.0,home,1:3,1.0,3.0,Jackson Tchatchoua
-4855,2024,15,Hellas Verona FC,Empoli FC,Lorenzo Colombo,5.0,away,1:4,1.0,4.0,Senza assist
-4856,2024,16,AS Roma,Hellas Verona FC,Diego Coppola,1.0,away,0:1,0.0,1.0,Abdou Harroui
-4857,2024,16,AS Roma,Hellas Verona FC,Simon Sohm,2.0,home,1:1,1.0,1.0,Ange-Yoan Bonny
-4858,2024,16,AS Roma,Hellas Verona FC,Amin Sarr,3.0,away,1:2,1.0,2.0,Abdou Harroui
-4859,2024,16,AS Roma,Hellas Verona FC,Daniel Mosquera,4.0,away,1:3,1.0,3.0,Dailon Rocha Livramento
-4860,2024,16,AS Roma,Hellas Verona FC,Simon Sohm,5.0,home,2:3,2.0,3.0,Mandela Keita
-4868,2024,1,Empoli FC,AC Monza,,,,,,,
-4886,2024,9,AC Monza,Venezia FC,Mikael Egill Ellertsson,1.0,away,0:1,0.0,1.0,Gaetano Oristanio
-4887,2024,9,AC Monza,Venezia FC,Georgios Kyriakopoulos,2.0,home,1:1,1.0,1.0,Pedro Pereira
-4888,2024,9,AC Monza,Venezia FC,Michael Svoboda,3.0,away,1:2,1.0,2.0,Magnus Kofod Andersen
-4889,2024,9,AC Monza,Venezia FC,Milan Djuric,4.0,home,2:2,2.0,2.0,Georgios Kyriakopoulos
-4907,2024,18,AS Roma,AC Monza,Hernani,1.0,home,1:0,1.0,0.0,Woyo Coulibaly
-4908,2024,18,AS Roma,AC Monza,Pedro Pereira,2.0,away,1:1,1.0,1.0,Kevin Martins
-4909,2024,18,AS Roma,AC Monza,Lautaro Valenti,3.0,home,2:1,2.0,1.0,Valentin Mihăilă
-4910,2024,19,AC Monza,Cagliari Calcio,Gianluca Caprari,1.0,home,1:0,1.0,0.0,Rigore: mani diAntoine Makoumbou
-4911,2024,19,AC Monza,Cagliari Calcio,Nadir Zortea,2.0,away,1:1,1.0,1.0,Mattia Felici
-4912,2024,19,AC Monza,Cagliari Calcio,Roberto Piccoli,3.0,away,1:2,1.0,2.0,Adam Obert
-4920,2024,5,Cagliari Calcio,Empoli FC,Lorenzo Colombo,1.0,away,0:1,0.0,1.0,Tino Anjorin
-4921,2024,5,Cagliari Calcio,Empoli FC,Sebastiano Esposito,2.0,away,0:2,0.0,2.0,Senza assist
-4927,2024,9,AS Roma,Empoli FC,Woyo Coulibaly,1.0,away,0:1,0.0,1.0,Emmanuel Gyasi
-4928,2024,9,AS Roma,Empoli FC,Gabriel Charpentier,2.0,home,1:1,1.0,1.0,Emanuele Valeri
-4954,2024,19,Venezia FC,Empoli FC,Joel Pohjanpalo,1.0,home,1:0,1.0,0.0,Senza assist
-4955,2024,19,Venezia FC,Empoli FC,Sebastiano Esposito,2.0,away,1:1,1.0,1.0,Lorenzo Colombo
-4966,2024,6,AS Roma,Cagliari Calcio,Nadir Zortea,1.0,away,0:1,0.0,1.0,Zito Luvumbo
-4967,2024,6,AS Roma,Cagliari Calcio,Dennis Man,2.0,home,1:1,1.0,1.0,Woyo Coulibaly
-4968,2024,6,AS Roma,Cagliari Calcio,Răzvan Marin,3.0,away,1:2,1.0,2.0,Michel Adopo
-4969,2024,6,AS Roma,Cagliari Calcio,Hernani,4.0,home,2:2,2.0,2.0,Gabriel Charpentier
-4970,2024,6,AS Roma,Cagliari Calcio,Roberto Piccoli,5.0,away,2:3,2.0,3.0,Gianluca Gaetano
-4998,2024,17,Venezia FC,Cagliari Calcio,Francesco Zampano,1.0,home,1:0,1.0,0.0,Gaetano Oristanio
-4999,2024,17,Venezia FC,Cagliari Calcio,Marin Šverko,2.0,home,2:0,2.0,0.0,Senza assist
-5000,2024,17,Venezia FC,Cagliari Calcio,Leonardo Pavoletti,3.0,away,2:1,2.0,1.0,Tommaso Augello
+4092,2024,20,Venezia FC,FC Internazionale Milano,Matteo Darmian,1.0,away,0:1,0.0,1.0,Lautaro Martínez
+4093,2024,1,Juventus FC,Como 1907,Samuel Mbangula,1.0,home,1:0,1.0,0.0,Timothy Weah
+4094,2024,1,Juventus FC,Como 1907,Timothy Weah,2.0,home,2:0,2.0,0.0,Kenan Yıldız
+4095,2024,1,Juventus FC,Como 1907,Andrea Cambiaso,3.0,home,3:0,3.0,0.0,Samuel Mbangula
+4096,2024,2,Hellas Verona FC,Juventus FC,Dušan Vlahović,1.0,away,0:1,0.0,1.0,Kenan Yıldız
+4097,2024,2,Hellas Verona FC,Juventus FC,Nicolò Savona,2.0,away,0:2,0.0,2.0,Samuel Mbangula
+4098,2024,2,Hellas Verona FC,Juventus FC,Dušan Vlahović,3.0,away,0:3,0.0,3.0,Samuel Mbangula
+4099,2024,3,Juventus FC,AS Roma,,,,,,,
+4100,2024,4,Empoli FC,Juventus FC,,,,,,,
+4101,2024,5,Juventus FC,SSC Napoli,,,,,,,
+4102,2024,6,Genoa CFC,Juventus FC,Dušan Vlahović,1.0,away,0:1,0.0,1.0,Rigore: mani diKoni De Winter
+4103,2024,6,Genoa CFC,Juventus FC,Dušan Vlahović,2.0,away,0:2,0.0,2.0,Teun Koopmeiners
+4104,2024,6,Genoa CFC,Juventus FC,Francisco Conceição,3.0,away,0:3,0.0,3.0,Khéphren Thuram
+4105,2024,7,Juventus FC,Cagliari Calcio,Dušan Vlahović,1.0,home,1:0,1.0,0.0,Rigore: mani diSebastiano Luperto
+4106,2024,7,Juventus FC,Cagliari Calcio,Răzvan Marin,2.0,away,1:1,1.0,1.0,Roberto Piccoli
+4107,2024,8,Juventus FC,SS Lazio,Mario Gila,1.0,home,1:0,1.0,0.0,Juan Cabal
+4116,2024,10,Juventus FC,AS Roma,Enrico Delprato,1.0,away,0:1,0.0,1.0,Botond Balogh
+4117,2024,10,Juventus FC,AS Roma,Weston McKennie,2.0,home,1:1,1.0,1.0,Timothy Weah
+4118,2024,10,Juventus FC,AS Roma,Simon Sohm,3.0,away,1:2,1.0,2.0,Dennis Man
+4119,2024,10,Juventus FC,AS Roma,Timothy Weah,4.0,home,2:2,2.0,2.0,Francisco Conceição
+4120,2024,11,Udinese Calcio,Juventus FC,Maduka Okoye,1.0,away,0:1,0.0,1.0,Khéphren Thuram
+4121,2024,11,Udinese Calcio,Juventus FC,Nicolò Savona,2.0,away,0:2,0.0,2.0,Kenan Yıldız
+4122,2024,12,Juventus FC,Torino FC,Timothy Weah,1.0,home,1:0,1.0,0.0,Andrea Cambiaso
+4123,2024,12,Juventus FC,Torino FC,Kenan Yıldız,2.0,home,2:0,2.0,0.0,Francisco Conceição
+4124,2024,13,AC Milan,Juventus FC,,,,,,,
+4125,2024,14,US Lecce,Juventus FC,Andrea Cambiaso,1.0,away,0:1,0.0,1.0,Teun Koopmeiners
+4126,2024,14,US Lecce,Juventus FC,Ante Rebić,2.0,home,1:1,1.0,1.0,Nikola Krstović
+4127,2024,15,Juventus FC,Bologna FC 1909,Dan Ndoye,1.0,away,0:1,0.0,1.0,Emil Holm
+4128,2024,15,Juventus FC,Bologna FC 1909,Tommaso Pobega,2.0,away,0:2,0.0,2.0,Santiago Castro
+4129,2024,15,Juventus FC,Bologna FC 1909,Teun Koopmeiners,3.0,home,1:2,1.0,2.0,Danilo
+4130,2024,15,Juventus FC,Bologna FC 1909,Samuel Mbangula,4.0,home,2:2,2.0,2.0,Dušan Vlahović
+4131,2024,16,Juventus FC,Venezia FC,Federico Gatti,1.0,home,1:0,1.0,0.0,Khéphren Thuram
+4132,2024,16,Juventus FC,Venezia FC,Mikael Egill Ellertsson,2.0,away,1:1,1.0,1.0,Francesco Zampano
+4133,2024,16,Juventus FC,Venezia FC,Jay Idzes,3.0,away,1:2,1.0,2.0,Hans Nicolussi Caviglia
+4134,2024,16,Juventus FC,Venezia FC,Dušan Vlahović,4.0,home,2:2,2.0,2.0,Rigore: mani diAntonio Candela
+4135,2024,17,AC Monza,Juventus FC,Weston McKennie,1.0,away,0:1,0.0,1.0,Teun Koopmeiners
+4136,2024,17,AC Monza,Juventus FC,Samuele Birindelli,2.0,home,1:1,1.0,1.0,Andrea Carboni
+4137,2024,17,AC Monza,Juventus FC,Nico González,3.0,away,1:2,1.0,2.0,Manuel Locatelli
+4138,2024,18,Juventus FC,ACF Fiorentina,Khéphren Thuram,1.0,home,1:0,1.0,0.0,Manuel Locatelli
+4139,2024,18,Juventus FC,ACF Fiorentina,Moise Kean,2.0,away,1:1,1.0,1.0,Yacine Adli
+4140,2024,18,Juventus FC,ACF Fiorentina,Khéphren Thuram,3.0,home,2:1,2.0,1.0,Senza assist
+4141,2024,18,Juventus FC,ACF Fiorentina,Riccardo Sottil,4.0,away,2:2,2.0,2.0,Moise Kean
+4142,2024,19,Atalanta BC,Juventus FC,Pierre Kalulu,1.0,away,0:1,0.0,1.0,Weston McKennie
+4143,2024,19,Atalanta BC,Juventus FC,Mateo Retegui,2.0,home,1:1,1.0,1.0,Raoul Bellanova
+4144,2024,20,Torino FC,Juventus FC,Kenan Yıldız,1.0,away,0:1,0.0,1.0,Nicolò Savona
+4145,2024,20,Torino FC,Juventus FC,Nikola Vlašić,2.0,home,1:1,1.0,1.0,Yann Karamoh
+4146,2024,1,AC Milan,Torino FC,Malick Thiaw,1.0,away,0:1,0.0,1.0,Raoul Bellanova
+4147,2024,1,AC Milan,Torino FC,Duván Zapata,2.0,away,0:2,0.0,2.0,Valentino Lazaro
+4148,2024,1,AC Milan,Torino FC,Álvaro Morata,3.0,home,1:2,1.0,2.0,Tijjani Reijnders
+4149,2024,1,AC Milan,Torino FC,Noah Okafor,4.0,home,2:2,2.0,2.0,Yunus Musah
+4150,2024,2,AS Roma,AC Milan,Dennis Man,1.0,home,1:0,1.0,0.0,Emanuele Valeri
+4151,2024,2,AS Roma,AC Milan,Christian Pulisic,2.0,away,1:1,1.0,1.0,Rafael Leão
+4152,2024,2,AS Roma,AC Milan,Matteo Cancellieri,3.0,home,2:1,2.0,1.0,Pontus Almqvist
+4153,2024,3,SS Lazio,AC Milan,Strahinja Pavlović,1.0,away,0:1,0.0,1.0,Christian Pulisic
+4154,2024,3,SS Lazio,AC Milan,Taty Castellanos,2.0,home,1:1,1.0,1.0,Nuno Tavares
+4155,2024,3,SS Lazio,AC Milan,Boulaye Dia,3.0,home,2:1,2.0,1.0,Nuno Tavares
+4156,2024,3,SS Lazio,AC Milan,Rafael Leão,4.0,away,2:2,2.0,2.0,Tammy Abraham
+4157,2024,4,AC Milan,Venezia FC,Theo Hernández,1.0,home,1:0,1.0,0.0,Rafael Leão
+4158,2024,4,AC Milan,Venezia FC,Youssouf Fofana,2.0,home,2:0,2.0,0.0,Christian Pulisic
+4159,2024,4,AC Milan,Venezia FC,Christian Pulisic,3.0,home,3:0,3.0,0.0,Tammy Abraham
+4160,2024,4,AC Milan,Venezia FC,Tammy Abraham,4.0,home,4:0,4.0,0.0,Rafael Leão
+4164,2024,6,AC Milan,US Lecce,Álvaro Morata,1.0,home,1:0,1.0,0.0,Theo Hernández
+4165,2024,6,AC Milan,US Lecce,Theo Hernández,2.0,home,2:0,2.0,0.0,Rafael Leão
+4166,2024,6,AC Milan,US Lecce,Christian Pulisic,3.0,home,3:0,3.0,0.0,Senza assist
+4167,2024,7,ACF Fiorentina,AC Milan,Yacine Adli,1.0,home,1:0,1.0,0.0,Robin Gosens
+4168,2024,7,ACF Fiorentina,AC Milan,Christian Pulisic,2.0,away,1:1,1.0,1.0,Theo Hernández
+4169,2024,7,ACF Fiorentina,AC Milan,Albert Gudmundsson,3.0,home,2:1,2.0,1.0,Moise Kean
+4170,2024,8,AC Milan,Udinese Calcio,Samuel Chukwueze,1.0,home,1:0,1.0,0.0,Christian Pulisic
+4171,2024,10,AC Milan,SSC Napoli,Romelu Lukaku,1.0,away,0:1,0.0,1.0,Frank Anguissa
+4172,2024,10,AC Milan,SSC Napoli,Khvicha Kvaratskhelia,2.0,away,0:2,0.0,2.0,Mathías Olivera
+4173,2024,11,AC Monza,AC Milan,Tijjani Reijnders,1.0,away,0:1,0.0,1.0,Álvaro Morata
+4174,2024,12,Cagliari Calcio,AC Milan,Nadir Zortea,1.0,home,1:0,1.0,0.0,Sebastiano Luperto
+4175,2024,12,Cagliari Calcio,AC Milan,Rafael Leão,2.0,away,1:1,1.0,1.0,Tijjani Reijnders
+4176,2024,12,Cagliari Calcio,AC Milan,Rafael Leão,3.0,away,1:2,1.0,2.0,Youssouf Fofana
+4177,2024,12,Cagliari Calcio,AC Milan,Gabriele Zappa,4.0,home,2:2,2.0,2.0,Senza assist
+4178,2024,12,Cagliari Calcio,AC Milan,Tammy Abraham,5.0,away,2:3,2.0,3.0,Christian Pulisic
+4179,2024,12,Cagliari Calcio,AC Milan,Gabriele Zappa,6.0,home,3:3,3.0,3.0,Tommaso Augello
+4181,2024,14,AC Milan,Empoli FC,Álvaro Morata,1.0,home,1:0,1.0,0.0,Senza assist
+4182,2024,14,AC Milan,Empoli FC,Tijjani Reijnders,2.0,home,2:0,2.0,0.0,Christian Pulisic
+4183,2024,14,AC Milan,Empoli FC,Tijjani Reijnders,3.0,home,3:0,3.0,0.0,Youssouf Fofana
+4184,2024,15,Atalanta BC,AC Milan,Charles De Ketelaere,1.0,home,1:0,1.0,0.0,Marten de Roon
+4185,2024,15,Atalanta BC,AC Milan,Álvaro Morata,2.0,away,1:1,1.0,1.0,Rafael Leão
+4186,2024,15,Atalanta BC,AC Milan,Ademola Lookman,3.0,home,2:1,2.0,1.0,Sead Kolasinac
+4187,2024,16,AC Milan,Genoa CFC,,,,,,,
+4188,2024,17,Hellas Verona FC,AC Milan,Tijjani Reijnders,1.0,away,0:1,0.0,1.0,Youssouf Fofana
+4189,2024,18,AC Milan,AS Roma,Tijjani Reijnders,1.0,home,1:0,1.0,0.0,Youssouf Fofana
+4190,2024,18,AC Milan,AS Roma,Paulo Dybala,2.0,away,1:1,1.0,1.0,Artem Dovbyk
+4191,2024,19,Como 1907,AC Milan,Assane Diao,1.0,home,1:0,1.0,0.0,Maxence Caqueret
+4192,2024,19,Como 1907,AC Milan,Theo Hernández,2.0,away,1:1,1.0,1.0,Senza assist
+4193,2024,19,Como 1907,AC Milan,Rafael Leão,3.0,away,1:2,1.0,2.0,Tammy Abraham
+4194,2024,20,AC Milan,Cagliari Calcio,Álvaro Morata,1.0,home,1:0,1.0,0.0,Christian Pulisic
+4195,2024,20,AC Milan,Cagliari Calcio,Nadir Zortea,2.0,away,1:1,1.0,1.0,Mattia Felici
+4196,2024,1,US Lecce,Atalanta BC,Marco Brescianini,1.0,away,0:1,0.0,1.0,Senza assist
+4197,2024,1,US Lecce,Atalanta BC,Mateo Retegui,2.0,away,0:2,0.0,2.0,Matteo Ruggeri
+4198,2024,1,US Lecce,Atalanta BC,Mateo Retegui,3.0,away,0:3,0.0,3.0,Mateo Retegui
+4199,2024,1,US Lecce,Atalanta BC,Marco Brescianini,4.0,away,0:4,0.0,4.0,Mario Pasalic
+4200,2024,2,Torino FC,Atalanta BC,Mateo Retegui,1.0,away,0:1,0.0,1.0,Davide Zappacosta
+4201,2024,2,Torino FC,Atalanta BC,Ivan Ilić,2.0,home,1:1,1.0,1.0,Ché Adams
+4202,2024,2,Torino FC,Atalanta BC,Ché Adams,3.0,home,2:1,2.0,1.0,Senza assist
+4207,2024,4,Atalanta BC,ACF Fiorentina,Lucas Martínez Quarta,1.0,away,0:1,0.0,1.0,Senza assist
+4208,2024,4,Atalanta BC,ACF Fiorentina,Mateo Retegui,2.0,home,1:1,1.0,1.0,Ademola Lookman
+4209,2024,4,Atalanta BC,ACF Fiorentina,Moise Kean,3.0,away,1:2,1.0,2.0,Robin Gosens
+4210,2024,4,Atalanta BC,ACF Fiorentina,Charles De Ketelaere,4.0,home,2:2,2.0,2.0,Éderson
+4211,2024,4,Atalanta BC,ACF Fiorentina,Ademola Lookman,5.0,home,3:2,3.0,2.0,Charles De Ketelaere
+4212,2024,5,Atalanta BC,Como 1907,Davide Zappacosta,1.0,home,1:0,1.0,0.0,Senza assist
+4213,2024,5,Atalanta BC,Como 1907,Gabriel Strefezza,2.0,away,1:1,1.0,1.0,Sergi Roberto
+4214,2024,5,Atalanta BC,Como 1907,Sead Kolasinac,3.0,away,1:2,1.0,2.0,Nico Paz
+4215,2024,5,Atalanta BC,Como 1907,Alieu Fadera,4.0,away,1:3,1.0,3.0,Nico Paz
+4216,2024,5,Atalanta BC,Como 1907,Ademola Lookman,5.0,home,2:3,2.0,3.0,Vanja Vlahovic
+4217,2024,6,Bologna FC 1909,Atalanta BC,Santiago Castro,1.0,home,1:0,1.0,0.0,Dan Ndoye
+4218,2024,6,Bologna FC 1909,Atalanta BC,Lazar Samardžić,2.0,away,1:1,1.0,1.0,Nicolò Zaniolo
+4219,2024,7,Atalanta BC,Genoa CFC,Mateo Retegui,1.0,home,1:0,1.0,0.0,Ademola Lookman
+4220,2024,7,Atalanta BC,Genoa CFC,Mateo Retegui,2.0,home,2:0,2.0,0.0,Senza assist
+4221,2024,7,Atalanta BC,Genoa CFC,Éderson,3.0,home,3:0,3.0,0.0,Mateo Retegui
+4222,2024,7,Atalanta BC,Genoa CFC,Mateo Retegui,4.0,home,4:0,4.0,0.0,Rigore: mani diAlessandro Vogliacco
+4223,2024,7,Atalanta BC,Genoa CFC,Marten de Roon,5.0,home,5:0,5.0,0.0,Senza assist
+4224,2024,7,Atalanta BC,Genoa CFC,Jeff Ekhator,6.0,away,5:1,5.0,1.0,Filippo Melegoni
+4225,2024,8,Venezia FC,Atalanta BC,Mario Pasalic,1.0,away,0:1,0.0,1.0,Mateo Retegui
+4226,2024,8,Venezia FC,Atalanta BC,Mateo Retegui,2.0,away,0:2,0.0,2.0,Senza assist
+4227,2024,9,Atalanta BC,Hellas Verona FC,Marten de Roon,1.0,home,1:0,1.0,0.0,Ademola Lookman
+4228,2024,9,Atalanta BC,Hellas Verona FC,Mateo Retegui,2.0,home,2:0,2.0,0.0,Senza assist
+4229,2024,9,Atalanta BC,Hellas Verona FC,Charles De Ketelaere,3.0,home,3:0,3.0,0.0,Ademola Lookman
+4230,2024,9,Atalanta BC,Hellas Verona FC,Ademola Lookman,4.0,home,4:0,4.0,0.0,Senza assist
+4231,2024,9,Atalanta BC,Hellas Verona FC,Ademola Lookman,5.0,home,5:0,5.0,0.0,Charles De Ketelaere
+4232,2024,9,Atalanta BC,Hellas Verona FC,Amin Sarr,6.0,away,5:1,5.0,1.0,Reda Belahyane
+4233,2024,9,Atalanta BC,Hellas Verona FC,Mateo Retegui,7.0,home,6:1,6.0,1.0,Charles De Ketelaere
+4234,2024,10,Atalanta BC,AC Monza,Lazar Samardžić,1.0,home,1:0,1.0,0.0,Mateo Retegui
+4235,2024,10,Atalanta BC,AC Monza,Davide Zappacosta,2.0,home,2:0,2.0,0.0,Lazar Samardžić
+4236,2024,11,SSC Napoli,Atalanta BC,Ademola Lookman,1.0,away,0:1,0.0,1.0,Charles De Ketelaere
+4237,2024,11,SSC Napoli,Atalanta BC,Ademola Lookman,2.0,away,0:2,0.0,2.0,Charles De Ketelaere
+4238,2024,11,SSC Napoli,Atalanta BC,Mateo Retegui,3.0,away,0:3,0.0,3.0,Raoul Bellanova
+4239,2024,12,Atalanta BC,Udinese Calcio,Hassane Kamara,1.0,away,0:1,0.0,1.0,Florian Thauvin
+4240,2024,12,Atalanta BC,Udinese Calcio,Mario Pasalic,2.0,home,1:1,1.0,1.0,Raoul Bellanova
+4241,2024,12,Atalanta BC,Udinese Calcio,Isaak Touré,3.0,home,2:1,2.0,1.0,Raoul Bellanova
+4242,2024,13,AS Roma,Atalanta BC,Mateo Retegui,1.0,away,0:1,0.0,1.0,Raoul Bellanova
+4243,2024,13,AS Roma,Atalanta BC,Éderson,2.0,away,0:2,0.0,2.0,Matteo Ruggeri
+4244,2024,13,AS Roma,Atalanta BC,Matteo Cancellieri,3.0,home,1:2,1.0,2.0,Valentin Mihăilă
+4245,2024,13,AS Roma,Atalanta BC,Ademola Lookman,4.0,away,1:3,1.0,3.0,Juan Cuadrado
+4246,2024,14,AS Roma,Atalanta BC,Marten de Roon,1.0,away,0:1,0.0,1.0,Senza assist
+4247,2024,14,AS Roma,Atalanta BC,Nicolò Zaniolo,2.0,away,0:2,0.0,2.0,Juan Cuadrado
+4251,2024,16,Cagliari Calcio,Atalanta BC,Nicolò Zaniolo,1.0,away,0:1,0.0,1.0,Raoul Bellanova
+4252,2024,17,Atalanta BC,Empoli FC,Lorenzo Colombo,1.0,away,0:1,0.0,1.0,Liam Henderson
+4253,2024,17,Atalanta BC,Empoli FC,Charles De Ketelaere,2.0,home,1:1,1.0,1.0,Davide Zappacosta
+4254,2024,17,Atalanta BC,Empoli FC,Ademola Lookman,3.0,home,2:1,2.0,1.0,Nicolò Zaniolo
+4255,2024,17,Atalanta BC,Empoli FC,Sebastiano Esposito,4.0,away,2:2,2.0,2.0,Alberto Grassi
+4256,2024,17,Atalanta BC,Empoli FC,Charles De Ketelaere,5.0,home,3:2,3.0,2.0,Mario Pasalic
+4257,2024,18,SS Lazio,Atalanta BC,Fisayo Dele-Bashiru,1.0,home,1:0,1.0,0.0,Nicolò Rovella
+4258,2024,18,SS Lazio,Atalanta BC,Marco Brescianini,2.0,away,1:1,1.0,1.0,Ademola Lookman
+4259,2024,19,Juventus FC,Atalanta BC,Pierre Kalulu,1.0,away,0:1,0.0,1.0,Weston McKennie
+4260,2024,19,Juventus FC,Atalanta BC,Mateo Retegui,2.0,home,1:1,1.0,1.0,Raoul Bellanova
+4261,2024,20,Udinese Calcio,Atalanta BC,,,,,,,
+4262,2024,1,Hellas Verona FC,SSC Napoli,Dailon Rocha Livramento,1.0,home,1:0,1.0,0.0,Darko Lazović
+4263,2024,1,Hellas Verona FC,SSC Napoli,Daniel Mosquera,2.0,home,2:0,2.0,0.0,Ondrej Duda
+4264,2024,1,Hellas Verona FC,SSC Napoli,Daniel Mosquera,3.0,home,3:0,3.0,0.0,Darko Lazović
+4265,2024,2,SSC Napoli,Bologna FC 1909,Giovanni Di Lorenzo,1.0,home,1:0,1.0,0.0,Khvicha Kvaratskhelia
+4266,2024,2,SSC Napoli,Bologna FC 1909,Khvicha Kvaratskhelia,2.0,home,2:0,2.0,0.0,Amir Rrahmani
+4267,2024,2,SSC Napoli,Bologna FC 1909,Giovanni Simeone,3.0,home,3:0,3.0,0.0,David Neres
+4268,2024,3,SSC Napoli,AS Roma,Ange-Yoan Bonny,1.0,away,0:1,0.0,1.0,Ange-Yoan Bonny
+4269,2024,3,SSC Napoli,AS Roma,Romelu Lukaku,2.0,home,1:1,1.0,1.0,Leonardo Spinazzola
+4270,2024,3,SSC Napoli,AS Roma,Frank Anguissa,3.0,home,2:1,2.0,1.0,David Neres
+4271,2024,4,Cagliari Calcio,SSC Napoli,Giovanni Di Lorenzo,1.0,away,0:1,0.0,1.0,Romelu Lukaku
+4272,2024,4,Cagliari Calcio,SSC Napoli,Khvicha Kvaratskhelia,2.0,away,0:2,0.0,2.0,Romelu Lukaku
+4273,2024,4,Cagliari Calcio,SSC Napoli,Romelu Lukaku,3.0,away,0:3,0.0,3.0,Khvicha Kvaratskhelia
+4274,2024,4,Cagliari Calcio,SSC Napoli,Alessandro Buongiorno,4.0,away,0:4,0.0,4.0,David Neres
+4276,2024,6,SSC Napoli,AC Monza,Matteo Politano,1.0,home,1:0,1.0,0.0,Senza assist
+4277,2024,6,SSC Napoli,AC Monza,Khvicha Kvaratskhelia,2.0,home,2:0,2.0,0.0,Scott McTominay
+4278,2024,7,SSC Napoli,Como 1907,Scott McTominay,1.0,home,1:0,1.0,0.0,Romelu Lukaku
+4279,2024,7,SSC Napoli,Como 1907,Gabriel Strefezza,2.0,away,1:1,1.0,1.0,Máximo Perrone
+4280,2024,7,SSC Napoli,Como 1907,Romelu Lukaku,3.0,home,2:1,2.0,1.0,Mathías Olivera
+4281,2024,7,SSC Napoli,Como 1907,David Neres,4.0,home,3:1,3.0,1.0,Romelu Lukaku
+4282,2024,8,Empoli FC,SSC Napoli,Khvicha Kvaratskhelia,1.0,away,0:1,0.0,1.0,Matteo Politano
+4283,2024,9,SSC Napoli,US Lecce,Giovanni Di Lorenzo,1.0,home,1:0,1.0,0.0,Scott McTominay
+4291,2024,13,SSC Napoli,AS Roma,Romelu Lukaku,1.0,home,1:0,1.0,0.0,Giovanni Di Lorenzo
+4292,2024,14,Torino FC,SSC Napoli,Scott McTominay,1.0,away,0:1,0.0,1.0,Khvicha Kvaratskhelia
+4293,2024,15,SSC Napoli,SS Lazio,Gustav Isaksen,1.0,away,0:1,0.0,1.0,Tijjani Noslin
+4294,2024,16,Udinese Calcio,SSC Napoli,Florian Thauvin,1.0,home,1:0,1.0,0.0,Senza assist
+4295,2024,16,Udinese Calcio,SSC Napoli,Romelu Lukaku,2.0,away,1:1,1.0,1.0,Scott McTominay
+4296,2024,16,Udinese Calcio,SSC Napoli,Lautaro Giannetti,3.0,away,1:2,1.0,2.0,David Neres
+4297,2024,16,Udinese Calcio,SSC Napoli,Frank Anguissa,4.0,away,1:3,1.0,3.0,Giovanni Simeone
+4298,2024,17,Genoa CFC,SSC Napoli,Frank Anguissa,1.0,away,0:1,0.0,1.0,David Neres
+4299,2024,17,Genoa CFC,SSC Napoli,Amir Rrahmani,2.0,away,0:2,0.0,2.0,Stanislav Lobotka
+4300,2024,17,Genoa CFC,SSC Napoli,Andrea Pinamonti,3.0,home,1:2,1.0,2.0,Vitinha
+4301,2024,18,SSC Napoli,Venezia FC,Giacomo Raspadori,1.0,home,1:0,1.0,0.0,Senza assist
+4302,2024,19,ACF Fiorentina,SSC Napoli,David Neres,1.0,away,0:1,0.0,1.0,Romelu Lukaku
+4303,2024,19,ACF Fiorentina,SSC Napoli,Romelu Lukaku,2.0,away,0:2,0.0,2.0,Frank Anguissa
+4304,2024,19,ACF Fiorentina,SSC Napoli,Scott McTominay,3.0,away,0:3,0.0,3.0,
+4305,2024,20,SSC Napoli,Hellas Verona FC,Lorenzo Montipò,1.0,home,1:0,1.0,0.0,Giovanni Di Lorenzo
+4306,2024,20,SSC Napoli,Hellas Verona FC,Frank Anguissa,2.0,home,2:0,2.0,0.0,Romelu Lukaku
+4307,2024,1,AS Roma,ACF Fiorentina,Dennis Man,1.0,home,1:0,1.0,0.0,Ange-Yoan Bonny
+4308,2024,1,AS Roma,ACF Fiorentina,Cristiano Biraghi,2.0,away,1:1,1.0,1.0,
+4309,2024,2,ACF Fiorentina,Venezia FC,,,,,,,
+4310,2024,3,ACF Fiorentina,AC Monza,Milan Djuric,1.0,away,0:1,0.0,1.0,Pedro Pereira
+4311,2024,3,ACF Fiorentina,AC Monza,Daniel Maldini,2.0,away,0:2,0.0,2.0,Georgios Kyriakopoulos
+4312,2024,3,ACF Fiorentina,AC Monza,Moise Kean,3.0,home,1:2,1.0,2.0,Luca Ranieri
+4313,2024,3,ACF Fiorentina,AC Monza,Robin Gosens,4.0,home,2:2,2.0,2.0,Yacine Adli
+4319,2024,5,ACF Fiorentina,SS Lazio,Mario Gila,1.0,away,0:1,0.0,1.0,Nuno Tavares
+4320,2024,5,ACF Fiorentina,SS Lazio,Albert Gudmundsson,2.0,home,1:1,1.0,1.0,Albert Gudmundsson
+4321,2024,5,ACF Fiorentina,SS Lazio,Albert Gudmundsson,3.0,home,2:1,2.0,1.0,Dodô
+4322,2024,6,Empoli FC,ACF Fiorentina,,,,,,,
+4326,2024,8,US Lecce,ACF Fiorentina,Danilo Cataldi,1.0,away,0:1,0.0,1.0,Edoardo Bove
+4327,2024,8,US Lecce,ACF Fiorentina,Andrea Colpani,2.0,away,0:2,0.0,2.0,Senza assist
+4328,2024,8,US Lecce,ACF Fiorentina,Danilo Cataldi,3.0,away,0:3,0.0,3.0,Senza assist
+4329,2024,8,US Lecce,ACF Fiorentina,Andrea Colpani,4.0,away,0:4,0.0,4.0,Senza assist
+4330,2024,8,US Lecce,ACF Fiorentina,Lucas Beltrán,5.0,away,0:5,0.0,5.0,Christian Kouamé
+4331,2024,8,US Lecce,ACF Fiorentina,Fabiano Parisi,6.0,away,0:6,0.0,6.0,Andrea Colpani
+4332,2024,9,ACF Fiorentina,AS Roma,Moise Kean,1.0,home,1:0,1.0,0.0,Lucas Beltrán
+4333,2024,9,ACF Fiorentina,AS Roma,Lucas Beltrán,2.0,home,2:0,2.0,0.0,Edoardo Bove
+4334,2024,9,ACF Fiorentina,AS Roma,Manu Koné,3.0,away,2:1,2.0,1.0,Evan Ndicka
+4335,2024,9,ACF Fiorentina,AS Roma,Moise Kean,4.0,home,3:1,3.0,1.0,Edoardo Bove
+4336,2024,9,ACF Fiorentina,AS Roma,Edoardo Bove,5.0,home,4:1,4.0,1.0,Yacine Adli
+4337,2024,9,ACF Fiorentina,AS Roma,Mats Hummels,6.0,home,5:1,5.0,1.0,Christian Kouamé
+4338,2024,10,Genoa CFC,ACF Fiorentina,Robin Gosens,1.0,away,0:1,0.0,1.0,Lucas Beltrán
+4339,2024,11,Torino FC,ACF Fiorentina,Moise Kean,1.0,away,0:1,0.0,1.0,Luca Ranieri
+4340,2024,12,ACF Fiorentina,Hellas Verona FC,Moise Kean,1.0,home,1:0,1.0,0.0,Lucas Beltrán
+4341,2024,12,ACF Fiorentina,Hellas Verona FC,Suat Serdar,2.0,away,1:1,1.0,1.0,Senza assist
+4342,2024,12,ACF Fiorentina,Hellas Verona FC,Moise Kean,3.0,home,2:1,2.0,1.0,Yacine Adli
+4343,2024,12,ACF Fiorentina,Hellas Verona FC,Moise Kean,4.0,home,3:1,3.0,1.0,David de Gea
+4344,2024,13,Como 1907,ACF Fiorentina,Yacine Adli,1.0,away,0:1,0.0,1.0,Lucas Beltrán
+4345,2024,13,Como 1907,ACF Fiorentina,Moise Kean,2.0,away,0:2,0.0,2.0,Riccardo Sottil
+4346,2024,15,ACF Fiorentina,Cagliari Calcio,Danilo Cataldi,1.0,home,1:0,1.0,0.0,Lucas Beltrán
+4347,2024,16,Bologna FC 1909,ACF Fiorentina,Jens Odgaard,1.0,home,1:0,1.0,0.0,Remo Freuler
+4348,2024,17,ACF Fiorentina,Udinese Calcio,Moise Kean,1.0,home,1:0,1.0,0.0,Riccardo Sottil
+4349,2024,17,ACF Fiorentina,Udinese Calcio,Lorenzo Lucca,2.0,away,1:1,1.0,1.0,Jurgen Ekkelenkamp
+4350,2024,17,ACF Fiorentina,Udinese Calcio,Florian Thauvin,3.0,away,1:2,1.0,2.0,Sandi Lovrić
+4358,2024,20,AC Monza,ACF Fiorentina,Patrick Ciurria,1.0,home,1:0,1.0,0.0,Senza assist
+4359,2024,20,AC Monza,ACF Fiorentina,Daniel Maldini,2.0,home,2:0,2.0,0.0,Pedro Pereira
+4360,2024,20,AC Monza,ACF Fiorentina,Lucas Beltrán,3.0,away,2:1,2.0,1.0,Lucas Beltrán
+4361,2024,1,SS Lazio,Venezia FC,Magnus Kofod Andersen,1.0,away,0:1,0.0,1.0,Mikael Egill Ellertsson
+4362,2024,1,SS Lazio,Venezia FC,Taty Castellanos,2.0,home,1:1,1.0,1.0,Senza assist
+4363,2024,1,SS Lazio,Venezia FC,Mattia Zaccagni,3.0,home,2:1,2.0,1.0,Taty Castellanos
+4364,2024,1,SS Lazio,Venezia FC,Giorgio Altare,4.0,home,3:1,3.0,1.0,Manuel Lazzari
+4365,2024,2,Udinese Calcio,SS Lazio,Lorenzo Lucca,1.0,home,1:0,1.0,0.0,Florian Thauvin
+4366,2024,2,Udinese Calcio,SS Lazio,Florian Thauvin,2.0,home,2:0,2.0,0.0,Senza assist
+4367,2024,2,Udinese Calcio,SS Lazio,Gustav Isaksen,3.0,away,2:1,2.0,1.0,Senza assist
+4372,2024,4,SS Lazio,Hellas Verona FC,Boulaye Dia,1.0,home,1:0,1.0,0.0,Mattia Zaccagni
+4373,2024,4,SS Lazio,Hellas Verona FC,Casper Tengstedt,2.0,away,1:1,1.0,1.0,Grigoris Kastanos
+4374,2024,4,SS Lazio,Hellas Verona FC,Taty Castellanos,3.0,home,2:1,2.0,1.0,Mattia Zaccagni
+4378,2024,6,Torino FC,SS Lazio,Mattéo Guendouzi,1.0,away,0:1,0.0,1.0,Nuno Tavares
+4379,2024,6,Torino FC,SS Lazio,Boulaye Dia,2.0,away,0:2,0.0,2.0,Gustav Isaksen
+4380,2024,6,Torino FC,SS Lazio,Ché Adams,3.0,home,1:2,1.0,2.0,Nikola Vlašić
+4381,2024,6,Torino FC,SS Lazio,Tijjani Noslin,4.0,away,1:3,1.0,3.0,Matías Vecino
+4382,2024,6,Torino FC,SS Lazio,Saúl Coco,5.0,home,2:3,2.0,3.0,Adam Masina
+4383,2024,7,SS Lazio,Empoli FC,Sebastiano Esposito,1.0,away,0:1,0.0,1.0,Giuseppe Pezzella
+4384,2024,7,SS Lazio,Empoli FC,Mattia Zaccagni,2.0,home,1:1,1.0,1.0,Nuno Tavares
+4385,2024,7,SS Lazio,Empoli FC,Pedro,3.0,home,2:1,2.0,1.0,Taty Castellanos
+4387,2024,9,SS Lazio,Genoa CFC,Tijjani Noslin,1.0,home,1:0,1.0,0.0,Nuno Tavares
+4388,2024,9,SS Lazio,Genoa CFC,Pedro,2.0,home,2:0,2.0,0.0,Taty Castellanos
+4389,2024,9,SS Lazio,Genoa CFC,Matías Vecino,3.0,home,3:0,3.0,0.0,Nuno Tavares
+4390,2024,10,Como 1907,SS Lazio,Taty Castellanos,1.0,away,0:1,0.0,1.0,Rigore: mani diAlberto Dossena
+4391,2024,10,Como 1907,SS Lazio,Pedro,2.0,away,0:2,0.0,2.0,Nuno Tavares
+4392,2024,10,Como 1907,SS Lazio,Luca Mazzitelli,3.0,home,1:2,1.0,2.0,Senza assist
+4393,2024,10,Como 1907,SS Lazio,Patric,4.0,away,1:3,1.0,3.0,Boulaye Dia
+4394,2024,10,Como 1907,SS Lazio,Taty Castellanos,5.0,away,1:4,1.0,4.0,Boulaye Dia
+4395,2024,10,Como 1907,SS Lazio,Loum Tchaouna,6.0,away,1:5,1.0,5.0,Manuel Lazzari
+4396,2024,11,SS Lazio,Cagliari Calcio,Boulaye Dia,1.0,home,1:0,1.0,0.0,Luca Pellegrini
+4397,2024,11,SS Lazio,Cagliari Calcio,Zito Luvumbo,2.0,away,1:1,1.0,1.0,Antoine Makoumbou
+4398,2024,11,SS Lazio,Cagliari Calcio,Mattia Zaccagni,3.0,home,2:1,2.0,1.0,Luca Pellegrini
+4399,2024,12,AC Monza,SS Lazio,Mattia Zaccagni,1.0,away,0:1,0.0,1.0,Mattéo Guendouzi
+4400,2024,13,SS Lazio,Bologna FC 1909,Samuel Gigot,1.0,home,1:0,1.0,0.0,Senza assist
+4401,2024,13,SS Lazio,Bologna FC 1909,Mattia Zaccagni,2.0,home,2:0,2.0,0.0,Luca Pellegrini
+4402,2024,13,SS Lazio,Bologna FC 1909,Fisayo Dele-Bashiru,3.0,home,3:0,3.0,0.0,Gustav Isaksen
+4403,2024,14,AS Roma,SS Lazio,Dennis Man,1.0,home,1:0,1.0,0.0,Senza assist
+4404,2024,14,AS Roma,SS Lazio,Anas Haj Mohamed,2.0,home,2:0,2.0,0.0,Gabriel Charpentier
+4405,2024,14,AS Roma,SS Lazio,Taty Castellanos,3.0,away,2:1,2.0,1.0,Senza assist
+4406,2024,14,AS Roma,SS Lazio,Enrico Delprato,4.0,home,3:1,3.0,1.0,Gabriel Charpentier
+4414,2024,17,US Lecce,SS Lazio,Taty Castellanos,1.0,away,0:1,0.0,1.0,Rigore: mani diFrédéric Guilbert
+4415,2024,17,US Lecce,SS Lazio,Tete Morente,2.0,home,1:1,1.0,1.0,Senza assist
+4416,2024,17,US Lecce,SS Lazio,Adam Marusic,3.0,away,1:2,1.0,2.0,Senza assist
+4419,2024,19,AS Roma,SS Lazio,Lorenzo Pellegrini,1.0,home,1:0,1.0,0.0,Alexis Saelemaekers
+4420,2024,19,AS Roma,SS Lazio,Alexis Saelemaekers,2.0,home,2:0,2.0,0.0,Senza assist
+4421,2024,20,SS Lazio,Como 1907,Boulaye Dia,1.0,home,1:0,1.0,0.0,Mattéo Guendouzi
+4422,2024,20,SS Lazio,Como 1907,Patrick Cutrone,2.0,away,1:1,1.0,1.0,Gabriel Strefezza
+4423,2024,1,Bologna FC 1909,Udinese Calcio,Riccardo Orsolini,1.0,home,1:0,1.0,0.0,Martin Erlić
+4424,2024,1,Bologna FC 1909,Udinese Calcio,Lautaro Giannetti,2.0,away,1:1,1.0,1.0,Brenner
+4428,2024,3,Bologna FC 1909,Empoli FC,Giovanni Fabbian,1.0,home,1:0,1.0,0.0,Sam Beukema
+4429,2024,3,Bologna FC 1909,Empoli FC,Emmanuel Gyasi,2.0,away,1:1,1.0,1.0,Giuseppe Pezzella
+4430,2024,4,Como 1907,Bologna FC 1909,Nicolò Casale,1.0,home,1:0,1.0,0.0,Patrick Cutrone
+4431,2024,4,Como 1907,Bologna FC 1909,Patrick Cutrone,2.0,home,2:0,2.0,0.0,Gabriel Strefezza
+4432,2024,4,Como 1907,Bologna FC 1909,Santiago Castro,3.0,away,2:1,2.0,1.0,Senza assist
+4433,2024,4,Como 1907,Bologna FC 1909,Samuel Iling-Junior,4.0,away,2:2,2.0,2.0,Santiago Castro
+4434,2024,5,AC Monza,Bologna FC 1909,Kacper Urbanski,1.0,away,0:1,0.0,1.0,Charalampos Lykogiannis
+4435,2024,5,AC Monza,Bologna FC 1909,Milan Djuric,2.0,home,1:1,1.0,1.0,Daniel Maldini
+4436,2024,5,AC Monza,Bologna FC 1909,Santiago Castro,3.0,away,1:2,1.0,2.0,Remo Freuler
+4439,2024,7,Bologna FC 1909,AS Roma,,,,,,,
+4440,2024,8,Genoa CFC,Bologna FC 1909,Riccardo Orsolini,1.0,away,0:1,0.0,1.0,Nikola Moro
+4441,2024,8,Genoa CFC,Bologna FC 1909,Jens Odgaard,2.0,away,0:2,0.0,2.0,Senza assist
+4442,2024,8,Genoa CFC,Bologna FC 1909,Andrea Pinamonti,3.0,home,1:2,1.0,2.0,Jeff Ekhator
+4443,2024,8,Genoa CFC,Bologna FC 1909,Andrea Pinamonti,4.0,home,2:2,2.0,2.0,Aarón Martín
+4444,2024,10,Cagliari Calcio,Bologna FC 1909,Riccardo Orsolini,1.0,away,0:1,0.0,1.0,Dan Ndoye
+4445,2024,10,Cagliari Calcio,Bologna FC 1909,Jens Odgaard,2.0,away,0:2,0.0,2.0,Jhon Lucumí
+4446,2024,11,Bologna FC 1909,US Lecce,Riccardo Orsolini,1.0,home,1:0,1.0,0.0,Juan Miranda
+4447,2024,12,AS Roma,Bologna FC 1909,Santiago Castro,1.0,away,0:1,0.0,1.0,Riccardo Orsolini
+4448,2024,12,AS Roma,Bologna FC 1909,Stephan El Shaarawy,2.0,home,1:1,1.0,1.0,Gianluca Mancini
+4449,2024,12,AS Roma,Bologna FC 1909,Riccardo Orsolini,3.0,away,1:2,1.0,2.0,Santiago Castro
+4450,2024,12,AS Roma,Bologna FC 1909,Jesper Karlsson,4.0,away,1:3,1.0,3.0,Juan Miranda
+4451,2024,12,AS Roma,Bologna FC 1909,Stephan El Shaarawy,5.0,home,2:3,2.0,3.0,Eldor Shomurodov
+4455,2024,14,Bologna FC 1909,Venezia FC,Dan Ndoye,1.0,home,1:0,1.0,0.0,Dan Ndoye
+4456,2024,14,Bologna FC 1909,Venezia FC,Riccardo Orsolini,2.0,home,2:0,2.0,0.0,Thijs Dallinga
+4457,2024,14,Bologna FC 1909,Venezia FC,Dan Ndoye,3.0,home,3:0,3.0,0.0,Riccardo Orsolini
+4463,2024,17,Torino FC,Bologna FC 1909,Thijs Dallinga,1.0,away,0:1,0.0,1.0,Juan Miranda
+4464,2024,17,Torino FC,Bologna FC 1909,Tommaso Pobega,2.0,away,0:2,0.0,2.0,Senza assist
+4465,2024,18,Bologna FC 1909,Hellas Verona FC,Benja Domínguez,1.0,home,1:0,1.0,0.0,Santiago Castro
+4466,2024,18,Bologna FC 1909,Hellas Verona FC,Amin Sarr,2.0,away,1:1,1.0,1.0,Casper Tengstedt
+4467,2024,18,Bologna FC 1909,Hellas Verona FC,Casper Tengstedt,3.0,away,1:2,1.0,2.0,Suat Serdar
+4468,2024,18,Bologna FC 1909,Hellas Verona FC,Benja Domínguez,4.0,home,2:2,2.0,2.0,Jens Odgaard
+4469,2024,18,Bologna FC 1909,Hellas Verona FC,Santiago Castro,5.0,away,2:3,2.0,3.0,Ondrej Duda
+4470,2024,20,Bologna FC 1909,AS Roma,Alexis Saelemaekers,1.0,away,0:1,0.0,1.0,Manu Koné
+4471,2024,20,Bologna FC 1909,AS Roma,Thijs Dallinga,2.0,home,1:1,1.0,1.0,Senza assist
+4472,2024,20,Bologna FC 1909,AS Roma,Lewis Ferguson,3.0,home,2:1,2.0,1.0,Jens Odgaard
+4473,2024,20,Bologna FC 1909,AS Roma,Artem Dovbyk,4.0,away,2:2,2.0,2.0,Rigore: mani diJhon Lucumí
+4474,2024,1,Cagliari Calcio,AS Roma,,,,,,,
+4475,2024,2,AS Roma,Empoli FC,Emmanuel Gyasi,1.0,away,0:1,0.0,1.0,Lorenzo Colombo
+4476,2024,2,AS Roma,Empoli FC,Lorenzo Colombo,2.0,away,0:2,0.0,2.0,Sebastiano Esposito
+4477,2024,2,AS Roma,Empoli FC,Eldor Shomurodov,3.0,home,1:2,1.0,2.0,Tommaso Baldanzi
+4479,2024,4,Genoa CFC,AS Roma,Artem Dovbyk,1.0,away,0:1,0.0,1.0,Senza assist
+4480,2024,4,Genoa CFC,AS Roma,Koni De Winter,2.0,home,1:1,1.0,1.0,Vitinha
+4481,2024,5,AS Roma,Udinese Calcio,Artem Dovbyk,1.0,home,1:0,1.0,0.0,Stephan El Shaarawy
+4482,2024,5,AS Roma,Udinese Calcio,Paulo Dybala,2.0,home,2:0,2.0,0.0,Paulo Dybala
+4483,2024,5,AS Roma,Udinese Calcio,Tommaso Baldanzi,3.0,home,3:0,3.0,0.0,Artem Dovbyk
+4484,2024,6,AS Roma,Venezia FC,Joel Pohjanpalo,1.0,away,0:1,0.0,1.0,Senza assist
+4485,2024,6,AS Roma,Venezia FC,Bryan Cristante,2.0,home,1:1,1.0,1.0,Lorenzo Pellegrini
+4486,2024,6,AS Roma,Venezia FC,Niccolò Pisilli,3.0,home,2:1,2.0,1.0,Leandro Paredes
+4487,2024,7,AC Monza,AS Roma,Artem Dovbyk,1.0,away,0:1,0.0,1.0,Bryan Cristante
+4488,2024,7,AC Monza,AS Roma,Dany Mota,2.0,home,1:1,1.0,1.0,Senza assist
+4496,2024,10,AS Roma,Torino FC,Paulo Dybala,1.0,home,1:0,1.0,0.0,Senza assist
+4497,2024,11,Hellas Verona FC,AS Roma,Casper Tengstedt,1.0,home,1:0,1.0,0.0,Senza assist
+4498,2024,11,Hellas Verona FC,AS Roma,Matías Soulé,2.0,away,1:1,1.0,1.0,Nicola Zalewski
+4499,2024,11,Hellas Verona FC,AS Roma,Giangiacomo Magnani,3.0,home,2:1,2.0,1.0,Ondrej Duda
+4500,2024,11,Hellas Verona FC,AS Roma,Artem Dovbyk,4.0,away,2:2,2.0,2.0,Zeki Çelik
+4501,2024,11,Hellas Verona FC,AS Roma,Abdou Harroui,5.0,home,3:2,3.0,2.0,Dailon Rocha Livramento
+4510,2024,15,AS Roma,US Lecce,Alexis Saelemaekers,1.0,home,1:0,1.0,0.0,Stephan El Shaarawy
+4511,2024,15,AS Roma,US Lecce,Nikola Krstović,2.0,away,1:1,1.0,1.0,Lassana Coulibaly
+4512,2024,15,AS Roma,US Lecce,Gianluca Mancini,3.0,home,2:1,2.0,1.0,Stephan El Shaarawy
+4513,2024,15,AS Roma,US Lecce,Niccolò Pisilli,4.0,home,3:1,3.0,1.0,Saud Abdulhamid
+4514,2024,15,AS Roma,US Lecce,Manu Koné,5.0,home,4:1,4.0,1.0,Niccolò Pisilli
+4515,2024,16,Como 1907,AS Roma,Alessandro Gabrielloni,1.0,home,1:0,1.0,0.0,Patrick Cutrone
+4516,2024,16,Como 1907,AS Roma,Nico Paz,2.0,home,2:0,2.0,0.0,Alessandro Gabrielloni
+4517,2024,17,AS Roma,AS Roma,Paulo Dybala,1.0,home,1:0,1.0,0.0,Paulo Dybala
+4518,2024,17,AS Roma,AS Roma,Alexis Saelemaekers,2.0,home,2:0,2.0,0.0,Angeliño
+4519,2024,17,AS Roma,AS Roma,Paulo Dybala,3.0,home,3:0,3.0,0.0,Artem Dovbyk
+4520,2024,17,AS Roma,AS Roma,Leandro Paredes,4.0,home,4:0,4.0,0.0,Alexis Saelemaekers
+4521,2024,17,AS Roma,AS Roma,Artem Dovbyk,5.0,home,5:0,5.0,0.0,Paulo Dybala
+4537,2024,3,Venezia FC,Torino FC,Saúl Coco,1.0,away,0:1,0.0,1.0,Adam Masina
+4538,2024,4,Torino FC,US Lecce,,,,,,,
+4539,2024,5,Hellas Verona FC,Torino FC,Antonio Sanabria,1.0,away,0:1,0.0,1.0,Senza assist
+4540,2024,5,Hellas Verona FC,Torino FC,Grigoris Kastanos,2.0,home,1:1,1.0,1.0,Darko Lazović
+4541,2024,5,Hellas Verona FC,Torino FC,Duván Zapata,3.0,away,1:2,1.0,2.0,Valentino Lazaro
+4542,2024,5,Hellas Verona FC,Torino FC,Ché Adams,4.0,away,1:3,1.0,3.0,Senza assist
+4543,2024,5,Hellas Verona FC,Torino FC,Daniel Mosquera,5.0,home,2:3,2.0,3.0,Reda Belahyane
+4554,2024,8,Cagliari Calcio,Torino FC,Nicolas Viola,1.0,home,1:0,1.0,0.0,Senza assist
+4555,2024,8,Cagliari Calcio,Torino FC,Antonio Sanabria,2.0,away,1:1,1.0,1.0,Valentino Lazaro
+4556,2024,8,Cagliari Calcio,Torino FC,Karol Linetty,3.0,away,1:2,1.0,2.0,Nikola Vlašić
+4557,2024,8,Cagliari Calcio,Torino FC,José Luis Palomino,4.0,home,2:2,2.0,2.0,Sebastiano Luperto
+4558,2024,8,Cagliari Calcio,Torino FC,Saúl Coco,5.0,home,3:2,3.0,2.0,Roberto Piccoli
+4559,2024,9,Torino FC,Como 1907,Alieu Njie,1.0,home,1:0,1.0,0.0,Senza assist
+4564,2024,13,Torino FC,AC Monza,Adam Masina,1.0,home,1:0,1.0,0.0,Valentino Lazaro
+4565,2024,13,Torino FC,AC Monza,Milan Djuric,2.0,away,1:1,1.0,1.0,Georgios Kyriakopoulos
+4567,2024,15,Genoa CFC,Torino FC,,,,,,,
+4568,2024,16,Empoli FC,Torino FC,Ché Adams,1.0,away,0:1,0.0,1.0,Nikola Vlašić
+4571,2024,18,Udinese Calcio,Torino FC,Isaak Touré,1.0,home,1:0,1.0,0.0,Jaka Bijol
+4572,2024,18,Udinese Calcio,Torino FC,Lorenzo Lucca,2.0,home,2:0,2.0,0.0,Florian Thauvin
+4573,2024,18,Udinese Calcio,Torino FC,Ché Adams,3.0,away,2:1,2.0,1.0,Senza assist
+4574,2024,18,Udinese Calcio,Torino FC,Samuele Ricci,4.0,away,2:2,2.0,2.0,Ché Adams
+4575,2024,19,Torino FC,AS Roma,,,,,,,
+4583,2024,3,Udinese Calcio,Como 1907,Brenner,1.0,home,1:0,1.0,0.0,Kingsley Ehizibue
+4584,2024,4,AS Roma,Udinese Calcio,Enrico Delprato,1.0,home,1:0,1.0,0.0,Valentin Mihăilă
+4585,2024,4,AS Roma,Udinese Calcio,Ange-Yoan Bonny,2.0,home,2:0,2.0,0.0,Dennis Man
+4586,2024,4,AS Roma,Udinese Calcio,Lorenzo Lucca,3.0,away,2:1,2.0,1.0,Hassane Kamara
+4587,2024,4,AS Roma,Udinese Calcio,Florian Thauvin,4.0,away,2:2,2.0,2.0,Keinan Davis
+4588,2024,4,AS Roma,Udinese Calcio,Florian Thauvin,5.0,away,2:3,2.0,3.0,Senza assist
+4597,2024,7,Udinese Calcio,US Lecce,Jordan Zemura,1.0,home,1:0,1.0,0.0,
+4599,2024,9,Udinese Calcio,Cagliari Calcio,Lorenzo Lucca,1.0,home,1:0,1.0,0.0,Hassane Kamara
+4600,2024,9,Udinese Calcio,Cagliari Calcio,Keinan Davis,2.0,home,2:0,2.0,0.0,Jesper Karlström
+4601,2024,10,Venezia FC,Udinese Calcio,Sandi Lovrić,1.0,away,0:1,0.0,1.0,Iker Bravo
+4602,2024,10,Venezia FC,Udinese Calcio,Iker Bravo,2.0,away,0:2,0.0,2.0,Jaka Bijol
+4603,2024,10,Venezia FC,Udinese Calcio,Joel Pohjanpalo,3.0,home,1:2,1.0,2.0,Joel Pohjanpalo
+4604,2024,10,Venezia FC,Udinese Calcio,Hans Nicolussi Caviglia,4.0,home,2:2,2.0,2.0,Senza assist
+4605,2024,10,Venezia FC,Udinese Calcio,Joel Pohjanpalo,5.0,home,3:2,3.0,2.0,Rigore: mani diChristian Kabasele
+4611,2024,13,Empoli FC,Udinese Calcio,Pietro Pellegri,1.0,home,1:0,1.0,0.0,Liberato Cacace
+4612,2024,13,Empoli FC,Udinese Calcio,Keinan Davis,2.0,away,1:1,1.0,1.0,Sandi Lovrić
+4613,2024,14,Udinese Calcio,Genoa CFC,Andrea Pinamonti,1.0,away,0:1,0.0,1.0,Senza assist
+4614,2024,14,Udinese Calcio,Genoa CFC,Lautaro Giannetti,2.0,away,0:2,0.0,2.0,Alessandro Zanoli
+4615,2024,15,AC Monza,Udinese Calcio,Lorenzo Lucca,1.0,away,0:1,0.0,1.0,Jordan Zemura
+4616,2024,15,AC Monza,Udinese Calcio,Georgios Kyriakopoulos,2.0,home,1:1,1.0,1.0,Senza assist
+4617,2024,15,AC Monza,Udinese Calcio,Jaka Bijol,3.0,away,1:2,1.0,2.0,Jurgen Ekkelenkamp
+4629,2024,19,Hellas Verona FC,Udinese Calcio,,,,,,,
+4635,2024,2,AC Monza,Genoa CFC,Andrea Pinamonti,1.0,away,0:1,0.0,1.0,Stefano Sabelli
+4636,2024,3,Genoa CFC,Hellas Verona FC,Jackson Tchatchoua,1.0,away,0:1,0.0,1.0,Senza assist
+4637,2024,3,Genoa CFC,Hellas Verona FC,Casper Tengstedt,2.0,away,0:2,0.0,2.0,Rigore: mani diMorten Thorsby
+4640,2024,5,Venezia FC,Genoa CFC,Gianluca Busio,1.0,home,1:0,1.0,0.0,Antonio Candela
+4641,2024,5,Venezia FC,Genoa CFC,Joel Pohjanpalo,2.0,home,2:0,2.0,0.0,John Yeboah
+4659,2024,11,AS Roma,Genoa CFC,Andrea Pinamonti,1.0,away,0:1,0.0,1.0,Senza assist
+4660,2024,12,Genoa CFC,Como 1907,Lucas Da Cunha,1.0,away,0:1,0.0,1.0,Nico Paz
+4661,2024,12,Genoa CFC,Como 1907,Alessandro Vogliacco,2.0,home,1:1,1.0,1.0,Andrea Pinamonti
+4662,2024,13,Genoa CFC,Cagliari Calcio,Răzvan Marin,1.0,away,0:1,0.0,1.0,Rigore: mani diMorten Thorsby
+4663,2024,13,Genoa CFC,Cagliari Calcio,Morten Frendrup,2.0,home,1:1,1.0,1.0,Senza assist
+4664,2024,13,Genoa CFC,Cagliari Calcio,Fabio Miretti,3.0,home,2:1,2.0,1.0,Morten Thorsby
+4665,2024,13,Genoa CFC,Cagliari Calcio,Roberto Piccoli,4.0,away,2:2,2.0,2.0,Roberto Piccoli
+4673,2024,18,Empoli FC,Genoa CFC,Milan Badelj,1.0,away,0:1,0.0,1.0,Senza assist
+4674,2024,18,Empoli FC,Genoa CFC,Caleb Ekuban,2.0,away,0:2,0.0,2.0,Fabio Miretti
+4675,2024,18,Empoli FC,Genoa CFC,Sebastiano Esposito,3.0,home,1:2,1.0,2.0,Tino Anjorin
+4676,2024,19,US Lecce,Genoa CFC,,,,,,,
+4677,2024,20,Genoa CFC,AS Roma,Morten Frendrup,1.0,home,1:0,1.0,0.0,Fabio Miretti
+4678,2024,1,Parma Calcio 1913,ACF Fiorentina,Dennis Man,1.0,home,1:0,1.0,0.0,Ange-Yoan Bonny
+4679,2024,1,Parma Calcio 1913,ACF Fiorentina,Cristiano Biraghi,2.0,away,1:1,1.0,1.0,
+4680,2024,2,Parma Calcio 1913,AC Milan,Dennis Man,1.0,home,1:0,1.0,0.0,Emanuele Valeri
+4681,2024,2,Parma Calcio 1913,AC Milan,Christian Pulisic,2.0,away,1:1,1.0,1.0,Rafael Leão
+4682,2024,2,Parma Calcio 1913,AC Milan,Matteo Cancellieri,3.0,home,2:1,2.0,1.0,Pontus Almqvist
+4686,2024,4,Parma Calcio 1913,Udinese Calcio,Enrico Delprato,1.0,home,1:0,1.0,0.0,Valentin Mihăilă
+4687,2024,4,Parma Calcio 1913,Udinese Calcio,Ange-Yoan Bonny,2.0,home,2:0,2.0,0.0,Dennis Man
+4688,2024,4,Parma Calcio 1913,Udinese Calcio,Lorenzo Lucca,3.0,away,2:1,2.0,1.0,Hassane Kamara
+4689,2024,4,Parma Calcio 1913,Udinese Calcio,Florian Thauvin,4.0,away,2:2,2.0,2.0,Keinan Davis
+4690,2024,4,Parma Calcio 1913,Udinese Calcio,Florian Thauvin,5.0,away,2:3,2.0,3.0,Senza assist
+4691,2024,5,US Lecce,Parma Calcio 1913,Patrick Dorgu,1.0,home,1:0,1.0,0.0,Ylber Ramadani
+4692,2024,5,US Lecce,Parma Calcio 1913,Nikola Krstović,2.0,home,2:0,2.0,0.0,Senza assist
+4693,2024,5,US Lecce,Parma Calcio 1913,Pontus Almqvist,3.0,away,2:1,2.0,1.0,Senza assist
+4694,2024,5,US Lecce,Parma Calcio 1913,Antoine Hainaut,4.0,away,2:2,2.0,2.0,Anas Haj Mohamed
+4695,2024,6,Parma Calcio 1913,Cagliari Calcio,Nadir Zortea,1.0,away,0:1,0.0,1.0,Zito Luvumbo
+4696,2024,6,Parma Calcio 1913,Cagliari Calcio,Dennis Man,2.0,home,1:1,1.0,1.0,Woyo Coulibaly
+4697,2024,6,Parma Calcio 1913,Cagliari Calcio,Răzvan Marin,3.0,away,1:2,1.0,2.0,Michel Adopo
+4698,2024,6,Parma Calcio 1913,Cagliari Calcio,Hernani,4.0,home,2:2,2.0,2.0,Gabriel Charpentier
+4699,2024,6,Parma Calcio 1913,Cagliari Calcio,Roberto Piccoli,5.0,away,2:3,2.0,3.0,Gianluca Gaetano
+4701,2024,8,Como 1907,Parma Calcio 1913,Ange-Yoan Bonny,1.0,away,0:1,0.0,1.0,Hernani
+4702,2024,8,Como 1907,Parma Calcio 1913,Nico Paz,2.0,home,1:1,1.0,1.0,Alieu Fadera
+4703,2024,9,Parma Calcio 1913,Empoli FC,Woyo Coulibaly,1.0,away,0:1,0.0,1.0,Emmanuel Gyasi
+4704,2024,9,Parma Calcio 1913,Empoli FC,Gabriel Charpentier,2.0,home,1:1,1.0,1.0,Emanuele Valeri
+4709,2024,11,Parma Calcio 1913,Genoa CFC,Andrea Pinamonti,1.0,away,0:1,0.0,1.0,Senza assist
+4710,2024,12,Venezia FC,Parma Calcio 1913,Hans Nicolussi Caviglia,1.0,home,1:0,1.0,0.0,Gaetano Oristanio
+4711,2024,12,Venezia FC,Parma Calcio 1913,Emanuele Valeri,2.0,away,1:1,1.0,1.0,Dennis Man
+4712,2024,12,Venezia FC,Parma Calcio 1913,Ange-Yoan Bonny,3.0,away,1:2,1.0,2.0,Dennis Man
+4713,2024,13,Parma Calcio 1913,Atalanta BC,Mateo Retegui,1.0,away,0:1,0.0,1.0,Raoul Bellanova
+4714,2024,13,Parma Calcio 1913,Atalanta BC,Éderson,2.0,away,0:2,0.0,2.0,Matteo Ruggeri
+4715,2024,13,Parma Calcio 1913,Atalanta BC,Matteo Cancellieri,3.0,home,1:2,1.0,2.0,Valentin Mihăilă
+4716,2024,13,Parma Calcio 1913,Atalanta BC,Ademola Lookman,4.0,away,1:3,1.0,3.0,Juan Cuadrado
+4717,2024,14,Parma Calcio 1913,SS Lazio,Dennis Man,1.0,home,1:0,1.0,0.0,Senza assist
+4718,2024,14,Parma Calcio 1913,SS Lazio,Anas Haj Mohamed,2.0,home,2:0,2.0,0.0,Gabriel Charpentier
+4719,2024,14,Parma Calcio 1913,SS Lazio,Taty Castellanos,3.0,away,2:1,2.0,1.0,Senza assist
+4720,2024,14,Parma Calcio 1913,SS Lazio,Enrico Delprato,4.0,home,3:1,3.0,1.0,Gabriel Charpentier
+4725,2024,16,Parma Calcio 1913,Hellas Verona FC,Diego Coppola,1.0,away,0:1,0.0,1.0,Abdou Harroui
+4726,2024,16,Parma Calcio 1913,Hellas Verona FC,Simon Sohm,2.0,home,1:1,1.0,1.0,Ange-Yoan Bonny
+4727,2024,16,Parma Calcio 1913,Hellas Verona FC,Amin Sarr,3.0,away,1:2,1.0,2.0,Abdou Harroui
+4728,2024,16,Parma Calcio 1913,Hellas Verona FC,Daniel Mosquera,4.0,away,1:3,1.0,3.0,Dailon Rocha Livramento
+4729,2024,16,Parma Calcio 1913,Hellas Verona FC,Simon Sohm,5.0,home,2:3,2.0,3.0,Mandela Keita
+4735,2024,18,Parma Calcio 1913,AC Monza,Hernani,1.0,home,1:0,1.0,0.0,Woyo Coulibaly
+4736,2024,18,Parma Calcio 1913,AC Monza,Pedro Pereira,2.0,away,1:1,1.0,1.0,Kevin Martins
+4737,2024,18,Parma Calcio 1913,AC Monza,Lautaro Valenti,3.0,home,2:1,2.0,1.0,Valentin Mihăilă
+4743,2024,2,Cagliari Calcio,Como 1907,Roberto Piccoli,1.0,home,1:0,1.0,0.0,Sebastiano Luperto
+4744,2024,2,Cagliari Calcio,Como 1907,Patrick Cutrone,2.0,away,1:1,1.0,1.0,Alberto Dossena
+4755,2024,6,Como 1907,Hellas Verona FC,Patrick Cutrone,1.0,home,1:0,1.0,0.0,Alieu Fadera
+4756,2024,6,Como 1907,Hellas Verona FC,Darko Lazović,2.0,away,1:1,1.0,1.0,Darko Lazović
+4757,2024,6,Como 1907,Hellas Verona FC,Patrick Cutrone,3.0,home,2:1,2.0,1.0,Nico Paz
+4758,2024,6,Como 1907,Hellas Verona FC,Andrea Belotti,4.0,home,3:1,3.0,1.0,Luca Mazzitelli
+4759,2024,6,Como 1907,Hellas Verona FC,Mathis Lambourde,5.0,away,3:2,3.0,2.0,Jackson Tchatchoua
+4773,2024,11,Empoli FC,Como 1907,Pietro Pellegri,1.0,home,1:0,1.0,0.0,Senza assist
+4778,2024,14,Como 1907,AC Monza,Yannik Engelhardt,1.0,home,1:0,1.0,0.0,Senza assist
+4779,2024,14,Como 1907,AC Monza,Gianluca Caprari,2.0,away,1:1,1.0,1.0,Rigore: mani diNico Paz
+4780,2024,15,Venezia FC,Como 1907,Hans Nicolussi Caviglia,1.0,home,1:0,1.0,0.0,Francesco Zampano
+4781,2024,15,Venezia FC,Como 1907,Antonio Candela,2.0,away,1:1,1.0,1.0,Ignace Van der Brempt
+4782,2024,15,Venezia FC,Como 1907,Andrea Belotti,3.0,away,1:2,1.0,2.0,Ignace Van der Brempt
+4783,2024,15,Venezia FC,Como 1907,Gaetano Oristanio,4.0,home,2:2,2.0,2.0,Senza assist
+4788,2024,18,Como 1907,US Lecce,Nico Paz,1.0,home,1:0,1.0,0.0,Patrick Cutrone
+4789,2024,18,Como 1907,US Lecce,Patrick Cutrone,2.0,home,2:0,2.0,0.0,Senza assist
+4801,2024,3,US Lecce,Cagliari Calcio,Nikola Krstović,1.0,home,1:0,1.0,0.0,Kialonda Gaspar
+4818,2024,10,US Lecce,Hellas Verona FC,Patrick Dorgu,1.0,home,1:0,1.0,0.0,Lameck Banda
+4820,2024,12,US Lecce,Empoli FC,Pietro Pellegri,1.0,away,0:1,0.0,1.0,Liberato Cacace
+4821,2024,12,US Lecce,Empoli FC,Santiago Pierotti,2.0,home,1:1,1.0,1.0,Antonino Gallo
+4822,2024,13,Venezia FC,US Lecce,Patrick Dorgu,1.0,away,0:1,0.0,1.0,Antonino Gallo
+4830,2024,16,US Lecce,AC Monza,Tete Morente,1.0,home,1:0,1.0,0.0,Medon Berisha
+4831,2024,16,US Lecce,AC Monza,Patrick Dorgu,2.0,away,1:1,1.0,1.0,
+4832,2024,16,US Lecce,AC Monza,Nikola Krstović,3.0,home,2:1,2.0,1.0,Santiago Pierotti
+4839,2024,20,Empoli FC,US Lecce,Tete Morente,1.0,away,0:1,0.0,1.0,Santiago Pierotti
+4840,2024,20,Empoli FC,US Lecce,Nikola Krstović,2.0,away,0:2,0.0,2.0,Tete Morente
+4841,2024,20,Empoli FC,US Lecce,Liberato Cacace,3.0,home,1:2,1.0,2.0,Emmanuel Gyasi
+4842,2024,20,Empoli FC,US Lecce,Nikola Krstović,4.0,away,1:3,1.0,3.0,Patrick Dorgu
+4864,2024,7,Hellas Verona FC,Venezia FC,Gaetano Oristanio,1.0,away,0:1,0.0,1.0,Hans Nicolussi Caviglia
+4865,2024,7,Hellas Verona FC,Venezia FC,Casper Tengstedt,2.0,home,1:1,1.0,1.0,Daniel Mosquera
+4866,2024,7,Hellas Verona FC,Venezia FC,Jesse Joronen,3.0,home,2:1,2.0,1.0,Grigoris Kastanos
+4867,2024,8,Hellas Verona FC,AC Monza,Dany Mota,1.0,away,0:1,0.0,1.0,Gianluca Caprari
+4868,2024,8,Hellas Verona FC,AC Monza,Dany Mota,2.0,away,0:2,0.0,2.0,Milan Djuric
+4869,2024,8,Hellas Verona FC,AC Monza,Alessandro Bianco,3.0,away,0:3,0.0,3.0,Senza assist
+4892,2024,14,Cagliari Calcio,Hellas Verona FC,Roberto Piccoli,1.0,home,1:0,1.0,0.0,Mattia Felici
+4893,2024,15,Hellas Verona FC,Empoli FC,Sebastiano Esposito,1.0,away,0:1,0.0,1.0,Senza assist
+4894,2024,15,Hellas Verona FC,Empoli FC,Sebastiano Esposito,2.0,away,0:2,0.0,2.0,Tino Anjorin
+4895,2024,15,Hellas Verona FC,Empoli FC,Liberato Cacace,3.0,away,0:3,0.0,3.0,Youssef Maleh
+4896,2024,15,Hellas Verona FC,Empoli FC,Casper Tengstedt,4.0,home,1:3,1.0,3.0,Jackson Tchatchoua
+4897,2024,15,Hellas Verona FC,Empoli FC,Lorenzo Colombo,5.0,away,1:4,1.0,4.0,Senza assist
+4898,2024,16,AS Roma,Hellas Verona FC,Diego Coppola,1.0,away,0:1,0.0,1.0,Abdou Harroui
+4899,2024,16,AS Roma,Hellas Verona FC,Simon Sohm,2.0,home,1:1,1.0,1.0,Ange-Yoan Bonny
+4900,2024,16,AS Roma,Hellas Verona FC,Amin Sarr,3.0,away,1:2,1.0,2.0,Abdou Harroui
+4901,2024,16,AS Roma,Hellas Verona FC,Daniel Mosquera,4.0,away,1:3,1.0,3.0,Dailon Rocha Livramento
+4902,2024,16,AS Roma,Hellas Verona FC,Simon Sohm,5.0,home,2:3,2.0,3.0,Mandela Keita
+4912,2024,1,Empoli FC,AC Monza,,,,,,,
+4930,2024,9,AC Monza,Venezia FC,Mikael Egill Ellertsson,1.0,away,0:1,0.0,1.0,Gaetano Oristanio
+4931,2024,9,AC Monza,Venezia FC,Georgios Kyriakopoulos,2.0,home,1:1,1.0,1.0,Pedro Pereira
+4932,2024,9,AC Monza,Venezia FC,Michael Svoboda,3.0,away,1:2,1.0,2.0,Magnus Kofod Andersen
+4933,2024,9,AC Monza,Venezia FC,Milan Djuric,4.0,home,2:2,2.0,2.0,Georgios Kyriakopoulos
+4951,2024,18,AS Roma,AC Monza,Hernani,1.0,home,1:0,1.0,0.0,Woyo Coulibaly
+4952,2024,18,AS Roma,AC Monza,Pedro Pereira,2.0,away,1:1,1.0,1.0,Kevin Martins
+4953,2024,18,AS Roma,AC Monza,Lautaro Valenti,3.0,home,2:1,2.0,1.0,Valentin Mihăilă
+4954,2024,19,AC Monza,Cagliari Calcio,Gianluca Caprari,1.0,home,1:0,1.0,0.0,Rigore: mani diAntoine Makoumbou
+4955,2024,19,AC Monza,Cagliari Calcio,Nadir Zortea,2.0,away,1:1,1.0,1.0,Mattia Felici
+4956,2024,19,AC Monza,Cagliari Calcio,Roberto Piccoli,3.0,away,1:2,1.0,2.0,Adam Obert
+4967,2024,5,Cagliari Calcio,Empoli FC,Lorenzo Colombo,1.0,away,0:1,0.0,1.0,Tino Anjorin
+4968,2024,5,Cagliari Calcio,Empoli FC,Sebastiano Esposito,2.0,away,0:2,0.0,2.0,Senza assist
+4974,2024,9,AS Roma,Empoli FC,Woyo Coulibaly,1.0,away,0:1,0.0,1.0,Emmanuel Gyasi
+4975,2024,9,AS Roma,Empoli FC,Gabriel Charpentier,2.0,home,1:1,1.0,1.0,Emanuele Valeri
+5001,2024,19,Venezia FC,Empoli FC,Joel Pohjanpalo,1.0,home,1:0,1.0,0.0,Senza assist
+5002,2024,19,Venezia FC,Empoli FC,Sebastiano Esposito,2.0,away,1:1,1.0,1.0,Lorenzo Colombo
+5017,2024,6,AS Roma,Cagliari Calcio,Nadir Zortea,1.0,away,0:1,0.0,1.0,Zito Luvumbo
+5018,2024,6,AS Roma,Cagliari Calcio,Dennis Man,2.0,home,1:1,1.0,1.0,Woyo Coulibaly
+5019,2024,6,AS Roma,Cagliari Calcio,Răzvan Marin,3.0,away,1:2,1.0,2.0,Michel Adopo
+5020,2024,6,AS Roma,Cagliari Calcio,Hernani,4.0,home,2:2,2.0,2.0,Gabriel Charpentier
+5021,2024,6,AS Roma,Cagliari Calcio,Roberto Piccoli,5.0,away,2:3,2.0,3.0,Gianluca Gaetano
+5049,2024,17,Venezia FC,Cagliari Calcio,Francesco Zampano,1.0,home,1:0,1.0,0.0,Gaetano Oristanio
+5050,2024,17,Venezia FC,Cagliari Calcio,Marin Šverko,2.0,home,2:0,2.0,0.0,Senza assist
+5051,2024,17,Venezia FC,Cagliari Calcio,Leonardo Pavoletti,3.0,away,2:1,2.0,1.0,Tommaso Augello

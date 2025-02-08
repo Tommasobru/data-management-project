@@ -124,10 +124,10 @@ for anno in anni:
 
     
     for index, row in df_link_squadre.iterrows():
-        squadra = row['Squadra'] 
-        url = row["Link"]
+        squadra = row['squadra'] 
+        url = row["link"]
         url_calendario_partite = url_calendario_per_competizione(url)
-        anno = row['Stagione']
+        anno = row['stagione']
         lista_diz, urls_df = get_serie_a_matches_links(url_calendario_partite, squadra, anno)
         for index,row in urls_df.iterrows():
             all_goals.extend(extract_match_goals(row['link'], row['giornata'], row['anno'], row['partita']))

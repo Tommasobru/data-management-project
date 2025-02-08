@@ -22,16 +22,14 @@ WITH half_home_points AS (
                 m.giornata,
                 m.season,
                 m.home_team,
-                md."halfTimeHomeGoal",
-                md."halfTimeAwayGoal",
+                m.half_time_home_score,
+                m.half_time_away_score,
                 CASE
-                    WHEN md."halfTimeHomeGoal" > md."halfTimeAwayGoal" THEN 'home winner'
-                    WHEN md."halfTimeHomeGoal" < md."halfTimeAwayGoal" THEN 'away winner'
+                    WHEN m.half_time_home_score > m.half_time_away_score THEN 'home winner'
+                    WHEN m.half_time_home_score < m.half_time_away_score THEN 'away winner'
                     ELSE 'draw'
                 END AS half_time_winner
-            FROM ftb.matches m
-            INNER JOIN ftb.matches_details md 
-                ON m.match_id = md.match_id
+            FROM stg.fact_matches m
         ) AS tab
     ) AS tab2
     GROUP BY tab2.home_team, tab2.season
@@ -59,16 +57,14 @@ half_away_points AS (
                 m.giornata,
                 m.season,
                 m.away_team,
-                md."halfTimeHomeGoal",
-                md."halfTimeAwayGoal",
+                m.half_time_home_score,
+                m.half_time_away_score,
                 CASE
-                    WHEN md."halfTimeHomeGoal" > md."halfTimeAwayGoal" THEN 'home winner'
-                    WHEN md."halfTimeHomeGoal" < md."halfTimeAwayGoal" THEN 'away winner'
+                    WHEN m.half_time_home_score > m.half_time_away_score THEN 'home winner'
+                    WHEN m.half_time_home_score < m.half_time_away_score THEN 'away winner'
                     ELSE 'draw'
                 END AS half_time_winner
-            FROM ftb.matches m
-            INNER JOIN ftb.matches_details md 
-                ON m.match_id = md.match_id
+            FROM stg.fact_matches m
         ) AS tab
     ) AS tab2
     GROUP BY tab2.away_team, tab2.season
@@ -110,16 +106,14 @@ LEFT JOIN half_away_points AS away
                 m.giornata,
                 m.season,
                 m.home_team,
-                md."fullTimeHomeGoal",
-                md."fullTimeAwayGoal",
+                m.home_score,
+                m.away_score,
                 CASE
-                    WHEN md."fullTimeHomeGoal" > md."fullTimeAwayGoal" THEN 'home winner'
-                    WHEN md."fullTimeHomeGoal" < md."fullTimeAwayGoal" THEN 'away winner'
+                    WHEN m.home_score > m.away_score THEN 'home winner'
+                    WHEN m.home_score < m.away_score THEN 'away winner'
                     ELSE 'draw'
                 END AS full_time_winner
-            FROM ftb.matches m
-            INNER JOIN ftb.matches_details md 
-                ON m.match_id = md.match_id
+            FROM stg.fact_matches m
         ) AS tab
     ) AS tab2
     GROUP BY tab2.home_team, tab2.season
@@ -147,16 +141,14 @@ full_away_points AS (
                 m.giornata,
                 m.season,
                 m.away_team,
-                md."fullTimeHomeGoal",
-                md."fullTimeAwayGoal",
+                m.home_score,
+                m.away_score,
                 CASE
-                    WHEN md."fullTimeHomeGoal" > md."fullTimeAwayGoal" THEN 'home winner'
-                    WHEN md."fullTimeHomeGoal" < md."fullTimeAwayGoal" THEN 'away winner'
+                    WHEN m.home_score > m.away_score THEN 'home winner'
+                    WHEN m.home_score < m.away_score THEN 'away winner'
                     ELSE 'draw'
                 END AS full_time_winner
-            FROM ftb.matches m
-            INNER JOIN ftb.matches_details md 
-                ON m.match_id = md.match_id
+            FROM stg.fact_matches m
         ) AS tab
     ) AS tab2
     GROUP BY tab2.away_team, tab2.season

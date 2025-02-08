@@ -22,32 +22,27 @@ with open('query/conf/query.yml', 'r') as q:
 
 player_file = "dataset/clean-player-team.csv"
 player_team = pd.read_csv(player_file)
-player_team.to_sql('player_team', engine, schema='ftb', if_exists='replace', index=False)
+player_team.to_sql('dim_player_team', engine, schema='stg', if_exists='replace', index=False)
 
 list_team_file = "dataset/clean-list-team.csv"
 list_team = pd.read_csv(list_team_file)
-list_team.to_sql('list_team', engine, schema='ftb', if_exists='replace', index=False)
+list_team.to_sql('dim_list_team', engine, schema='stg', if_exists='replace', index=False)
 
 calendar_file = "dataset/calendar.csv"
 calendar = pd.read_csv(calendar_file)
-calendar.to_sql('calendar', engine, schema='ftb', if_exists='replace', index=False)
+calendar.to_sql('dim_calendar', engine, schema='stg', if_exists='replace', index=False)
 
 goal_file = "dataset/clean-serie-a-matches-all-goal.csv"
 goal_matches = pd.read_csv(goal_file)
-goal_matches.to_sql('all_goal_serie_a', engine, schema='ftb', if_exists='replace', index=False)
-
-scorers_file = "dataset/scorers.csv"
-scorers = pd.read_csv(scorers_file)
-scorers.to_sql('scorers', engine, schema='ftb', if_exists='replace', index=False)
+goal_matches.to_sql('fact_all_goal_serie_a', engine, schema='stg', if_exists='replace', index=False)
 
 matches_file = "dataset/matches.csv"
 matches = pd.read_csv(matches_file)
-matches.to_sql('matches', engine, schema='ftb', if_exists='replace', index=False)
+matches.to_sql('fact_matches', engine, schema='stg', if_exists='replace', index=False)
 
-matches_details_file = "dataset/matches_details.csv"
-matches_details = pd.read_csv(matches_details_file)
-matches_details.to_sql('matches_details', engine, schema='ftb', if_exists='replace', index=False)
 
+
+'''
 with open('query/conf/query.yml', 'r') as q:
     query = yaml.safe_load(q)
     for item in query['query']:
@@ -57,3 +52,4 @@ with open('query/conf/query.yml', 'r') as q:
             with engine.connect() as connection:
                 connection.execute(text(sql_query))
                 connection.commit()
+'''

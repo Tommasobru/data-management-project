@@ -72,26 +72,23 @@ def count_nulls_per_column(df):
 
 file_player_team = 'dataset/player-team.csv'
 file_matches = 'dataset/matches.csv'
-file_matches_details = 'dataset/matches_details.csv'
 file_serie_a_matches_goal = 'dataset/serie_a_matches_all_goal.csv'
 file_lista_team = 'dataset/list-team.csv'
 
 api_matches = pd.read_csv(file_matches)
-api_matches_details = pd.read_csv(file_matches_details)
 scraping_serie_a_matches_goal = pd.read_csv(file_serie_a_matches_goal, sep=";")
 scraping_lista_team = pd.read_csv(file_lista_team)
 scraping_player_team = pd.read_csv(file_player_team)
 
-scraping_serie_a_matches_goal[['Home Team','Away Team']] = scraping_serie_a_matches_goal['partita'].str.split('-', expand=True)
+scraping_serie_a_matches_goal[['home_team','away_team']] = scraping_serie_a_matches_goal['partita'].str.split('-', expand=True)
 
 ##### CONSISTENCY
 unique_id(api_matches['match_id'])
-unique_id(api_matches_details['match_id'])
+
 
 
 ##### COMPLETENESS
 count_nulls_per_column(api_matches) 
-count_nulls_per_column(api_matches_details)
 # null value are the matches that have yet to be played 
 
 count_nulls_per_column(scraping_serie_a_matches_goal)
@@ -100,7 +97,7 @@ count_nulls_per_column(scraping_lista_team)
 count_nulls_per_column(scraping_player_team)
 
 #### SYNTACTIC ACCURACY
-scraping_team = scraping_serie_a_matches_goal['Home Team'].unique().tolist()
+scraping_team = scraping_serie_a_matches_goal['home_team'].unique().tolist()
 api_team = api_matches['home_team'].unique().tolist()
 
 for team in scraping_team:
@@ -115,7 +112,7 @@ for team in scraping_team:
     print("")
 
 
-scraping_player = scraping_player_team['Name'].unique().tolist()
+scraping_player = scraping_player_team['name'].unique().tolist()
 scraping_scorer = scraping_serie_a_matches_goal['scorer'].unique().tolist()
 
 for player in scraping_scorer:

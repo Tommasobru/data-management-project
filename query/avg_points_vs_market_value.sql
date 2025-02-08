@@ -6,9 +6,7 @@ with home_matches as(
  		m.season
         ,m.home_team
         ,count(*) 		as n_home_matches
-  FROM ftb.matches m
-  inner join ftb.matches_details md
-  on md.match_id = m.match_id
+  FROM stg.fact_matches m
   where winner is not null
   group by m.season, home_team 
 )
@@ -18,9 +16,7 @@ with home_matches as(
  		m.season
         ,m.away_team
         ,count(*) 		as n_away_matches
-  FROM ftb.matches m
-  inner join ftb.matches_details md
-  on md.match_id = m.match_id
+  FROM stg.fact_matches m
   where winner is not null
   group by m.season, away_team 
 )
@@ -39,24 +35,20 @@ on h.home_team = a.away_team and h.season = a.season
 select 
 	m.season
 	,m.home_team		as team
-	,sum(case when md.winner = 'HOME_TEAM' then 3
-			 when md.winner = 'AWAY_TEAM' then 0
+	,sum(case when m.winner = 'HOME_TEAM' then 3
+			 when m.winner = 'AWAY_TEAM' then 0
 			 else 1 end) as home_point
-FROM ftb.matches m
-inner join ftb.matches_details md
-  on md.match_id = m.match_id
+FROM stg.fact_matches m
  group by m.season,m.home_team)
 
 ,punti_fuori_casa as(
 select 
 	m.season
 	,m.away_team  	as team
-	,sum(case when md.winner = 'HOME_TEAM' then 0
-			 when md.winner = 'AWAY_TEAM' then 3
+	,sum(case when m.winner = 'HOME_TEAM' then 0
+			 when m.winner = 'AWAY_TEAM' then 3
 			 else 1 end) as away_point
-FROM ftb.matches m
-inner join ftb.matches_details md
-  on md.match_id = m.match_id
+FROM stg.fact_matches m
  group by m.season,m.away_team)
  
  ,all_points as (
@@ -75,12 +67,10 @@ inner join ftb.matches_details md
  	,m.tot_matches 
  	,p.tot_point
  	,round((p.tot_point*1.0)/m.tot_matches, 2)		as media_punti
- 	,lt."Valore Rosa" 							as valore_rosa
- 	,lt."Età Media"  							as eta_media
+ 	,lt.valore_rosa									as valore_rosa
+ 	,lt.eta_media									as eta_media
  from all_matches m
  inner join all_points p
  on m.season = p.season and m.team = p.team
- left join ftb.list_team lt 
- on lt."Squadra" = m.team and lt."Stagione" = m.season
- 
- 
+ left join stg.dim_list_team lt 
+ on lt.squadra = m.team and lt.stagione = m.season

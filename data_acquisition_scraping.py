@@ -60,13 +60,13 @@ def link_squadre(anno):
 
             # Aggiungi i dati alla lista
             teams.append({
-                "Squadra": team_name,
-                "Link": team_link,
-                "Giocatori in Rosa": squad_size,
-                "Età Media": avg_age,
-                "Stranieri": foreigners,
-                "Valore Rosa": squad_value,
-                "Stagione": anno 
+                "squadra": team_name,
+                "link": team_link,
+                "giocatori_in_rosa": squad_size,
+                "eta_media": avg_age,
+                "stranieri": foreigners,
+                "valore_rosa": squad_value,
+                "stagione": anno 
             })
         except Exception as e:
             print(f"Errore nell'elaborazione di una riga: {e}")
@@ -93,9 +93,9 @@ for year in years:
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
         }
 
-        url = row['Link']
+        url = row['link']
 
-        squadra = row['Squadra']
+        squadra = row['squadra']
         # Effettua la richiesta HTTP
         response = requests.get(url, headers=headers)
 
@@ -119,7 +119,10 @@ for year in years:
                     # Ruolo del giocatore
                     role_cell = row.find('td', {"class": "posrela"})
                     role = role_cell.text.strip() if role_cell else None
-                    
+
+                   # Eta del giocatore 
+                    age_cell = row.find_all('td', class_='zentriert')[1]
+                    age = age_cell.text.strip() if age_cell else None 
 
                     # Valore di mercato
                     market_value_cell = row.find('td', {"class": "rechts hauptlink"})
@@ -127,16 +130,17 @@ for year in years:
 
                     # Aggiungi i dati alla lista
                     players.append({
-                        "Name": name,
-                        "Role": role,
-                        "Market Value": market_value
+                        "name": name,
+                        "role": role,
+                        "age" : age,
+                        "market_value": market_value
                     })
 
                 # Creazione di un DataFrame
                 df = pd.DataFrame(players)
 
-                df['Squadra'] = squadra 
-                df['Season'] = year
+                df['squadra'] = squadra 
+                df['stagione'] = year
                 df_list.append(df)           
 
 

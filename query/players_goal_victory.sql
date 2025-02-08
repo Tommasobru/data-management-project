@@ -9,15 +9,13 @@ with diff_goals_tab as(
 		,m.away_team 
 		,m.home_score 
 		,m.away_score 
-		,md.winner 
+		,m.winner 
 		,case 
-			when md.winner = 'HOME_TEAM' then m.home_score - m.away_score 
+			when m.winner = 'HOME_TEAM' then m.home_score - m.away_score 
 			else m.away_score - m.home_score 
 		end diff_goals
-	from ftb.matches m
-	inner join ftb.matches_details md 
-		on md.match_id = m.match_id	
-	where md.winner <> 'DRAW')
+	from stg.fact_matches m
+	where m.winner <> 'DRAW')
 
 		
 , all_match_with_draw as (
@@ -43,8 +41,8 @@ with diff_goals_tab as(
 	from(
 	select 
 		season 
-		,home_team 
-		,away_team 
+		,agsa.home_team 
+		,agsa.away_team 
 		,home_score 
 		,away_score 
 		,winner
@@ -59,11 +57,11 @@ with diff_goals_tab as(
 		end as draw_goal
 		,dgt.diff_goals
 		,agsa.team_goal
-		,max(numero_goal_partita) over(partition by season,home_team,away_team) as n_goal_match
-		,sum(case when agsa.goal_home = agsa.goal_away then 1 else 0 end) over(partition by season,home_team,away_team) as at_least_one_draw
+		,max(numero_goal_partita) over(partition by season,agsa.home_team,agsa.away_team) as n_goal_match
+		,sum(case when agsa.goal_home = agsa.goal_away then 1 else 0 end) over(partition by season,agsa.home_team,agsa.away_team) as at_least_one_draw
 	from diff_goals_tab dgt
-	inner join ftb.all_goal_serie_a agsa
-	on agsa.anno = dgt.season and agsa."Home Team" = dgt.home_team and agsa."Away Team" = dgt.away_team
+	inner join stg.fact_all_goal_serie_a agsa
+	on agsa.anno = dgt.season and agsa.home_team = dgt.home_team and agsa.away_team = dgt.away_team
 	where dgt.diff_goals = 1 and scorer is not null) sub
 	where sub.at_least_one_draw <> 0 
 
@@ -81,12 +79,12 @@ from(
 		amwd.season
 		,amwd.home_team 
 		,amwd.away_team
-		,pt."Name" as name
-		,pt."Squadra"  as squadra_giocatore
-		,pt."Market Value" as market_value
-		,pt."Role" as role
+		,pt.name 			as name
+		,pt.squadra  		as squadra_giocatore
+		,pt.market_value 	as market_value
+		,pt.role as role
 	from all_match_with_draw amwd
-	left join ftb.player_team pt 
-		on pt."Name" = amwd.scorer and pt."Season" = amwd.season
+	left join stg.dim_player_team pt 
+		on pt.name = amwd.scorer and pt.stagione = amwd.season
 	where victory_goal = 1) as sub
 group by season, squadra_giocatore, name, role
