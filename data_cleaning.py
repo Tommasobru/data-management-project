@@ -105,79 +105,83 @@ def extract_assist_man(details):
     else:
         return None
 
+def create_diz(df, name_column, teams_api, split = False,):
+    diz = {}
+    if split:
+        df[['home_team','away_team']] = df[name_column].str.split('-', expand = True)
+        for index,row in df.iterrows():
+            home_team = row['home_team'].strip()
+
+            api_team = find_closest_string(home_team, teams_api)
+            if api_team not in diz:
+                diz[home_team] = api_team
+    else:
+        for index,row in df.iterrows():
+            home_team = row[name_column]
+
+            api_team = find_closest_string(home_team, teams_api)
+            if api_team not in diz:
+                diz[home_team] = api_team
+    
+    return diz
 
 file_player_data = 'dataset/player-team.csv'
 file_matches = 'dataset/matches.csv'
 file_serie_a_matches_goal = 'dataset/serie_a_matches_all_goal.csv'
 file_lista_team = 'dataset/list-team.csv'
+file_odds_per_match = 'dataset/odds_per_match.csv'
 
 df_lista_team = pd.read_csv(file_lista_team)
-squadre_goal  = pd.read_csv(file_serie_a_matches_goal, sep=";")
+serie_a_matches_goal  = pd.read_csv(file_serie_a_matches_goal, sep=";")
 screaping_team = pd.read_csv(file_player_data)
+odds_per_match = pd.read_csv(file_odds_per_match, sep = ";")
 
 # we derive the list of team names taken from the api data
 api  = pd.read_csv(file_matches)
 squadre_api= api['home_team'].unique().tolist()
 
 # we create a dictionary for each dataframe derived from web scraping where for each team we associate the respective API name, so as to standardize the names 
-diz_squadre = {}
-for index,row in squadre_goal.iterrows():
-    squadre = row['partita'].split('-')
-    squadra_casa = squadre[0].strip()
-    squadra_trasferta = squadre[1].strip()
-    
+diz_serie_a_matches_goal = create_diz(serie_a_matches_goal, name_column='partita', teams_api=squadre_api, split= True)
 
-    squadra_api = find_closest_string(squadra_casa,squadre_api)
-    if squadra_casa not in diz_squadre:
-        diz_squadre[squadra_casa] = squadra_api
+diz_squadre_player = create_diz(screaping_team, name_column='squadra', teams_api=squadre_api)
 
-diz_squadre_player = {}
-for index,row in screaping_team.iterrows():
-    squadra_casa_player = row['squadra']
-    
-    squadra_api_player = find_closest_string(squadra_casa_player,squadre_api)
-    if squadra_casa_player not in diz_squadre_player:
-        diz_squadre_player[squadra_casa_player] = squadra_api_player
+diz_lista_squadre = create_diz(df_lista_team, name_column='squadra', teams_api=squadre_api)
 
-diz_lista_squadre = {}
-for index,row in df_lista_team.iterrows():
-    team = row['squadra']
-
-    
-    squadra_api_team_list = find_closest_string(team,squadre_api)
-    if team not in diz_lista_squadre:
-        diz_lista_squadre[team] = squadra_api_team_list
-
+diz_odds = create_diz(odds_per_match,name_column='home_team',teams_api=squadre_api)
 
 # replace all names with names taken from API
 
-squadre_goal[['home_team','away_team']] = squadre_goal['partita'].str.split('-', expand=True)
-squadre_goal['home_team'] = squadre_goal['home_team'].str.strip()
-squadre_goal['away_team'] = squadre_goal['away_team'].str.strip()
-squadre_goal.drop(columns=['partita'], inplace=True)
-squadre_goal['home_team'] = squadre_goal['home_team'].apply(lambda team_target: find_and_replace_name(team_target, diz = diz_squadre)) 
-squadre_goal['away_team'] = squadre_goal['away_team'].apply(lambda team_target: find_and_replace_name(team_target,diz=diz_squadre))
-squadre_goal = squadre_goal.drop_duplicates(subset=['anno', 'giornata', 'home_team','scorer', 'details'])
-squadre_goal['details'] = squadre_goal['details'].apply(extract_assist_man) 
-squadre_goal = squadre_goal.rename(columns={'details': 'assist'})
-squadre_goal[['goal_home','goal_away']] = squadre_goal['goal'].str.split(':', expand=True)
-squadre_goal['goal_home'] = squadre_goal['goal_home'].astype(float)
-squadre_goal['goal_away'] = squadre_goal['goal_away'].astype(float)
-squadre_goal = squadre_goal[['anno','giornata','home_team', 'away_team', 'scorer', 'numero_goal_partita', 'team_goal', 'goal','goal_home','goal_away','assist']]
-squadre_goal.to_csv('dataset/clean-serie-a-matches-all-goal.csv')
+serie_a_matches_goal[['home_team','away_team']] = serie_a_matches_goal['partita'].str.split('-', expand=True)
+serie_a_matches_goal['home_team'] = serie_a_matches_goal['home_team'].str.strip()
+serie_a_matches_goal['away_team'] = serie_a_matches_goal['away_team'].str.strip()
+serie_a_matches_goal.drop(columns=['partita'], inplace=True)
+serie_a_matches_goal['home_team'] = serie_a_matches_goal['home_team'].apply(lambda team_target: find_and_replace_name(team_target, diz = diz_serie_a_matches_goal)) 
+serie_a_matches_goal['away_team'] = serie_a_matches_goal['away_team'].apply(lambda team_target: find_and_replace_name(team_target,diz=diz_serie_a_matches_goal))
+serie_a_matches_goal = serie_a_matches_goal.drop_duplicates(subset=['anno', 'giornata', 'home_team','scorer', 'details'])
+serie_a_matches_goal['details'] = serie_a_matches_goal['details'].apply(extract_assist_man) 
+serie_a_matches_goal = serie_a_matches_goal.rename(columns={'details': 'assist'})
+serie_a_matches_goal[['goal_home','goal_away']] = serie_a_matches_goal['goal'].str.split(':', expand=True)
+serie_a_matches_goal['goal_home'] = serie_a_matches_goal['goal_home'].astype(float)
+serie_a_matches_goal['goal_away'] = serie_a_matches_goal['goal_away'].astype(float)
+serie_a_matches_goal = serie_a_matches_goal[['anno','giornata','home_team', 'away_team', 'scorer', 'numero_goal_partita', 'team_goal', 'goal','goal_home','goal_away','assist']]
+serie_a_matches_goal.to_csv('dataset/clean dataset/clean-serie-a-matches-all-goal.csv')
 
 df_player_data = cleaning_player_data(file_player_data)
 df_player_data['squadra'] = df_player_data['squadra'].apply(lambda team_target: find_and_replace_name(team_target, diz=diz_squadre_player))
-df_player_data.to_csv('dataset/clean-player-team.csv')
+df_player_data.to_csv('dataset/clean dataset/clean-player-team.csv')
 
 
 df_lista_team['squadra'] = df_lista_team['squadra'].apply(lambda team_target: find_and_replace_name(team_target, diz=diz_lista_squadre))
 df_lista_team['valore_rosa'] = df_lista_team['valore_rosa'].apply(convert_string)
 df_lista_team = df_lista_team.drop('link', axis=1)
-df_lista_team.to_csv('dataset/clean-list-team.csv')
+df_lista_team.to_csv('dataset/clean dataset/clean-list-team.csv')
+
+odds_per_match['home_team'] = odds_per_match['home_team'].apply(lambda team_target: find_and_replace_name(team_target, diz=diz_odds))
+odds_per_match['away_team'] = odds_per_match['away_team'].apply(lambda team_target: find_and_replace_name(team_target, diz=diz_odds))
+odds_per_match.to_csv('dataset/clean dataset/clean_odds_per_match.csv')
 
 
-print(squadre_goal)
+print(serie_a_matches_goal)
 print(df_player_data)
 print(df_lista_team)
 #print(diz)

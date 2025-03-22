@@ -16,7 +16,7 @@ lista_quote = []
 
 def estrazione_dati(container,body,wait,season):
     try:
-        container = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div[data-v-b8d70024]")))
+        #container = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div[data-v-b8d70024]")))
         # Scroll della pagina per caricare tutti i match
         for _ in range(5):  # Scrolla 5 volte per caricare tutti i contenuti
             body.send_keys(Keys.PAGE_DOWN)
@@ -63,7 +63,9 @@ def navigazione_e_estrazione(diz_anni):
 
 
         wait = WebDriverWait(driver,15)
-        container = driver.find_element(By.CSS_SELECTOR, "div[data-v-b8d70024]")
+        #container = driver.find_element(By.CSS_SELECTOR, "div[data-v-0ba76030]")
+        
+        container = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR,  "div.min-h-\\[80vh\\]")))
 
         # Trova il body per inviare comandi di scrolling
         body = driver.find_element(By.TAG_NAME, "body")
@@ -87,9 +89,16 @@ def navigazione_e_estrazione(diz_anni):
                 if "active" not in pagination_links[i].get_attribute("class"):
                     driver.execute_script("arguments[0].scrollIntoView();", pagination_links[i])
                     time.sleep(1)
+
+                                # Attendi che l'elemento sia effettivamente cliccabile
+                    WebDriverWait(driver, 10).until(
+                        EC.element_to_be_clickable(pagination_links[i]))
+
                     # Clicca sulla pagina successiva
                     pagination_links[i].click()
-                    time.sleep(5)  # A
+                    time.sleep(5) 
+
+                    
                 # Aggiorna la lista degli elementi della paginazione (potrebbero cambiare dopo il clic)
                 pagination_links = driver.find_elements(By.CSS_SELECTOR, ".pagination-link[data-number]")
 
