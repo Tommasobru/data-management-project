@@ -6,7 +6,7 @@ import yaml
 with open('psw/token.yml', 'r') as f:
     token_file = yaml.safe_load(f)
 
-TOKEN = token_file['TOKEN']
+TOKEN = token_file['TOKEN FOOTBALL DATA']
 
 
 
@@ -15,7 +15,7 @@ headers = { 'X-Auth-Token': TOKEN }
 
 
 #params = { 'dateFrom': '2023-01-01', 'dateTo': '2023-12-31' }
-years = [2022,2023,2024]
+years = [2024]
 
 matches_data = []
 goals_data =[]

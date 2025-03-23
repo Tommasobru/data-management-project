@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-from data_acquisition_scraping import link_squadre
+from data_acquisition_web_scraping import link_squadre
 # URL della pagina
 url = "https://www.transfermarkt.it/spielbericht/index/spielbericht/4374060"
 
@@ -115,7 +115,7 @@ def get_serie_a_matches_links(base_url, squadra,anno):
 
 
 all_goals = []
-anni = [2022,2023,2024]
+anni = [2021,2022,2023,2024]
 
 
 for anno in anni:

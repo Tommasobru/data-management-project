@@ -78,7 +78,7 @@ def link_squadre(anno):
 
 
 
-years = [2022,2023,2024]
+years = [2021,2022,2023,2024]
 df_list = []
 list_team = []
 for year in years:

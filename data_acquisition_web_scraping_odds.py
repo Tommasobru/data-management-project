@@ -9,7 +9,8 @@ import time
 diz_anni = {
     2024: 'serie-a',
     2023: 'serie-a-2023-2024',
-    2022: 'serie-a-2022-2023'
+    2022: 'serie-a-2022-2023',
+    2021: 'serie-a-2021-2022'
 }
 
 lista_quote = []

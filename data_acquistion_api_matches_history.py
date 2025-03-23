@@ -41,9 +41,12 @@ for year in years:
     
     diz_id = {}
     for match in matches:
-        date = match["fixture"]["date"]
+        date = match["fixture"]["date"].split("T")[0]
+        giornata = match["league"]["round"]
         home_team = match["teams"]["home"]["name"]
+        home_winner = match["teams"]["home"]["winner"]
         away_team = match["teams"]["away"]["name"]
+        away_winner = match["teams"]["away"]["winner"]
         home_goals = match["goals"]["home"]
         away_goals = match["goals"]["away"]
         home_goals_halftime = match["score"]["halftime"]["home"]
@@ -59,18 +62,18 @@ for year in years:
         matches_data.append({
             "season": year,
             "date": date,
+            "giornata": giornata,
             "home team": home_team,
+            "home winner": home_winner,
             "away team":away_team,
+            "away winner":away_winner,
             "home goals": home_goals,
             "away goals": away_goals,
             "home goals halftime": home_goals_halftime,
-            "away goald halftime": away_goals_halftime,
-            "penalty home": penalty_home,
-            "penalty away": penalty_away
-        })
+            "away goals halftime": away_goals_halftime})
 
 
-    for key,value in diz_id.items():
+"""     for key,value in diz_id.items():
         params_stat = {'season':year
                   ,'league': 135
                   ,'team':key}
@@ -182,12 +185,13 @@ for year in years:
                 "formation": formation['formation'],
                 "played": formation['played']    
             }
-            formations_data.append(row_formations)
+            formations_data.append(row_formations) """
 
         
 df_matches = pd.DataFrame(matches_data)
-df_stat_team = pd.DataFrame(stat_data)
-df_formations = pd.DataFrame(formations_data)
+df_matches.to_csv('dataset/matches_history.csv', index= False)
+#df_stat_team = pd.DataFrame(stat_data)
+#df_formations = pd.DataFrame(formations_data)
 print(match)
 
 print(response)

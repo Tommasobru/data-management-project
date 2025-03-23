@@ -1,4 +1,24 @@
 squadra,link,giocatori_in_rosa,eta_media,stranieri,valore_rosa,stagione
+Juventus FC,https://www.transfermarkt.it/juventus-turin/startseite/verein/506/saison_id/2021,43,"25,5",24,"642,50 mln €",2021
+Inter,https://www.transfermarkt.it/inter-mailand/startseite/verein/46/saison_id/2021,36,"27,7",20,"558,55 mln €",2021
+AC Milan,https://www.transfermarkt.it/ac-mailand/startseite/verein/5/saison_id/2021,37,"25,8",22,"546,95 mln €",2021
+SSC Napoli,https://www.transfermarkt.it/ssc-neapel/startseite/verein/6195/saison_id/2021,37,"25,8",20,"477,23 mln €",2021
+Atalanta,https://www.transfermarkt.it/atalanta-bergamo/startseite/verein/800/saison_id/2021,44,"24,9",24,"398,75 mln €",2021
+AS Roma,https://www.transfermarkt.it/as-rom/startseite/verein/12/saison_id/2021,39,"24,3",25,"381,25 mln €",2021
+ACF Fiorentina,https://www.transfermarkt.it/ac-florenz/startseite/verein/430/saison_id/2021,38,"25,9",22,"325,80 mln €",2021
+SS Lazio,https://www.transfermarkt.it/lazio-rom/startseite/verein/398/saison_id/2021,35,"27,5",24,"264,53 mln €",2021
+US Sassuolo,https://www.transfermarkt.it/us-sassuolo/startseite/verein/6574/saison_id/2021,43,"25,5",22,"251,00 mln €",2021
+Torino FC,https://www.transfermarkt.it/fc-turin/startseite/verein/416/saison_id/2021,41,"25,3",25,"223,40 mln €",2021
+Bologna FC,https://www.transfermarkt.it/fc-bologna/startseite/verein/1025/saison_id/2021,45,"24,2",28,"186,20 mln €",2021
+Hellas Verona,https://www.transfermarkt.it/hellas-verona/startseite/verein/276/saison_id/2021,43,"25,2",19,"162,98 mln €",2021
+Udinese Calcio,https://www.transfermarkt.it/udinese-calcio/startseite/verein/410/saison_id/2021,44,"25,4",26,"142,30 mln €",2021
+Cagliari Calcio,https://www.transfermarkt.it/cagliari-calcio/startseite/verein/1390/saison_id/2021,46,"25,5",23,"134,53 mln €",2021
+UC Sampdoria,https://www.transfermarkt.it/sampdoria-genua/startseite/verein/1038/saison_id/2021,46,"26,7",20,"128,55 mln €",2021
+Empoli FC,https://www.transfermarkt.it/fc-empoli/startseite/verein/749/saison_id/2021,40,"25,0",12,"126,50 mln €",2021
+Genoa CFC,https://www.transfermarkt.it/genua-cfc/startseite/verein/252/saison_id/2021,47,"26,5",24,"121,28 mln €",2021
+Venezia FC,https://www.transfermarkt.it/venezia-fc/startseite/verein/607/saison_id/2021,51,"25,2",35,"80,98 mln €",2021
+Spezia Calcio,https://www.transfermarkt.it/spezia-calcio/startseite/verein/3522/saison_id/2021,34,"24,1",23,"78,50 mln €",2021
+US Salernitana,https://www.transfermarkt.it/us-salernitana-1919/startseite/verein/380/saison_id/2021,51,"26,3",26,"70,56 mln €",2021
 SSC Napoli,https://www.transfermarkt.it/ssc-neapel/startseite/verein/6195/saison_id/2022,31,"26,7",20,"654,08 mln €",2022
 Inter,https://www.transfermarkt.it/inter-mailand/startseite/verein/46/saison_id/2022,35,"26,9",22,"567,55 mln €",2022
 AC Milan,https://www.transfermarkt.it/ac-mailand/startseite/verein/5/saison_id/2022,36,"26,4",27,"545,10 mln €",2022
