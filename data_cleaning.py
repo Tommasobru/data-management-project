@@ -192,6 +192,7 @@ df_lista_team.to_csv('dataset/clean dataset/clean_list_team.csv')
 
 matches['home_team'] = matches['home_team'].apply(lambda team_target: find_and_replace_name(team_target, diz=diz_matches))
 matches['away_team'] = matches['away_team'].apply(lambda team_target: find_and_replace_name(team_target, diz=diz_matches))
+matches.dropna(subset=['winner'], inplace = True)
 #matches.to_csv('dataset/clean dataset/clean_matches.csv')
 
 
