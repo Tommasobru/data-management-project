@@ -176,17 +176,19 @@ serie_a_matches_goal[['goal_home','goal_away']] = serie_a_matches_goal['goal'].s
 serie_a_matches_goal['goal_home'] = serie_a_matches_goal['goal_home'].astype(float)
 serie_a_matches_goal['goal_away'] = serie_a_matches_goal['goal_away'].astype(float)
 serie_a_matches_goal = serie_a_matches_goal[['anno','giornata','home_team', 'away_team', 'scorer', 'numero_goal_partita', 'team_goal', 'goal','goal_home','goal_away','assist']]
-serie_a_matches_goal.to_csv('dataset/clean dataset/clean-serie-a-matches-all-goal.csv')
+serie_a_matches_goal.to_csv('dataset/clean dataset/clean_serie_a_matches_all_goal.csv')
 
 df_player_data = cleaning_player_data(file_player_data)
 df_player_data['squadra'] = df_player_data['squadra'].apply(lambda team_target: find_and_replace_name(team_target, diz=diz_squadre_player))
-df_player_data.to_csv('dataset/clean dataset/clean-player-team.csv')
+df_player_data['eta'] = df_player_data['age'].str.extract(r'\((\d+)\)').astype(int)
+df_player_data = df_player_data.drop(columns=['age'])
+df_player_data.to_csv('dataset/clean dataset/clean_player_team.csv')
 
 
 df_lista_team['squadra'] = df_lista_team['squadra'].apply(lambda team_target: find_and_replace_name(team_target, diz=diz_lista_squadre))
 df_lista_team['valore_rosa'] = df_lista_team['valore_rosa'].apply(convert_string)
 df_lista_team = df_lista_team.drop('link', axis=1)
-df_lista_team.to_csv('dataset/clean dataset/clean-list-team.csv')
+df_lista_team.to_csv('dataset/clean dataset/clean_list_team.csv')
 
 matches['home_team'] = matches['home_team'].apply(lambda team_target: find_and_replace_name(team_target, diz=diz_matches))
 matches['away_team'] = matches['away_team'].apply(lambda team_target: find_and_replace_name(team_target, diz=diz_matches))
