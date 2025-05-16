@@ -50,12 +50,12 @@ def extract_match_goals(match_url, giornata, anno, partita):
                     # Estrarre il tipo di azione (es. rigore, tiro, ecc.)
                     action_details = goal.find("div", class_="sb-aktion-aktion").get_text(strip=True)
                     # Aggiungere alla lista
-                    goals.append({"year": anno,"matchday": giornata, "match": partita ,"scorer": scorer,"n_goal":numero_goal_partita,"team_goal":team_goal ,"goal":numero_goal, "details": action_details})
+                    goals.append({"anno": anno,"giornata": giornata, "partita": partita ,"scorer": scorer,"numero_goal_partita":numero_goal_partita,"team_goal":team_goal ,"goal":numero_goal, "details": action_details})
                 except AttributeError:
                     continue
             
         else:
-            goals = [{"year": anno, 'matchday': giornata, "match": partita, "scorer": "NaN","n_goal":"NaN", "team_goal" : "NaN","goal":"NaN", "details": "NaN"}]
+            goals = [{"anno": anno, 'giornata': giornata, "partita": partita, "scorer": "NaN","numero_goal_partita":"NaN", "team_goal" : "NaN","goal":"NaN", "details": "NaN"}]
         
         return goals
     else:
@@ -106,39 +106,34 @@ def get_serie_a_matches_links(base_url, squadra,anno):
                             full_url = "https://www.transfermarkt.it" + match_href
                             serie_a_matches.append(full_url)
                             # Aggiungi giornata e link a un dizionario
-                            lista_diz.append({"year": anno,"matchday": numero_giornata, "match": partita, "link": full_url})
+                            lista_diz.append({"anno": anno,"giornata": numero_giornata, "partita": partita, "link": full_url})
 
     
 
     urls_df = pd.DataFrame(lista_diz)
     return lista_diz, urls_df
 
-def estrazione_url_match(url):
-    response = requests.get(url, headers=headers)
-     if response.status_code == 200:
-        soup = BeautifulSoup(response.content, "html.parser")
-        table = soup.find('div', class_='responsive-table')
-    return table
 
 all_goals = []
 anni = [2021,2022,2023,2024]
-giornate = range(1,38)
+
 
 for anno in anni:
 
-    for giornata in range(38):
+    df_link_squadre = link_squadre(anno)
+
+    
+    for index, row in df_link_squadre.iterrows():
         squadra = row['squadra'] 
         url = row["link"]
         url_calendario_partite = url_calendario_per_competizione(url)
-        url_giornata = f"https://www.transfermarkt.it/serie-a/spieltagtabelle/wettbewerb/IT1?saison_id={anno}&spieltag={giornata}"
-        table = estrazione_url_match(url)
-        anno = row['year']
+        anno = row['stagione']
         lista_diz, urls_df = get_serie_a_matches_links(url_calendario_partite, squadra, anno)
         for index,row in urls_df.iterrows():
-            all_goals.extend(extract_match_goals(row['link'], row['matchday'], row['year'], row['match']))
+            all_goals.extend(extract_match_goals(row['link'], row['giornata'], row['anno'], row['partita']))
 
 all_goals_df = pd.DataFrame(all_goals)
-all_goals_df.to_csv("dataset/serie_a_matches_all_goal_prova.csv", index= False, sep = ';')
+all_goals_df.to_csv("dataset/serie_a_matches_all_goal.csv", index= False, sep = ';')
 lista_df = pd.DataFrame(lista_diz)
 #lista_df.to_csv("dataset/lista_giornate.csv", index= False, sep = ';')
 print(all_goals_df)
