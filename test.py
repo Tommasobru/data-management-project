@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-from data_acquisition_web_scraping import link_squadre
 import time
 
 headers = {
@@ -17,7 +16,7 @@ anni = [2021,2022,2023,2024]
 
 
 def estrazione_url_match(url):
-    response = requests.get(url)
+    response = requests.get(url,headers=headers)
     if response.status_code == 200:
         soup = BeautifulSoup(response.content, "html.parser")
         table = soup.find('div', class_='responsive-table')
@@ -27,9 +26,25 @@ def estrazione_url_match(url):
         return None
 
 for anno in anni:
-    print(1)
+
     for giornata in range(1,39):
        time.sleep(5)
        url_giornata = f"https://www.transfermarkt.it/serie-a/spieltagtabelle/wettbewerb/IT1?saison_id={anno}&spieltag={giornata}"
        table = estrazione_url_match(url_giornata)
+       rows = table.find_all("tr")
+        # salta le righe di intestazione
+       for row in rows:
+            if row.find("th"):
+                continue
+            
+            td = row.find('td', class_='zentriert hauptlink ergebnis')
+            if td is None:
+                continue  # Salta righe che non hanno quella colonna
+            a_tag = td.find('a')
+            risultato = td.find(class_="matchresult finished")
+            if a_tag is None:
+                continue  # Se il link non esiste, salta
+
+            url_part = a_tag['href']
+
        print(table)

@@ -1,7 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-from data_acquisition_web_scraping import link_squadre
+import time
+
 # URL della pagina
 url = "https://www.transfermarkt.it/spielbericht/index/spielbericht/4374060"
 
@@ -20,125 +21,111 @@ def url_calendario_per_competizione(url):
     url_calendario = f'https://www.transfermarkt.it/inter-mailand/spielplan/verein/{id}/saison_id/{anno}'
     return url_calendario
 
+
+def check_miss_match(df):
+    anni = [2021,2022,2023,2024]
+    partite_mancanti = []
+    for anno in anni:
+        for giornata in range(1,39):
+            n_partite = df[(df['year'] == anno) & (df['matchday']==giornata)].groupby(['year','matchday']).size().reset_index(name='conteggio')
+            if n_partite != 10:
+                partite_mancanti.append({'year':anno,'matchday':giornata})
+            else:
+                continue
+
 # funzione per estrarre i goal di ogni giornata 
-def extract_match_goals(match_url, giornata, anno, partita):
+def extract_match_goals(match_url, giornata, anno, home_team, away_team, check = False, lista_check = None):
 
     # Richiesta alla pagina
     response = requests.get(match_url, headers=headers)
+    if check == False:
+        # Controllo del successo della richiesta
+        if response.status_code == 200:
+            soup = BeautifulSoup(response.content, "html.parser")
 
-    # Controllo del successo della richiesta
-    if response.status_code == 200:
-        soup = BeautifulSoup(response.content, "html.parser")
-
-        # Trovare la sezione dei gol
-        goal_section = soup.find("div", id="sb-tore")
-        if goal_section:
-            goals = []
-            numero_goal_partita = 0 # inizializzo il contatore dei goal
-            for goal in goal_section.find_all("li", class_=["sb-aktion-heim", "sb-aktion-gast"]):
-                try:
-                    if "sb-aktion-heim" in goal['class']:
-                        team_goal = "home"
-                    elif "sb-aktion-gast" in goal['class']:    
-                        team_goal = "away"
-                    
-                    numero_goal_partita +=1
-                    # Estrarre il marcatore
-                    scorer = goal.find("a", class_="wichtig").get_text(strip=True)
-                    # Goal segnato
-                    numero_goal = goal.find("div", class_="sb-aktion-spielstand").get_text(strip = True)
-                    # Estrarre il tipo di azione (es. rigore, tiro, ecc.)
-                    action_details = goal.find("div", class_="sb-aktion-aktion").get_text(strip=True)
-                    # Aggiungere alla lista
-                    goals.append({"year": anno,"matchday": giornata, "match": partita ,"scorer": scorer,"n_goal":numero_goal_partita,"team_goal":team_goal ,"goal":numero_goal, "details": action_details})
-                except AttributeError:
-                    continue
-            
-        else:
-            goals = [{"year": anno, 'matchday': giornata, "match": partita, "scorer": "NaN","n_goal":"NaN", "team_goal" : "NaN","goal":"NaN", "details": "NaN"}]
-        
-        return goals
-    else:
-        print(f"Errore nel caricamento della pagina, codice: {response.status_code}")
-
-
-# Funzione per estrarre i link delle partite giocate (solo Serie A con conferma dal contesto)
-def get_serie_a_matches_links(base_url, squadra,anno):
-    response = requests.get(base_url, headers=headers)
-    serie_a_matches = []
-    lista_diz =[]
-    if response.status_code == 200:
-        soup = BeautifulSoup(response.content, "html.parser")
-        # Trova la sezione Serie A
-        serie_a_section = soup.find("a", {"name": "IT1"})
-        if serie_a_section:
-            table = serie_a_section.find_next("div", class_="responsive-table")
-            if table:
-                rows = table.find_all("tr")
-                for row in rows:
-                    # salta le righe di intestazione
-                    if row.find("th"):
+            # Trovare la sezione dei gol
+            goal_section = soup.find("div", id="sb-tore")
+            if goal_section:
+                goals = []
+                numero_goal_partita = 0 # inizializzo il contatore dei goal
+                for goal in goal_section.find_all("li", class_=["sb-aktion-heim", "sb-aktion-gast"]):
+                    try:
+                        if "sb-aktion-heim" in goal['class']:
+                            team_goal = "home"
+                        elif "sb-aktion-gast" in goal['class']:    
+                            team_goal = "away"
+                        
+                        numero_goal_partita +=1
+                        # Estrarre il marcatore
+                        scorer = goal.find("a", class_="wichtig").get_text(strip=True)
+                        # Goal segnato
+                        numero_goal = goal.find("div", class_="sb-aktion-spielstand").get_text(strip = True)
+                        # Estrarre il tipo di azione (es. rigore, tiro, ecc.)
+                        action_details = goal.find("div", class_="sb-aktion-aktion").get_text(strip=True)
+                        # Aggiungere alla lista
+                        goals.append({"year": anno,"matchday": giornata, "home_team": home_team,"away_team":away_team ,"scorer": scorer,"n_goal":numero_goal_partita,"team_goal":team_goal ,"goal":numero_goal, "details": action_details})
+                    except AttributeError:
                         continue
-                    # Trova il numero della giornata
-                    giornata_cell = row.find("td", class_="zentriert")
-                    luogo = row.find('td', class_='zentriert hauptlink').get_text(strip = True)  # Trova il <td> con la classe specificata
-                    avversario = row.find('td', class_='no-border-links hauptlink').get_text(strip = True)
-                    avversario = avversario.split('(')[0].strip() 
+                
+            else:
+                goals = [{"year": anno,"matchday": giornata, "home_team": home_team,"away_team":away_team ,"scorer": scorer,"n_goal":numero_goal_partita,"team_goal":team_goal ,"goal":numero_goal, "details": action_details}]
+            
+            return goals
+        else:
+            print(f"Errore nel caricamento della pagina, codice: {response.status_code}")
+    else:
+        for diz in lista_check:
+            
 
-                    # creiamo il campo partita                    
-                    if luogo == "C":
-                        partita = squadra + " - " + avversario
-                    else:
-                        partita = avversario + " - " + squadra
-                    
-                    if giornata_cell:
-                        giornata_link = giornata_cell.find("a")
-                        if giornata_link and giornata_link.text.isdigit():
-                            numero_giornata = int(giornata_link.text)  # Converti il numero in intero
-                        else:
-                            numero_giornata = None
 
-                    # Trova il link della partita
-                    match = row.find("a", class_="ergebnis-link")
-                    if match:
-                        match_href = match.get("href")
-                        if match_href:
-                            full_url = "https://www.transfermarkt.it" + match_href
-                            serie_a_matches.append(full_url)
-                            # Aggiungi giornata e link a un dizionario
-                            lista_diz.append({"year": anno,"matchday": numero_giornata, "match": partita, "link": full_url})
-
-    
-
-    urls_df = pd.DataFrame(lista_diz)
-    return lista_diz, urls_df
 
 def estrazione_url_match(url):
-    response = requests.get(url, headers=headers)
-     if response.status_code == 200:
+    response = requests.get(url,headers=headers)
+    if response.status_code == 200:
         soup = BeautifulSoup(response.content, "html.parser")
         table = soup.find('div', class_='responsive-table')
-    return table
+        return table
+    else:
+        print(f"Errore nella richiesta: {response.status_code} per {url}")
+        return None
+
 
 all_goals = []
 anni = [2021,2022,2023,2024]
-giornate = range(1,38)
 
+url_base = 'https://www.transfermarkt.it'
 for anno in anni:
 
-    for giornata in range(38):
-        squadra = row['squadra'] 
-        url = row["link"]
-        url_calendario_partite = url_calendario_per_competizione(url)
-        url_giornata = f"https://www.transfermarkt.it/serie-a/spieltagtabelle/wettbewerb/IT1?saison_id={anno}&spieltag={giornata}"
-        table = estrazione_url_match(url)
-        anno = row['year']
-        lista_diz, urls_df = get_serie_a_matches_links(url_calendario_partite, squadra, anno)
-        for index,row in urls_df.iterrows():
-            all_goals.extend(extract_match_goals(row['link'], row['matchday'], row['year'], row['match']))
+    for giornata in range(1,39):
+       #time.sleep(5)
+       url_giornata = f"https://www.transfermarkt.it/serie-a/spieltagtabelle/wettbewerb/IT1?saison_id={anno}&spieltag={giornata}"
+       table = estrazione_url_match(url_giornata)
+       rows = table.find_all("tr")
+        # salta le righe di intestazione
+       for row in rows:
+            if row.find("th"):
+                continue
+    
+            # Estrai squadra di casa
+            td_casa = row.find('td', class_='text-right no-border-rechts no-border-links hauptlink hide-for-small')
+            squadra_casa = td_casa.find('a').text.strip() if td_casa and td_casa.find('a') else "N/D"
+
+            # Estrai squadra ospite
+            td_trasferta = row.find('td', class_='no-border-links no-border-rechts hauptlink hide-for-small')
+            squadra_trasferta = td_trasferta.find('a').text.strip() if td_trasferta and td_trasferta.find('a') else "N/D"
+
+            td = row.find('td', class_='zentriert hauptlink ergebnis')
+            if td is None:
+                continue  # Salta righe che non hanno quella colonna
+            a_tag = td.find('a')
+            risultato = td.find(class_="matchresult finished")
+            if a_tag is None:
+                continue  # Se il link non esiste, salta
+            print(squadra_casa)
+            print(squadra_trasferta)
+            url_part = a_tag['href']
+            url = url_base+url_part
+            all_goals.extend(extract_match_goals(url,giornata,anno,squadra_casa,squadra_trasferta))
 
 all_goals_df = pd.DataFrame(all_goals)
 all_goals_df.to_csv("dataset/serie_a_matches_all_goal_prova.csv", index= False, sep = ';')
-lista_df = pd.DataFrame(lista_diz)
-#lista_df.to_csv("dataset/lista_giornate.csv", index= False, sep = ';')
-print(all_goals_df)
