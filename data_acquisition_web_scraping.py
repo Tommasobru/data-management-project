@@ -1,6 +1,30 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
+import random
+import time
+
+
+def safe_request_loop(url, headers):
+
+
+    attempt = 0
+    while True:
+        try:
+            response = requests.get(url, headers=headers)
+            if response.status_code == 200:
+                print('Nessun errore')
+                return response
+            else:
+                print(f"Errore {response.status_code} - ritento...")
+        except Exception as e:
+            print(f"Eccezione nella richiesta: {e} - ritento...")
+
+        # Attendi prima di riprovare
+        wait_time = min(60, 2 ** attempt + random.uniform(0, 2))
+        print(f"Aspetto {wait_time:.2f} secondi prima del tentativo successivo...")
+        time.sleep(wait_time)
+        attempt += 1
 
 
 def link_squadre(anno):
@@ -14,7 +38,7 @@ def link_squadre(anno):
     }
 
     # Effettua la richiesta HTTP
-    response = requests.get(url, headers=headers)
+    response = safe_request_loop(url, headers=headers)
 
     # Controlla se la richiesta è andata a buon fine
     if response.status_code != 200:
@@ -47,7 +71,7 @@ def link_squadre(anno):
             team_link = f"https://www.transfermarkt.it{team_cell.a['href']}"
 
             # Numero di giocatori in rosa
-            squad_size = row.find_all("td", class_="zentriert")[1].text.strip()
+            team_size = row.find_all("td", class_="zentriert")[1].text.strip()
 
             # Età media
             avg_age = row.find_all("td", class_="zentriert")[2].text.strip()
@@ -56,17 +80,17 @@ def link_squadre(anno):
             foreigners = row.find_all("td", class_="zentriert")[3].text.strip()
 
             # Valore della rosa
-            squad_value = row.find_all("td", class_="rechts")[1].text.strip()
+            team_value = row.find_all("td", class_="rechts")[1].text.strip()
 
             # Aggiungi i dati alla lista
             teams.append({
-                "squadra": team_name,
+                "team": team_name,
                 "link": team_link,
-                "giocatori_in_rosa": squad_size,
-                "eta_media": avg_age,
-                "stranieri": foreigners,
-                "valore_rosa": squad_value,
-                "stagione": anno 
+                "team_size": team_size,
+                "avg_age": avg_age,
+                "n_foreigners": foreigners,
+                "team_value": team_value,
+                "season": anno 
             })
         except Exception as e:
             print(f"Errore nell'elaborazione di una riga: {e}")
@@ -95,9 +119,10 @@ for year in years:
 
         url = row['link']
 
-        squadra = row['squadra']
+        squadra = row['team']
         # Effettua la richiesta HTTP
-        response = requests.get(url, headers=headers)
+        #response = requests.get(url, headers=headers)
+        response = safe_request_loop(url, headers=headers)
 
         # Controlla se la richiesta ha avuto successo
         if response.status_code == 200:
@@ -139,8 +164,8 @@ for year in years:
                 # Creazione di un DataFrame
                 df = pd.DataFrame(players)
 
-                df['squadra'] = squadra 
-                df['stagione'] = year
+                df['team'] = squadra 
+                df['season'] = year
                 df_list.append(df)           
 
 

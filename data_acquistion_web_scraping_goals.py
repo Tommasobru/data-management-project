@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 import time
+import random
 
 # URL della pagina
 url = "https://www.transfermarkt.it/spielbericht/index/spielbericht/4374060"
@@ -10,6 +11,36 @@ url = "https://www.transfermarkt.it/spielbericht/index/spielbericht/4374060"
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 }
+
+
+# Headers per simulare un browser
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+}
+
+# Funzione di richiesta sicura con retry
+def safe_request(url, headers=None, max_retries=5, backoff_range=(3, 7), verbose=True):
+    for attempt in range(1, max_retries + 1):
+        try:
+            response = requests.get(url, headers=headers)
+            if response.status_code == 200:
+                if verbose:
+                    print(f"[OK] ({response.status_code}) {url}")
+                return response
+            else:
+                if verbose:
+                    print(f"[{attempt}/{max_retries}] Errore {response.status_code} – retry...")
+        except requests.exceptions.RequestException as e:
+            if verbose:
+                print(f"[{attempt}/{max_retries}] Eccezione: {e}")
+
+        wait = random.uniform(*backoff_range) * attempt
+        if verbose:
+            print(f"Attesa di {wait:.1f} secondi prima del prossimo tentativo...")
+        time.sleep(wait)
+
+    print(f"[FAIL] Impossibile recuperare la pagina: {url}")
+    return None
 
 # funzione per ottenere il link relativo alla pagina "calendario per competizione" per ogni squadra e per ogni anno
 def url_calendario_per_competizione(url):
@@ -34,48 +65,53 @@ def check_miss_match(df):
                 continue
 
 # funzione per estrarre i goal di ogni giornata 
-def extract_match_goals(match_url, giornata, anno, home_team, away_team, check = False, lista_check = None):
+def extract_match_goals(match_url, giornata, anno, home_team, away_team):
 
+    match_falliti = []
     # Richiesta alla pagina
     response = requests.get(match_url, headers=headers)
-    if check == False:
-        # Controllo del successo della richiesta
-        if response.status_code == 200:
-            soup = BeautifulSoup(response.content, "html.parser")
-
-            # Trovare la sezione dei gol
-            goal_section = soup.find("div", id="sb-tore")
-            if goal_section:
-                goals = []
-                numero_goal_partita = 0 # inizializzo il contatore dei goal
-                for goal in goal_section.find_all("li", class_=["sb-aktion-heim", "sb-aktion-gast"]):
-                    try:
-                        if "sb-aktion-heim" in goal['class']:
-                            team_goal = "home"
-                        elif "sb-aktion-gast" in goal['class']:    
-                            team_goal = "away"
-                        
-                        numero_goal_partita +=1
-                        # Estrarre il marcatore
-                        scorer = goal.find("a", class_="wichtig").get_text(strip=True)
-                        # Goal segnato
-                        numero_goal = goal.find("div", class_="sb-aktion-spielstand").get_text(strip = True)
-                        # Estrarre il tipo di azione (es. rigore, tiro, ecc.)
-                        action_details = goal.find("div", class_="sb-aktion-aktion").get_text(strip=True)
-                        # Aggiungere alla lista
-                        goals.append({"year": anno,"matchday": giornata, "home_team": home_team,"away_team":away_team ,"scorer": scorer,"n_goal":numero_goal_partita,"team_goal":team_goal ,"goal":numero_goal, "details": action_details})
-                    except AttributeError:
-                        continue
-                
-            else:
-                goals = [{"year": anno,"matchday": giornata, "home_team": home_team,"away_team":away_team ,"scorer": scorer,"n_goal":numero_goal_partita,"team_goal":team_goal ,"goal":numero_goal, "details": action_details}]
+    #response = safe_request(url, headers=headers)
+    # Controllo del successo della richiesta
+    if response.status_code == 200:
+        soup = BeautifulSoup(response.content, "html.parser")
+        # Trovare la sezione dei gol
+        goal_section = soup.find("div", id="sb-tore")
+        if goal_section:
+            risultato = []
+            numero_goal_partita = 0 # inizializzo il contatore dei goal
+            for goal in goal_section.find_all("li", class_=["sb-aktion-heim", "sb-aktion-gast"]):
+                try:
+                    if "sb-aktion-heim" in goal['class']:
+                        team_goal = "home"
+                    elif "sb-aktion-gast" in goal['class']:    
+                        team_goal = "away"
+                    
+                    numero_goal_partita +=1
+                    # Estrarre il marcatore
+                    scorer = goal.find("a", class_="wichtig").get_text(strip=True)
+                    # Goal segnato
+                    numero_goal = goal.find("div", class_="sb-aktion-spielstand").get_text(strip = True)
+                    # Estrarre il tipo di azione (es. rigore, tiro, ecc.)
+                    action_details = goal.find("div", class_="sb-aktion-aktion").get_text(strip=True)
+                    # Aggiungere alla lista
+                    risultato.append({"year": anno,"matchday": giornata, "home_team": home_team,"away_team":away_team ,"scorer": scorer,"n_goal":numero_goal_partita,"team_goal":team_goal ,"goal":numero_goal, "details": action_details})
+                except AttributeError:
+                    continue
             
-            return goals
+            errore = False
+            return errore, risultato
         else:
-            print(f"Errore nel caricamento della pagina, codice: {response.status_code}")
+            risultato = [{"year": anno,"matchday": giornata, "home_team": home_team,"away_team":away_team ,"scorer": '',"n_goal":0,"team_goal":'' ,"goal":'', "details": ''}]
+            errore = False 
+            return errore, risultato
     else:
-        for diz in lista_check:
-            
+        print(f"Errore nel caricamento della pagina, codice: {response.status_code}")
+        risultato = (match_url, giornata, anno, squadra_casa, squadra_trasferta)
+        errore = True
+        return errore, risultato
+        
+  
+
 
 
 
@@ -91,9 +127,14 @@ def estrazione_url_match(url):
 
 
 all_goals = []
-anni = [2021,2022,2023,2024]
+match_falliti = []
+anni = [2021]#,2022,2023,2024]
 
 url_base = 'https://www.transfermarkt.it'
+
+totale_partite_attese = len(anni) * 38 * 10 
+partite_processate = 0
+
 for anno in anni:
 
     for giornata in range(1,39):
@@ -121,11 +162,38 @@ for anno in anni:
             risultato = td.find(class_="matchresult finished")
             if a_tag is None:
                 continue  # Se il link non esiste, salta
-            print(squadra_casa)
-            print(squadra_trasferta)
+
             url_part = a_tag['href']
             url = url_base+url_part
-            all_goals.extend(extract_match_goals(url,giornata,anno,squadra_casa,squadra_trasferta))
+            errore, risultato =  extract_match_goals(url,giornata,anno,squadra_casa,squadra_trasferta)
+            
+            partite_processate += 1
+            progress = (partite_processate / totale_partite_attese) * 100
+            print(f"Elaborazione: {partite_processate}/{totale_partite_attese} ({progress:.2f}%)")
+            
+            if errore == False:
+                all_goals.extend(risultato)
+            else:
+                match_falliti.append(risultato)
+
+while match_falliti:
+    print(f"--- Retry: {len(match_falliti)} match falliti rimasti ---")
+    new_match_falliti = []
+
+    for url, giornata, anno, squadra_casa, squadra_trasferta in match_falliti:
+        try:
+            errore, risultato = extract_match_goals(url, giornata, anno, squadra_casa, squadra_trasferta)
+            if not errore:
+                all_goals.extend(risultato)
+            else:
+                new_match_falliti.append((url, giornata, anno, squadra_casa, squadra_trasferta))
+        except Exception as e:
+            print(f"Retry fallito per {url}: {e}")
+            new_match_falliti.append((url, giornata, anno, squadra_casa, squadra_trasferta))
+
+    match_falliti = new_match_falliti
+
+
 
 all_goals_df = pd.DataFrame(all_goals)
 all_goals_df.to_csv("dataset/serie_a_matches_all_goal_prova.csv", index= False, sep = ';')

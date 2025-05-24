@@ -72,10 +72,12 @@ def count_nulls_per_column(df):
 
 file_player_team = 'dataset/clean dataset/clean_player_team.csv'
 file_matches = 'dataset/clean dataset/clean_matches.csv'
+file_serie_a_matches_goal = 'dataset/clean dataset/clean_serie_a_matches_all_goal.csv'
 file_lista_team = 'dataset/clean dataset/clean_list_team.csv'
 file_odds_team = 'dataset/clean dataset/clean_odds_per_match.csv'
 
 api_matches = pd.read_csv(file_matches)
+scraping_serie_a_matches_goal = pd.read_csv(file_serie_a_matches_goal)
 scraping_lista_team = pd.read_csv(file_lista_team)
 scraping_player_team = pd.read_csv(file_player_team)
 scraping_odds_team = pd.read_csv(file_odds_team)
@@ -90,14 +92,14 @@ scraping_odds_team = pd.read_csv(file_odds_team)
 count_nulls_per_column(api_matches) 
 # null value are the matches that have yet to be played 
 
-
+count_nulls_per_column(scraping_serie_a_matches_goal)
 # null values are for games in which no goals were scored
 count_nulls_per_column(scraping_lista_team)
 count_nulls_per_column(scraping_player_team)
 
 #### SYNTACTIC ACCURACY
-scraping_team = scraping_lista_team['team'].unique().tolist()
-api_teams = api_matches['home_team'].unique().tolist()
+scraping_team = scraping_serie_a_matches_goal['home_team'].unique().tolist()
+api_teams = api_matches['home team'].unique().tolist()
 
 for team in scraping_team:
     team_api, dist = find_closest_string(team, api_teams)
@@ -126,7 +128,18 @@ for team in odds_team:
 
 
 
+scraping_player = scraping_player_team['name'].unique().tolist()
+scraping_scorer = scraping_serie_a_matches_goal['scorer'].unique().tolist()
 
-
-
+for player in scraping_scorer:
+    if player != "NaN":
+        player_closest, dist_player = find_closest_string(player, scraping_player)
+        print("##########################")
+        print("")
+        print(player)
+        print("")
+        print(player_closest) 
+        print("")
+        print(f"distanza:  {dist_player}")
+        print("")
 

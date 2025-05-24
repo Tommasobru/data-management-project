@@ -100,6 +100,17 @@ def find_and_replace_name(team_target, diz):
 
     return team
 
+# function that extract assist-man from details string
+def extract_assist_man(details):
+    
+    if pd.isna(details):
+        return None
+     
+    if "Assist" in details:
+        return details.split("Assist:")[1].split(",")[0].strip()
+    
+    else:
+        return None
 
 def create_diz(df, name_column, target_name, split = False,):
     diz = {}
@@ -124,11 +135,13 @@ def create_diz(df, name_column, target_name, split = False,):
 file_player_data = 'dataset/player-team.csv'
 file_matches = 'dataset/matches.csv'
 file_matches_history = 'dataset/matches_history.csv'
+file_serie_a_matches_goal = 'dataset/serie_a_matches_all_goal.csv'
 file_lista_team = 'dataset/list-team.csv'
 file_odds_per_match = 'dataset/odds_per_match.csv'
 
 
 df_lista_team = pd.read_csv(file_lista_team)
+serie_a_matches_goal  = pd.read_csv(file_serie_a_matches_goal, sep=";")
 screaping_team = pd.read_csv(file_player_data)
 odds_per_match = pd.read_csv(file_odds_per_match, sep = ";")
 matches  = pd.read_csv(file_matches)
@@ -138,24 +151,42 @@ matches_history = pd.read_csv(file_matches_history)
 nomi_squadre = odds_per_match['home_team'].unique().tolist()
 
 # we create a dictionary for each dataframe derived from web scraping where for each team we associate the respective API name, so as to standardize the names 
-diz_squadre_player = create_diz(screaping_team, name_column='team', target_name=nomi_squadre)
+diz_serie_a_matches_goal = create_diz(serie_a_matches_goal, name_column='partita', target_name=nomi_squadre, split= True)
 
-diz_lista_squadre = create_diz(df_lista_team, name_column='team', target_name=nomi_squadre)
+diz_squadre_player = create_diz(screaping_team, name_column='squadra', target_name=nomi_squadre)
+
+diz_lista_squadre = create_diz(df_lista_team, name_column='squadra', target_name=nomi_squadre)
 
 diz_matches = create_diz(matches,name_column='home_team',target_name=nomi_squadre)
 
-diz_matches_history = create_diz(matches_history, name_column="home_team", target_name=nomi_squadre)
+diz_matches_history = create_diz(matches_history, name_column="home team", target_name=nomi_squadre)
 
 # replace all names with names taken from API
+
+serie_a_matches_goal[['home_team','away_team']] = serie_a_matches_goal['partita'].str.split('-', expand=True)
+serie_a_matches_goal['home_team'] = serie_a_matches_goal['home_team'].str.strip()
+serie_a_matches_goal['away_team'] = serie_a_matches_goal['away_team'].str.strip()
+serie_a_matches_goal.drop(columns=['partita'], inplace=True)
+serie_a_matches_goal['home_team'] = serie_a_matches_goal['home_team'].apply(lambda team_target: find_and_replace_name(team_target, diz = diz_serie_a_matches_goal)) 
+serie_a_matches_goal['away_team'] = serie_a_matches_goal['away_team'].apply(lambda team_target: find_and_replace_name(team_target,diz=diz_serie_a_matches_goal))
+serie_a_matches_goal = serie_a_matches_goal.drop_duplicates(subset=['anno', 'giornata', 'home_team','scorer', 'details'])
+serie_a_matches_goal['details'] = serie_a_matches_goal['details'].apply(extract_assist_man) 
+serie_a_matches_goal = serie_a_matches_goal.rename(columns={'details': 'assist'})
+serie_a_matches_goal[['goal_home','goal_away']] = serie_a_matches_goal['goal'].str.split(':', expand=True)
+serie_a_matches_goal['goal_home'] = serie_a_matches_goal['goal_home'].astype(float)
+serie_a_matches_goal['goal_away'] = serie_a_matches_goal['goal_away'].astype(float)
+serie_a_matches_goal = serie_a_matches_goal[['anno','giornata','home_team', 'away_team', 'scorer', 'numero_goal_partita', 'team_goal', 'goal','goal_home','goal_away','assist']]
+serie_a_matches_goal.to_csv('dataset/clean dataset/clean_serie_a_matches_all_goal.csv')
+
 df_player_data = cleaning_player_data(file_player_data)
-df_player_data['team'] = df_player_data['team'].apply(lambda team_target: find_and_replace_name(team_target, diz=diz_squadre_player))
-df_player_data['age'] = df_player_data['age'].str.extract(r'\((\d+)\)').astype(int)
+df_player_data['squadra'] = df_player_data['squadra'].apply(lambda team_target: find_and_replace_name(team_target, diz=diz_squadre_player))
+df_player_data['eta'] = df_player_data['age'].str.extract(r'\((\d+)\)').astype(int)
 df_player_data = df_player_data.drop(columns=['age'])
 df_player_data.to_csv('dataset/clean dataset/clean_player_team.csv')
 
 
-df_lista_team['team'] = df_lista_team['team'].apply(lambda team_target: find_and_replace_name(team_target, diz=diz_lista_squadre))
-df_lista_team['team_value'] = df_lista_team['team_value'].apply(convert_string)
+df_lista_team['squadra'] = df_lista_team['squadra'].apply(lambda team_target: find_and_replace_name(team_target, diz=diz_lista_squadre))
+df_lista_team['valore_rosa'] = df_lista_team['valore_rosa'].apply(convert_string)
 df_lista_team = df_lista_team.drop('link', axis=1)
 df_lista_team.to_csv('dataset/clean dataset/clean_list_team.csv')
 
@@ -165,17 +196,17 @@ matches.dropna(subset=['winner'], inplace = True)
 #matches.to_csv('dataset/clean dataset/clean_matches.csv')
 
 
-matches_history['home_team'] = matches_history['home_team'].apply(lambda team_target: find_and_replace_name(team_target, diz=diz_matches_history))
-matches_history['away_team'] = matches_history['away_team'].apply(lambda team_target: find_and_replace_name(team_target, diz=diz_matches_history))
-matches_history[["round","matchweek"]] = matches_history["matchweek"].str.split("-", expand=True)
-matches_history["home_winner"] = matches_history["home_winner"].fillna(False) 
-matches_history["away_winner"] = matches_history["away_winner"].fillna(False) 
+matches_history['home team'] = matches_history['home team'].apply(lambda team_target: find_and_replace_name(team_target, diz=diz_matches_history))
+matches_history['away team'] = matches_history['away team'].apply(lambda team_target: find_and_replace_name(team_target, diz=diz_matches_history))
+matches_history[["round","giornata"]] = matches_history["giornata"].str.split("-", expand=True)
+matches_history["home winner"] = matches_history["home winner"].fillna(False) 
+matches_history["away winner"] = matches_history["away winner"].fillna(False) 
 
 # Definizione delle condizioni
 conditions = [
-    (matches_history["home_winner"] == True) & (matches_history["away_winner"] == False),  # Home vince
-    (matches_history["home_winner"] == False) & (matches_history["away_winner"] == True),  # Away vince
-    (matches_history["home_winner"] == False) & (matches_history["away_winner"] == False)  # Pareggio
+    (matches_history["home winner"] == True) & (matches_history["away winner"] == False),  # Home vince
+    (matches_history["home winner"] == False) & (matches_history["away winner"] == True),  # Away vince
+    (matches_history["home winner"] == False) & (matches_history["away winner"] == False)  # Pareggio
 ]
 
 # Valori da assegnare per ogni condizione
@@ -183,19 +214,21 @@ values = ["HOME_WINNER", "AWAY_WINNER", "DRAW"]
 
 # Creazione della nuova colonna 'winner'
 matches_history["winner"] = np.select(conditions, values, default="UNKNOWN")  # Se ci sono valori mancanti, restituisce NaN
-matches_history = matches_history[["matchweek", "season","date","home_team", "away_team", "winner", "home_goals_halftime", "away_goals_halftime", "home_goals", "away_goals"]]
+matches_history = matches_history[["giornata", "season","date","home team", "away team", "winner", "home goals halftime", "away goals halftime", "home goals", "away goals"]]
 
-matches = matches.rename(columns={"half_time_home_score":"home_goals_halftime", "half_time_away_score": "away_goals_halftime", "home_score": "home_goals", "away_score": "away_goals"})
-matches = matches[["matchweek", "season","date","home_team", "away_team", "winner", "home_goals_halftime", "away_goals_halftime", "home_goals", "away_goals"]]
+matches = matches.rename(columns={"home_team":"home team", "away_team":"away team", "half_time_home_score":"home goals halftime", "half_time_away_score": "away goals halftime", "home_score": "home goals", "away_score": "away goals"})
+
+matches = matches[["giornata", "season","date","home team", "away team", "winner", "home goals halftime", "away goals halftime", "home goals", "away goals"]]
 
 matches_all = pd.concat([matches_history,matches], ignore_index=True)
 matches_all.to_csv('dataset/clean dataset/clean_matches.csv')
 
-
-odds_per_match[['season', 'hours', 'home_team', 'away_team', 'quota_1','quota_x', 'quota_2']]
+odds_per_match[["home goals", "away goals"]] = odds_per_match['risultato'].str.split('-', expand=True)
+odds_per_match[['season', 'hours', 'home_team', 'away_team', 'home goals', 'away goals', 'quota_1','quota_x', 'quota_2']]
 odds_per_match.to_csv('dataset/clean dataset/clean_odds_per_match.csv')
 
 
+print(serie_a_matches_goal)
 print(df_player_data)
 print(df_lista_team)
 #print(diz)

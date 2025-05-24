@@ -34,7 +34,7 @@ for year in years:
 
     for match in matches:
         match_id = match['id']
-        giornata = match['matchday']
+        matchweek = match['matchday']
         season = year
         date = match['utcDate'].split("T")[0]
         home_team = match['homeTeam']['name']
@@ -53,7 +53,7 @@ for year in years:
 
         matches_data.append({
             "match_id": match_id,
-            "giornata": giornata,
+            "matchweek": matchweek,
             "season": season,
             "date" : date,
             "home_team": home_team,

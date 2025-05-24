@@ -62,15 +62,15 @@ for year in years:
         matches_data.append({
             "season": year,
             "date": date,
-            "giornata": giornata,
-            "home team": home_team,
-            "home winner": home_winner,
-            "away team":away_team,
-            "away winner":away_winner,
-            "home goals": home_goals,
-            "away goals": away_goals,
-            "home goals halftime": home_goals_halftime,
-            "away goals halftime": away_goals_halftime})
+            "matchweek": giornata,
+            "home_team": home_team,
+            "home_winner": home_winner,
+            "away_team":away_team,
+            "away_winner":away_winner,
+            "home_goals": home_goals,
+            "away_goals": away_goals,
+            "home_goals_halftime": home_goals_halftime,
+            "away_goals_halftime": away_goals_halftime})
 
 
 """     for key,value in diz_id.items():
@@ -192,10 +192,6 @@ df_matches = pd.DataFrame(matches_data)
 df_matches.to_csv('dataset/matches_history.csv', index= False)
 #df_stat_team = pd.DataFrame(stat_data)
 #df_formations = pd.DataFrame(formations_data)
-print(match)
-
-print(response)
-
 
 
 
