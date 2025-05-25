@@ -15,6 +15,23 @@ db_psw = db_file['psw']
 db_url = f"postgresql+psycopg2://{db_username}:{db_psw}@localhost:5432/DWH_football"
 engine = sql.create_engine(db_url)
 
+def drop_table_if_exists(schema, table_name):
+    with engine.connect() as conn:
+        drop_query = f"""
+        DO $$
+        BEGIN
+            IF EXISTS (
+                SELECT FROM information_schema.tables 
+                WHERE table_schema = '{schema}' AND table_name = '{table_name}'
+            ) THEN
+                EXECUTE 'DROP TABLE {schema}.{table_name} CASCADE';
+            END IF;
+        END
+        $$;
+        """
+        conn.execute(text(drop_query))
+        conn.commit()
+
 
 
 with open('query/conf/query.yml', 'r') as q:
@@ -27,9 +44,10 @@ with open('query/conf/query.yml', 'r') as q:
 
 
 for file in db_storage['df']:
-    for keys,value in file.items():
-        df_file = pd.read_csv(f'dataset/clean dataset/{keys}')
-        df_file.to_sql(f'{value}', engine, schema = 'ftb', if_exists='replace', index=False)
+    for filename,tablename in file.items():
+        drop_table_if_exists('ftb', tablename)
+        df_file = pd.read_csv(f'dataset/clean dataset/{filename}')
+        df_file.to_sql(f'{tablename}', engine, schema = 'ftb', if_exists='replace', index=False)
 
 
 

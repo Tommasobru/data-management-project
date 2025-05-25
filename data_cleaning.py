@@ -19,9 +19,8 @@ def convert_string(string):
     else:
         return float(clean_string)
 
-def cleaning_player_data(file):
+def cleaning_player_data(df):
     # leggi il file 
-    df = pd.read_csv(file)
 
     
     for index, row in df.iterrows():
@@ -129,7 +128,7 @@ file_odds_per_match = 'dataset/odds_per_match.csv'
 
 
 df_lista_team = pd.read_csv(file_lista_team)
-screaping_team = pd.read_csv(file_player_data)
+df_player = pd.read_csv(file_player_data)
 odds_per_match = pd.read_csv(file_odds_per_match, sep = ";")
 matches  = pd.read_csv(file_matches)
 matches_history = pd.read_csv(file_matches_history)
@@ -138,7 +137,7 @@ matches_history = pd.read_csv(file_matches_history)
 nomi_squadre = odds_per_match['home_team'].unique().tolist()
 
 # we create a dictionary for each dataframe derived from web scraping where for each team we associate the respective API name, so as to standardize the names 
-diz_squadre_player = create_diz(screaping_team, name_column='team', target_name=nomi_squadre)
+diz_squadre_player = create_diz(df_player, name_column='team', target_name=nomi_squadre)
 
 diz_lista_squadre = create_diz(df_lista_team, name_column='team', target_name=nomi_squadre)
 
@@ -146,11 +145,9 @@ diz_matches = create_diz(matches,name_column='home_team',target_name=nomi_squadr
 
 diz_matches_history = create_diz(matches_history, name_column="home_team", target_name=nomi_squadre)
 
-# replace all names with names taken from API
-df_player_data = cleaning_player_data(file_player_data)
+df_player_data = cleaning_player_data(df_player)
 df_player_data['team'] = df_player_data['team'].apply(lambda team_target: find_and_replace_name(team_target, diz=diz_squadre_player))
 df_player_data['age'] = df_player_data['age'].str.extract(r'\((\d+)\)').astype(int)
-df_player_data = df_player_data.drop(columns=['age'])
 df_player_data.to_csv('dataset/clean dataset/clean_player_team.csv')
 
 

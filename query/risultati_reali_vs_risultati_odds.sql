@@ -1,5 +1,6 @@
-create view ftb.risultati_reali_vs_risultati_odds
+create or alter view ftb.risultati_reali_vs_risultati_odds
 as
+
 select 
 	home.season 
 	,home.home_team
@@ -51,8 +52,8 @@ from ftb.fact_matches_odds_details odds
 
 inner join ftb.fact_matches matches
 	on odds.season = matches.season 
-	and odds.home_team = matches."home team"
-	and odds.away_team = matches."away team") as mat
+	and odds.home_team = matches.home_team
+	and odds.away_team = matches.away_team) as mat
 group by 
 	season
 	,home_team) home
@@ -82,8 +83,8 @@ from ftb.fact_matches_odds_details odds
 
 inner join ftb.fact_matches matches
 	on odds.season = matches.season 
-	and odds.home_team = matches."home team"
-	and odds.away_team = matches."away team") as mat
+	and odds.home_team = matches.home_team
+	and odds.away_team = matches.away_team) as mat
 group by 
 	season
 	,away_team) away
@@ -116,8 +117,8 @@ from ftb.fact_matches_odds_details odds
 
 inner join ftb.fact_matches matches
 	on odds.season = matches.season 
-	and odds.home_team = matches."home team"
-	and odds.away_team = matches."away team") as mat
+	and odds.home_team = matches.home_team
+	and odds.away_team = matches.away_team) as mat
 group by 
 	season
 	,home_team
@@ -149,12 +150,13 @@ from ftb.fact_matches_odds_details odds
 
 inner join ftb.fact_matches matches
 	on odds.season = matches.season 
-	and odds.home_team = matches."home team"
-	and odds.away_team = matches."away team") as mat
+	and odds.home_team = matches.home_team
+	and odds.away_team = matches.away_team) as mat
 group by 
 	season
 	,away_team
 ) awaysc
 
 on awaysc.season = home.season  and home.home_team = awaysc.away_team
+
 
