@@ -34,6 +34,109 @@ def safe_request_loop(url, headers):
         attempt += 1
 
 
+# Inserisci il tuo HTML in questa variabile (come stringa)
+html = """[INCOLLA QUI IL TUO HTML]"""
+
+soup = BeautifulSoup(html, 'html.parser')
+
+# Estrazione squadre e risultato
+teams = soup.find_all("a", title=True)
+team_home = teams[0].text.strip()
+team_away = teams[2].text.strip()
+
+# Risultato finale
+result = soup.find("span", class_="matchresult").text.strip()
+
+# DataFrame per la partita
+match_df = pd.DataFrame([{
+    'Squadra Casa': team_home,
+    'Squadra Trasferta': team_away,
+    'Risultato Finale': result
+}])
+
+# Estrazione eventi gol
+goal_rows = soup.find_all("tr", class_="spieltagsansicht-aktionen")
+
+goal_data = []
+
+for row in goal_rows:
+    tds = row.find_all("td")
+    if len(tds) < 5:
+        continue
+    
+    minute = tds[1].text.strip().replace("'", "")
+    goal_result = tds[2].text.strip()
+
+    # Chi ha segnato
+    scorer_tag = row.find("a", href=True)
+    if not scorer_tag:
+        continue
+    scorer = scorer_tag.text.strip()
+
+    # Determina squadra in base a posizione del nome
+    if tds[0].text.strip():  # Nome a sinistra
+        scoring_team = team_home
+    elif tds[4].text.strip():  # Nome a destra
+        scoring_team = team_away
+    else:
+        scoring_team = "Sconosciuta"
+
+    goal_data.append({
+        'Giocatore': scorer,
+        'Minuto': int(minute),
+        'Squadra': scoring_team,
+        'Risultato Goal': goal_result
+    })
+
+# DataFrame per i gol
+goals_df = pd.DataFrame(goal_data)
+
+# Output
+print("Dati partita:")
+print(match_df)
+print("\nEventi gol:")
+print(goals_df)
+
+
+def extract_match_goals(match_url, giornata, anno, partita):
+
+    # Richiesta alla pagina
+    response = requests.get(match_url, headers=headers)
+
+    # Controllo del successo della richiesta
+    if response.status_code == 200:
+        soup = BeautifulSoup(response.content, "html.parser")
+
+        # Trovare la sezione dei gol
+        goal_section = soup.find("div", id="sb-tore")
+        if goal_section:
+            goals = []
+            numero_goal_partita = 0 # inizializzo il contatore dei goal
+            for goal in goal_section.find_all("li", class_=["sb-aktion-heim", "sb-aktion-gast"]):
+                try:
+                    if "sb-aktion-heim" in goal['class']:
+                        team_goal = "home"
+                    elif "sb-aktion-gast" in goal['class']:    
+                        team_goal = "away"
+                    
+                    numero_goal_partita +=1
+                    # Estrarre il marcatore
+                    scorer = goal.find("a", class_="wichtig").get_text(strip=True)
+                    # Goal segnato
+                    numero_goal = goal.find("div", class_="sb-aktion-spielstand").get_text(strip = True)
+                    # Estrarre il tipo di azione (es. rigore, tiro, ecc.)
+                    action_details = goal.find("div", class_="sb-aktion-aktion").get_text(strip=True)
+                    # Aggiungere alla lista
+                    goals.append({"anno": anno,"giornata": giornata, "partita": partita ,"scorer": scorer,"numero_goal_partita":numero_goal_partita,"team_goal":team_goal ,"goal":numero_goal, "details": action_details})
+                except AttributeError:
+                    continue
+            
+        else:
+            goals = [{"anno": anno, 'giornata': giornata, "partita": partita, "scorer": "NaN","numero_goal_partita":"NaN", "team_goal" : "NaN","goal":"NaN", "details": "NaN"}]
+        
+        return goals
+    else:
+        print(f"Errore nel caricamento della pagina, codice: {response.status_code}")
 # funzione per ottenere il link relativo alla pagina "calendario per competizione" per ogni squadra e per ogni anno
 def url_calendario_per_competizione(url):
     
