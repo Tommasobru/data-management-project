@@ -1,5 +1,7 @@
 df:
   - clean_matches.csv : fact_matches
+  - clean_matches_goal.csv: fact_matches_details
   - clean_odds_per_match.csv : fact_matches_odds_details
   - clean_list_team.csv: dim_team
   - clean_player_team.csv: dim_player
+  
