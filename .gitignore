@@ -1,5 +1,19 @@
-venv/ 
+# Ambienti
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
 
+# Segreti
 psw/
+.env
 
-dataset/
+# Output rigenerabili dalla pipeline
+data/clean/
+data/reports/
+data/*.db
+
+# OS / editor
+.DS_Store
+tempCodeRunnerFile.py

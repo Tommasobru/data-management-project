@@ -1,0 +1,14 @@
+pandas>=2.2
+numpy>=1.26
+requests>=2.31
+beautifulsoup4>=4.12
+PyYAML>=6.0
+python-dotenv>=1.0
+SQLAlchemy>=2.0
+rapidfuzz>=3.6
+streamlit>=1.48
+plotly>=5.20
+pytest>=8.0
+selenium>=4.20           # scraping OddsPortal (richiede Chrome o Firefox)
+# Opzionali
+# psycopg2-binary>=2.9  # solo se si usa PostgreSQL

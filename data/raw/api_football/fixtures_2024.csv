@@ -1,0 +1,381 @@
+season,date,status,matchweek,home_team,home_winner,away_team,away_winner,home_goals,away_goals,home_goals_halftime,away_goals_halftime
+2024,2024-08-17,FT,Regular Season - 1,Genoa,,Inter,,2,2,1,1
+2024,2024-08-17,FT,Regular Season - 1,Parma,,Fiorentina,,1,1,1,0
+2024,2024-08-17,FT,Regular Season - 1,AC Milan,,Torino,,2,2,0,1
+2024,2024-08-17,FT,Regular Season - 1,Empoli,,Monza,,0,0,0,0
+2024,2024-08-18,FT,Regular Season - 1,Bologna,,Udinese,,1,1,0,0
+2024,2024-08-18,FT,Regular Season - 1,Hellas Verona,True,Napoli,False,3,0,0,0
+2024,2024-08-18,FT,Regular Season - 1,Lazio,True,Venezia,False,3,1,2,1
+2024,2024-08-18,FT,Regular Season - 1,Cagliari,,AS Roma,,0,0,0,0
+2024,2024-08-19,FT,Regular Season - 1,Lecce,False,Atalanta,True,0,4,0,2
+2024,2024-08-19,FT,Regular Season - 1,Juventus,True,Como,False,3,0,2,0
+2024,2024-08-24,FT,Regular Season - 2,Udinese,True,Lazio,False,2,1,1,0
+2024,2024-08-24,FT,Regular Season - 2,Parma,True,AC Milan,False,2,1,1,0
+2024,2024-08-24,FT,Regular Season - 2,Inter,True,Lecce,False,2,0,1,0
+2024,2024-08-24,FT,Regular Season - 2,Monza,False,Genoa,True,0,1,0,1
+2024,2024-08-25,FT,Regular Season - 2,Fiorentina,,Venezia,,0,0,0,0
+2024,2024-08-25,FT,Regular Season - 2,Torino,True,Atalanta,False,2,1,1,1
+2024,2024-08-25,FT,Regular Season - 2,Napoli,True,Bologna,False,3,0,1,0
+2024,2024-08-25,FT,Regular Season - 2,AS Roma,False,Empoli,True,1,2,0,1
+2024,2024-08-26,FT,Regular Season - 2,Cagliari,,Como,,1,1,1,0
+2024,2024-08-26,FT,Regular Season - 2,Hellas Verona,False,Juventus,True,0,3,0,2
+2024,2024-08-30,FT,Regular Season - 3,Venezia,False,Torino,True,0,1,0,0
+2024,2024-08-30,FT,Regular Season - 3,Inter,True,Atalanta,False,4,0,2,0
+2024,2024-08-31,FT,Regular Season - 3,Bologna,,Empoli,,1,1,1,1
+2024,2024-08-31,FT,Regular Season - 3,Lecce,True,Cagliari,False,1,0,1,0
+2024,2024-08-31,FT,Regular Season - 3,Lazio,,AC Milan,,2,2,0,1
+2024,2024-08-31,FT,Regular Season - 3,Napoli,True,Parma,False,2,1,0,1
+2024,2024-09-01,FT,Regular Season - 3,Genoa,False,Hellas Verona,True,0,2,0,0
+2024,2024-09-01,FT,Regular Season - 3,Fiorentina,,Monza,,2,2,1,2
+2024,2024-09-01,FT,Regular Season - 3,Udinese,True,Como,False,1,0,1,0
+2024,2024-09-01,FT,Regular Season - 3,Juventus,,AS Roma,,0,0,0,0
+2024,2024-09-14,FT,Regular Season - 4,Como,,Bologna,,2,2,1,0
+2024,2024-09-14,FT,Regular Season - 4,Empoli,,Juventus,,0,0,0,0
+2024,2024-09-14,FT,Regular Season - 4,AC Milan,True,Venezia,False,4,0,4,0
+2024,2024-09-15,FT,Regular Season - 4,Genoa,,AS Roma,,1,1,0,1
+2024,2024-09-15,FT,Regular Season - 4,Atalanta,True,Fiorentina,False,3,2,3,2
+2024,2024-09-15,FT,Regular Season - 4,Torino,,Lecce,,0,0,0,0
+2024,2024-09-15,FT,Regular Season - 4,Cagliari,False,Napoli,True,0,4,0,1
+2024,2024-09-15,FT,Regular Season - 4,Monza,,Inter,,1,1,0,0
+2024,2024-09-16,FT,Regular Season - 4,Parma,False,Udinese,True,2,3,2,0
+2024,2024-09-16,FT,Regular Season - 4,Lazio,True,Hellas Verona,False,2,1,2,1
+2024,2024-09-20,FT,Regular Season - 5,Cagliari,False,Empoli,True,0,2,0,1
+2024,2024-09-20,FT,Regular Season - 5,Hellas Verona,False,Torino,True,2,3,1,2
+2024,2024-09-21,FT,Regular Season - 5,Venezia,True,Genoa,False,2,0,0,0
+2024,2024-09-21,FT,Regular Season - 5,Juventus,,Napoli,,0,0,0,0
+2024,2024-09-21,FT,Regular Season - 5,Lecce,,Parma,,2,2,1,0
+2024,2024-09-22,FT,Regular Season - 5,Fiorentina,True,Lazio,False,2,1,0,1
+2024,2024-09-22,FT,Regular Season - 5,Monza,False,Bologna,True,1,2,1,1
+2024,2024-09-22,FT,Regular Season - 5,AS Roma,True,Udinese,False,3,0,1,0
+2024,2024-09-22,FT,Regular Season - 5,Inter,False,AC Milan,True,1,2,1,1
+2024,2024-09-24,FT,Regular Season - 5,Atalanta,False,Como,True,2,3,1,0
+2024,2024-09-27,FT,Regular Season - 6,AC Milan,True,Lecce,False,3,0,3,0
+2024,2024-09-28,FT,Regular Season - 6,Udinese,False,Inter,True,2,3,1,2
+2024,2024-09-28,FT,Regular Season - 6,Genoa,False,Juventus,True,0,3,0,0
+2024,2024-09-28,FT,Regular Season - 6,Bologna,,Atalanta,,1,1,0,0
+2024,2024-09-29,FT,Regular Season - 6,Torino,False,Lazio,True,2,3,0,1
+2024,2024-09-29,FT,Regular Season - 6,AS Roma,True,Venezia,False,2,1,0,1
+2024,2024-09-29,FT,Regular Season - 6,Como,True,Hellas Verona,False,3,2,1,0
+2024,2024-09-29,FT,Regular Season - 6,Empoli,,Fiorentina,,0,0,0,0
+2024,2024-09-29,FT,Regular Season - 6,Napoli,True,Monza,False,2,0,2,0
+2024,2024-09-30,FT,Regular Season - 6,Parma,False,Cagliari,True,2,3,0,1
+2024,2024-10-04,FT,Regular Season - 7,Napoli,True,Como,False,3,1,1,1
+2024,2024-10-04,FT,Regular Season - 7,Hellas Verona,True,Venezia,False,2,1,1,1
+2024,2024-10-05,FT,Regular Season - 7,Udinese,True,Lecce,False,1,0,0,0
+2024,2024-10-05,FT,Regular Season - 7,Atalanta,True,Genoa,False,5,1,1,0
+2024,2024-10-05,FT,Regular Season - 7,Inter,True,Torino,False,3,2,2,1
+2024,2024-10-06,FT,Regular Season - 7,Juventus,,Cagliari,,1,1,1,0
+2024,2024-10-06,FT,Regular Season - 7,Lazio,True,Empoli,False,2,1,1,1
+2024,2024-10-06,FT,Regular Season - 7,Bologna,,Parma,,0,0,0,0
+2024,2024-10-06,FT,Regular Season - 7,Monza,,AS Roma,,1,1,0,0
+2024,2024-10-06,FT,Regular Season - 7,Fiorentina,True,AC Milan,False,2,1,1,0
+2024,2024-10-19,FT,Regular Season - 8,Genoa,,Bologna,,2,2,0,1
+2024,2024-10-19,FT,Regular Season - 8,Como,,Parma,,1,1,1,1
+2024,2024-10-19,FT,Regular Season - 8,AC Milan,True,Udinese,False,1,0,1,0
+2024,2024-10-19,FT,Regular Season - 8,Juventus,True,Lazio,False,1,0,0,0
+2024,2024-10-20,FT,Regular Season - 8,Empoli,False,Napoli,True,0,1,0,0
+2024,2024-10-20,FT,Regular Season - 8,Venezia,False,Atalanta,True,0,2,0,1
+2024,2024-10-20,FT,Regular Season - 8,Lecce,False,Fiorentina,True,0,6,0,3
+2024,2024-10-20,FT,Regular Season - 8,Cagliari,True,Torino,False,3,2,1,1
+2024,2024-10-20,FT,Regular Season - 8,AS Roma,False,Inter,True,0,1,0,0
+2024,2024-10-21,FT,Regular Season - 8,Hellas Verona,False,Monza,True,0,3,0,1
+2024,2024-10-25,FT,Regular Season - 9,Udinese,True,Cagliari,False,2,0,1,0
+2024,2024-10-25,FT,Regular Season - 9,Torino,True,Como,False,1,0,0,0
+2024,2024-10-26,FT,Regular Season - 9,Napoli,True,Lecce,False,1,0,0,0
+2024,2024-10-26,FT,Regular Season - 9,Atalanta,True,Hellas Verona,False,6,1,5,1
+2024,2024-10-27,FT,Regular Season - 9,Parma,,Empoli,,1,1,0,1
+2024,2024-10-27,FT,Regular Season - 9,Lazio,True,Genoa,False,3,0,1,0
+2024,2024-10-27,FT,Regular Season - 9,Monza,,Venezia,,2,2,2,2
+2024,2024-10-27,FT,Regular Season - 9,Inter,,Juventus,,4,4,3,2
+2024,2024-10-27,FT,Regular Season - 9,Fiorentina,True,AS Roma,False,5,1,3,1
+2024,2024-10-29,FT,Regular Season - 10,Cagliari,False,Bologna,True,0,2,0,1
+2024,2024-10-29,FT,Regular Season - 10,Lecce,True,Hellas Verona,False,1,0,0,0
+2024,2024-10-29,FT,Regular Season - 10,AC Milan,False,Napoli,True,0,2,0,2
+2024,2024-10-30,FT,Regular Season - 10,Empoli,False,Inter,True,0,3,0,0
+2024,2024-10-30,FT,Regular Season - 10,Venezia,True,Udinese,False,3,2,1,2
+2024,2024-10-30,FT,Regular Season - 10,Juventus,,Parma,,2,2,1,2
+2024,2024-10-30,FT,Regular Season - 10,Atalanta,True,Monza,False,2,0,0,0
+2024,2024-10-31,FT,Regular Season - 10,Genoa,False,Fiorentina,True,0,1,0,0
+2024,2024-10-31,FT,Regular Season - 10,AS Roma,True,Torino,False,1,0,1,0
+2024,2024-10-31,FT,Regular Season - 10,Como,False,Lazio,True,1,5,0,2
+2024,2024-11-02,FT,Regular Season - 11,Bologna,True,Lecce,False,1,0,0,0
+2024,2024-11-02,FT,Regular Season - 11,Udinese,False,Juventus,True,0,2,0,2
+2024,2024-11-02,FT,Regular Season - 11,Monza,False,AC Milan,True,0,1,0,1
+2024,2024-11-03,FT,Regular Season - 11,Napoli,False,Atalanta,True,0,3,0,2
+2024,2024-11-03,FT,Regular Season - 11,Torino,False,Fiorentina,True,0,1,0,1
+2024,2024-11-03,FT,Regular Season - 11,Hellas Verona,True,AS Roma,False,3,2,2,1
+2024,2024-11-03,FT,Regular Season - 11,Inter,True,Venezia,False,1,0,0,0
+2024,2024-11-04,FT,Regular Season - 11,Empoli,True,Como,False,1,0,0,0
+2024,2024-11-04,FT,Regular Season - 11,Parma,False,Genoa,True,0,1,0,0
+2024,2024-11-04,FT,Regular Season - 11,Lazio,True,Cagliari,False,2,1,1,1
+2024,2024-11-07,FT,Regular Season - 12,Genoa,,Como,,1,1,0,1
+2024,2024-11-08,FT,Regular Season - 12,Lecce,,Empoli,,1,1,0,1
+2024,2024-11-09,FT,Regular Season - 12,Venezia,False,Parma,True,1,2,1,1
+2024,2024-11-09,FT,Regular Season - 12,Cagliari,,AC Milan,,3,3,1,2
+2024,2024-11-09,FT,Regular Season - 12,Juventus,True,Torino,False,2,0,1,0
+2024,2024-11-10,FT,Regular Season - 12,Atalanta,True,Udinese,False,2,1,0,1
+2024,2024-11-10,FT,Regular Season - 12,AS Roma,False,Bologna,True,2,3,0,1
+2024,2024-11-10,FT,Regular Season - 12,Fiorentina,True,Hellas Verona,False,3,1,1,1
+2024,2024-11-10,FT,Regular Season - 12,Monza,False,Lazio,True,0,1,0,1
+2024,2024-11-10,FT,Regular Season - 12,Inter,,Napoli,,1,1,1,1
+2024,2024-11-23,FT,Regular Season - 13,Hellas Verona,False,Inter,True,0,5,0,5
+2024,2024-11-23,FT,Regular Season - 13,AC Milan,,Juventus,,0,0,0,0
+2024,2024-11-23,FT,Regular Season - 13,Parma,False,Atalanta,True,1,3,0,2
+2024,2024-11-24,FT,Regular Season - 13,Genoa,,Cagliari,,2,2,1,1
+2024,2024-11-24,FT,Regular Season - 13,Torino,,Monza,,1,1,0,0
+2024,2024-11-24,FT,Regular Season - 13,Como,False,Fiorentina,True,0,2,0,1
+2024,2024-11-24,FT,Regular Season - 13,Napoli,True,AS Roma,False,1,0,0,0
+2024,2024-11-24,FT,Regular Season - 13,Lazio,True,Bologna,False,3,0,0,0
+2024,2024-11-25,FT,Regular Season - 13,Empoli,,Udinese,,1,1,1,0
+2024,2024-11-25,FT,Regular Season - 13,Venezia,False,Lecce,True,0,1,0,0
+2024,2024-11-29,FT,Regular Season - 14,Cagliari,True,Hellas Verona,False,1,0,0,0
+2024,2024-11-30,FT,Regular Season - 14,Como,,Monza,,1,1,1,0
+2024,2024-11-30,FT,Regular Season - 14,AC Milan,True,Empoli,False,3,0,2,0
+2024,2024-11-30,FT,Regular Season - 14,Bologna,True,Venezia,False,3,0,1,0
+2024,2024-12-01,FT,Regular Season - 14,Udinese,False,Genoa,True,0,2,0,1
+2024,2024-12-01,FT,Regular Season - 14,Torino,False,Napoli,True,0,1,0,1
+2024,2024-12-01,FT,Regular Season - 14,Parma,True,Lazio,False,3,1,1,0
+2024,2024-12-01,FT,Regular Season - 14,Lecce,,Juventus,,1,1,0,0
+2024,2024-12-02,FT,Regular Season - 14,AS Roma,False,Atalanta,True,0,2,0,0
+2024,2024-12-06,FT,Regular Season - 15,Inter,True,Parma,False,3,1,1,0
+2024,2024-12-06,FT,Regular Season - 15,Atalanta,True,AC Milan,False,2,1,1,1
+2024,2024-12-07,FT,Regular Season - 15,Genoa,,Torino,,0,0,0,0
+2024,2024-12-07,FT,Regular Season - 15,Juventus,,Bologna,,2,2,0,1
+2024,2024-12-07,FT,Regular Season - 15,AS Roma,True,Lecce,False,4,1,1,1
+2024,2024-12-08,FT,Regular Season - 15,Fiorentina,True,Cagliari,False,1,0,1,0
+2024,2024-12-08,FT,Regular Season - 15,Hellas Verona,False,Empoli,True,1,4,1,4
+2024,2024-12-08,FT,Regular Season - 15,Venezia,,Como,,2,2,1,0
+2024,2024-12-08,FT,Regular Season - 15,Napoli,False,Lazio,True,0,1,0,0
+2024,2024-12-09,FT,Regular Season - 15,Monza,False,Udinese,True,1,2,0,1
+2024,2024-12-13,FT,Regular Season - 16,Empoli,False,Torino,True,0,1,0,0
+2024,2024-12-14,FT,Regular Season - 16,Cagliari,False,Atalanta,True,0,1,0,0
+2024,2024-12-14,FT,Regular Season - 16,Udinese,False,Napoli,True,1,3,1,0
+2024,2024-12-14,FT,Regular Season - 16,Juventus,,Venezia,,2,2,1,0
+2024,2024-12-15,FT,Regular Season - 16,Lecce,True,Monza,False,2,1,2,1
+2024,2024-12-15,FT,Regular Season - 16,Bologna,True,Fiorentina,False,1,0,0,0
+2024,2024-12-15,FT,Regular Season - 16,Parma,False,Hellas Verona,True,2,3,1,1
+2024,2024-12-15,FT,Regular Season - 16,Como,True,AS Roma,False,2,0,0,0
+2024,2024-12-15,FT,Regular Season - 16,AC Milan,,Genoa,,0,0,0,0
+2024,2024-12-16,FT,Regular Season - 16,Lazio,False,Inter,True,0,6,0,2
+2024,2024-12-20,FT,Regular Season - 17,Hellas Verona,False,AC Milan,True,0,1,0,0
+2024,2024-12-21,FT,Regular Season - 17,Torino,False,Bologna,True,0,2,0,0
+2024,2024-12-21,FT,Regular Season - 17,Genoa,False,Napoli,True,1,2,0,2
+2024,2024-12-21,FT,Regular Season - 17,Lecce,False,Lazio,True,1,2,0,1
+2024,2024-12-22,FT,Regular Season - 17,AS Roma,True,Parma,False,5,0,2,0
+2024,2024-12-22,FT,Regular Season - 17,Venezia,True,Cagliari,False,2,1,1,0
+2024,2024-12-22,FT,Regular Season - 17,Atalanta,True,Empoli,False,3,2,2,1
+2024,2024-12-22,FT,Regular Season - 17,Monza,False,Juventus,True,1,2,1,2
+2024,2024-12-23,FT,Regular Season - 17,Fiorentina,False,Udinese,True,1,2,1,0
+2024,2024-12-23,FT,Regular Season - 17,Inter,True,Como,False,2,0,0,0
+2024,2024-12-28,FT,Regular Season - 18,Empoli,False,Genoa,True,1,2,0,0
+2024,2024-12-28,FT,Regular Season - 18,Parma,True,Monza,False,2,1,0,0
+2024,2024-12-28,FT,Regular Season - 18,Cagliari,False,Inter,True,0,3,0,0
+2024,2024-12-28,FT,Regular Season - 18,Lazio,,Atalanta,,1,1,1,0
+2024,2024-12-29,FT,Regular Season - 18,Udinese,,Torino,,2,2,1,0
+2024,2024-12-29,FT,Regular Season - 18,Napoli,True,Venezia,False,1,0,0,0
+2024,2024-12-29,FT,Regular Season - 18,Juventus,,Fiorentina,,2,2,1,1
+2024,2024-12-29,FT,Regular Season - 18,AC Milan,,AS Roma,,1,1,1,1
+2024,2024-12-30,FT,Regular Season - 18,Como,True,Lecce,False,2,0,0,0
+2024,2024-12-30,FT,Regular Season - 18,Bologna,False,Hellas Verona,True,2,3,1,2
+2024,2025-01-04,FT,Regular Season - 19,Venezia,,Empoli,,1,1,1,1
+2024,2025-01-04,FT,Regular Season - 19,Fiorentina,False,Napoli,True,0,3,0,1
+2024,2025-01-04,FT,Regular Season - 19,Hellas Verona,,Udinese,,0,0,0,0
+2024,2025-01-05,FT,Regular Season - 19,Monza,False,Cagliari,True,1,2,1,1
+2024,2025-01-05,FT,Regular Season - 19,Lecce,,Genoa,,0,0,0,0
+2024,2025-01-05,FT,Regular Season - 19,Torino,,Parma,,0,0,0,0
+2024,2025-01-05,FT,Regular Season - 19,AS Roma,True,Lazio,False,2,0,2,0
+2024,2025-01-10,FT,Regular Season - 20,Lazio,,Como,,1,1,1,0
+2024,2025-01-11,FT,Regular Season - 20,Udinese,,Atalanta,,0,0,0,0
+2024,2025-01-11,FT,Regular Season - 20,Empoli,False,Lecce,True,1,3,0,2
+2024,2025-01-11,FT,Regular Season - 20,Torino,,Juventus,,1,1,1,1
+2024,2025-01-11,FT,Regular Season - 20,AC Milan,,Cagliari,,1,1,0,0
+2024,2025-01-12,FT,Regular Season - 20,Genoa,True,Parma,False,1,0,0,0
+2024,2025-01-12,FT,Regular Season - 20,Venezia,False,Inter,True,0,1,0,1
+2024,2025-01-12,FT,Regular Season - 20,Bologna,,AS Roma,,2,2,0,0
+2024,2025-01-12,FT,Regular Season - 20,Napoli,True,Hellas Verona,False,2,0,1,0
+2024,2025-01-13,FT,Regular Season - 20,Monza,True,Fiorentina,False,2,1,1,0
+2024,2025-01-14,FT,Regular Season - 19,Como,False,AC Milan,True,1,2,0,0
+2024,2025-01-14,FT,Regular Season - 19,Atalanta,,Juventus,,1,1,0,0
+2024,2025-01-15,FT,Regular Season - 19,Inter,,Bologna,,2,2,2,1
+2024,2025-01-17,FT,Regular Season - 21,AS Roma,True,Genoa,False,3,1,1,1
+2024,2025-01-18,FT,Regular Season - 21,Bologna,True,Monza,False,3,1,2,1
+2024,2025-01-18,FT,Regular Season - 21,Juventus,True,AC Milan,False,2,0,0,0
+2024,2025-01-18,FT,Regular Season - 21,Atalanta,False,Napoli,True,2,3,1,2
+2024,2025-01-19,FT,Regular Season - 21,Fiorentina,,Torino,,1,1,1,0
+2024,2025-01-19,FT,Regular Season - 21,Cagliari,True,Lecce,False,4,1,0,1
+2024,2025-01-19,FT,Regular Season - 21,Parma,,Venezia,,1,1,0,1
+2024,2025-01-19,FT,Regular Season - 21,Hellas Verona,False,Lazio,True,0,3,0,2
+2024,2025-01-19,FT,Regular Season - 21,Inter,True,Empoli,False,3,1,0,0
+2024,2025-01-20,FT,Regular Season - 21,Como,True,Udinese,False,4,1,2,0
+2024,2025-01-24,FT,Regular Season - 22,Torino,True,Cagliari,False,2,0,1,0
+2024,2025-01-25,FT,Regular Season - 22,Como,False,Atalanta,True,1,2,1,0
+2024,2025-01-25,FT,Regular Season - 22,Napoli,True,Juventus,False,2,1,0,1
+2024,2025-01-25,FT,Regular Season - 22,Empoli,,Bologna,,1,1,1,1
+2024,2025-01-26,FT,Regular Season - 22,AC Milan,True,Parma,False,3,2,1,1
+2024,2025-01-26,FT,Regular Season - 22,Udinese,False,AS Roma,True,1,2,1,0
+2024,2025-01-26,FT,Regular Season - 22,Lecce,False,Inter,True,0,4,0,2
+2024,2025-01-26,FT,Regular Season - 22,Lazio,False,Fiorentina,True,1,2,0,2
+2024,2025-01-27,FT,Regular Season - 22,Venezia,,Hellas Verona,,1,1,1,0
+2024,2025-01-27,FT,Regular Season - 22,Genoa,True,Monza,False,2,0,0,0
+2024,2025-01-31,FT,Regular Season - 23,Parma,False,Lecce,True,1,3,1,1
+2024,2025-02-01,FT,Regular Season - 23,Udinese,True,Venezia,False,3,2,0,0
+2024,2025-02-01,FT,Regular Season - 23,Monza,False,Hellas Verona,True,0,1,0,1
+2024,2025-02-01,FT,Regular Season - 23,Atalanta,,Torino,,1,1,1,1
+2024,2025-02-01,FT,Regular Season - 23,Bologna,True,Como,False,2,0,1,0
+2024,2025-02-02,FT,Regular Season - 23,Juventus,True,Empoli,False,4,1,0,1
+2024,2025-02-02,FT,Regular Season - 23,Fiorentina,True,Genoa,False,2,1,2,0
+2024,2025-02-02,FT,Regular Season - 23,AC Milan,,Inter,,1,1,1,0
+2024,2025-02-02,FT,Regular Season - 23,AS Roma,,Napoli,,1,1,0,1
+2024,2025-02-03,FT,Regular Season - 23,Cagliari,False,Lazio,True,1,2,0,1
+2024,2025-02-06,FT,Regular Season - 14,Fiorentina,True,Inter,False,3,0,0,0
+2024,2025-02-07,FT,Regular Season - 24,Como,False,Juventus,True,1,2,1,1
+2024,2025-02-08,FT,Regular Season - 24,Hellas Verona,False,Atalanta,True,0,5,0,4
+2024,2025-02-08,FT,Regular Season - 24,Empoli,False,AC Milan,True,0,2,0,0
+2024,2025-02-08,FT,Regular Season - 24,Torino,,Genoa,,1,1,1,0
+2024,2025-02-09,FT,Regular Season - 24,Venezia,False,AS Roma,True,0,1,0,0
+2024,2025-02-09,FT,Regular Season - 24,Lazio,True,Monza,False,5,1,1,0
+2024,2025-02-09,FT,Regular Season - 24,Cagliari,True,Parma,False,2,1,0,0
+2024,2025-02-09,FT,Regular Season - 24,Lecce,,Bologna,,0,0,0,0
+2024,2025-02-09,FT,Regular Season - 24,Napoli,,Udinese,,1,1,1,1
+2024,2025-02-10,FT,Regular Season - 24,Inter,True,Fiorentina,False,2,1,1,1
+2024,2025-02-14,FT,Regular Season - 25,Bologna,True,Torino,False,3,2,1,1
+2024,2025-02-15,FT,Regular Season - 25,Atalanta,,Cagliari,,0,0,0,0
+2024,2025-02-15,FT,Regular Season - 25,Lazio,,Napoli,,2,2,1,1
+2024,2025-02-15,FT,Regular Season - 25,AC Milan,True,Hellas Verona,False,1,0,0,0
+2024,2025-02-16,FT,Regular Season - 25,Fiorentina,False,Como,True,0,2,0,1
+2024,2025-02-16,FT,Regular Season - 25,Udinese,True,Empoli,False,3,0,1,0
+2024,2025-02-16,FT,Regular Season - 25,Monza,,Lecce,,0,0,0,0
+2024,2025-02-16,FT,Regular Season - 25,Parma,False,AS Roma,True,0,1,0,1
+2024,2025-02-16,FT,Regular Season - 25,Juventus,True,Inter,False,1,0,0,0
+2024,2025-02-17,FT,Regular Season - 25,Genoa,True,Venezia,False,2,0,0,0
+2024,2025-02-21,FT,Regular Season - 26,Lecce,False,Udinese,True,0,1,0,1
+2024,2025-02-22,FT,Regular Season - 26,Venezia,,Lazio,,0,0,0,0
+2024,2025-02-22,FT,Regular Season - 26,Parma,True,Bologna,False,2,0,1,0
+2024,2025-02-22,FT,Regular Season - 26,Torino,True,AC Milan,False,2,1,1,0
+2024,2025-02-22,FT,Regular Season - 26,Inter,True,Genoa,False,1,0,0,0
+2024,2025-02-23,FT,Regular Season - 26,Como,True,Napoli,False,2,1,1,1
+2024,2025-02-23,FT,Regular Season - 26,Hellas Verona,True,Fiorentina,False,1,0,0,0
+2024,2025-02-23,FT,Regular Season - 26,Empoli,False,Atalanta,True,0,5,0,3
+2024,2025-02-23,FT,Regular Season - 26,Cagliari,False,Juventus,True,0,1,0,1
+2024,2025-02-24,FT,Regular Season - 26,AS Roma,True,Monza,False,4,0,2,0
+2024,2025-02-27,FT,Regular Season - 9,Bologna,True,AC Milan,False,2,1,0,1
+2024,2025-02-28,FT,Regular Season - 27,Fiorentina,True,Lecce,False,1,0,1,0
+2024,2025-03-01,FT,Regular Season - 27,Atalanta,,Venezia,,0,0,0,0
+2024,2025-03-01,FT,Regular Season - 27,Napoli,,Inter,,1,1,0,1
+2024,2025-03-01,FT,Regular Season - 27,Udinese,True,Parma,False,1,0,1,0
+2024,2025-03-02,FT,Regular Season - 27,Monza,False,Torino,True,0,2,0,1
+2024,2025-03-02,FT,Regular Season - 27,Genoa,,Empoli,,1,1,0,1
+2024,2025-03-02,FT,Regular Season - 27,Bologna,True,Cagliari,False,2,1,0,1
+2024,2025-03-02,FT,Regular Season - 27,AS Roma,True,Como,False,2,1,0,1
+2024,2025-03-02,FT,Regular Season - 27,AC Milan,False,Lazio,True,1,2,0,1
+2024,2025-03-03,FT,Regular Season - 27,Juventus,True,Hellas Verona,False,2,0,0,0
+2024,2025-03-07,FT,Regular Season - 28,Cagliari,,Genoa,,1,1,1,0
+2024,2025-03-08,FT,Regular Season - 28,Parma,,Torino,,2,2,0,1
+2024,2025-03-08,FT,Regular Season - 28,Como,,Venezia,,1,1,0,0
+2024,2025-03-08,FT,Regular Season - 28,Lecce,False,AC Milan,True,2,3,1,0
+2024,2025-03-08,FT,Regular Season - 28,Inter,True,Monza,False,3,2,1,2
+2024,2025-03-09,FT,Regular Season - 28,Hellas Verona,False,Bologna,True,1,2,0,1
+2024,2025-03-09,FT,Regular Season - 28,Napoli,True,Fiorentina,False,2,1,1,0
+2024,2025-03-09,FT,Regular Season - 28,Empoli,False,AS Roma,True,0,1,0,1
+2024,2025-03-09,FT,Regular Season - 28,Juventus,False,Atalanta,True,0,4,0,1
+2024,2025-03-10,FT,Regular Season - 28,Lazio,,Udinese,,1,1,1,1
+2024,2025-03-14,FT,Regular Season - 29,Genoa,True,Lecce,False,2,1,2,0
+2024,2025-03-15,FT,Regular Season - 29,Udinese,False,Hellas Verona,True,0,1,0,0
+2024,2025-03-15,FT,Regular Season - 29,Monza,,Parma,,1,1,0,0
+2024,2025-03-15,FT,Regular Season - 29,AC Milan,True,Como,False,2,1,0,1
+2024,2025-03-15,FT,Regular Season - 29,Torino,True,Empoli,False,1,0,0,0
+2024,2025-03-16,FT,Regular Season - 29,Venezia,,Napoli,,0,0,0,0
+2024,2025-03-16,FT,Regular Season - 29,Bologna,True,Lazio,False,5,0,1,0
+2024,2025-03-16,FT,Regular Season - 29,AS Roma,True,Cagliari,False,1,0,0,0
+2024,2025-03-16,FT,Regular Season - 29,Fiorentina,True,Juventus,False,3,0,2,0
+2024,2025-03-16,FT,Regular Season - 29,Atalanta,False,Inter,True,0,2,0,0
+2024,2025-03-29,FT,Regular Season - 30,Venezia,False,Bologna,True,0,1,0,0
+2024,2025-03-29,FT,Regular Season - 30,Como,,Empoli,,1,1,0,0
+2024,2025-03-29,FT,Regular Season - 30,Juventus,True,Genoa,False,1,0,1,0
+2024,2025-03-29,FT,Regular Season - 30,Lecce,False,AS Roma,True,0,1,0,0
+2024,2025-03-30,FT,Regular Season - 30,Cagliari,True,Monza,False,3,0,0,0
+2024,2025-03-30,FT,Regular Season - 30,Fiorentina,True,Atalanta,False,1,0,1,0
+2024,2025-03-30,FT,Regular Season - 30,Inter,True,Udinese,False,2,1,2,0
+2024,2025-03-30,FT,Regular Season - 30,Napoli,True,AC Milan,False,2,1,2,0
+2024,2025-03-31,FT,Regular Season - 30,Hellas Verona,,Parma,,0,0,0,0
+2024,2025-03-31,FT,Regular Season - 30,Lazio,,Torino,,1,1,0,0
+2024,2025-04-04,FT,Regular Season - 31,Genoa,True,Udinese,False,1,0,0,0
+2024,2025-04-05,FT,Regular Season - 31,Monza,False,Como,True,1,3,1,2
+2024,2025-04-05,FT,Regular Season - 31,Parma,,Inter,,2,2,0,2
+2024,2025-04-05,FT,Regular Season - 31,AC Milan,,Fiorentina,,2,2,1,2
+2024,2025-04-06,FT,Regular Season - 31,Lecce,,Venezia,,1,1,0,0
+2024,2025-04-06,FT,Regular Season - 31,Torino,,Hellas Verona,,1,1,0,0
+2024,2025-04-06,FT,Regular Season - 31,Empoli,,Cagliari,,0,0,0,0
+2024,2025-04-06,FT,Regular Season - 31,Atalanta,False,Lazio,True,0,1,0,0
+2024,2025-04-06,FT,Regular Season - 31,AS Roma,,Juventus,,1,1,0,1
+2024,2025-04-07,FT,Regular Season - 31,Bologna,,Napoli,,1,1,0,1
+2024,2025-04-11,FT,Regular Season - 32,Udinese,False,AC Milan,True,0,4,0,2
+2024,2025-04-12,FT,Regular Season - 32,Venezia,True,Monza,False,1,0,0,0
+2024,2025-04-12,FT,Regular Season - 32,Inter,True,Cagliari,False,3,1,2,0
+2024,2025-04-12,FT,Regular Season - 32,Juventus,True,Lecce,False,2,1,2,0
+2024,2025-04-13,FT,Regular Season - 32,Atalanta,True,Bologna,False,2,0,2,0
+2024,2025-04-13,FT,Regular Season - 32,Fiorentina,,Parma,,0,0,0,0
+2024,2025-04-13,FT,Regular Season - 32,Hellas Verona,,Genoa,,0,0,0,0
+2024,2025-04-13,FT,Regular Season - 32,Como,True,Torino,False,1,0,1,0
+2024,2025-04-13,FT,Regular Season - 32,Lazio,,AS Roma,,1,1,0,0
+2024,2025-04-14,FT,Regular Season - 32,Napoli,True,Empoli,False,3,0,1,0
+2024,2025-04-19,FT,Regular Season - 33,Lecce,False,Como,True,0,3,0,1
+2024,2025-04-19,FT,Regular Season - 33,Monza,False,Napoli,True,0,1,0,0
+2024,2025-04-19,FT,Regular Season - 33,AS Roma,True,Hellas Verona,False,1,0,1,0
+2024,2025-04-20,FT,Regular Season - 33,Empoli,,Venezia,,2,2,0,0
+2024,2025-04-20,FT,Regular Season - 33,Bologna,True,Inter,False,1,0,0,0
+2024,2025-04-20,FT,Regular Season - 33,AC Milan,False,Atalanta,True,0,1,0,0
+2024,2025-04-23,FT,Regular Season - 33,Cagliari,False,Fiorentina,True,1,2,1,1
+2024,2025-04-23,FT,Regular Season - 33,Genoa,False,Lazio,True,0,2,0,1
+2024,2025-04-23,FT,Regular Season - 33,Torino,True,Udinese,False,2,0,1,0
+2024,2025-04-23,FT,Regular Season - 33,Parma,True,Juventus,False,1,0,1,0
+2024,2025-04-27,FT,Regular Season - 34,Venezia,False,AC Milan,True,0,2,0,1
+2024,2025-04-27,FT,Regular Season - 34,Como,True,Genoa,False,1,0,0,0
+2024,2025-04-27,FT,Regular Season - 34,Fiorentina,True,Empoli,False,2,1,2,0
+2024,2025-04-27,FT,Regular Season - 34,Inter,False,AS Roma,True,0,1,0,1
+2024,2025-04-27,FT,Regular Season - 34,Juventus,True,Monza,False,2,0,2,0
+2024,2025-04-27,FT,Regular Season - 34,Napoli,True,Torino,False,2,0,2,0
+2024,2025-04-27,FT,Regular Season - 34,Atalanta,,Lecce,,1,1,0,1
+2024,2025-04-28,FT,Regular Season - 34,Udinese,,Bologna,,0,0,0,0
+2024,2025-04-28,FT,Regular Season - 34,Lazio,,Parma,,2,2,0,1
+2024,2025-04-28,FT,Regular Season - 34,Hellas Verona,False,Cagliari,True,0,2,0,1
+2024,2025-05-02,FT,Regular Season - 35,Torino,,Venezia,,1,1,0,1
+2024,2025-05-03,FT,Regular Season - 35,Cagliari,False,Udinese,True,1,2,1,1
+2024,2025-05-03,FT,Regular Season - 35,Parma,False,Como,True,0,1,0,0
+2024,2025-05-03,FT,Regular Season - 35,Lecce,False,Napoli,True,0,1,0,1
+2024,2025-05-03,FT,Regular Season - 35,Inter,True,Hellas Verona,False,1,0,1,0
+2024,2025-05-04,FT,Regular Season - 35,Empoli,False,Lazio,True,0,1,0,1
+2024,2025-05-04,FT,Regular Season - 35,Monza,False,Atalanta,True,0,4,0,2
+2024,2025-05-04,FT,Regular Season - 35,AS Roma,True,Fiorentina,False,1,0,1,0
+2024,2025-05-04,FT,Regular Season - 35,Bologna,,Juventus,,1,1,0,1
+2024,2025-05-05,FT,Regular Season - 35,Genoa,False,AC Milan,True,1,2,0,0
+2024,2025-05-09,FT,Regular Season - 36,AC Milan,True,Bologna,False,3,1,0,0
+2024,2025-05-10,FT,Regular Season - 36,Como,True,Cagliari,False,3,1,2,1
+2024,2025-05-10,FT,Regular Season - 36,Lazio,,Juventus,,1,1,0,0
+2024,2025-05-10,FT,Regular Season - 36,Empoli,True,Parma,False,2,1,1,0
+2024,2025-05-11,FT,Regular Season - 36,Udinese,False,Monza,True,1,2,0,0
+2024,2025-05-11,FT,Regular Season - 36,Hellas Verona,,Lecce,,1,1,1,1
+2024,2025-05-11,FT,Regular Season - 36,Torino,False,Inter,True,0,2,0,1
+2024,2025-05-11,FT,Regular Season - 36,Napoli,,Genoa,,2,2,1,1
+2024,2025-05-12,FT,Regular Season - 36,Venezia,True,Fiorentina,False,2,1,0,0
+2024,2025-05-12,FT,Regular Season - 36,Atalanta,True,AS Roma,False,2,1,1,1
+2024,2025-05-17,FT,Regular Season - 37,Genoa,False,Atalanta,True,2,3,1,0
+2024,2025-05-18,FT,Regular Season - 37,Cagliari,True,Venezia,False,3,0,2,0
+2024,2025-05-18,FT,Regular Season - 37,Juventus,True,Udinese,False,2,0,0,0
+2024,2025-05-18,FT,Regular Season - 37,AS Roma,True,AC Milan,False,3,1,1,1
+2024,2025-05-18,FT,Regular Season - 37,Fiorentina,True,Bologna,False,3,2,1,0
+2024,2025-05-18,FT,Regular Season - 37,Hellas Verona,,Como,,1,1,0,1
+2024,2025-05-18,FT,Regular Season - 37,Inter,,Lazio,,2,2,1,0
+2024,2025-05-18,FT,Regular Season - 37,Parma,,Napoli,,0,0,0,0
+2024,2025-05-18,FT,Regular Season - 37,Lecce,True,Torino,False,1,0,0,0
+2024,2025-05-18,FT,Regular Season - 37,Monza,False,Empoli,True,1,3,1,0
+2024,2025-05-23,FT,Regular Season - 38,Napoli,True,Cagliari,False,2,0,1,0
+2024,2025-05-23,FT,Regular Season - 38,Como,False,Inter,True,0,2,0,1
+2024,2025-05-24,FT,Regular Season - 38,Bologna,False,Genoa,True,1,3,0,3
+2024,2025-05-24,FT,Regular Season - 38,AC Milan,True,Monza,False,2,0,0,0
+2024,2025-05-25,FT,Regular Season - 38,Lazio,False,Lecce,True,0,1,0,1
+2024,2025-05-25,FT,Regular Season - 38,Udinese,False,Fiorentina,True,2,3,1,0
+2024,2025-05-25,FT,Regular Season - 38,Atalanta,False,Parma,True,2,3,2,0
+2024,2025-05-25,FT,Regular Season - 38,Torino,False,AS Roma,True,0,2,0,1
+2024,2025-05-25,FT,Regular Season - 38,Empoli,False,Hellas Verona,True,1,2,1,1
+2024,2025-05-25,FT,Regular Season - 38,Venezia,False,Juventus,True,2,3,1,2

@@ -1,0 +1,381 @@
+season,date,matchweek,home_team,home_winner,away_team,away_winner,home_goals,away_goals,home_goals_halftime,away_goals_halftime
+2021,2021-08-21,Regular Season - 1,Verona,False,Sassuolo,True,2,3,0,1
+2021,2021-08-21,Regular Season - 1,Inter,True,Genoa,False,4,0,2,0
+2021,2021-08-21,Regular Season - 1,Torino,False,Atalanta,True,1,2,0,1
+2021,2021-08-21,Regular Season - 1,Empoli,False,Lazio,True,1,3,1,3
+2021,2021-08-22,Regular Season - 1,Udinese,,Juventus,,2,2,0,2
+2021,2021-08-22,Regular Season - 1,Bologna,True,Salernitana,False,3,2,0,0
+2021,2021-08-22,Regular Season - 1,Napoli,True,Venezia,False,2,0,0,0
+2021,2021-08-22,Regular Season - 1,AS Roma,True,Fiorentina,False,3,1,1,0
+2021,2021-08-23,Regular Season - 1,Cagliari,,Spezia,,2,2,0,1
+2021,2021-08-23,Regular Season - 1,Sampdoria,False,AC Milan,True,0,1,0,1
+2021,2021-08-27,Regular Season - 2,Udinese,True,Venezia,False,3,0,1,0
+2021,2021-08-27,Regular Season - 2,Verona,False,Inter,True,1,3,1,0
+2021,2021-08-28,Regular Season - 2,Lazio,True,Spezia,False,6,1,3,1
+2021,2021-08-28,Regular Season - 2,Atalanta,,Bologna,,0,0,0,0
+2021,2021-08-28,Regular Season - 2,Juventus,False,Empoli,True,0,1,0,1
+2021,2021-08-28,Regular Season - 2,Fiorentina,True,Torino,False,2,1,1,0
+2021,2021-08-29,Regular Season - 2,Sassuolo,,Sampdoria,,0,0,0,0
+2021,2021-08-29,Regular Season - 2,Genoa,False,Napoli,True,1,2,0,1
+2021,2021-08-29,Regular Season - 2,AC Milan,True,Cagliari,False,4,1,4,1
+2021,2021-08-29,Regular Season - 2,Salernitana,False,AS Roma,True,0,4,0,0
+2021,2021-09-11,Regular Season - 3,Empoli,False,Venezia,True,1,2,0,1
+2021,2021-09-11,Regular Season - 3,Napoli,True,Juventus,False,2,1,0,1
+2021,2021-09-11,Regular Season - 3,Atalanta,False,Fiorentina,True,1,2,0,1
+2021,2021-09-12,Regular Season - 3,Sampdoria,,Inter,,2,2,1,2
+2021,2021-09-12,Regular Season - 3,Cagliari,False,Genoa,True,2,3,1,0
+2021,2021-09-12,Regular Season - 3,Torino,True,Salernitana,False,4,0,1,0
+2021,2021-09-12,Regular Season - 3,Spezia,False,Udinese,True,0,1,0,0
+2021,2021-09-12,Regular Season - 3,AC Milan,True,Lazio,False,2,0,1,0
+2021,2021-09-12,Regular Season - 3,AS Roma,True,Sassuolo,False,2,1,1,0
+2021,2021-09-13,Regular Season - 3,Bologna,True,Verona,False,1,0,0,0
+2021,2021-09-17,Regular Season - 4,Sassuolo,False,Torino,True,0,1,0,0
+2021,2021-09-18,Regular Season - 4,Genoa,False,Fiorentina,True,1,2,0,0
+2021,2021-09-18,Regular Season - 4,Inter,True,Bologna,False,6,1,3,0
+2021,2021-09-18,Regular Season - 4,Salernitana,False,Atalanta,True,0,1,0,0
+2021,2021-09-19,Regular Season - 4,Empoli,False,Sampdoria,True,0,3,0,1
+2021,2021-09-19,Regular Season - 4,Venezia,False,Spezia,True,1,2,0,1
+2021,2021-09-19,Regular Season - 4,Lazio,,Cagliari,,2,2,1,0
+2021,2021-09-19,Regular Season - 4,Verona,True,AS Roma,False,3,2,0,1
+2021,2021-09-19,Regular Season - 4,Juventus,,AC Milan,,1,1,1,0
+2021,2021-09-20,Regular Season - 4,Udinese,False,Napoli,True,0,4,0,2
+2021,2021-09-21,Regular Season - 5,Bologna,,Genoa,,2,2,0,0
+2021,2021-09-21,Regular Season - 5,Atalanta,True,Sassuolo,False,2,1,2,1
+2021,2021-09-21,Regular Season - 5,Fiorentina,False,Inter,True,1,3,1,0
+2021,2021-09-22,Regular Season - 5,Salernitana,,Verona,,2,2,1,2
+2021,2021-09-22,Regular Season - 5,Spezia,False,Juventus,True,2,3,1,1
+2021,2021-09-22,Regular Season - 5,AC Milan,True,Venezia,False,2,0,0,0
+2021,2021-09-22,Regular Season - 5,Cagliari,False,Empoli,True,0,2,0,1
+2021,2021-09-23,Regular Season - 5,Sampdoria,False,Napoli,True,0,4,0,2
+2021,2021-09-23,Regular Season - 5,Torino,,Lazio,,1,1,0,0
+2021,2021-09-23,Regular Season - 5,AS Roma,True,Udinese,False,1,0,1,0
+2021,2021-09-25,Regular Season - 6,Spezia,False,AC Milan,True,1,2,0,0
+2021,2021-09-25,Regular Season - 6,Inter,,Atalanta,,2,2,1,2
+2021,2021-09-25,Regular Season - 6,Genoa,,Verona,,3,3,0,1
+2021,2021-09-26,Regular Season - 6,Juventus,True,Sampdoria,False,3,2,2,1
+2021,2021-09-26,Regular Season - 6,Sassuolo,True,Salernitana,False,1,0,0,0
+2021,2021-09-26,Regular Season - 6,Udinese,False,Fiorentina,True,0,1,0,1
+2021,2021-09-26,Regular Season - 6,Empoli,True,Bologna,False,4,2,2,1
+2021,2021-09-26,Regular Season - 6,Lazio,True,AS Roma,False,3,2,2,1
+2021,2021-09-26,Regular Season - 6,Napoli,True,Cagliari,False,2,0,1,0
+2021,2021-09-27,Regular Season - 6,Venezia,,Torino,,1,1,0,0
+2021,2021-10-01,Regular Season - 7,Cagliari,,Venezia,,1,1,1,0
+2021,2021-10-02,Regular Season - 7,Salernitana,True,Genoa,False,1,0,0,0
+2021,2021-10-02,Regular Season - 7,Torino,False,Juventus,True,0,1,0,0
+2021,2021-10-02,Regular Season - 7,Sassuolo,False,Inter,True,1,2,1,0
+2021,2021-10-03,Regular Season - 7,Bologna,True,Lazio,False,3,0,2,0
+2021,2021-10-03,Regular Season - 7,Sampdoria,,Udinese,,3,3,1,2
+2021,2021-10-03,Regular Season - 7,Verona,True,Spezia,False,4,0,3,0
+2021,2021-10-03,Regular Season - 7,AS Roma,True,Empoli,False,2,0,1,0
+2021,2021-10-03,Regular Season - 7,Fiorentina,False,Napoli,True,1,2,1,1
+2021,2021-10-03,Regular Season - 7,Atalanta,False,AC Milan,True,2,3,0,2
+2021,2021-10-16,Regular Season - 8,Spezia,True,Salernitana,False,2,1,0,1
+2021,2021-10-16,Regular Season - 8,Lazio,True,Inter,False,3,1,0,1
+2021,2021-10-16,Regular Season - 8,AC Milan,True,Verona,False,3,2,0,2
+2021,2021-10-17,Regular Season - 8,Cagliari,True,Sampdoria,False,3,1,1,0
+2021,2021-10-17,Regular Season - 8,Udinese,,Bologna,,1,1,0,0
+2021,2021-10-17,Regular Season - 8,Genoa,,Sassuolo,,2,2,1,2
+2021,2021-10-17,Regular Season - 8,Empoli,False,Atalanta,True,1,4,1,2
+2021,2021-10-17,Regular Season - 8,Napoli,True,Torino,False,1,0,0,0
+2021,2021-10-17,Regular Season - 8,Juventus,True,AS Roma,False,1,0,1,0
+2021,2021-10-18,Regular Season - 8,Venezia,True,Fiorentina,False,1,0,1,0
+2021,2021-10-22,Regular Season - 9,Torino,True,Genoa,False,3,2,2,0
+2021,2021-10-22,Regular Season - 9,Sampdoria,True,Spezia,False,2,1,2,0
+2021,2021-10-23,Regular Season - 9,Salernitana,False,Empoli,True,2,4,0,4
+2021,2021-10-23,Regular Season - 9,Sassuolo,True,Venezia,False,3,1,1,1
+2021,2021-10-23,Regular Season - 9,Bologna,False,AC Milan,True,2,4,0,2
+2021,2021-10-24,Regular Season - 9,Atalanta,,Udinese,,1,1,0,0
+2021,2021-10-24,Regular Season - 9,Fiorentina,True,Cagliari,False,3,0,2,0
+2021,2021-10-24,Regular Season - 9,Verona,True,Lazio,False,4,1,2,0
+2021,2021-10-24,Regular Season - 9,AS Roma,,Napoli,,0,0,0,0
+2021,2021-10-24,Regular Season - 9,Inter,,Juventus,,1,1,1,0
+2021,2021-10-26,Regular Season - 10,Spezia,,Genoa,,1,1,0,0
+2021,2021-10-26,Regular Season - 10,Venezia,False,Salernitana,True,1,2,1,0
+2021,2021-10-26,Regular Season - 10,AC Milan,True,Torino,False,1,0,1,0
+2021,2021-10-27,Regular Season - 10,Udinese,,Verona,,1,1,1,0
+2021,2021-10-27,Regular Season - 10,Juventus,False,Sassuolo,True,1,2,0,1
+2021,2021-10-27,Regular Season - 10,Sampdoria,False,Atalanta,True,1,3,1,2
+2021,2021-10-27,Regular Season - 10,Lazio,True,Fiorentina,False,1,0,0,0
+2021,2021-10-27,Regular Season - 10,Cagliari,False,AS Roma,True,1,2,0,0
+2021,2021-10-27,Regular Season - 10,Empoli,False,Inter,True,0,2,0,1
+2021,2021-10-28,Regular Season - 10,Napoli,True,Bologna,False,3,0,2,0
+2021,2021-10-30,Regular Season - 11,Atalanta,,Lazio,,2,2,1,1
+2021,2021-10-30,Regular Season - 11,Verona,True,Juventus,False,2,1,2,0
+2021,2021-10-30,Regular Season - 11,Torino,True,Sampdoria,False,3,0,1,0
+2021,2021-10-31,Regular Season - 11,Inter,True,Udinese,False,2,0,0,0
+2021,2021-10-31,Regular Season - 11,Sassuolo,False,Empoli,True,1,2,1,0
+2021,2021-10-31,Regular Season - 11,Genoa,,Venezia,,0,0,0,0
+2021,2021-10-31,Regular Season - 11,Fiorentina,True,Spezia,False,3,0,1,0
+2021,2021-10-31,Regular Season - 11,Salernitana,False,Napoli,True,0,1,0,0
+2021,2021-10-31,Regular Season - 11,AS Roma,False,AC Milan,True,1,2,0,1
+2021,2021-11-01,Regular Season - 11,Bologna,True,Cagliari,False,2,0,0,0
+2021,2021-11-05,Regular Season - 12,Empoli,,Genoa,,2,2,0,1
+2021,2021-11-06,Regular Season - 12,Spezia,True,Torino,False,1,0,0,0
+2021,2021-11-06,Regular Season - 12,Juventus,True,Fiorentina,False,1,0,0,0
+2021,2021-11-06,Regular Season - 12,Cagliari,False,Atalanta,True,1,2,1,2
+2021,2021-11-07,Regular Season - 12,Venezia,True,AS Roma,False,3,2,1,2
+2021,2021-11-07,Regular Season - 12,Udinese,True,Sassuolo,False,3,2,2,2
+2021,2021-11-07,Regular Season - 12,Sampdoria,False,Bologna,True,1,2,0,0
+2021,2021-11-07,Regular Season - 12,Lazio,True,Salernitana,False,3,0,2,0
+2021,2021-11-07,Regular Season - 12,Napoli,,Verona,,1,1,1,1
+2021,2021-11-07,Regular Season - 12,AC Milan,,Inter,,1,1,1,1
+2021,2021-11-20,Regular Season - 13,Atalanta,True,Spezia,False,5,2,3,1
+2021,2021-11-20,Regular Season - 13,Lazio,False,Juventus,True,0,2,0,1
+2021,2021-11-20,Regular Season - 13,Fiorentina,True,AC Milan,False,4,3,2,0
+2021,2021-11-21,Regular Season - 13,Sassuolo,,Cagliari,,2,2,1,1
+2021,2021-11-21,Regular Season - 13,Bologna,False,Venezia,True,0,1,0,0
+2021,2021-11-21,Regular Season - 13,Salernitana,False,Sampdoria,True,0,2,0,2
+2021,2021-11-21,Regular Season - 13,Inter,True,Napoli,False,3,2,2,1
+2021,2021-11-21,Regular Season - 13,Genoa,False,AS Roma,True,0,2,0,0
+2021,2021-11-22,Regular Season - 13,Verona,True,Empoli,False,2,1,0,0
+2021,2021-11-22,Regular Season - 13,Torino,True,Udinese,False,2,1,1,0
+2021,2021-11-26,Regular Season - 14,Cagliari,,Salernitana,,1,1,0,0
+2021,2021-11-27,Regular Season - 14,Sampdoria,True,Verona,False,3,1,0,1
+2021,2021-11-27,Regular Season - 14,Empoli,True,Fiorentina,False,2,1,0,0
+2021,2021-11-27,Regular Season - 14,Juventus,False,Atalanta,True,0,1,0,1
+2021,2021-11-27,Regular Season - 14,Venezia,False,Inter,True,0,2,0,1
+2021,2021-11-28,Regular Season - 14,Udinese,,Genoa,,0,0,0,0
+2021,2021-11-28,Regular Season - 14,AC Milan,False,Sassuolo,True,1,3,1,2
+2021,2021-11-28,Regular Season - 14,Spezia,False,Bologna,True,0,1,0,0
+2021,2021-11-28,Regular Season - 14,AS Roma,True,Torino,False,1,0,1,0
+2021,2021-11-28,Regular Season - 14,Napoli,True,Lazio,False,4,0,3,0
+2021,2021-11-30,Regular Season - 15,Atalanta,True,Venezia,False,4,0,2,0
+2021,2021-11-30,Regular Season - 15,Fiorentina,True,Sampdoria,False,3,1,3,1
+2021,2021-11-30,Regular Season - 15,Verona,,Cagliari,,0,0,0,0
+2021,2021-11-30,Regular Season - 15,Salernitana,False,Juventus,True,0,2,0,1
+2021,2021-12-01,Regular Season - 15,Bologna,True,AS Roma,False,1,0,1,0
+2021,2021-12-01,Regular Season - 15,Inter,True,Spezia,False,2,0,1,0
+2021,2021-12-01,Regular Season - 15,Sassuolo,,Napoli,,2,2,0,0
+2021,2021-12-01,Regular Season - 15,Genoa,False,AC Milan,True,0,3,0,2
+2021,2021-12-02,Regular Season - 15,Torino,,Empoli,,2,2,2,1
+2021,2021-12-02,Regular Season - 15,Lazio,,Udinese,,4,4,1,3
+2021,2021-12-04,Regular Season - 16,AC Milan,True,Salernitana,False,2,0,2,0
+2021,2021-12-04,Regular Season - 16,AS Roma,False,Inter,True,0,3,0,3
+2021,2021-12-04,Regular Season - 16,Napoli,False,Atalanta,True,2,3,1,1
+2021,2021-12-05,Regular Season - 16,Bologna,False,Fiorentina,True,2,3,1,1
+2021,2021-12-05,Regular Season - 16,Spezia,,Sassuolo,,2,2,1,0
+2021,2021-12-05,Regular Season - 16,Venezia,False,Verona,True,3,4,3,0
+2021,2021-12-05,Regular Season - 16,Sampdoria,False,Lazio,True,1,3,0,3
+2021,2021-12-05,Regular Season - 16,Juventus,True,Genoa,False,2,0,1,0
+2021,2021-12-06,Regular Season - 16,Empoli,True,Udinese,False,3,1,0,1
+2021,2021-12-06,Regular Season - 16,Cagliari,,Torino,,1,1,0,1
+2021,2021-12-10,Regular Season - 17,Genoa,False,Sampdoria,True,1,3,0,1
+2021,2021-12-11,Regular Season - 17,Fiorentina,True,Salernitana,False,4,0,1,0
+2021,2021-12-11,Regular Season - 17,Venezia,,Juventus,,1,1,0,1
+2021,2021-12-11,Regular Season - 17,Udinese,,AC Milan,,1,1,1,0
+2021,2021-12-12,Regular Season - 17,Torino,True,Bologna,False,2,1,1,0
+2021,2021-12-12,Regular Season - 17,Verona,False,Atalanta,True,1,2,1,1
+2021,2021-12-12,Regular Season - 17,Sassuolo,True,Lazio,False,2,1,0,1
+2021,2021-12-12,Regular Season - 17,Napoli,False,Empoli,True,0,1,0,0
+2021,2021-12-12,Regular Season - 17,Inter,True,Cagliari,False,4,0,1,0
+2021,2021-12-13,Regular Season - 17,AS Roma,True,Spezia,False,2,0,1,0
+2021,2021-12-17,Regular Season - 18,Lazio,True,Genoa,False,3,1,1,0
+2021,2021-12-17,Regular Season - 18,Salernitana,False,Inter,True,0,5,0,2
+2021,2021-12-18,Regular Season - 18,Atalanta,False,AS Roma,True,1,4,1,2
+2021,2021-12-18,Regular Season - 18,Bologna,False,Juventus,True,0,2,0,1
+2021,2021-12-18,Regular Season - 18,Cagliari,False,Udinese,True,0,4,0,2
+2021,2021-12-19,Regular Season - 18,Fiorentina,,Sassuolo,,2,2,0,2
+2021,2021-12-19,Regular Season - 18,Spezia,,Empoli,,1,1,0,0
+2021,2021-12-19,Regular Season - 18,Sampdoria,,Venezia,,1,1,1,0
+2021,2021-12-19,Regular Season - 18,Torino,True,Verona,False,1,0,1,0
+2021,2021-12-19,Regular Season - 18,AC Milan,False,Napoli,True,0,1,0,1
+2021,2021-12-21,Regular Season - 19,Genoa,,Atalanta,,0,0,0,0
+2021,2021-12-21,Regular Season - 19,Juventus,True,Cagliari,False,2,0,1,0
+2021,2021-12-22,Regular Season - 19,Sassuolo,False,Bologna,True,0,3,0,2
+2021,2021-12-22,Regular Season - 19,Venezia,False,Lazio,True,1,3,1,1
+2021,2021-12-22,Regular Season - 19,AS Roma,,Sampdoria,,1,1,0,0
+2021,2021-12-22,Regular Season - 19,Verona,,Fiorentina,,1,1,1,0
+2021,2021-12-22,Regular Season - 19,Inter,True,Torino,False,1,0,1,0
+2021,2021-12-22,Regular Season - 19,Napoli,False,Spezia,True,0,1,0,1
+2021,2021-12-22,Regular Season - 19,Empoli,False,AC Milan,True,2,4,1,2
+2021,2022-01-06,Regular Season - 20,Sampdoria,False,Cagliari,True,1,2,1,0
+2021,2022-01-06,Regular Season - 20,Lazio,,Empoli,,3,3,1,2
+2021,2022-01-06,Regular Season - 20,Spezia,False,Verona,True,1,2,0,0
+2021,2022-01-06,Regular Season - 20,Sassuolo,,Genoa,,1,1,0,1
+2021,2022-01-06,Regular Season - 20,AC Milan,True,AS Roma,False,3,1,2,1
+2021,2022-01-06,Regular Season - 20,Juventus,,Napoli,,1,1,0,1
+2021,2022-01-09,Regular Season - 21,Venezia,False,AC Milan,True,0,3,0,1
+2021,2022-01-09,Regular Season - 21,Empoli,False,Sassuolo,True,1,5,1,2
+2021,2022-01-09,Regular Season - 21,Napoli,True,Sampdoria,False,1,0,1,0
+2021,2022-01-09,Regular Season - 21,Udinese,False,Atalanta,True,2,6,0,3
+2021,2022-01-09,Regular Season - 21,Genoa,False,Spezia,True,0,1,0,1
+2021,2022-01-09,Regular Season - 21,AS Roma,False,Juventus,True,3,4,1,1
+2021,2022-01-09,Regular Season - 21,Verona,False,Salernitana,True,1,2,0,1
+2021,2022-01-09,Regular Season - 21,Inter,True,Lazio,False,2,1,1,1
+2021,2022-01-10,Regular Season - 21,Torino,True,Fiorentina,False,4,0,3,0
+2021,2022-01-11,Regular Season - 21,Cagliari,True,Bologna,False,2,1,0,0
+2021,2022-01-15,Regular Season - 22,Sampdoria,False,Torino,True,1,2,1,1
+2021,2022-01-15,Regular Season - 22,Salernitana,False,Lazio,True,0,3,0,2
+2021,2022-01-15,Regular Season - 22,Juventus,True,Udinese,False,2,0,1,0
+2021,2022-01-16,Regular Season - 22,Sassuolo,False,Verona,True,2,4,0,2
+2021,2022-01-16,Regular Season - 22,Venezia,,Empoli,,1,1,0,1
+2021,2022-01-16,Regular Season - 22,AS Roma,True,Cagliari,False,1,0,1,0
+2021,2022-01-16,Regular Season - 22,Atalanta,,Inter,,0,0,0,0
+2021,2022-01-17,Regular Season - 22,AC Milan,False,Spezia,True,1,2,1,0
+2021,2022-01-17,Regular Season - 22,Bologna,False,Napoli,True,0,2,0,1
+2021,2022-01-17,Regular Season - 22,Fiorentina,True,Genoa,False,6,0,3,0
+2021,2022-01-21,Regular Season - 23,Verona,True,Bologna,False,2,1,1,1
+2021,2022-01-22,Regular Season - 23,Genoa,,Udinese,,0,0,0,0
+2021,2022-01-22,Regular Season - 23,Inter,True,Venezia,False,2,1,1,1
+2021,2022-01-22,Regular Season - 23,Lazio,,Atalanta,,0,0,0,0
+2021,2022-01-23,Regular Season - 23,Cagliari,,Fiorentina,,1,1,0,0
+2021,2022-01-23,Regular Season - 23,Napoli,True,Salernitana,False,4,1,2,1
+2021,2022-01-23,Regular Season - 23,Torino,,Sassuolo,,1,1,1,0
+2021,2022-01-23,Regular Season - 23,Spezia,True,Sampdoria,False,1,0,0,0
+2021,2022-01-23,Regular Season - 23,Empoli,False,AS Roma,True,2,4,0,4
+2021,2022-01-23,Regular Season - 23,AC Milan,,Juventus,,0,0,0,0
+2021,2022-02-05,Regular Season - 24,AS Roma,,Genoa,,0,0,0,0
+2021,2022-02-05,Regular Season - 24,Inter,False,AC Milan,True,1,2,1,0
+2021,2022-02-05,Regular Season - 24,Fiorentina,False,Lazio,True,0,3,0,0
+2021,2022-02-06,Regular Season - 24,Atalanta,False,Cagliari,True,1,2,0,0
+2021,2022-02-06,Regular Season - 24,Sampdoria,True,Sassuolo,False,4,0,2,0
+2021,2022-02-06,Regular Season - 24,Bologna,,Empoli,,0,0,0,0
+2021,2022-02-06,Regular Season - 24,Venezia,False,Napoli,True,0,2,0,0
+2021,2022-02-06,Regular Season - 24,Udinese,True,Torino,False,2,0,0,0
+2021,2022-02-06,Regular Season - 24,Juventus,True,Verona,False,2,0,1,0
+2021,2022-02-07,Regular Season - 24,Salernitana,,Spezia,,2,2,2,2
+2021,2022-02-12,Regular Season - 25,Lazio,True,Bologna,False,3,0,1,0
+2021,2022-02-12,Regular Season - 25,Napoli,,Inter,,1,1,1,0
+2021,2022-02-12,Regular Season - 25,Torino,False,Venezia,True,1,2,1,1
+2021,2022-02-13,Regular Season - 25,AC Milan,True,Sampdoria,False,1,0,1,0
+2021,2022-02-13,Regular Season - 25,Genoa,,Salernitana,,1,1,1,1
+2021,2022-02-13,Regular Season - 25,Verona,True,Udinese,False,4,0,2,0
+2021,2022-02-13,Regular Season - 25,Empoli,,Cagliari,,1,1,1,0
+2021,2022-02-13,Regular Season - 25,Sassuolo,,AS Roma,,2,2,0,1
+2021,2022-02-13,Regular Season - 25,Atalanta,,Juventus,,1,1,0,0
+2021,2022-02-14,Regular Season - 25,Spezia,False,Fiorentina,True,1,2,0,1
+2021,2022-02-18,Regular Season - 26,Juventus,,Torino,,1,1,1,0
+2021,2022-02-19,Regular Season - 26,Sampdoria,True,Empoli,False,2,0,2,0
+2021,2022-02-19,Regular Season - 26,AS Roma,,Verona,,2,2,0,2
+2021,2022-02-19,Regular Season - 26,Salernitana,,AC Milan,,2,2,1,1
+2021,2022-02-20,Regular Season - 26,Fiorentina,True,Atalanta,False,1,0,0,0
+2021,2022-02-20,Regular Season - 26,Venezia,,Genoa,,1,1,1,1
+2021,2022-02-20,Regular Season - 26,Inter,False,Sassuolo,True,0,2,0,2
+2021,2022-02-20,Regular Season - 26,Udinese,,Lazio,,1,1,1,1
+2021,2022-02-21,Regular Season - 26,Cagliari,,Napoli,,1,1,0,0
+2021,2022-02-21,Regular Season - 26,Bologna,True,Spezia,False,2,1,1,1
+2021,2022-02-25,Regular Season - 27,AC Milan,,Udinese,,1,1,1,0
+2021,2022-02-25,Regular Season - 27,Genoa,,Inter,,0,0,0,0
+2021,2022-02-26,Regular Season - 27,Salernitana,,Bologna,,1,1,0,1
+2021,2022-02-26,Regular Season - 27,Empoli,False,Juventus,True,2,3,1,2
+2021,2022-02-26,Regular Season - 27,Sassuolo,True,Fiorentina,False,2,1,1,0
+2021,2022-02-27,Regular Season - 27,Torino,False,Cagliari,True,1,2,0,1
+2021,2022-02-27,Regular Season - 27,Verona,True,Venezia,False,3,1,0,0
+2021,2022-02-27,Regular Season - 27,Spezia,False,AS Roma,True,0,1,0,0
+2021,2022-02-27,Regular Season - 27,Lazio,False,Napoli,True,1,2,0,0
+2021,2022-02-28,Regular Season - 27,Atalanta,True,Sampdoria,False,4,0,2,0
+2021,2022-03-04,Regular Season - 28,Inter,True,Salernitana,False,5,0,2,0
+2021,2022-03-05,Regular Season - 28,Udinese,True,Sampdoria,False,2,1,2,1
+2021,2022-03-05,Regular Season - 28,AS Roma,True,Atalanta,False,1,0,1,0
+2021,2022-03-05,Regular Season - 28,Cagliari,False,Lazio,True,0,3,0,2
+2021,2022-03-06,Regular Season - 28,Genoa,,Empoli,,0,0,0,0
+2021,2022-03-06,Regular Season - 28,Bologna,,Torino,,0,0,0,0
+2021,2022-03-06,Regular Season - 28,Fiorentina,,Verona,,1,1,1,1
+2021,2022-03-06,Regular Season - 28,Venezia,False,Sassuolo,True,1,4,1,3
+2021,2022-03-06,Regular Season - 28,Juventus,True,Spezia,False,1,0,1,0
+2021,2022-03-06,Regular Season - 28,Napoli,False,AC Milan,True,0,1,0,0
+2021,2022-03-12,Regular Season - 29,Salernitana,,Sassuolo,,2,2,1,2
+2021,2022-03-12,Regular Season - 29,Spezia,True,Cagliari,False,2,0,0,0
+2021,2022-03-12,Regular Season - 29,Sampdoria,False,Juventus,True,1,3,0,2
+2021,2022-03-12,Regular Season - 29,AC Milan,True,Empoli,False,1,0,1,0
+2021,2022-03-13,Regular Season - 29,Fiorentina,True,Bologna,False,1,0,0,0
+2021,2022-03-13,Regular Season - 29,Verona,False,Napoli,True,1,2,0,1
+2021,2022-03-13,Regular Season - 29,Udinese,,AS Roma,,1,1,1,0
+2021,2022-03-13,Regular Season - 29,Atalanta,,Genoa,,0,0,0,0
+2021,2022-03-13,Regular Season - 29,Torino,,Inter,,1,1,1,0
+2021,2022-03-14,Regular Season - 29,Lazio,True,Venezia,False,1,0,0,0
+2021,2022-03-18,Regular Season - 30,Sassuolo,True,Spezia,False,4,1,1,1
+2021,2022-03-18,Regular Season - 30,Genoa,True,Torino,False,1,0,1,0
+2021,2022-03-19,Regular Season - 30,Napoli,True,Udinese,False,2,1,0,1
+2021,2022-03-19,Regular Season - 30,Inter,,Fiorentina,,1,1,0,0
+2021,2022-03-19,Regular Season - 30,Cagliari,False,AC Milan,True,0,1,0,0
+2021,2022-03-20,Regular Season - 30,Venezia,False,Sampdoria,True,0,2,0,2
+2021,2022-03-20,Regular Season - 30,Juventus,True,Salernitana,False,2,0,2,0
+2021,2022-03-20,Regular Season - 30,Empoli,,Verona,,1,1,1,0
+2021,2022-03-20,Regular Season - 30,AS Roma,True,Lazio,False,3,0,3,0
+2021,2022-03-20,Regular Season - 30,Bologna,False,Atalanta,True,0,1,0,0
+2021,2022-04-02,Regular Season - 31,Spezia,True,Venezia,False,1,0,0,0
+2021,2022-04-02,Regular Season - 31,Lazio,True,Sassuolo,False,2,1,1,0
+2021,2022-04-02,Regular Season - 31,Salernitana,False,Torino,True,0,1,0,1
+2021,2022-04-03,Regular Season - 31,Fiorentina,True,Empoli,False,1,0,0,0
+2021,2022-04-03,Regular Season - 31,Udinese,True,Cagliari,False,5,1,2,1
+2021,2022-04-03,Regular Season - 31,Atalanta,False,Napoli,True,1,3,0,2
+2021,2022-04-03,Regular Season - 31,Sampdoria,False,AS Roma,True,0,1,0,1
+2021,2022-04-03,Regular Season - 31,Juventus,False,Inter,True,0,1,0,1
+2021,2022-04-04,Regular Season - 31,Verona,True,Genoa,False,1,0,1,0
+2021,2022-04-04,Regular Season - 31,AC Milan,,Bologna,,0,0,0,0
+2021,2022-04-09,Regular Season - 32,Empoli,,Spezia,,0,0,0,0
+2021,2022-04-09,Regular Season - 32,Inter,True,Verona,False,2,0,2,0
+2021,2022-04-09,Regular Season - 32,Cagliari,False,Juventus,True,1,2,1,1
+2021,2022-04-10,Regular Season - 32,Genoa,False,Lazio,True,1,4,0,2
+2021,2022-04-10,Regular Season - 32,Sassuolo,True,Atalanta,False,2,1,1,0
+2021,2022-04-10,Regular Season - 32,Napoli,False,Fiorentina,True,2,3,0,1
+2021,2022-04-10,Regular Season - 32,Venezia,False,Udinese,True,1,2,0,1
+2021,2022-04-10,Regular Season - 32,AS Roma,True,Salernitana,False,2,1,0,1
+2021,2022-04-10,Regular Season - 32,Torino,,AC Milan,,0,0,0,0
+2021,2022-04-11,Regular Season - 32,Bologna,True,Sampdoria,False,2,0,0,0
+2021,2022-04-15,Regular Season - 33,Spezia,False,Inter,True,1,3,0,1
+2021,2022-04-15,Regular Season - 33,AC Milan,True,Genoa,False,2,0,1,0
+2021,2022-04-16,Regular Season - 33,Cagliari,True,Sassuolo,False,1,0,1,0
+2021,2022-04-16,Regular Season - 33,Udinese,True,Empoli,False,4,1,1,0
+2021,2022-04-16,Regular Season - 33,Sampdoria,False,Salernitana,True,1,2,1,2
+2021,2022-04-16,Regular Season - 33,Fiorentina,True,Venezia,False,1,0,1,0
+2021,2022-04-16,Regular Season - 33,Juventus,,Bologna,,1,1,0,0
+2021,2022-04-16,Regular Season - 33,Lazio,,Torino,,1,1,0,0
+2021,2022-04-18,Regular Season - 33,Napoli,,AS Roma,,1,1,1,0
+2021,2022-04-18,Regular Season - 33,Atalanta,False,Verona,True,1,2,0,1
+2021,2022-04-20,Regular Season - 19,Udinese,False,Salernitana,True,0,1,0,0
+2021,2022-04-23,Regular Season - 34,Torino,True,Spezia,False,2,1,1,0
+2021,2022-04-23,Regular Season - 34,Venezia,False,Atalanta,True,1,3,0,1
+2021,2022-04-23,Regular Season - 34,Inter,True,AS Roma,False,3,1,2,0
+2021,2022-04-23,Regular Season - 34,Verona,,Sampdoria,,1,1,0,1
+2021,2022-04-24,Regular Season - 34,Salernitana,True,Fiorentina,False,2,1,1,0
+2021,2022-04-24,Regular Season - 34,Bologna,,Udinese,,2,2,1,1
+2021,2022-04-24,Regular Season - 34,Empoli,True,Napoli,False,3,2,0,1
+2021,2022-04-24,Regular Season - 34,Genoa,True,Cagliari,False,1,0,0,0
+2021,2022-04-24,Regular Season - 34,Lazio,False,AC Milan,True,1,2,1,0
+2021,2022-04-25,Regular Season - 34,Sassuolo,False,Juventus,True,1,2,1,1
+2021,2022-04-27,Regular Season - 20,Fiorentina,False,Udinese,True,0,4,0,2
+2021,2022-04-27,Regular Season - 20,Atalanta,,Torino,,4,4,2,2
+2021,2022-04-27,Regular Season - 20,Bologna,True,Inter,False,2,1,1,1
+2021,2022-04-30,Regular Season - 35,Cagliari,False,Verona,True,1,2,0,2
+2021,2022-04-30,Regular Season - 35,Napoli,True,Sassuolo,False,6,1,4,0
+2021,2022-04-30,Regular Season - 35,Sampdoria,True,Genoa,False,1,0,1,0
+2021,2022-04-30,Regular Season - 35,Spezia,False,Lazio,True,3,4,2,1
+2021,2022-05-01,Regular Season - 35,Juventus,True,Venezia,False,2,1,1,0
+2021,2022-05-01,Regular Season - 35,AC Milan,True,Fiorentina,False,1,0,0,0
+2021,2022-05-01,Regular Season - 35,Empoli,False,Torino,True,1,3,0,0
+2021,2022-05-01,Regular Season - 35,Udinese,False,Inter,True,1,2,0,2
+2021,2022-05-01,Regular Season - 35,AS Roma,,Bologna,,0,0,0,0
+2021,2022-05-02,Regular Season - 35,Atalanta,,Salernitana,,1,1,0,1
+2021,2022-05-05,Regular Season - 20,Salernitana,True,Venezia,False,2,1,1,0
+2021,2022-05-06,Regular Season - 36,Inter,True,Empoli,False,4,2,2,2
+2021,2022-05-06,Regular Season - 36,Genoa,True,Juventus,False,2,1,0,0
+2021,2022-05-07,Regular Season - 36,Torino,False,Napoli,True,0,1,0,0
+2021,2022-05-07,Regular Season - 36,Sassuolo,,Udinese,,1,1,1,0
+2021,2022-05-07,Regular Season - 36,Lazio,True,Sampdoria,False,2,0,1,0
+2021,2022-05-08,Regular Season - 36,Spezia,False,Atalanta,True,1,3,1,1
+2021,2022-05-08,Regular Season - 36,Venezia,True,Bologna,False,4,3,2,1
+2021,2022-05-08,Regular Season - 36,Salernitana,,Cagliari,,1,1,0,0
+2021,2022-05-08,Regular Season - 36,Verona,False,AC Milan,True,1,3,1,1
+2021,2022-05-09,Regular Season - 36,Fiorentina,True,AS Roma,False,2,0,2,0
+2021,2022-05-14,Regular Season - 37,Empoli,,Salernitana,,1,1,1,0
+2021,2022-05-14,Regular Season - 37,Udinese,False,Spezia,True,2,3,1,2
+2021,2022-05-14,Regular Season - 37,Verona,False,Torino,True,0,1,0,1
+2021,2022-05-14,Regular Season - 37,AS Roma,,Venezia,,1,1,0,1
+2021,2022-05-15,Regular Season - 37,Bologna,False,Sassuolo,True,1,3,0,1
+2021,2022-05-15,Regular Season - 37,Napoli,True,Genoa,False,3,0,1,0
+2021,2022-05-15,Regular Season - 37,AC Milan,True,Atalanta,False,2,0,0,0
+2021,2022-05-15,Regular Season - 37,Cagliari,False,Inter,True,1,3,0,1
+2021,2022-05-16,Regular Season - 37,Sampdoria,True,Fiorentina,False,4,1,2,0
+2021,2022-05-16,Regular Season - 37,Juventus,,Lazio,,2,2,2,0
+2021,2022-05-20,Regular Season - 38,Torino,False,AS Roma,True,0,3,0,2
+2021,2022-05-21,Regular Season - 38,Genoa,False,Bologna,True,0,1,0,0
+2021,2022-05-21,Regular Season - 38,Lazio,,Verona,,3,3,2,2
+2021,2022-05-21,Regular Season - 38,Atalanta,False,Empoli,True,0,1,0,0
+2021,2022-05-21,Regular Season - 38,Fiorentina,True,Juventus,False,2,0,1,0
+2021,2022-05-22,Regular Season - 38,Spezia,False,Napoli,True,0,3,0,3
+2021,2022-05-22,Regular Season - 38,Sassuolo,False,AC Milan,True,0,3,0,3
+2021,2022-05-22,Regular Season - 38,Inter,True,Sampdoria,False,3,0,0,0
+2021,2022-05-22,Regular Season - 38,Salernitana,False,Udinese,True,0,4,0,3
+2021,2022-05-22,Regular Season - 38,Venezia,,Cagliari,,0,0,0,0

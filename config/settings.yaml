@@ -1,0 +1,65 @@
+# Configurazione unica della pipeline.
+# Ogni step legge da qui: stagioni, fonti abilitate, percorsi e database.
+
+league:
+  name: Serie A
+  country: Italy
+
+# Stagione = anno di inizio (2024 -> 2024/25).
+# `auto` = le ultime `n_seasons` stagioni concluse rispetto alla data odierna
+# (una stagione si considera conclusa dal 1° luglio successivo).
+# In alternativa si può indicare una lista esplicita, es. [2021, 2022, 2023, 2024].
+seasons: auto
+n_seasons: 4
+
+paths:
+  raw: data/raw
+  clean: data/clean
+  reports: data/reports
+
+database:
+  # Default: SQLite locale, zero configurazione.
+  # Per PostgreSQL impostare la variabile d'ambiente DATABASE_URL, es.
+  # postgresql+psycopg2://user:password@localhost:5432/DWH_football
+  url: sqlite:///data/football.db
+
+# Fonti dati. `enabled: false` esclude la fonte dall'acquisizione
+# (i file raw già presenti vengono comunque usati nel cleaning).
+sources:
+  football_data_org:      # API REST, token gratuito: https://www.football-data.org/client/register
+    enabled: true
+    kind: api
+  api_football:           # API REST, piano free 100 req/giorno: https://dashboard.api-football.com/register
+    enabled: true
+    kind: api
+  clubelo:                # API CSV pubblica, nessuna chiave: http://clubelo.com/API
+    enabled: true
+    kind: api
+  transfermarkt:          # Web scraping (HTML statico)
+    enabled: true
+    kind: scraping
+    request_delay_seconds: 2.0
+  oddsportal:             # Web scraping (pagina dinamica, Selenium + Chrome o Firefox)
+    enabled: true
+    kind: scraping
+    browser: chrome        # chrome | firefox
+    page_wait_seconds: 6
+  football_data_couk:     # Open data CSV (statistiche partita + quote), nessuna chiave
+    enabled: true
+    kind: scraping
+  understat:              # Web scraping (JSON incorporato nella pagina): expected goals
+    enabled: true
+    kind: scraping
+
+# Ordine di priorità per la tabella dei risultati: per ogni stagione viene usata
+# la prima fonte che ha i dati; le altre servono per il controllo incrociato.
+match_source_priority: [football_data_org, api_football, football_data_couk, understat]
+
+# Ordine di priorità per le quote 1X2 usate nelle analisi.
+odds_source_priority: [oddsportal, football_data_couk]
+
+quality:
+  # Se un controllo "critical" fallisce lo step di storage viene bloccato
+  # (a meno di `--force`).
+  block_on_critical: true
+  fuzzy_threshold: 85
