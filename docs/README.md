@@ -1,61 +1,81 @@
 # Documentazione — Serie A Data Hub
 
-Questa cartella descrive come funziona l'applicazione: da dove arrivano i dati, come vengono
-trasformati e controllati, come sono salvati e come leggere le analisi della dashboard.
+Questa guida spiega come funziona il progetto: da dove arrivano i dati, come vengono puliti e controllati,
+dove sono salvati e come leggere le analisi. Non serve leggerla tutta: scegli il punto di partenza qui sotto.
 
-| Documento | Contenuto |
-|---|---|
-| [1. Panoramica e avvio](#panoramica) | Cos'è l'app, requisiti, primo avvio (questa pagina) |
-| [2. Pipeline dei dati](pipeline.md) | I quattro step (acquisizione, cleaning, data quality, storage), le fonti e la loro disponibilità gratuita |
-| [3. Modello dati](modello-dati.md) | Schema a stella, tabelle, colonne, viste SQL |
-| [4. Data Quality](data-quality.md) | I 27 controlli: cosa misurano, soglie, severità, come leggere il report |
-| [5. Guida alla dashboard](dashboard.md) | Le 8 pagine Streamlit, cosa mostra ogni grafico e con quale metodo è calcolato |
-| [6. Configurazione e comandi](configurazione.md) | `settings.yaml`, token, CLI, PostgreSQL, come estendere il progetto, problemi frequenti |
+## Da dove iniziare
+
+| Se sei… | Parti da | Poi |
+|---|---|---|
+| **curioso dei risultati** | [Guida alla dashboard](dashboard.md): cosa mostra ogni grafico e come leggerlo | [Glossario](glossario.md) per i termini tecnici |
+| **interessato all'ingegneria dei dati** | [Pipeline dei dati](pipeline.md): acquisizione, cleaning, storage | [Data Quality](data-quality.md), [Modello dati](modello-dati.md) |
+| **qualcuno che vuole usare o estendere il progetto** | [Avvio rapido](#avvio-rapido) qui sotto | [Configurazione e comandi](configurazione.md) |
+| **qualcuno che vuole interrogare i dati in SQL** | [Modello dati](modello-dati.md): tabelle, viste ed esempi di query | [Configurazione](configurazione.md#aprire-il-database-con-un-client-sql) per collegare DBeaver |
+
+## Tutti i documenti
+
+| # | Documento | In una frase |
+|---|---|---|
+| 1 | **Panoramica** (questa pagina) | Cos'è il progetto, come avviarlo, com'è organizzato |
+| 2 | [Pipeline dei dati](pipeline.md) | Come i dati passano dalle 7 fonti al database, step per step |
+| 3 | [Modello dati](modello-dati.md) | Le tabelle del data warehouse e le 16 viste analitiche |
+| 4 | [Data Quality](data-quality.md) | I 27 controlli che garantiscono che i dati siano corretti |
+| 5 | [Guida alla dashboard](dashboard.md) | Le 8 pagine Streamlit: cosa mostrano e con quale metodo |
+| 6 | [Configurazione e comandi](configurazione.md) | Token, stagioni, comandi, PostgreSQL, problemi frequenti |
+| 7 | [Glossario](glossario.md) | I termini di calcio, scommesse e data engineering usati nel progetto |
 
 ---
 
 ## Panoramica
 
-Serie A Data Hub raccoglie dati sulle **ultime 4 stagioni concluse** della Serie A
+Serie A Data Hub raccoglie i dati delle **ultime 4 stagioni concluse** della Serie A
 (a ottobre 2026: 2022/23, 2023/24, 2024/25, 2025/26) da sette fonti gratuite, li integra in un unico
-data warehouse e li presenta in una dashboard.
+database e li presenta in una dashboard.
 
+```mermaid
+flowchart LR
+    subgraph S1["1 · Acquisizione"]
+        direction TB
+        API["<b>API</b><br/>football-data.org<br/>API-Football<br/>ClubElo"]
+        WEB["<b>Web scraping</b><br/>Transfermarkt<br/>OddsPortal<br/>Understat<br/>football-data.co.uk"]
+    end
+    S1 --> S2["<b>2 · Cleaning</b><br/>nomi canonici<br/>tipi e formati<br/>duplicati<br/>chiavi"]
+    S2 --> S3{"<b>3 · Data Quality</b><br/>27 controlli"}
+    S3 -- ok --> S4["<b>4 · Storage</b><br/>schema a stella<br/>16 viste SQL"]
+    S3 -- errore critico --> STOP["⛔ bloccato"]
+    S4 --> S5["<b>5 · Dashboard</b><br/>Streamlit"]
 ```
-┌──────────────────────────┐   ┌─────────────┐   ┌──────────────┐   ┌─────────────┐   ┌────────────┐
-│ 1. ACQUISIZIONE          │   │ 2. CLEANING │   │ 3. DATA      │   │ 4. STORAGE  │   │ 5. ANALISI │
-│ API: football-data.org,  │──▶│ tipi, nomi  │──▶│    QUALITY   │──▶│ schema a    │──▶│ Streamlit  │
-│      API-Football,ClubElo│   │ canonici,   │   │ 27 controlli │   │ stella +    │   │ 8 pagine   │
-│ Scraping: Transfermarkt, │   │ deduplica,  │   │ blocca se    │   │ 16 viste    │   │            │
-│  OddsPortal, Understat,  │   │ match_id    │   │ critico      │   │ SQL         │   │            │
-│  football-data.co.uk     │   │             │   │              │   │             │   │            │
-└──────────────────────────┘   └─────────────┘   └──────────────┘   └─────────────┘   └────────────┘
-   data/raw/<fonte>/            data/clean/        data/reports/      data/football.db
-```
 
-Ogni step legge da disco l'output dello step precedente, quindi può essere eseguito da solo;
-`python main.py run` li concatena in un'unica esecuzione e la registra nel database.
+| Step | Legge da | Scrive in |
+|---|---|---|
+| 1. Acquisizione | le fonti online | `data/raw/<fonte>/` |
+| 2. Cleaning | `data/raw/` | `data/clean/` |
+| 3. Data Quality | `data/clean/` | `data/reports/quality_report.md` |
+| 4. Storage | `data/clean/` | `data/football.db` |
+| 5. Dashboard | `data/football.db` | — |
 
-### Requisiti
+Ogni step legge da disco l'output del precedente, quindi può essere eseguito da solo.
+`python main.py run` li esegue tutti in sequenza e registra l'esecuzione nel database.
 
-- Python 3.11 o superiore
-- Google Chrome (o Firefox) solo per lo scraping di OddsPortal
-- Token gratuiti per football-data.org e API-Football (facoltativi: senza token le due API vengono saltate)
+### Avvio rapido
 
-### Primo avvio
+**Requisiti:** Python 3.11 o superiore. Facoltativi: Google Chrome (o Firefox) per lo scraping di OddsPortal,
+token gratuiti per football-data.org e API-Football (senza token le due API vengono saltate).
 
 ```bash
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
-cp .env.example .env        # inserire i token (facoltativo)
-
-python main.py run          # scarica ciò che manca, pulisce, controlla, carica
-streamlit run app/Home.py   # apre la dashboard su http://localhost:8501
+streamlit run app/Home.py   # dashboard su http://localhost:8501
 ```
 
-I dati raw delle stagioni analizzate sono già nel repository: `python main.py run --offline`
-ricostruisce il database senza fare richieste di rete, e la dashboard lo costruisce da sola
-se al primo avvio il database non esiste.
+Questo basta per vedere la dashboard: i dati grezzi sono già nel repository e il database viene costruito
+al primo avvio. Per scaricare dati nuovi:
+
+```bash
+cp .env.example .env        # inserire i token (facoltativo)
+python main.py run          # scarica ciò che manca, pulisce, controlla, carica
+```
 
 ### Struttura del repository
 
@@ -79,3 +99,31 @@ tests/                       test automatici (pytest)
 legacy/                      notebook e query della prima versione
 docs/                        questa documentazione
 ```
+
+---
+
+## Evoluzione del progetto
+
+Il progetto è nato come una serie di 8 notebook Jupyter da eseguire a mano, con caricamento
+su PostgreSQL. I notebook originali sono conservati in `legacy/`. La versione attuale lo ha riprogettato:
+
+| Prima | Ora |
+|---|---|
+| 8 notebook eseguiti a mano in un ordine preciso | Una CLI (`python main.py run`) e step indipendenti |
+| Stagioni scritte nel codice | Ultime 4 stagioni concluse, calcolate dalla data |
+| 4 fonti (football-data.org, API-Football, Transfermarkt, OddsPortal) | 7 fonti: aggiunte football-data.co.uk, Understat e ClubElo; le fonti dei risultati si controllano a vicenda |
+| Nomi squadra confrontati con quelli delle quote | Dizionario di alias + similarità testuale |
+| Controlli di qualità come stampe a schermo | 27 controlli con severità, soglie, blocco e storico |
+| Solo PostgreSQL | SQLite di default (zero configurazione), PostgreSQL supportato |
+| Analisi come file SQL da eseguire a parte | 16 viste nel database, dashboard Streamlit e test automatici |
+
+Durante la riprogettazione i controlli di qualità hanno fatto emergere alcuni errori nei dati e nelle query
+originali, ora corretti:
+
+- le quote 2024/25 contenevano 400 righe duplicate (780 invece di 380), quindi le analisi sulle quote
+  contavano più volte le stesse partite;
+- il campo `winner` aveva valori diversi a seconda della fonte (`HOME_TEAM` contro `HOME_WINNER`), e le
+  query sui punti sbagliavano tutta la stagione 2024/25;
+- lo spareggio salvezza Spezia–Verona 2022/23 era contato come partita di campionato;
+- i valori di mercato mancanti (`-`) diventavano 0, falsando medie e crescite;
+- in caso di errore di rete il retry HTTP poteva ripetersi all'infinito.

@@ -1,5 +1,13 @@
 # 6. Configurazione e comandi
 
+> **In breve.** Per vedere la dashboard non serve configurare nulla. I token servono solo per scaricare
+> risultati aggiornati dalle due API; tutto il resto (stagioni, fonti, database) si regola in
+> `config/settings.yaml`.
+
+**Indice:** [Token](#token-delle-api) · [settings.yaml](#configsettingsyaml) · [Comandi](#comandi) ·
+[Client SQL](#aprire-il-database-con-un-client-sql) · [PostgreSQL](#usare-postgresql) ·
+[Estendere il progetto](#estendere-il-progetto) · [Problemi frequenti](#problemi-frequenti)
+
 ## Token delle API
 
 Copiare `.env.example` in `.env` e inserire i token (entrambi gratuiti):
@@ -50,6 +58,26 @@ La variabile d'ambiente `PIPELINE_SEASONS=2023,2024` sovrascrive le stagioni per
 | `pytest` | Test automatici |
 
 Codici di uscita: `0` successo, `2` caricamento bloccato dalla Data Quality, `1` altri errori.
+
+## Aprire il database con un client SQL
+
+Il database è il file `data/football.db`. In `settings.yaml` è indicato come `sqlite:///data/football.db`,
+ma quella è la stringa di connessione di SQLAlchemy (Python). I client come **DBeaver** o DataGrip usano
+invece un URL JDBC con il **percorso assoluto**:
+
+```
+jdbc:sqlite:/percorso/assoluto/data-management-project/data/football.db
+```
+
+Con DBeaver è più semplice: *Nuova connessione → SQLite → Path → Sfoglia* e selezionare il file.
+
+| Problema | Soluzione |
+|---|---|
+| `Invalid JDBC URL: sqlite:///...` | Manca il prefisso `jdbc:`: usare il formato indicato sopra |
+| `[SQLITE_CANTOPEN] Unable to open the database file` | Percorso errato oppure, su macOS, DBeaver non ha accesso alla cartella Documenti: *Impostazioni di Sistema → Privacy e sicurezza → Accesso completo al disco*, aggiungere DBeaver e riavviarlo |
+| `database is locked` durante `python main.py run` | DBeaver ha una transazione aperta: disconnettersi (o fare commit/rollback) prima di rilanciare la pipeline |
+
+Dopo ogni esecuzione della pipeline il database viene ricaricato: in DBeaver premere F5 per aggiornare.
 
 ## Usare PostgreSQL
 

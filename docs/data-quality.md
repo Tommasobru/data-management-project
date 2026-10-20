@@ -1,5 +1,10 @@
 # 4. Data Quality
 
+> **In breve.** Prima di caricare i dati nel database, 27 controlli verificano che siano completi, senza
+> duplicati, plausibili, coerenti tra fonti diverse e collegati correttamente. Un problema grave blocca il
+> caricamento; un problema minore viene segnalato e documentato. Esito attuale: 25 controlli superati,
+> 2 avvisi, nessun errore.
+
 Lo step di Data Quality (`football_pipeline/quality/checks.py`) gira sulle tabelle pulite **prima** del
 caricamento nel database. Ogni controllo conta quante righe violano una regola e confronta il risultato con
 una soglia di tolleranza.

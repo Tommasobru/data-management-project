@@ -1,5 +1,12 @@
 # 2. Pipeline dei dati
 
+> **In breve.** I dati vengono scaricati da 7 fonti e salvati così come sono (*acquisizione*), resi omogenei
+> e collegati tra loro (*cleaning*), verificati (*data quality*) e caricati in un unico database (*storage*).
+> Ogni step si può rieseguire da solo; le stagioni già scaricate restano in cache.
+
+**Indice:** [Stagioni analizzate](#stagioni-analizzate) · [Acquisizione](#step-1--acquisizione) ·
+[Cleaning](#step-2--cleaning) · [Data Quality](#step-3--data-quality) · [Storage](#step-4--storage)
+
 La pipeline è composta da quattro step più l'analisi. L'orchestratore
 (`football_pipeline/pipeline.py`) li esegue in ordine:
 

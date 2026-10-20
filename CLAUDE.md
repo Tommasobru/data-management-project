@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Serie A data pipeline (master's Data Management project): acquire data from APIs and web scraping → clean/integrate → Data Quality checks → load into a star-schema warehouse → Streamlit dashboard. Code comments, logs, UI text and docs are in **Italian**; keep new user-facing text in Italian. Full docs live in `docs/` (pipeline, data model, DQ checks, dashboard, configuration).
+Serie A data pipeline (master's Data Management project): acquire data from APIs and web scraping → clean/integrate → Data Quality checks → load into a star-schema warehouse → Streamlit dashboard. Code comments, logs, UI text and docs are in **Italian**; keep new user-facing text in Italian. Full docs live in `docs/` (pipeline, data model, DQ checks, dashboard, configuration, glossary); README screenshots are in `docs/img/`.
 
 ## Commands
 

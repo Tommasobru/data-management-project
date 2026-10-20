@@ -1,5 +1,10 @@
 # 3. Modello dati
 
+> **In breve.** Il database è uno *schema a stella*: le tabelle dei **fatti** registrano gli eventi (partite,
+> gol, quote, statistiche), le tabelle delle **dimensioni** descrivono chi e quando (squadre, giocatori,
+> stagioni). Sopra ci sono 16 **viste** già pronte per l'analisi: per la maggior parte delle domande basta
+> interrogare quelle, senza scrivere join.
+
 Il data warehouse è uno **schema a stella**: tre dimensioni (stagione, squadra, giocatore) e otto tabelle
 dei fatti, più quattro tabelle di metadati che conservano lo storico delle esecuzioni.
 Lo schema è definito in `football_pipeline/storage/schema.py` (SQLAlchemy Core) e funziona sia su

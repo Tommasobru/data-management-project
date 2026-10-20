@@ -31,7 +31,7 @@ fig = px.bar(by_dim, x="controlli", y="dimension", color="status", orientation="
 fig.update_traces(hovertemplate="%{y}: %{x} controlli<extra></extra>")
 st.plotly_chart(style_fig(fig, 280), width="stretch")
 
-dim = st.multiselect("Filtra per dimensione", sorted(dq["dimension"].unique()))
+dim = st.multiselect("Filtra per dimensione", sorted(dq["dimension"].unique()), placeholder="Tutte le dimensioni")
 view = dq[dq["dimension"].isin(dim)] if dim else dq
 view = view.assign(esito=view["status"].map(lambda s: f"{STATUS_ICON[s]} {s}"),
                    ordine=view["status"].map({"FAIL": 0, "WARN": 1, "PASS": 2, "SKIP": 3}))
